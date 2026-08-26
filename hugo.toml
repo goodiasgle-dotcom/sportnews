@@ -1,0 +1,11 @@
+baseURL = '/'
+languageCode = 'el'
+title = 'Sport News GR'
+theme = ''
+disableKinds = ['taxonomy', 'term', 'section']
+
+[params]
+  description = 'Τα τελευταία αθλητικά νέα από την Ελλάδα και τον κόσμο'
+  author = 'Sport News GR'
+
+

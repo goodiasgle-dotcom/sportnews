@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="news-card" data-id="{{ .Params.id }}">
+    <div class="card-header">
+        <span class="source-badge source-{{ .Params.source_class }}">{{ .Params.source }}</span>
+        <span class="post-time">{{ .Params.time_display }}</span>
+    </div>
+    <div class="card-body">
+        <h2 class="card-title">{{ .Title }}</h2>
+        <div class="card-content" style="display: none;">
+            {{ .Content }}
+            <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer" class="read-original">
+                Διαβάστε το πλήρες άρθρο &rarr;
+            </a>
+        </div>
+    </div>
+    <div class="card-footer">
+        <button class="expand-btn" onclick="toggleCard(this)">
+            <span class="expand-text">Διαβάστε περισσότερα</span>
+            <span class="expand-icon">&#9660;</span>
+        </button>
+    </div>
+</article>
+{{ end }}

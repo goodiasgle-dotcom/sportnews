@@ -1,0 +1,31 @@
+{{ define "main" }}
+<header class="site-header">
+    <div class="header-content">
+        <div class="logo">
+            <span class="logo-icon">&#9917;</span>
+            <h1>Sport News GR</h1>
+        </div>
+        <div class="header-info">
+            <span class="update-time">Τελευταία ενημέρωση: <span id="last-update">--:--</span></span>
+        </div>
+    </div>
+</header>
+
+<main class="news-feed">
+    <div class="feed-container">
+        <div id="news-container" class="news-list">
+        </div>
+        <div id="loading" class="loading-spinner" style="display: none;">
+            <div class="spinner"></div>
+            <p>Φόρτωση νέων...</p>
+        </div>
+        <div id="load-more" class="load-more-btn" style="display: none;">
+            <button onclick="loadMoreNews()">Φόρτωσε περισσότερα</button>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Sport News GR - Όλα τα νέα από τον αθλητικό κόσμο</p>
+</footer>
+{{ end }}

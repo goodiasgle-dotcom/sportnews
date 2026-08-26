@@ -1,0 +1,13 @@
+[
+  {
+    "id": "demo1",
+    "title": "Καλωσήρθατε στο Sport News GR!",
+    "highlights": "Αυτό είναι ένα demo μήνυμα. Το site θα ενημερώνεται αυτόματα με τα τελευταία αθλητικά νέα από την Ελλάδα και τον κόσμο.",
+    "source": "Sport News GR",
+    "source_class": "sport24",
+    "link": "#",
+    "pubDate": "2026-08-27T00:00:00+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "gr"
+  }
+]

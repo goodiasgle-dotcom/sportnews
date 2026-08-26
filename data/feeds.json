@@ -1,0 +1,102 @@
+{
+  "feeds": [
+    {
+      "name": "Sport24",
+      "url": "https://www.sport24.gr/feed/",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "Gazzetta.gr",
+      "url": "https://www.gazzetta.gr/rss",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "Sportime",
+      "url": "https://www.sportime.gr/feed/",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "Novasports",
+      "url": "https://www.novasports.gr/feed/",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "BBC Sport",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "language": "en",
+      "country": "uk",
+      "category": "football"
+    },
+    {
+      "name": "Sky Sports",
+      "url": "https://www.skysports.com/rss/12040",
+      "language": "en",
+      "country": "uk",
+      "category": "football"
+    },
+    {
+      "name": "ESPN",
+      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "language": "en",
+      "country": "us",
+      "category": "football"
+    },
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/football/rss",
+      "language": "en",
+      "country": "uk",
+      "category": "football"
+    },
+    {
+      "name": "Football Italia",
+      "url": "https://www.football-italia.net/feed",
+      "language": "en",
+      "country": "it",
+      "category": "football"
+    },
+    {
+      "name": "Gazzetta dello Sport",
+      "url": "https://www.gazzetta.it/rss/home.xml",
+      "language": "it",
+      "country": "it",
+      "category": "football"
+    },
+    {
+      "name": "Sky Sport Italia",
+      "url": "https://sport.sky.it/rss.xml",
+      "language": "it",
+      "country": "it",
+      "category": "football"
+    },
+    {
+      "name": "L'Equipe",
+      "url": "https://www.lequipe.fr/rss/foot.xml",
+      "language": "fr",
+      "country": "fr",
+      "category": "football"
+    },
+    {
+      "name": "Kicker",
+      "url": "https://www.kicker.de/rss/",
+      "language": "de",
+      "country": "de",
+      "category": "football"
+    },
+    {
+      "name": "Marca",
+      "url": "https://feeds.marca.com/rss/futbol.xml",
+      "language": "es",
+      "country": "es",
+      "category": "football"
+    }
+  ]
+}

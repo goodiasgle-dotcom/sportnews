@@ -1,0 +1,45 @@
+name: Update Sport News
+
+on:
+  schedule:
+    # Every hour on weekdays (Mon-Fri)
+    - cron: '0 * * * 1-5'
+    # Every 30 minutes on weekends (Sat-Sun) - match days
+    - cron: '0,30 * * * 0,6'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+      
+      - name: Fetch RSS feeds and translate
+        run: python3 scripts/fetch_news.py
+      
+      - name: Build Hugo site
+        run: hugo --minify
+      
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: './public'
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Auto-update: ${{ github.sha }}"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
