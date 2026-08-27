@@ -129,17 +129,17 @@ function getSourceClass(source) {
         'Sky Sports': 'sky',
         'ESPN': 'espn',
         'The Guardian': 'guardian',
-        'Sport24': 'sport24',
         'Gazzetta.gr': 'gazzetta',
-        'Sportime': 'sportime',
+        'Gazzetta Football': 'gazzetta',
         'Novasports': 'novasports',
+        'Redaroume': 'redaroume',
+        'OPA.gr': 'opa',
         'Football Italia': 'football-italia',
-        'Gazzetta dello Sport': 'gazzetta-it',
-        'Sky Sport Italia': 'sky-it',
-        "L'Equipe": 'lequipe',
-        'Kicker': 'kicker',
-        'Marca': 'marca',
-        'ESPN Deportes': 'espn'
+        'Get German Football News': 'german-fn',
+        'Get French Football News': 'french-fn',
+        'Get Spanish Football News': 'spanish-fn',
+        'Get Italian Football News': 'italian-fn',
+        '101 Great Goals': 'great-goals'
     };
 
     for (const [key, value] of Object.entries(sourceMap)) {

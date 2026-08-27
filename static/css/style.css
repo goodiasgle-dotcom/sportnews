@@ -178,16 +178,16 @@ body {
 .source-sky { background: #0072c9; }
 .source-espn { background: #cc0000; }
 .source-guardian { background: #052962; }
-.source-sport24 { background: #0066cc; }
 .source-gazzetta { background: #e30613; }
-.source-sportime { background: #009933; }
 .source-novasports { background: #ff6600; }
+.source-redaroume { background: #d4213d; }
+.source-opa { background: #1a8c5e; }
 .source-football-italia { background: #0066cc; }
-.source-gazzetta-it { background: #e30613; }
-.source-sky-it { background: #0072c9; }
-.source-lequipe { background: #003366; }
-.source-kicker { background: #cc0000; }
-.source-marca { background: #004d98; }
+.source-german-fn { background: #000000; }
+.source-french-fn { background: #002395; }
+.source-spanish-fn { background: #c8102e; }
+.source-italian-fn { background: #0066cc; }
+.source-great-goals { background: #ff6600; }
 .source-default { background: var(--gray-600); }
 
 .post-time {

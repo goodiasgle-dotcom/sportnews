@@ -1,13 +1,6 @@
 {
   "feeds": [
     {
-      "name": "Sport24",
-      "url": "https://www.sport24.gr/rss/",
-      "language": "el",
-      "country": "gr",
-      "category": "football"
-    },
-    {
       "name": "Gazzetta.gr",
       "url": "https://www.gazzetta.gr/rss",
       "language": "el",
@@ -15,8 +8,8 @@
       "category": "football"
     },
     {
-      "name": "Sportime",
-      "url": "https://www.sportime.gr/feed/",
+      "name": "Gazzetta Football",
+      "url": "https://www.gazzetta.gr/football/rss",
       "language": "el",
       "country": "gr",
       "category": "football"
@@ -24,6 +17,20 @@
     {
       "name": "Novasports",
       "url": "https://www.novasports.gr/feed/",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "Redaroume",
+      "url": "https://redaroume.gr/feed/",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "OPA.gr",
+      "url": "https://www.opa.gr/feed/",
       "language": "el",
       "country": "gr",
       "category": "football"
@@ -64,38 +71,38 @@
       "category": "football"
     },
     {
-      "name": "Gazzetta dello Sport",
-      "url": "https://www.gazzetta.it/rss/home.xml",
-      "language": "it",
-      "country": "it",
-      "category": "football"
-    },
-    {
-      "name": "Sky Sport Italia",
-      "url": "https://sport.sky.it/rss.xml",
-      "language": "it",
-      "country": "it",
-      "category": "football"
-    },
-    {
-      "name": "L'Equipe",
-      "url": "https://www.lequipe.fr/rss/foot.xml",
-      "language": "fr",
-      "country": "fr",
-      "category": "football"
-    },
-    {
-      "name": "Kicker",
-      "url": "https://www.kicker.de/rss/",
-      "language": "de",
+      "name": "Get German Football News",
+      "url": "https://www.getfootballnewsgermany.com/feed/",
+      "language": "en",
       "country": "de",
       "category": "football"
     },
     {
-      "name": "Marca",
-      "url": "https://feeds.marca.com/rss/futbol.xml",
-      "language": "es",
+      "name": "Get French Football News",
+      "url": "https://www.getfootballnewsfrance.com/feed/",
+      "language": "en",
+      "country": "fr",
+      "category": "football"
+    },
+    {
+      "name": "Get Spanish Football News",
+      "url": "https://www.getfootballnewsspain.com/feed/",
+      "language": "en",
       "country": "es",
+      "category": "football"
+    },
+    {
+      "name": "Get Italian Football News",
+      "url": "https://www.getfootballnewsitaly.com/feed/",
+      "language": "en",
+      "country": "it",
+      "category": "football"
+    },
+    {
+      "name": "101 Great Goals",
+      "url": "https://www.101greatgoals.com/feed/",
+      "language": "en",
+      "country": "uk",
       "category": "football"
     }
   ]
