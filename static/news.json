@@ -7,7 +7,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-league/2564413/europa-league-oi-meres-ton-agonon-olympiakoy-kai-ofi-sti-league",
     "pubDate": "2026-08-28T00:20:06+02:00",
-    "time_display": "45 λεπτά",
+    "time_display": "52 λεπτά",
     "country": "gr"
   },
   {
@@ -18,7 +18,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564412/panathinaikos-oi-imerominies-ton-agonon-ton-prasinon-stin",
     "pubDate": "2026-08-28T00:18:40+02:00",
-    "time_display": "46 λεπτά",
+    "time_display": "54 λεπτά",
     "country": "gr"
   },
   {
@@ -29,7 +29,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564411/ntesers-hairomai-poy-edosa-pragmata-ston-panathinaiko",
     "pubDate": "2026-08-28T00:08:04+02:00",
-    "time_display": "57 λεπτά",
+    "time_display": "1 ώρα",
     "country": "gr"
   },
   {
@@ -40,7 +40,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564410/conference-league-oi-36-omades-kai-oi-pithanoi-antipaloi",
     "pubDate": "2026-08-28T00:07:11+02:00",
-    "time_display": "58 λεπτά",
+    "time_display": "1 ώρα",
     "country": "gr"
   },
   {
@@ -143,13 +143,134 @@
     "country": "gr"
   },
   {
+    "id": "daa6f6fee451",
+    "title": "Transfer rumors, news: Arsenal, Man City to fight for Everton winger",
+    "highlights": "Arsenal are reportedly keen on signing Marseille winger Igor Paixão. Transfer Talk has the latest.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49739360/transfer-rumors-news-arsenal-man-city-fight-everton-winger-ndiaye",
+    "pubDate": "2026-08-27T23:13:39.948025+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "af01ffd66641",
+    "title": "Weekend predictions: Pressure on Man United already? Wrexham to beat Birmingham?",
+    "highlights": "Late August is no time to hit the panic button, but another loss against a promotion side may well send Manchester United into crisis. PLUS: We head to Germany for the start of the Bundesliga, and Wrexham vs. Birmingham face-off.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49733346/weekend-predictions-preview-analysis-pressure-manchester-united-carrick-already-wrexham-vs-birmingham-city",
+    "pubDate": "2026-08-27T23:13:39.947002+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "2b5227366b1c",
+    "title": "⚽Why the UCL's iconic ball could be replaced",
+    "highlights": "Adidas has unveiled its match balls for the league phases of the men's and women's UEFA Champions Leagues. Will the famous 'star ball' design soon be no more?",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49730333/is-final-season-uefa-champions-league-iconic-adidas-star-ball",
+    "pubDate": "2026-08-27T23:13:39.944643+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "debe11586279",
+    "title": "Welbeck scores on debut as Chelsea beat Luton",
+    "highlights": "Danny Welbeck scored his first Chelsea goal as Xabi Alonso's side beat Luton Town 2-0 at Stamford Bridge in the Carabao Cup second round.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/report/_/gameId/401908127",
+    "pubDate": "2026-08-27T23:13:39.943631+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "9180763cbaa0",
+    "title": "Sources: Liverpool agree $163M deal for Barcola",
+    "highlights": "Liverpool are closing in on a deal to sign Paris Saint-Germain forward Bradley Barcola, sources told ESPN.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49739704/liverpool-closing-bradley-barcola-signing-deal-worth-120-million-sources",
+    "pubDate": "2026-08-27T23:13:39.942617+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "f9ca9870f5f7",
+    "title": "MLS suspends Inter Miami coach for late kickoffs",
+    "highlights": "Inter Miami coach Guillermo Hoyos has been given a one-match suspension by Major League Soccer for repeated violation of the league's late kickoff policy.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49746000/inter-miami-coach-guillemo-hoyos-suspended-mls-late-kickoffs",
+    "pubDate": "2026-08-27T23:13:39.941449+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "772e1c145a3d",
+    "title": "Sources: Chelsea set to sign Villa keeper Martínez",
+    "highlights": "Chelsea have agreed to a deal to sign Argentina goalkeeper Emiliano Martínez from Aston Villa for a fee of £7.5 million (10.2m), sources confirmed to ESPN's James Olley.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49744624/chelsea-transfer-emiliano-martinez-aston-villa-argentina",
+    "pubDate": "2026-08-27T23:13:39.932886+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "579e47b8a014",
+    "title": "'Perfect' Rodri debuts as Barça newcomers shine",
+    "highlights": "Barcelona coach Hansi Flick says Rodri is the \"perfect\" signing for the Spanish champions after the midfielder made his debut in Thursday's 2-0 win over Athletic Club in LaLiga.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49746982/rodri-barcelona-debut-hansi-flick-athletic-club-anthony-gordon",
+    "pubDate": "2026-08-27T23:13:39.931871+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "e29544ecc45a",
+    "title": "Arsenal-Madrid, PSG-Barça highlight UCL draw",
+    "highlights": "Paris Saint-Germain have been handed a tough start to the defense of their Champions League trophy, with a home clash against Barcelona as well as trips to 2023 winners Manchester City and Europa League holders Aston Villa.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49743130/uefa-champions-league-draw-2026-27-psg-arsenal-barcelona-real-madrid",
+    "pubDate": "2026-08-27T23:13:39.930858+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "2d7e278c1db1",
+    "title": "Ποιοι είναι οι πρωτοεμφανιζόμενοι στο UCL, οι αντίπαλοι της Άρσεναλ/Μπαρτσελόνα Sabah FK;",
+    "highlights": "Sabah, a club near the Iranian border that didn't exist a decade ago, is in this season's Champions League.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49742966/who-champions-league-debutants-sabah-fk-heres-need-know",
+    "pubDate": "2026-08-27T23:13:39.929785+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
+    "id": "49e8e7c31540",
+    "title": "Αντίδραση ισοπαλίας Τσάμπιονς Λιγκ: Καλό για τη Λίβερπουλ, κακό για τη Μπαρτσελόνα, παιχνίδια που πρέπει να δείτε",
+    "highlights": "The Champions League is back! So let's unpack all the must-see games, winners and losers, and talking points from Thursday's draw for the 2026-27 league phase.",
+    "source": "ESPN",
+    "source_class": "espn",
+    "link": "https://www.espn.com/soccer/story/_/id/49740823/uefa-champions-league-draw-reaction-analysis-liverpool-barcelona-psg-man-city-arsenal-real-madrid",
+    "pubDate": "2026-08-27T23:13:34.925931+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "us"
+  },
+  {
     "id": "32b19ee5b874",
     "title": "'Fire burning within' for Smith following 'tough' Ashes winter",
     "highlights": "England wicketkeeper Jamie Smith welcomed his return to form with the bat as he top-scored with 61 on day one of the second Test against Pakistan at Lord's.",
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/cricket/news/12040/13577908/jamie-smith-england-wicketkeeper-reflects-on-tough-ashes-as-he-welcomes-return-to-form-versus-pakistan-at-lords",
-    "pubDate": "2026-08-27T23:06:09.509235+00:00",
+    "pubDate": "2026-08-27T23:13:28.840772+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -160,7 +281,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-tromso/report/577286",
-    "pubDate": "2026-08-27T23:06:09.509050+00:00",
+    "pubDate": "2026-08-27T23:13:28.839760+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -171,7 +292,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/golf/news/12040/13577684/tour-championship-min-woo-lee-leads-fedexcup-finale-with-scottie-scheffler-chasing-after-rory-mcilroys-mixed-start",
-    "pubDate": "2026-08-27T23:06:09.508870+00:00",
+    "pubDate": "2026-08-27T23:13:28.838575+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -182,7 +303,18 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/golf/news/12040/13577690/fm-championship-lottie-woad-makes-strong-start-in-boston-on-lpga-tour-amid-final-tournaments-before-solheim-cup",
-    "pubDate": "2026-08-27T23:06:09.508677+00:00",
+    "pubDate": "2026-08-27T23:13:28.831899+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "uk"
+  },
+  {
+    "id": "ff0c24aac047",
+    "title": "Tour Championship - day one highlights",
+    "highlights": "Highlights from day one of the Tour Championship held at East Lake Golf Club in Atlanta, Georgia.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/watch/video/13577991/tour-championship-day-one-highlights",
+    "pubDate": "2026-08-27T23:13:28.830904+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -193,7 +325,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/golf/news/12040/13577685/british-masters-tom-mckibbin-leads-before-play-suspended-for-opening-round-after-stormy-weather-at-the-belfry",
-    "pubDate": "2026-08-27T23:06:09.508462+00:00",
+    "pubDate": "2026-08-27T23:13:28.829878+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -204,7 +336,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/chelsea-vs-luton-town/report/577427",
-    "pubDate": "2026-08-27T23:06:09.508240+00:00",
+    "pubDate": "2026-08-27T23:13:28.828119+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -215,7 +347,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/news/12040/13577977/enzo-fernandez-transfer-news-manchester-city-confident-of-signing-chelsea-midfielder-paper-talk",
-    "pubDate": "2026-08-27T23:06:09.507996+00:00",
+    "pubDate": "2026-08-27T23:13:28.827104+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -226,7 +358,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/fulham-vs-afc-wimbledon/report/577430",
-    "pubDate": "2026-08-27T23:06:09.507692+00:00",
+    "pubDate": "2026-08-27T23:13:28.826006+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -237,8 +369,19 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/rugby-league/news/12040/13577832/super-league-wigan-warriors-beat-depleted-hull-kr-46-0-to-return-to-top-of-table-after-sir-billy-boston-tributes",
-    "pubDate": "2026-08-27T23:06:03.620419+00:00",
+    "pubDate": "2026-08-27T23:13:23.823349+00:00",
     "time_display": "Μόλις τώρα",
+    "country": "uk"
+  },
+  {
+    "id": "86fe9062b136",
+    "title": "Women’s Super League 2026-27 preview No 7: Crystal Palace",
+    "highlights": "Jo Potter’s side charged to promotion and have brought in striker Bethany England as they bid to stay up Guardian writers’ predicted position: 13th (NB: this is not necessarily Sophie Downey’s prediction but the average of our writers’ tips) Last season’s position: 2nd (WSL2) Continue reading...",
+    "source": "The Guardian",
+    "source_class": "guardian",
+    "link": "https://www.theguardian.com/football/2026/aug/28/womens-super-league-2026-27-preview-no-7-crystal-palace",
+    "pubDate": "2026-08-27T23:01:41+00:00",
+    "time_display": "12 λεπτά",
     "country": "uk"
   },
   {
@@ -249,7 +392,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/golf/articles/cr4vl2yw332o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-08-27T22:56:37+00:00",
-    "time_display": "9 λεπτά",
+    "time_display": "16 λεπτά",
     "country": "uk"
   },
   {
@@ -260,7 +403,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/monaco-and-chelsea-negotiating-for-lamine-camara-transfer-to-replace-enzo-fernandez/",
     "pubDate": "2026-08-27T22:30:27+00:00",
-    "time_display": "36 λεπτά",
+    "time_display": "43 λεπτά",
     "country": "fr"
   },
   {
@@ -271,7 +414,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/aug/27/atletico-madrid-julian-alvarez-barcelona-transfer-news",
     "pubDate": "2026-08-27T22:16:23+00:00",
-    "time_display": "49 λεπτά",
+    "time_display": "57 λεπτά",
     "country": "uk"
   },
   {
@@ -282,7 +425,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-champions-league/article/15065908/se-apostasi-anapnois-apo-ti-10i-thesi-tis-uefa-i-ellada/",
     "pubDate": "2026-08-27T22:14:05+00:00",
-    "time_display": "51 λεπτά",
+    "time_display": "58 λεπτά",
     "country": "gr"
   },
   {
@@ -436,7 +579,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-conference-league/article/15065681/ta-sygxaritiria-tis-kae-stin-pae-panathinaikos-gia-ti-megali-prokrisi-sti-league-phase-tou-conference-league/",
     "pubDate": "2026-08-27T21:08:49+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "2 ώρες",
     "country": "gr"
   },
   {
@@ -484,8 +627,8 @@
     "country": "gr"
   },
   {
-    "id": "a8ee7cf130b7",
-    "title": "Το ενδιαφέρον της Napoli για τους Woltemade, Gabriel Jesus και Guiu με επίκεντρο την Premier League",
+    "id": "4b78daae5d8b",
+    "title": "Napoli interest in Woltemade, Gabriel Jesus and Guiu with Premier League focus",
     "highlights": "Napoli will only bring in a new striker if Noa Lang is sold, with candidates...",
     "source": "Football Italia",
     "source_class": "football-italia",
@@ -572,8 +715,8 @@
     "country": "uk"
   },
   {
-    "id": "885648f3c900",
-    "title": "Η Arsenal στοχεύει την Bahoya στη λίστα επιθυμιών του Μιλάνου εάν ο Rafael Leao πουληθεί για 50 εκατομμύρια €",
+    "id": "6cf3d45bbf32",
+    "title": "Arsenal target Bahoya on Milan wish list if Rafael Leao sold for €50m",
     "highlights": "With Rafael Leao finally heading to either Galatasaray or Aston Villa, Milan are looking towards...",
     "source": "Football Italia",
     "source_class": "football-italia",
@@ -638,8 +781,8 @@
     "country": "uk"
   },
   {
-    "id": "c03f21be2b34",
-    "title": "Ο Danny Welbeck οδηγεί την Chelsea πέρα από τον Luton καθώς ο Fernández χάνει την ισοπαλία του Carabao Cup",
+    "id": "151c602edaf9",
+    "title": "Ο Danny Welbeck οδηγεί την Chelsea πέρα από το Luton, αλλά ο Enzo Fernández χάνει την ισοπαλία του Carabao Cup",
     "highlights": "Emiliano Martínez is on his way but another high-profile Argentinian is likely to be wearing a different shade of blue soon. Chelsea have dealt with their biggest weakness, satisfying Xabi Alonso’s wish for a new goalkeeper by agreeing a £7.5m deal to sign Martínez from Aston Villa, and it will sure...",
     "source": "The Guardian",
     "source_class": "guardian",
@@ -704,17 +847,6 @@
     "country": "uk"
   },
   {
-    "id": "f25e14ddf80b",
-    "title": "Chelsea 2-0 Luton: Welbeck scores on debut",
-    "highlights": "Former England man makes the breakthrough",
-    "source": "101 Great Goals",
-    "source_class": "default",
-    "link": "https://www.101greatgoals.com/news/chelsea-2-0-luton-welbeck-scores-on-debut/",
-    "pubDate": "2026-08-27T20:22:01+00:00",
-    "time_display": "2 ώρες",
-    "country": "uk"
-  },
-  {
     "id": "f560783b1996",
     "title": "Pedri joins Arda Güler and Barcelona teammate in exclusive club during Athletic Club clash",
     "highlights": "Barcelona star Pedri has on Thursday evening added his name to an altogether exclusive La Liga club. This comes owing to his exploits in the Blaugrana’s latest outing. Hansi Flick’s…",
@@ -733,7 +865,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/sta-oyrania-o-mythikos-manolo-to-exopragmatiko-6/",
     "pubDate": "2026-08-27T20:07:09+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "3 ώρες",
     "country": "gr"
   },
   {
@@ -858,8 +990,8 @@
     "country": "uk"
   },
   {
-    "id": "27d622a3ac2b",
-    "title": "Chelsea agree £7.5m deal to sign Emiliano Martínez from Aston Villa",
+    "id": "702375a51079",
+    "title": "Η Chelsea συμφωνεί με συμφωνία 7,5 εκατομμυρίων £ για την απόκτηση του Emiliano Martínez από την Aston Villa",
     "highlights": "Enzo Fernández left out of Luton Carabao Cup tie Villa sign Germany midfielder Leon Goretzka on free Chelsea have agreed a £7.5m deal to sign the Aston Villa goalkeeper Emiliano Martínez and are expecting Manchester City to make an offer for Enzo Fernández in the next 48 hours. Xabi Alonso identifie...",
     "source": "The Guardian",
     "source_class": "guardian",
@@ -913,8 +1045,8 @@
     "country": "it"
   },
   {
-    "id": "73f8b6f84f9c",
-    "title": "Κλήρωση Champions League: Η Άρσεναλ αντιμετωπίζει τη Ρεάλ Μαδρίτης, η Μάντσεστερ Σίτι την Μπαρτσελόνα και η Παρί Σεν Ζερμέν",
+    "id": "e0abaea898b6",
+    "title": "Champions League draw: Arsenal face Real Madrid, Man City get Barcelona and PSG",
     "highlights": "Manchester United will host Bayern Munich Aston Villa welcome PSG; Liverpool go to Inter Arsenal face mouthwatering assignments against Real Madrid and Bayern Munich as they bid to go one better than last season’s agonising near miss and win a first Champions League title. Mikel Arteta’s side were p...",
     "source": "The Guardian",
     "source_class": "guardian",
@@ -997,19 +1129,8 @@
     "source_class": "default",
     "link": "https://redaroume.gr/ton-alstrom-os-ton-pentersen-pics-videos/",
     "pubDate": "2026-08-27T17:07:41+00:00",
-    "time_display": "5 ώρες",
-    "country": "gr"
-  },
-  {
-    "id": "3c566fedad0a",
-    "title": "Dario Vidosic to step down as Brighton manager and is leading Angel City candidate",
-    "highlights": "Vidosic’s decision is surprise on eve of WSL season 39-year-old led Brighton to May’s FA Cup final The Brighton manager, Dario Vidosic, is to leave the Women’s Super League club a little over a week before the start of the new season, multiple sources have told the Guardian. The Guardian understands...",
-    "source": "The Guardian",
-    "source_class": "guardian",
-    "link": "https://www.theguardian.com/football/2026/aug/27/dario-vidosic-to-step-down-as-brighton-manager-just-before-new-wsl-season",
-    "pubDate": "2026-08-27T17:01:26+00:00",
     "time_display": "6 ώρες",
-    "country": "uk"
+    "country": "gr"
   },
   {
     "id": "bca0fead20d2",
@@ -1162,7 +1283,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/fulham-and-eintracht-frankfurt-show-interest-in-rennes-djaoui-cisse-but/",
     "pubDate": "2026-08-27T13:13:20+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "10 ώρες",
     "country": "fr"
   },
   {
@@ -1173,7 +1294,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/oi-arithmoi-stis-erythroleykes-faneles-tis-omadas-volei/",
     "pubDate": "2026-08-27T13:11:37+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "10 ώρες",
     "country": "gr"
   },
   {

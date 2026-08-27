@@ -119,12 +119,13 @@ body {
     max-width: 100%;
     margin: 0;
     display: flex;
+    justify-content: center;
     gap: 8px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     border-bottom: 1px solid var(--gray-200);
     position: fixed;
-    top: 48px;
+    top: 52px;
     left: 0;
     right: 0;
     z-index: 99;
@@ -162,7 +163,7 @@ body {
     padding: 16px;
     max-width: 680px;
     margin: 0 auto;
-    margin-top: 96px;
+    margin-top: 105px;
 }
 
 .feed-container {
@@ -490,7 +491,7 @@ body {
     }
 
     .news-feed {
-        margin-top: 120px;
+        margin-top: 125px;
     }
 
     .back-to-top {
