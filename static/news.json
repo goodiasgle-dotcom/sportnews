@@ -7,7 +7,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-league/2564413/europa-league-oi-meres-ton-agonon-olympiakoy-kai-ofi-sti-league",
     "pubDate": "2026-08-28T00:20:06+02:00",
-    "time_display": "45 λεπτά",
+    "time_display": "49 λεπτά",
     "country": "gr"
   },
   {
@@ -18,7 +18,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564412/panathinaikos-oi-imerominies-ton-agonon-ton-prasinon-stin",
     "pubDate": "2026-08-28T00:18:40+02:00",
-    "time_display": "46 λεπτά",
+    "time_display": "50 λεπτά",
     "country": "gr"
   },
   {
@@ -29,7 +29,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564411/ntesers-hairomai-poy-edosa-pragmata-ston-panathinaiko",
     "pubDate": "2026-08-28T00:08:04+02:00",
-    "time_display": "57 λεπτά",
+    "time_display": "1 ώρα",
     "country": "gr"
   },
   {
@@ -40,7 +40,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564410/conference-league-oi-36-omades-kai-oi-pithanoi-antipaloi",
     "pubDate": "2026-08-28T00:07:11+02:00",
-    "time_display": "58 λεπτά",
+    "time_display": "1 ώρα",
     "country": "gr"
   },
   {
@@ -149,7 +149,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/cricket/news/12040/13577908/jamie-smith-england-wicketkeeper-reflects-on-tough-ashes-as-he-welcomes-return-to-form-versus-pakistan-at-lords",
-    "pubDate": "2026-08-27T23:06:09.509235+00:00",
+    "pubDate": "2026-08-27T23:09:58.097097+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -160,7 +160,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-tromso/report/577286",
-    "pubDate": "2026-08-27T23:06:09.509050+00:00",
+    "pubDate": "2026-08-27T23:09:58.096926+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -171,7 +171,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/golf/news/12040/13577684/tour-championship-min-woo-lee-leads-fedexcup-finale-with-scottie-scheffler-chasing-after-rory-mcilroys-mixed-start",
-    "pubDate": "2026-08-27T23:06:09.508870+00:00",
+    "pubDate": "2026-08-27T23:09:58.096779+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -182,7 +182,18 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/golf/news/12040/13577690/fm-championship-lottie-woad-makes-strong-start-in-boston-on-lpga-tour-amid-final-tournaments-before-solheim-cup",
-    "pubDate": "2026-08-27T23:06:09.508677+00:00",
+    "pubDate": "2026-08-27T23:09:58.096626+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "uk"
+  },
+  {
+    "id": "ff0c24aac047",
+    "title": "Tour Championship - day one highlights",
+    "highlights": "Highlights from day one of the Tour Championship held at East Lake Golf Club in Atlanta, Georgia.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/watch/video/13577991/tour-championship-day-one-highlights",
+    "pubDate": "2026-08-27T23:09:58.096480+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -193,7 +204,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/golf/news/12040/13577685/british-masters-tom-mckibbin-leads-before-play-suspended-for-opening-round-after-stormy-weather-at-the-belfry",
-    "pubDate": "2026-08-27T23:06:09.508462+00:00",
+    "pubDate": "2026-08-27T23:09:58.096321+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -204,7 +215,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/chelsea-vs-luton-town/report/577427",
-    "pubDate": "2026-08-27T23:06:09.508240+00:00",
+    "pubDate": "2026-08-27T23:09:58.096156+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -215,7 +226,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/news/12040/13577977/enzo-fernandez-transfer-news-manchester-city-confident-of-signing-chelsea-midfielder-paper-talk",
-    "pubDate": "2026-08-27T23:06:09.507996+00:00",
+    "pubDate": "2026-08-27T23:09:58.095991+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -226,7 +237,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/fulham-vs-afc-wimbledon/report/577430",
-    "pubDate": "2026-08-27T23:06:09.507692+00:00",
+    "pubDate": "2026-08-27T23:09:58.095741+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -237,7 +248,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/rugby-league/news/12040/13577832/super-league-wigan-warriors-beat-depleted-hull-kr-46-0-to-return-to-top-of-table-after-sir-billy-boston-tributes",
-    "pubDate": "2026-08-27T23:06:03.620419+00:00",
+    "pubDate": "2026-08-27T23:09:52.215607+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk"
   },
@@ -249,7 +260,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/golf/articles/cr4vl2yw332o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-08-27T22:56:37+00:00",
-    "time_display": "9 λεπτά",
+    "time_display": "13 λεπτά",
     "country": "uk"
   },
   {
@@ -260,7 +271,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/monaco-and-chelsea-negotiating-for-lamine-camara-transfer-to-replace-enzo-fernandez/",
     "pubDate": "2026-08-27T22:30:27+00:00",
-    "time_display": "36 λεπτά",
+    "time_display": "39 λεπτά",
     "country": "fr"
   },
   {
@@ -271,7 +282,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/aug/27/atletico-madrid-julian-alvarez-barcelona-transfer-news",
     "pubDate": "2026-08-27T22:16:23+00:00",
-    "time_display": "49 λεπτά",
+    "time_display": "53 λεπτά",
     "country": "uk"
   },
   {
@@ -282,7 +293,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-champions-league/article/15065908/se-apostasi-anapnois-apo-ti-10i-thesi-tis-uefa-i-ellada/",
     "pubDate": "2026-08-27T22:14:05+00:00",
-    "time_display": "51 λεπτά",
+    "time_display": "55 λεπτά",
     "country": "gr"
   },
   {
@@ -436,7 +447,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-conference-league/article/15065681/ta-sygxaritiria-tis-kae-stin-pae-panathinaikos-gia-ti-megali-prokrisi-sti-league-phase-tou-conference-league/",
     "pubDate": "2026-08-27T21:08:49+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "2 ώρες",
     "country": "gr"
   },
   {
@@ -638,8 +649,8 @@
     "country": "uk"
   },
   {
-    "id": "c03f21be2b34",
-    "title": "Ο Danny Welbeck οδηγεί την Chelsea πέρα από τον Luton καθώς ο Fernández χάνει την ισοπαλία του Carabao Cup",
+    "id": "151c602edaf9",
+    "title": "Ο Danny Welbeck οδηγεί την Chelsea πέρα από το Luton, αλλά ο Enzo Fernández χάνει την ισοπαλία του Carabao Cup",
     "highlights": "Emiliano Martínez is on his way but another high-profile Argentinian is likely to be wearing a different shade of blue soon. Chelsea have dealt with their biggest weakness, satisfying Xabi Alonso’s wish for a new goalkeeper by agreeing a £7.5m deal to sign Martínez from Aston Villa, and it will sure...",
     "source": "The Guardian",
     "source_class": "guardian",
@@ -733,7 +744,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/sta-oyrania-o-mythikos-manolo-to-exopragmatiko-6/",
     "pubDate": "2026-08-27T20:07:09+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "3 ώρες",
     "country": "gr"
   },
   {
@@ -997,7 +1008,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/ton-alstrom-os-ton-pentersen-pics-videos/",
     "pubDate": "2026-08-27T17:07:41+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "6 ώρες",
     "country": "gr"
   },
   {
