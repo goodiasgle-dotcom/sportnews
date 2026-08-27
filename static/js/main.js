@@ -14,7 +14,7 @@ async function loadNewsData() {
     showLoading(true);
     
     try {
-        const response = await fetch('/news.json');
+        const response = await fetch('news.json');
         if (!response.ok) throw new Error('Failed to load news');
         
         allNews = await response.json();
