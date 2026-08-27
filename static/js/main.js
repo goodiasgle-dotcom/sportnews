@@ -63,8 +63,8 @@ function createNewsCard(news) {
     
     article.innerHTML = `
         <div class="card-header">
-            <span class="source-badge source-${sourceClass}">${news.source}</span>
-            <span class="post-time">${news.time_display}</span>
+            <span class="source-badge source-${sourceClass}">${escapeHtml(news.source)}</span>
+            <span class="post-time">${escapeHtml(news.time_display)}</span>
         </div>
         <div class="card-body">
             <h2 class="card-title">${escapeHtml(news.title)}</h2>

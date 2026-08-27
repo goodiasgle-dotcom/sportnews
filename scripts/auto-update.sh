@@ -41,7 +41,9 @@ git commit -m "Auto-update: $(date +%Y-%m-%d_%H:%M)" >> "$LOG_FILE" 2>&1
 TOKEN_FILE="/home/ch/.github-token"
 if [ -f "$TOKEN_FILE" ]; then
     TOKEN=$(cat "$TOKEN_FILE")
-    git push "https://goodiasgle-dotcom:${TOKEN}@github.com/goodiasgle-dotcom/sportnews.git" main >> "$LOG_FILE" 2>&1
+    git remote set-url origin "https://goodiasgle-dotcom:${TOKEN}@github.com/goodiasgle-dotcom/sportnews.git"
+    git push origin main >> "$LOG_FILE" 2>&1
+    git remote set-url origin "https://github.com/goodiasgle-dotcom/sportnews.git"
     if [ $? -eq 0 ]; then
         echo "$(date): Push succeeded" >> "$LOG_FILE"
     else
