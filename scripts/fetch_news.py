@@ -219,8 +219,8 @@ def translate_text(text, source_lang='en', target_lang='el'):
                     save_json(TRANSLATION_CACHE_FILE, cache)
                     return translated
         
-        # Rate limiting - wait between requests
-        time.sleep(1)
+        # Rate limiting - wait between requests (MyMemory allows ~5 req/day for anonymous)
+        time.sleep(3)
         
     except Exception as e:
         print(f"  Translation error: {e}")
@@ -331,6 +331,7 @@ def main():
     
     all_news = []
     stats = {'total': 0, 'football': 0, 'translated': 0}
+    translation_budget = 8  # MyMemory free tier: ~5 requests/day, leave some margin
     
     for feed in feeds:
         print(f"\nFetching: {feed['name']}...")
@@ -342,7 +343,10 @@ def main():
         items = parse_rss(xml_content)
         print(f"  Found {len(items)} items")
         
-        for item in items[:20]:  # Limit to 20 items per feed
+        feed_translations = 0
+        max_translations_per_feed = 2 if needs_translation(feed['language']) else 0
+        
+        for item in items[:15]:  # Limit to 15 items per feed
             stats['total'] += 1
             
             # Check if football related
@@ -354,16 +358,15 @@ def main():
             title = item['title']
             description = item.get('description', '') or item.get('content', '')
             
-            # Translate if needed
-            if needs_translation(feed['language']):
+            # Translate only if budget allows and limit per feed
+            if needs_translation(feed['language']) and translation_budget > 0 and feed_translations < max_translations_per_feed:
                 original_title = title
                 title = translate_text(title, feed['language'], 'el')
                 if title != original_title:
                     stats['translated'] += 1
-                # Translate description too (shorter)
-                if description:
-                    description = translate_text(description[:200], feed['language'], 'el')
-                time.sleep(0.5)  # Rate limiting
+                    feed_translations += 1
+                    translation_budget -= 1
+                time.sleep(5)  # Longer delay to avoid 429
             
             # Create news item
             news_item = {

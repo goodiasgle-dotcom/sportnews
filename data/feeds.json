@@ -2,7 +2,7 @@
   "feeds": [
     {
       "name": "Sport24",
-      "url": "https://www.sport24.gr/feed/",
+      "url": "https://www.sport24.gr/rss/",
       "language": "el",
       "country": "gr",
       "category": "football"
