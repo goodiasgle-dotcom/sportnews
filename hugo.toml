@@ -1,7 +1,6 @@
 baseURL = 'https://goodiasgle-dotcom.github.io/sport-news-site/'
 languageCode = 'el'
 title = 'Sport News GR'
-theme = ''
 disableKinds = ['taxonomy', 'term', 'section']
 
 [params]
