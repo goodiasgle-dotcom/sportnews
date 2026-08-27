@@ -1,14 +1,12 @@
-name: Update Sport News
+name: Build and Deploy
 
 on:
-  schedule:
-    - cron: '15 * * * *'
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -17,36 +15,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch-and-build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
-
-      - name: Fetch news
-        run: python3 scripts/fetch_news.py
-
-      - name: Commit news.json if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add static/news.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update news [skip ci]"
-            git push
-          fi
 
       - name: Build Hugo site
         run: hugo --minify --baseURL "https://goodiasgle-dotcom.github.io/sportnews/"
@@ -61,7 +41,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: fetch-and-build
+    needs: build
 
     steps:
       - name: Deploy to GitHub Pages
