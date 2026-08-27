@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://goodiasgle-dotcom.github.io/sport-news-site/'
 languageCode = 'el'
 title = 'Sport News GR'
 theme = ''
@@ -7,5 +7,3 @@ disableKinds = ['taxonomy', 'term', 'section']
 [params]
   description = 'Τα τελευταία αθλητικά νέα από την Ελλάδα και τον κόσμο'
   author = 'Sport News GR'
-
-
