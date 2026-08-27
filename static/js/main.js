@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loadNewsData();
     initTheme();
     initBackToTop();
+    initFilters();
 });
 
 // Load news from JSON data file
@@ -52,6 +53,8 @@ function loadMoreNews() {
     } else {
         loadMoreBtn.style.display = 'none';
     }
+
+    applyCurrentFilter();
 }
 
 // Create a news card element
@@ -211,4 +214,28 @@ function initBackToTop() {
 
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// === COUNTRY FILTER ===
+let currentFilter = 'all';
+
+function initFilters() {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            currentFilter = this.dataset.country;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            applyCurrentFilter();
+        });
+    });
+}
+
+function applyCurrentFilter() {
+    document.querySelectorAll('.news-card').forEach(card => {
+        if (currentFilter === 'all') {
+            card.style.display = '';
+        } else {
+            card.style.display = card.dataset.country === currentFilter ? '' : 'none';
+        }
+    });
 }
