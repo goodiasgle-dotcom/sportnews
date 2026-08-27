@@ -110,49 +110,6 @@ body {
     opacity: 1;
 }
 
-/* Filter Bar */
-.filter-bar {
-    background: var(--white);
-    padding: 10px 16px;
-    max-width: 680px;
-    margin: 0 auto;
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    border-bottom: 1px solid var(--gray-200);
-    position: sticky;
-    top: 48px;
-    z-index: 99;
-    scrollbar-width: none;
-}
-
-.filter-bar::-webkit-scrollbar {
-    display: none;
-}
-
-.filter-btn {
-    background: var(--gray-100);
-    border: none;
-    border-radius: 20px;
-    padding: 6px 14px;
-    font-size: 13px;
-    font-weight: 500;
-    cursor: pointer;
-    white-space: nowrap;
-    color: var(--text-secondary);
-    transition: all 0.2s ease;
-}
-
-.filter-btn:hover {
-    background: var(--gray-200);
-}
-
-.filter-btn.active {
-    background: var(--primary-blue);
-    color: var(--white);
-}
-
 /* News Feed Container */
 .news-feed {
     padding: 16px;
@@ -478,10 +435,6 @@ body {
 
     .card-title {
         font-size: 15px;
-    }
-
-    .filter-bar {
-        top: 72px;
     }
 
     .back-to-top {
