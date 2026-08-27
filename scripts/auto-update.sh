@@ -2,7 +2,7 @@
 # Auto-update script - fetches news and pushes to GitHub
 # Run by cron every hour
 
-PROJECT_DIR="/home/ch/Desktop/sport news/sportnews"
+PROJECT_DIR="/home/ch/Desktop/sport news/sport-news-site"
 SCRIPTS_DIR="$PROJECT_DIR/scripts"
 LOG_FILE="/home/ch/.local/share/sport-news-update.log"
 

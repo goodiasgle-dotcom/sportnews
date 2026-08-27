@@ -25,30 +25,28 @@ OUTPUT_FILE = os.path.join(PROJECT_DIR, 'static', 'news.json')
 FEEDS_FILE = os.path.join(DATA_DIR, 'feeds.json')
 TRANSLATION_CACHE_FILE = os.path.join(DATA_DIR, 'translation_cache.json')
 
-# Football keywords for filtering (Greek and English)
+# Football keywords for filtering (Greek and English) - STRICT
 FOOTBALL_KEYWORDS_GR = [
     'ποδόσφαιρο', 'ποδοσφαίρου', 'ποδοσφαιρικός', 'ποδοσφαιρική',
-    'ομάδα', 'ομάδας', 'παίκτης', 'παίκτη', 'προπονητής',
-    'γκολ', 'νίκη', 'ήττα', 'ισοπαλία', 'πρωτάθλημα',
-    'κύπελλο', 'λίγκα', 'champions', 'europa', 'conference',
-    'σούπερ λίγκα', 'super league', 'premier league', 'serie a',
-    'la liga', 'bundesliga', 'ligue 1', 'liga', 'erected',
+    'γκολ', 'φάση', 'φάσεις', 'κόρνερ', 'φάουλ', 'πεναλτί',
+    'αποκλεισμός', 'πρόκριση', 'προημιτελικός', 'ημιτελικός',
+    'τελικός', 'γύρος', 'αγώνας', 'αγώνες', 'παιχνίδι', 'παιχνίδια',
+    'πρωτάθλημα', 'κύπελλο', 'σούπερ λίγκα', 'super league',
+    'champions', 'europa', 'conference',
     'μεταγραφή', 'μεταγραφές', 'συμβόλαιο', 'συμβόλαια',
     'Ολυμπιακός', 'Παναθηναϊκός', 'ΑΕΚ', 'ΠΑΟΚ', 'Άρης',
-    'Ολυμπιακού', 'Παναθηναϊκού', 'ΑΕΚ', 'ΠΑΟΚ', 'Άρη',
-    'real madrid', 'barcelona', 'manchester', 'liverpool', 'chelsea',
-    'arsenal', 'bayern', 'juventus', 'milan', 'inter', 'napoli',
-    'psg', 'paris saint', 'atletico', 'dortmund', 'leverkusen'
+    'Ολυμπιακού', 'Παναθηναϊκού', 'Άρη',
 ]
 
 FOOTBALL_KEYWORDS_EN = [
-    'football', 'soccer', 'goal', 'match', 'team', 'player',
-    'manager', 'coach', 'transfer', 'league', 'cup', 'champion',
-    'premier', 'serie a', 'la liga', 'bundesliga', 'ligue 1',
+    'serie a', 'la liga', 'bundesliga', 'ligue 1', 'premier league',
+    'champions league', 'europa league', 'conference league',
     'olympiacos', 'panathinaikos', 'aek', 'paok', 'aris',
     'real madrid', 'barcelona', 'manchester', 'liverpool', 'chelsea',
     'arsenal', 'bayern', 'juventus', 'milan', 'inter', 'napoli',
-    'psg', 'paris saint', 'atletico', 'dortmund', 'leverkusen'
+    'psg', 'paris saint', 'atletico', 'dortmund', 'leverkusen',
+    'hat-trick', 'brace', 'penalty', 'var', 'offside',
+    'premier league', 'championship', 'relegation', 'playoff'
 ]
 
 # Source to CSS class mapping
