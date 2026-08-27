@@ -120,16 +120,14 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     border-bottom: 1px solid var(--gray-200);
     position: fixed;
-    top: 52px;
+    top: 48px;
     left: 0;
     right: 0;
     z-index: 99;
-    scrollbar-width: none;
 }
 
 .filter-bar::-webkit-scrollbar {
@@ -163,7 +161,7 @@ body {
     padding: 16px;
     max-width: 680px;
     margin: 0 auto;
-    margin-top: 105px;
+    margin-top: 100px;
 }
 
 .feed-container {
@@ -491,7 +489,7 @@ body {
     }
 
     .news-feed {
-        margin-top: 125px;
+        margin-top: 130px;
     }
 
     .back-to-top {
