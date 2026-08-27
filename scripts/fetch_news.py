@@ -13,7 +13,7 @@ import time
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from html import unescape
 import re
 
@@ -282,6 +282,15 @@ def generate_id(title, source):
     return hashlib.md5(text.encode()).hexdigest()[:12]
 
 
+def _is_after(iso_date, cutoff):
+    """Check if date is after the cutoff."""
+    try:
+        dt = datetime.fromisoformat(iso_date.replace('Z', '+00:00'))
+        return dt > cutoff
+    except Exception:
+        return True  # keep articles with unparseable dates
+
+
 def deduplicate_news(news_list):
     """Remove duplicate news items."""
     seen = {}
@@ -388,9 +397,14 @@ def main():
     
     # Sort by date (newest first)
     all_news.sort(key=lambda x: x['pubDate'], reverse=True)
-    
-    # Save to JSON
-    save_json(OUTPUT_FILE, all_news)
+
+    # Remove articles older than 14 days
+    cutoff = datetime.now(timezone.utc) - timedelta(days=14)
+    before = len(all_news)
+    all_news = [n for n in all_news if _is_after(n['pubDate'], cutoff)]
+    removed = before - len(all_news)
+    if removed:
+        print(f"Removed {removed} articles older than 14 days")
     
     print("\n" + "=" * 50)
     print(f"Stats:")
