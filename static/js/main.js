@@ -1,4 +1,4 @@
-// Sport News GR - Main JavaScript
+// Sportnews - Main JavaScript
 
 let allNews = [];
 let displayedCount = 0;
@@ -7,19 +7,22 @@ const ITEMS_PER_PAGE = 10;
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     loadNewsData();
+    initTheme();
+    initBackToTop();
+    initFilters();
 });
 
 // Load news from JSON data file
 async function loadNewsData() {
     showLoading(true);
-    
+
     try {
         const response = await fetch('news.json');
         if (!response.ok) throw new Error('Failed to load news');
-        
+
         allNews = await response.json();
         displayedCount = 0;
-        
+
         updateLastTime();
         loadMoreNews();
     } catch (error) {
@@ -34,23 +37,24 @@ async function loadNewsData() {
 function loadMoreNews() {
     const container = document.getElementById('news-container');
     const loadMoreBtn = document.getElementById('load-more');
-    
+
     const end = Math.min(displayedCount + ITEMS_PER_PAGE, allNews.length);
-    
+
     for (let i = displayedCount; i < end; i++) {
         const news = allNews[i];
         const card = createNewsCard(news);
         container.appendChild(card);
     }
-    
+
     displayedCount = end;
-    
-    // Show/hide load more button
+
     if (displayedCount < allNews.length) {
         loadMoreBtn.style.display = 'block';
     } else {
         loadMoreBtn.style.display = 'none';
     }
+
+    applyCurrentFilter();
 }
 
 // Create a news card element
@@ -58,17 +62,22 @@ function createNewsCard(news) {
     const article = document.createElement('article');
     article.className = 'news-card';
     article.dataset.id = news.id;
-    
+    article.dataset.country = news.country || 'all';
+
     const sourceClass = getSourceClass(news.source);
-    
+    const isNew = isRecentlyPublished(news.pubDate);
+
     article.innerHTML = `
         <div class="card-header">
-            <span class="source-badge source-${sourceClass}">${escapeHtml(news.source)}</span>
+            <div class="card-header-left">
+                <span class="source-badge source-${sourceClass}">${escapeHtml(news.source)}</span>
+                ${isNew ? '<span class="new-badge">ΝΕΟ</span>' : ''}
+            </div>
             <span class="post-time">${escapeHtml(news.time_display)}</span>
         </div>
         <div class="card-body">
             <h2 class="card-title">${escapeHtml(news.title)}</h2>
-            <div class="card-content" style="display: none;">
+            <div class="card-content">
                 <p>${escapeHtml(news.highlights || '')}</p>
                 <a href="${escapeHtml(news.link)}" target="_blank" rel="noopener noreferrer" class="read-original">
                     Διαβάστε το πλήρες άρθρο →
@@ -82,25 +91,37 @@ function createNewsCard(news) {
             </button>
         </div>
     `;
-    
+
     return article;
 }
 
-// Toggle card expansion
+// Toggle card expansion with smooth animation
 function toggleCard(button) {
     const card = button.closest('.news-card');
     const content = card.querySelector('.card-content');
     const icon = button.querySelector('.expand-icon');
     const text = button.querySelector('.expand-text');
-    
-    if (content.style.display === 'none') {
-        content.style.display = 'block';
-        button.classList.add('active');
-        text.textContent = 'Κλείστε';
-    } else {
-        content.style.display = 'none';
+
+    if (content.classList.contains('expanded')) {
+        content.classList.remove('expanded');
         button.classList.remove('active');
         text.textContent = 'Διαβάστε περισσότερα';
+    } else {
+        content.classList.add('expanded');
+        button.classList.add('active');
+        text.textContent = 'Κλείστε';
+    }
+}
+
+// Check if article was published in the last hour
+function isRecentlyPublished(pubDate) {
+    if (!pubDate) return false;
+    try {
+        const published = new Date(pubDate);
+        const now = new Date();
+        return (now - published) < 60 * 60 * 1000;
+    } catch {
+        return false;
     }
 }
 
@@ -123,7 +144,7 @@ function getSourceClass(source) {
         'Marca': 'marca',
         'ESPN Deportes': 'espn'
     };
-    
+
     for (const [key, value] of Object.entries(sourceMap)) {
         if (source.includes(key)) return value;
     }
@@ -138,10 +159,10 @@ function updateLastTime() {
     document.getElementById('last-update').textContent = `${hours}:${minutes}`;
 }
 
-// Show/hide loading spinner
+// Show/hide loading
 function showLoading(show) {
     const loader = document.getElementById('loading');
-    loader.style.display = show ? 'block' : 'none';
+    loader.style.display = show ? 'flex' : 'none';
 }
 
 // Show empty state
@@ -161,4 +182,60 @@ function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+}
+
+// === DARK MODE ===
+function initTheme() {
+    const saved = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', saved);
+    updateThemeIcon(saved);
+}
+
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    updateThemeIcon(next);
+}
+
+function updateThemeIcon(theme) {
+    const btn = document.querySelector('.theme-toggle');
+    if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+}
+
+// === BACK TO TOP ===
+function initBackToTop() {
+    window.addEventListener('scroll', function() {
+        const btn = document.getElementById('back-to-top');
+        if (btn) btn.classList.toggle('visible', window.scrollY > 300);
+    });
+}
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// === COUNTRY FILTER ===
+let currentFilter = 'all';
+
+function initFilters() {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            currentFilter = this.dataset.country;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            applyCurrentFilter();
+        });
+    });
+}
+
+function applyCurrentFilter() {
+    document.querySelectorAll('.news-card').forEach(card => {
+        if (currentFilter === 'all') {
+            card.style.display = '';
+        } else {
+            card.style.display = card.dataset.country === currentFilter ? '' : 'none';
+        }
+    });
 }

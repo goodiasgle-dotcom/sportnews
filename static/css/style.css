@@ -21,6 +21,22 @@
     --shadow-hover: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+[data-theme="dark"] {
+    --primary-blue: #4599ff;
+    --light-blue: #1a2a3a;
+    --dark-blue: #3080d0;
+    --white: #181a1b;
+    --gray-100: #232526;
+    --gray-200: #2d2f31;
+    --gray-300: #3a3c3e;
+    --gray-600: #b0b3b8;
+    --gray-800: #e4e6eb;
+    --text-primary: #e4e6eb;
+    --text-secondary: #b0b3b8;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    --shadow-hover: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: var(--gray-100);
@@ -62,9 +78,79 @@ body {
     font-weight: 700;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .header-info {
     font-size: 12px;
     opacity: 0.9;
+}
+
+.update-time {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.theme-toggle:hover {
+    opacity: 1;
+}
+
+/* Filter Bar */
+.filter-bar {
+    background: var(--white);
+    padding: 10px 16px;
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid var(--gray-200);
+    position: sticky;
+    top: 48px;
+    z-index: 99;
+    scrollbar-width: none;
+}
+
+.filter-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-btn {
+    background: var(--gray-100);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    background: var(--gray-200);
+}
+
+.filter-btn.active {
+    background: var(--primary-blue);
+    color: var(--white);
 }
 
 /* News Feed Container */
@@ -86,11 +172,12 @@ body {
     border-radius: 8px;
     box-shadow: var(--shadow);
     overflow: hidden;
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .news-card:hover {
     box-shadow: var(--shadow-hover);
+    transform: translateY(-1px);
 }
 
 .card-header {
@@ -109,6 +196,24 @@ body {
     font-size: 12px;
     font-weight: 600;
     color: var(--white);
+}
+
+/* New badge */
+.new-badge {
+    background: #e41e31;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    animation: pulse-badge 2s ease-in-out infinite;
+}
+
+@keyframes pulse-badge {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
 }
 
 /* Source colors */
@@ -146,11 +251,20 @@ body {
 }
 
 .card-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding-top 0.35s ease, border-top-color 0.35s ease;
+    padding-top: 0;
+    border-top: 1px solid transparent;
     font-size: 14px;
     color: var(--text-secondary);
     line-height: 1.6;
-    padding-top: 8px;
-    border-top: 1px solid var(--gray-200);
+}
+
+.card-content.expanded {
+    max-height: 500px;
+    padding-top: 10px;
+    border-top-color: var(--gray-200);
 }
 
 .card-content p {
@@ -209,29 +323,62 @@ body {
     transform: rotate(180deg);
 }
 
-/* Loading Spinner */
-.loading-spinner {
-    text-align: center;
-    padding: 40px;
+/* Loading Skeleton */
+.skeleton-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.spinner {
-    width: 40px;
-    height: 40px;
-    border: 3px solid var(--gray-200);
-    border-top-color: var(--primary-blue);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin: 0 auto 16px;
+.skeleton-card {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: var(--shadow);
 }
 
-@keyframes spin {
-    to { transform: rotate(360deg); }
+.skeleton-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
 }
 
-.loading-spinner p {
-    color: var(--text-secondary);
-    font-size: 14px;
+.skeleton-badge {
+    width: 80px;
+    height: 22px;
+    border-radius: 10px;
+    background: var(--gray-200);
+    animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-time {
+    width: 50px;
+    height: 14px;
+    border-radius: 4px;
+    background: var(--gray-200);
+    animation: skeleton-pulse 1.5s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+
+.skeleton-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skeleton-line {
+    height: 14px;
+    border-radius: 4px;
+    background: var(--gray-200);
+    animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-line-long { width: 90%; animation-delay: 0.1s; }
+.skeleton-line-medium { width: 60%; animation-delay: 0.3s; }
+
+@keyframes skeleton-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
 }
 
 /* Load More Button */
@@ -254,6 +401,40 @@ body {
 
 .load-more-btn button:hover {
     background: var(--dark-blue);
+}
+
+/* Back to Top */
+.back-to-top {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background: var(--dark-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
 }
 
 /* Footer */
@@ -290,12 +471,24 @@ body {
         flex-direction: column;
         gap: 8px;
     }
-    
+
     .logo h1 {
         font-size: 18px;
     }
-    
+
     .card-title {
         font-size: 15px;
+    }
+
+    .filter-bar {
+        top: 72px;
+    }
+
+    .back-to-top {
+        bottom: 16px;
+        right: 16px;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
     }
 }

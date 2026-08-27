@@ -5,19 +5,40 @@
             <span class="logo-icon">&#9917;</span>
             <h1>Sportnews</h1>
         </div>
-        <div class="header-info">
+        <div class="header-right">
             <span class="update-time">Τελευταία ενημέρωση: <span id="last-update">--:--</span></span>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">&#9789;</button>
         </div>
     </div>
 </header>
+
+<nav class="filter-bar" id="filter-bar">
+    <button class="filter-btn active" data-country="all">&#9917; &#920;λα</button>
+    <button class="filter-btn" data-country="gr">&#922;&#969;&#961;&#941;&#962;</button>
+    <button class="filter-btn" data-country="uk">&#925;&#941;&#945; &#913;&#947;&#947;&#955;&#943;&#945;&#962;</button>
+    <button class="filter-btn" data-country="it">&#913;&#947;&#947;&#955;&#943;&#945; &#919;&#964;&#945;&#955;&#943;&#945;&#962;</button>
+    <button class="filter-btn" data-country="fr">&#915;&#945;&#955;&#955;&#943;&#945;</button>
+    <button class="filter-btn" data-country="de">&#915;&#949;&#961;&#956;&#945;&#957;&#943;&#945;</button>
+    <button class="filter-btn" data-country="es">&#919;&#963;&#960;&#945;&#957;&#943;&#945;</button>
+</nav>
 
 <main class="news-feed">
     <div class="feed-container">
         <div id="news-container" class="news-list">
         </div>
-        <div id="loading" class="loading-spinner" style="display: none;">
-            <div class="spinner"></div>
-            <p>Φόρτωση νέων...</p>
+        <div id="loading" class="skeleton-container">
+            <div class="skeleton-card">
+                <div class="skeleton-header"><div class="skeleton-badge"></div><div class="skeleton-time"></div></div>
+                <div class="skeleton-body"><div class="skeleton-line skeleton-line-long"></div><div class="skeleton-line skeleton-line-medium"></div></div>
+            </div>
+            <div class="skeleton-card">
+                <div class="skeleton-header"><div class="skeleton-badge"></div><div class="skeleton-time"></div></div>
+                <div class="skeleton-body"><div class="skeleton-line skeleton-line-long"></div><div class="skeleton-line skeleton-line-medium"></div></div>
+            </div>
+            <div class="skeleton-card">
+                <div class="skeleton-header"><div class="skeleton-badge"></div><div class="skeleton-time"></div></div>
+                <div class="skeleton-body"><div class="skeleton-line skeleton-line-long"></div><div class="skeleton-line skeleton-line-medium"></div></div>
+            </div>
         </div>
         <div id="load-more" class="load-more-btn" style="display: none;">
             <button onclick="loadMoreNews()">Φόρτωσε περισσότερα</button>
@@ -26,6 +47,8 @@
 </main>
 
 <footer class="site-footer">
-    <p>&copy; 2026 Sportnews - Όλα τα νέα από τον αθλητικό κόσμο</p>
+    <p>&copy; 2026 Sportnews - &#920;&#955;&#945; &#964;&#945; &#957;&#941;&#945; &#945;&#960;&#972; &#964;&#959;&#957; &#945;&#952;&#955;&#951;&#964;&#953;&#954;&#972; &#954;&#972;&#963;&#956;&#959;</p>
 </footer>
+
+<button id="back-to-top" class="back-to-top" onclick="scrollToTop()" aria-label="Back to top">&#8593;</button>
 {{ end }}
