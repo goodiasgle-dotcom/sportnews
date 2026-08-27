@@ -42,9 +42,10 @@ function loadMoreNews() {
         ? allNews
         : allNews.filter(n => n.country === currentFilter);
 
-    const end = Math.min(displayedCount + ITEMS_PER_PAGE, filtered.length);
+    const start = displayedCount;
+    const end = Math.min(start + ITEMS_PER_PAGE, filtered.length);
 
-    for (let i = displayedCount; i < end; i++) {
+    for (let i = start; i < end; i++) {
         const news = filtered[i];
         const card = createNewsCard(news);
         container.appendChild(card);
@@ -56,6 +57,10 @@ function loadMoreNews() {
         loadMoreBtn.style.display = 'block';
     } else {
         loadMoreBtn.style.display = 'none';
+    }
+
+    if (filtered.length === 0) {
+        showEmptyState();
     }
 }
 
