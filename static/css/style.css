@@ -114,15 +114,17 @@ body {
 .filter-bar {
     background: var(--white);
     padding: 10px 16px;
-    max-width: 680px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
     display: flex;
     gap: 8px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     border-bottom: 1px solid var(--gray-200);
-    position: sticky;
+    position: fixed;
     top: 48px;
+    left: 0;
+    right: 0;
     z-index: 99;
     scrollbar-width: none;
 }
@@ -158,6 +160,7 @@ body {
     padding: 16px;
     max-width: 680px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .feed-container {
@@ -482,6 +485,10 @@ body {
 
     .filter-bar {
         top: 72px;
+    }
+
+    .news-feed {
+        margin-top: 74px;
     }
 
     .back-to-top {
