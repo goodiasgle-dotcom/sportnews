@@ -2,7 +2,7 @@
 
 let allNews = [];
 let displayedCount = 0;
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 5;
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
