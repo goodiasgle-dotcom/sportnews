@@ -126,7 +126,13 @@ function openHighlightModal(videoId) {
         modal.innerHTML = `
             <div class="modal-content">
                 <button class="modal-close" onclick="closeHighlightModal()">&times;</button>
-                <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="modal-player">
+                    <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="modal-unavailable" style="display:none;">
+                        <p>&#9888; Το βίντεο δεν είναι διαθέσιμο στη χώρα σου</p>
+                        <a id="yt-direct-link" href="" target="_blank" rel="noopener" class="read-original">Δες το στο YouTube →</a>
+                    </div>
+                </div>
             </div>
         `;
         modal.onclick = function(e) {
@@ -136,9 +142,32 @@ function openHighlightModal(videoId) {
     }
 
     const iframe = modal.querySelector('iframe');
-    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    const unavailable = modal.querySelector('.modal-unavailable');
+    const directLink = modal.querySelector('#yt-direct-link');
+
+    unavailable.style.display = 'none';
+    iframe.style.display = 'block';
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    directLink.href = `https://www.youtube.com/watch?v=${videoId}`;
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Handle geo-restriction errors
+    iframe.onerror = function() {
+        iframe.style.display = 'none';
+        unavailable.style.display = 'flex';
+    };
+
+    // Also detect via YouTube IFrame API timeout
+    setTimeout(function() {
+        try {
+            const doc = iframe.contentDocument || iframe.contentWindow.document;
+            if (doc && doc.body && doc.body.innerHTML.includes('unavailable')) {
+                iframe.style.display = 'none';
+                unavailable.style.display = 'flex';
+            }
+        } catch(e) {}
+    }, 3000);
 }
 
 function closeHighlightModal() {
