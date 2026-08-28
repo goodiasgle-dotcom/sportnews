@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 Sportnews - Highlights Fetcher
-Sources (in priority order):
-1. Greek club channels (always work in Greece)
-2. Dailymotion (fewer geo-restrictions)
-No geo-restricted YouTube channels.
+Sources:
+1. Greek TV broadcasters (SKAI.gr, Open TV, Novasports) — European match highlights
+2. Greek club channels (PAOK, AEK, Olympiacos, Aris, Panathinaikos, OFI) — league content
+3. Score.gr — Greek football news
+All sources work in Greece — no geo-restricted channels.
 """
 
 import json
@@ -20,69 +21,75 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 OUTPUT_FILE = os.path.join(PROJECT_DIR, 'static', 'highlights.json')
 
-# === GREEK CLUB CHANNELS (primary - always work in Greece) ===
-GREEK_CLUBS = {
-    'PAOK FC': {
-        'id': 'UCInZnZ8JYwmIvs8gtNriwSQ',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα',
-                        'match', 'highlights'],
-        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
+# === GREEK TV BROADCASTERS (European match highlights) ===
+TV_CHANNELS = {
+    'SKAI.gr': {
+        'id': 'UCmHgxU394HiIAsN1fMegqzw',
+        'type': 'broadcaster',
     },
-    'AEK FC': {
-        'id': 'UCX8HprRO1BYnQ6Mu2nB9VsQ',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα'],
-        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
+    'Open TV': {
+        'id': 'UCllCEPTcZ_GplDaFsdq_utA',
+        'type': 'broadcaster',
     },
-    'Olympiacos FC': {
-        'id': 'UCLf7YXb-0PWEeq59Z_q318A',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα'],
-        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
-    },
-    'Aris FC': {
-        'id': 'UCy8t8HKIih3JQZygj4XTejA',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα'],
-        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
-    },
-    'Panathinaikos FC': {
-        'id': 'UCvDGYaeFq9sBdj0cGnZ_Uhg',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα',
-                        'aftermovie', 'build'],
-        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes', 'aftermovie'],
-    },
-    'Score.gr': {
-        'id': 'UCiaVQyCQACIgkBPYpAjKJGA',
-        'keywords_gr': ['highlights', 'γκολ', 'αγώνας', 'στιγμιότυπα', 'review',
-                        'παιχνίδι', 'γύρος'],
-        'keywords_en': ['highlights', 'goals', 'match', 'review', 'round'],
+    'Novasports': {
+        'id': 'UCEIbXco8hU9oDHXGo1kwIlA',
+        'type': 'broadcaster',
     },
 }
 
-# === DAILYMOTION CHANNELS (secondary - fewer geo-restrictions) ===
-DAILYMOTION_CHANNELS = {
-    'footballhighlights': {
-        'competitions': {
-            'cl': ['champions league', 'ucl'],
-            'el': ['europa league', 'uel'],
-            'ecl': ['conference league', 'uecl'],
-            'league': ['premier league', 'la liga', 'serie a', 'bundesliga', 'ligue 1'],
-        }
+# === GREEK CLUB CHANNELS (league content + behind-the-scenes) ===
+CLUB_CHANNELS = {
+    'PAOK FC': {
+        'id': 'UCInZnZ8JYwmIvs8gtNriwSQ',
     },
-    'footballhighlightstv': {
-        'competitions': {
-            'cl': ['champions league', 'ucl'],
-            'el': ['europa league', 'uel'],
-            'ecl': ['conference league', 'uecl'],
-            'league': ['premier league', 'la liga', 'serie a', 'bundesliga', 'ligue 1'],
-        }
+    'AEK FC': {
+        'id': 'UCX8HprRO1BYnQ6Mu2nB9VsQ',
+    },
+    'Olympiacos FC': {
+        'id': 'UCLf7YXb-0PWEeq59Z_q318A',
+    },
+    'Aris FC': {
+        'id': 'UCy8t8HKIih3JQZygj4XTejA',
+    },
+    'Panathinaikos FC': {
+        'id': 'UCvDGYaeFq9sBdj0cGnZ_Uhg',
+    },
+    'OFI CRETE FC': {
+        'id': 'UCoZ-4i_HbZL5tQOZAEJ6LiA',
+    },
+}
+
+# === NEWS CHANNELS (Greek football news) ===
+NEWS_CHANNELS = {
+    'Score.gr': {
+        'id': 'UCiaVQyCQACIgkBPYpAjKJGA',
     },
 }
 
 # Competition detection keywords
 COMP_KEYWORDS = {
-    'cl': ['champions league', 'ucl', 'Champions League'],
+    'cl': ['champions league', 'ucl', 'Champions League', 'play-off', 'playoff'],
     'el': ['europa league', 'uel', 'Europa League'],
-    'ecl': ['conference league', 'uecl', 'Conference League'],
+    'ecl': ['conference league', 'uecl', 'Conference League', 'conference'],
 }
+
+# Greek team names (for European competition tagging)
+GREEK_TEAMS = [
+    'paok', 'παοκ', 'aek', 'αεκ', 'olympiacos', 'ολυμπιακός',
+    'aris', 'άρης', 'panathinaikos', 'παναθηναϊκός',
+    'atromitos', 'ατρόμητος', 'levadiakos', 'λεβαδειακός',
+    'ofi', 'οφη', 'brann', 'μπραν', 'hfc', 'Χράντρετς',
+    'sofia', 'σόφια', 'cska', 'leverkusen', 'celtic', 'lask',
+]
+
+# European competition opponent keywords (non-Greek teams that appear in European qualifiers)
+EUROPE_OPPONENTS = [
+    'brann', 'μπραν', 'norway', 'norwegian', 'hfc', 'Χράντρετς',
+    'cska', 'sofia', 'σόφια', 'leverkusen', 'celtic', 'lask',
+    'feyenoord', 'ajax', 'psv', 'sporting', 'benfica', 'porto',
+    'rangers', 'dynamo', 'shakhtar', 'maribor', 'salzburg',
+    'young boys', 'basel', 'ludogorets', 'ferencvaros',
+]
 
 
 def fetch_url(url, timeout=15):
@@ -140,130 +147,103 @@ def parse_youtube_feed(xml_content):
     return videos
 
 
-def parse_dailymotion_feed(xml_content):
-    """Parse Dailymotion RSS feed."""
-    videos = []
-    ns = '{http://search.yahoo.com/mrss/}'
-    try:
-        root = ET.fromstring(xml_content)
-        for item in root.findall('.//item'):
-            title_el = item.find('title')
-            title = title_el.text.strip() if title_el is not None and title_el.text else ''
-
-            guid_el = item.find('guid')
-            video_id = guid_el.text.strip() if guid_el is not None and guid_el.text else ''
-
-            pub_el = item.find('pubDate')
-            pub_date = pub_el.text.strip() if pub_el is not None and pub_el.text else ''
-
-            thumb_el = item.find(f'{ns}thumbnail')
-            thumbnail_url = thumb_el.get('url', '') if thumb_el is not None else ''
-
-            desc_el = item.find('description')
-            description = desc_el.text.strip() if desc_el is not None and desc_el.text else ''
-
-            if title and video_id:
-                videos.append({
-                    'title': unescape(title),
-                    'videoId': video_id,
-                    'thumbnail': thumbnail_url,
-                    'published': pub_date,
-                    'description': unescape(description)[:200],
-                })
-    except ET.ParseError as e:
-        print(f"  XML parse error: {e}")
-    return videos
+def is_football_related(title, description=''):
+    """Check if video is football-related."""
+    text = (title + ' ' + description).lower()
+    # Must have at least one football keyword
+    football_kw = ['football', 'ποδόσφαιρο', 'goal', 'γκολ', 'highlight', 'match',
+                   'αγώνας', 'vs', 'versus', '-', 'league', 'cup', 'κύπελλο',
+                   'conference', 'europa', 'champion', 'super league', 'πρωτάθλημα',
+                   'προκριση', 'πρόκριση', 'qualify', 'qualif', 'highlights',
+                   'στιγμιότυπα', 'γκολαρες', 'live', 'post game', 'review',
+                   'δηλώσεις', 'statements', 'παρακάμερα', 'behind the scenes',
+                   'aftermovie', 'build', 'show', 'review', 'γύρος', 'round',
+                   'md ', 'matchday']
+    return any(kw in text for kw in football_kw)
 
 
-def is_match_highlight(title, description='', keywords_gr=None, keywords_en=None):
-    """Check if video is a match highlight (not just news/interview)."""
+def is_match_highlight(title, description=''):
+    """Check if video is a match highlight or related content."""
     text = (title + ' ' + description).lower()
 
-    # EXCLUDE first — catch non-highlight content before anything else
-    exclude = ['podcast', 'transfer', 'press conference', 'interview',
-               'analysis', 'preview', 'debate', 'show', 'fpl', 'fantasy',
-               'jersey reveal', 'commercial', 'sponsor', 'announcement',
-               'ready for', 'propovisi', 'προπόνηση', 'training',
-               'jumbo pack', 'random pack', 'ultimate team', 'season',
-               'jersey', 'fanis', 'hellenic', 'τσακ κοτζαμπαση',
-               'matchday', 'md-', 'md 1', 'md 2', 'md 3', 'md 4',
-               'rondo', 'atmosphere', 'θέαμα', 'κόσμος', 'fans', 'ultras',
-               'choreography', 'tifo']
+    # EXCLUDE non-football content
+    exclude = ['podcast', 'transfer', 'jersey reveal', 'commercial', 'sponsor',
+               'jumbo pack', 'random pack', 'ultimate team', 'fpl', 'fantasy',
+               'hellenic', 'τσακ κοτζαμπαση', 'rondo', 'atmosphere', 'θέαμα',
+               'κόσμος', 'fans', 'ultras', 'choreography', 'tifo',
+               'diamond league', 'στίβος', 'athletics', 'volleyball', 'βόλεϊ',
+               'basketball', 'μπάσκετ', 'handball', 'χάντμπολ', 'tennis',
+               'swimming', 'κολύμβηση', 'cycling', 'ποδηλασία']
     if any(kw in text for kw in exclude):
         return False
 
-    # For Greek clubs: look for match-related keywords
-    # These clubs upload behind-the-scenes first, actual highlights later
-    if keywords_gr:
-        if any(kw.lower() in text for kw in keywords_gr):
-            return True
-    if keywords_en:
-        if any(kw.lower() in text for kw in keywords_en):
-            return True
+    # Must be football-related
+    if not is_football_related(title, description):
+        return False
 
-    # Include if has highlight keywords
-    include = ['highlights', 'highlight', 'all goals', 'goals',
-               'extended highlights', 'key moments', 'every goal',
-               'στιγμιότυπα', 'γκολ', 'γκολαρες']
+    # INCLUDE if has match-related keywords
+    include = ['highlight', 'highlights', 'all goals', 'goals', 'every goal',
+               'extended highlights', 'key moments', 'γκολ', 'γκολαρες',
+               'στιγμιότυπα', 'vs', '-', 'live', 'post game', 'review',
+               'παρακάμερα', 'behind the scenes', 'aftermovie', 'build',
+               'δηλώσεις', 'statements', 'show', 'γύρος', 'round',
+               'md ', 'matchday', 'προπόνηση', 'training', 'press conference',
+               'συνέντευξη']
     return any(kw in text for kw in include)
 
 
 def detect_competition(title, description=''):
-    """Detect European competition from title."""
+    """Detect European competition from title — explicit mentions + context."""
     text = (title + ' ' + description).lower()
-    # More specific patterns first
-    if any(kw in text for kw in ['champions league', 'ucl', 'Champions League']):
+    if any(kw in text for kw in ['champions league', 'ucl']):
         return 'cl'
-    if any(kw in text for kw in ['europa league', 'uel', 'Europa League']):
+    if any(kw in text for kw in ['europa league', 'uel']):
         return 'el'
-    if any(kw in text for kw in ['conference league', 'uecl', 'Conference League',
-                                   'europa conference', 'conference']):
+    if any(kw in text for kw in ['conference league', 'uecl']):
         return 'ecl'
+    # Greek team playing European qualifier (προκριση = qualification)
+    if any(kw in text for kw in ['προκριση', 'πρόκριση', 'qualification']):
+        if any(team in text for team in GREEK_TEAMS):
+            return 'ecl'
     return 'league'
 
 
 def is_greek_team_playing(title, description=''):
-    """Check if a Greek team is playing (to tag European competition)."""
+    """Check if a Greek team is playing."""
     text = (title + ' ' + description).lower()
-    greek_teams = ['paok', 'παοκ', 'aek', 'αεκ', 'olympiacos', 'ολυμπιακός',
-                   'aris', 'άρης', 'panathinaikos', 'παναθηναϊκός',
-                   'ατρόμητος', 'atromitos', 'λεβαδειακός', 'levadiakos',
-                   'μπραν', 'brann', 'παο']
-    return any(team in text for team in greek_teams)
+    return any(team in text for team in GREEK_TEAMS)
 
 
 def extract_teams(title):
     """Extract team names from title."""
-    # Handle Greek format: "Τα στιγμιότυπα του ΠΑΟΚ-Λεβαδειακός - PAOK TV"
-    # Handle Greek format: "Η παρακάμερα του αγώνα ΑΕΚ-Athens Kallithea 4-0"
-    # Handle English format: "AEK - Ηρακλής 4-0"
-    # Handle: "ΑΕΚ-ATHENS KALLITHEA 4-0"
     patterns = [
-        # Greek: "στιγμιότυπα/παρακάμερα του/των αγώνα T1-T2"
+        # "T1 - T2 | HIGHLIGHTS" or "T1 - T2 4-0" (at start)
+        r'^([A-Za-zΑ-Ωα-ωΆ-Ώά-ώ0-9\s\.]+)\s*[-–]\s*([A-Za-zΑ-Ωα-ωΆ-Ώά-ώ0-9\s\.]+?)(?:\s*\||\s+\d+-\d+|$)',
+        # "T1 vs T2" (at start)
+        r'^([A-Za-zΑ-Ωα-ωΆ-Ώά-ώ0-9\s\.]+)\s+vs\.?\s+([A-Za-zΑ-Ωα-ωΆ-Ώά-ώ0-9\s\.]+?)(?:\s*[\|\-]|$)',
+        # Greek: "στιγμιότυπα/παρακάμερα του/των T1-T2"
         r'(?:στιγμιότυπα|παρακάμερα)\s+(?:του|των)\s+(?:αγώνα\s+)?(.+?)[\s]*[-–]\s*(.+?)(?:\s*[-–]|$)',
-        # "T1-T2 4-0" (with hyphen)
-        r'(.+?)[-–]\s*(.+?)(?:\s+\d+-\d+|$)',
-        # "T1 - T2 4-0" style
-        r'(.+?)\s*[-–]\s*(.+?)(?:\s+\d+-\d+|$)',
-        # "T1 vs T2"
-        r'(.+?)\s+vs\.?\s+(.+?)(?:\s*[\|\-]|$)',
     ]
     for pattern in patterns:
         match = re.search(pattern, title, re.IGNORECASE)
         if match:
             t1 = match.group(1).strip()
             t2 = match.group(2).strip()
-            # Clean up
-            for cleanup in ['Highlights', 'Extended Highlights', 'All Goals',
-                           'Goals', 'Super League', 'Champions League', 'Europa League',
-                           'PAOK TV', 'AEK FC', 'FC', 'F.C.', 'FC TV',
-                           'Highligh', 'αγώνα', 'match']:
+            # Clean up common suffixes
+            for cleanup in ['HIGHLIGHTS', 'Highlights', 'Extended Highlights',
+                           'All Goals', 'Goals', 'Super League', 'Champions League',
+                           'Europa League', 'Conference League', 'PAOK TV', 'AEK FC',
+                           'FC', 'F.C.', 'FC TV', 'αγώνα', 'match', 'MD1', 'MD 1',
+                           'MD2', 'MD 2', '27/08/2026', '26/08/2026', '25/08/2026',
+                           'LIVE', 'Post Game', 'Post game', 'Press Conference',
+                           'Pre-game', 'Pre game', 'OFI Crete', 'ΠΑΕ', 'ΠΑΕ ΟΦΗ']:
                 t1 = t1.replace(cleanup, '').strip()
                 t2 = t2.replace(cleanup, '').strip()
             # Remove trailing scores
             t1 = re.sub(r'\s+\d+$', '', t1).strip()
             t2 = re.sub(r'\s+\d+$', '', t2).strip()
-            if t1 and t2 and len(t1) < 50 and len(t2) < 50:
+            # Skip if either team is too short or too long
+            if t1 and t2 and 2 < len(t1) < 40 and 2 < len(t2) < 40:
                 return f"{t1} vs {t2}"
     return ''
 
@@ -289,135 +269,94 @@ def parse_date(date_str):
     return datetime.now(timezone.utc).isoformat()
 
 
+def process_channel(channel_name, channel_info, source_type):
+    """Process a single YouTube channel and return highlights."""
+    print(f"\nFetching: {channel_name}...")
+    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_info['id']}"
+
+    xml_content = fetch_url(url)
+    if not xml_content:
+        print(f"  Failed to fetch feed")
+        return []
+
+    videos = parse_youtube_feed(xml_content)
+    print(f"  Found {len(videos)} videos")
+
+    highlights = []
+    for video in videos:
+        if not is_match_highlight(video['title'], video.get('description', '')):
+            continue
+
+        # Detect competition
+        competition = detect_competition(video['title'], video.get('description', ''))
+
+        # For European qualifiers, detect from explicit keywords only
+        if competition == 'league':
+            text = (video['title'] + ' ' + video.get('description', '')).lower()
+            if any(kw in text for kw in ['conference league', 'uecl']):
+                competition = 'ecl'
+            elif any(kw in text for kw in ['europa league', 'uel']):
+                competition = 'el'
+            elif any(kw in text for kw in ['champions league', 'ucl']):
+                competition = 'cl'
+
+        teams = extract_teams(video['title'])
+
+        highlights.append({
+            'id': video['videoId'][:12],
+            'videoId': video['videoId'],
+            'title': video['title'],
+            'thumbnail': video['thumbnail'],
+            'teams': teams,
+            'competition': competition,
+            'channel': channel_name,
+            'source': source_type,
+            'platform': 'youtube',
+            'pubDate': parse_date(video.get('published', '')),
+        })
+
+    print(f"  Added: {len(highlights)} highlights")
+    return highlights
+
+
 def main():
     print("Sportnews - Fetching highlights...")
     print("=" * 50)
 
     all_highlights = []
     seen_ids = set()
-    seen_team_comp = set()
 
-    # === GREEK CLUBS (primary - always work in Greece) ===
+    # === GREEK TV BROADCASTERS (European match highlights) ===
+    print("\n--- Greek TV Broadcasters ---")
+    for channel_name, channel_info in TV_CHANNELS.items():
+        highlights = process_channel(channel_name, channel_info, 'broadcaster')
+        for h in highlights:
+            if h['videoId'] not in seen_ids:
+                seen_ids.add(h['videoId'])
+                all_highlights.append(h)
+
+    # === GREEK CLUB CHANNELS (league content + behind-the-scenes) ===
     print("\n--- Greek Club Channels ---")
-    for club_name, club_info in GREEK_CLUBS.items():
-        print(f"\nFetching: {club_name}...")
-        url = f"https://www.youtube.com/feeds/videos.xml?channel_id={club_info['id']}"
+    for channel_name, channel_info in CLUB_CHANNELS.items():
+        highlights = process_channel(channel_name, channel_info, 'club')
+        for h in highlights:
+            if h['videoId'] not in seen_ids:
+                seen_ids.add(h['videoId'])
+                all_highlights.append(h)
 
-        xml_content = fetch_url(url)
-        if not xml_content:
-            print(f"  Failed to fetch feed")
-            continue
-
-        videos = parse_youtube_feed(xml_content)
-        print(f"  Found {len(videos)} videos")
-
-        added = 0
-        for video in videos:
-            if not is_match_highlight(
-                video['title'], video.get('description', ''),
-                club_info.get('keywords_gr'), club_info.get('keywords_en')
-            ):
-                continue
-
-            if video['videoId'] in seen_ids:
-                continue
-
-            competition = detect_competition(video['title'], video.get('description', ''))
-            # If no explicit competition keyword but it's a Greek team in European context, tag as UCL/UEL/UECL
-            if competition == 'league' and is_greek_team_playing(video['title'], video.get('description', '')):
-                # Check if it mentions European opponents or competition context
-                text = (video['title'] + ' ' + video.get('description', '')).lower()
-                if any(kw in text for kw in ['conference', 'europa', 'champions', 'qualify', 'qualif',
-                                              'προκριση', 'πρόκριση', 'brann', 'μπραν',
-                                              'norway', 'norwegian', 'UECL']):
-                    competition = 'ecl'
-                elif any(kw in text for kw in ['european', 'ευρωπη']):
-                    competition = 'el'
-
-            teams = extract_teams(video['title'])
-            team_key = f"{competition}:{teams.lower()}" if teams else ''
-
-            if team_key and team_key in seen_team_comp:
-                continue
-            if team_key:
-                seen_team_comp.add(team_key)
-            seen_ids.add(video['videoId'])
-
-            all_highlights.append({
-                'id': video['videoId'][:12],
-                'videoId': video['videoId'],
-                'title': video['title'],
-                'thumbnail': video['thumbnail'],
-                'teams': teams,
-                'competition': competition,
-                'channel': club_name,
-                'platform': 'youtube',
-                'pubDate': parse_date(video.get('published', '')),
-            })
-            added += 1
-
-        print(f"  Added: {added} highlights")
-
-    # === DAILYMOTION (secondary - fewer geo-restrictions) ===
-    print("\n--- Dailymotion ---")
-    for channel_name, channel_info in DAILYMOTION_CHANNELS.items():
-        print(f"\nFetching: {channel_name}...")
-        url = f"https://www.dailymotion.com/rss/user/{channel_name}"
-
-        xml_content = fetch_url(url)
-        if not xml_content:
-            print(f"  Failed to fetch feed")
-            continue
-
-        videos = parse_dailymotion_feed(xml_content)
-        print(f"  Found {len(videos)} videos")
-
-        channel_comps = channel_info.get('competitions', {})
-        added = 0
-
-        for video in videos:
-            if not is_match_highlight(video['title'], video.get('description', '')):
-                continue
-
-            if video['videoId'] in seen_ids:
-                continue
-
-            competition = detect_competition(video['title'], video.get('description', ''))
-            # Override with channel-specific detection
-            text = (video['title'] + ' ' + video.get('description', '')).lower()
-            for comp, keywords in channel_comps.items():
-                if any(kw in text for kw in keywords):
-                    competition = comp
-                    break
-
-            teams = extract_teams(video['title'])
-            team_key = f"{competition}:{teams.lower()}" if teams else ''
-
-            if team_key and team_key in seen_team_comp:
-                continue
-            if team_key:
-                seen_team_comp.add(team_key)
-            seen_ids.add(video['videoId'])
-
-            all_highlights.append({
-                'id': video['videoId'][:12],
-                'videoId': video['videoId'],
-                'title': video['title'],
-                'thumbnail': video['thumbnail'],
-                'teams': teams,
-                'competition': competition,
-                'channel': channel_name,
-                'platform': 'dailymotion',
-                'pubDate': parse_date(video.get('published', '')),
-            })
-            added += 1
-
-        print(f"  Added: {added} highlights")
+    # === NEWS CHANNELS (Greek football news) ===
+    print("\n--- News Channels ---")
+    for channel_name, channel_info in NEWS_CHANNELS.items():
+        highlights = process_channel(channel_name, channel_info, 'news')
+        for h in highlights:
+            if h['videoId'] not in seen_ids:
+                seen_ids.add(h['videoId'])
+                all_highlights.append(h)
 
     # Sort by date (newest first)
     all_highlights.sort(key=lambda x: x['pubDate'], reverse=True)
 
-    # Keep: Greek clubs 30 days, Dailymotion 30 days
+    # Keep 30 days
     now = datetime.now(timezone.utc)
     filtered = []
     for h in all_highlights:
@@ -438,14 +377,14 @@ def main():
     print(f"Total highlights: {len(filtered)}")
     from collections import Counter
     comp_counts = Counter(h['competition'] for h in filtered)
-    plat_counts = Counter(h['platform'] for h in filtered)
+    source_counts = Counter(h['source'] for h in filtered)
     for comp, count in comp_counts.most_common():
         label = {'cl': 'Champions League', 'el': 'Europa League',
                  'ecl': 'Conference League', 'league': 'League'}[comp]
         print(f"  {label}: {count}")
-    print(f"\nBy platform:")
-    for plat, count in plat_counts.most_common():
-        print(f"  {plat}: {count}")
+    print(f"\nBy source:")
+    for source, count in source_counts.most_common():
+        print(f"  {source}: {count}")
     print(f"\nSaved to: {OUTPUT_FILE}")
 
 
