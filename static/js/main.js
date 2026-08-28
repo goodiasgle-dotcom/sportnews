@@ -171,22 +171,15 @@ function openHighlightModal(videoId, platform) {
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 
-    // Handle geo-restriction errors (mainly for YouTube)
-    iframe.onerror = function() {
-        iframe.style.display = 'none';
+    // Handle geo-restriction: show fallback after 5s if iframe hasn't loaded
+    const checkTimeout = setTimeout(function() {
         unavailable.style.display = 'flex';
-    };
+        iframe.style.display = 'none';
+    }, 5000);
 
-    // Detect playback errors after load
-    setTimeout(function() {
-        try {
-            const doc = iframe.contentDocument || iframe.contentWindow.document;
-            if (doc && doc.body && doc.body.innerHTML.includes('unavailable')) {
-                iframe.style.display = 'none';
-                unavailable.style.display = 'flex';
-            }
-        } catch(e) {}
-    }, 4000);
+    iframe.onload = function() {
+        clearTimeout(checkTimeout);
+    };
 }
 
 function closeHighlightModal() {
@@ -375,9 +368,8 @@ function hideEmptyState() {
 
 // Escape HTML to prevent XSS
 function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
+    const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+    return String(text).replace(/[&<>"']/g, c => map[c]);
 }
 
 // === DARK MODE ===
@@ -401,10 +393,16 @@ function updateThemeIcon(theme) {
 }
 
 // === BACK TO TOP ===
+let scrollThrottled = false;
 function initBackToTop() {
     window.addEventListener('scroll', function() {
-        const btn = document.getElementById('back-to-top');
-        if (btn) btn.classList.toggle('visible', window.scrollY > 300);
+        if (scrollThrottled) return;
+        scrollThrottled = true;
+        requestAnimationFrame(function() {
+            const btn = document.getElementById('back-to-top');
+            if (btn) btn.classList.toggle('visible', window.scrollY > 300);
+            scrollThrottled = false;
+        });
     });
 }
 

@@ -14,6 +14,7 @@ import sys
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timezone, timedelta
 from html import unescape
 
@@ -66,13 +67,6 @@ NEWS_CHANNELS = {
     },
 }
 
-# Competition detection keywords
-COMP_KEYWORDS = {
-    'cl': ['champions league', 'ucl', 'Champions League', 'play-off', 'playoff'],
-    'el': ['europa league', 'uel', 'Europa League'],
-    'ecl': ['conference league', 'uecl', 'Conference League', 'conference'],
-}
-
 # Greek team names (for European competition tagging)
 GREEK_TEAMS = [
     'paok', 'παοκ', 'aek', 'αεκ', 'olympiacos', 'ολυμπιακός',
@@ -80,15 +74,6 @@ GREEK_TEAMS = [
     'atromitos', 'ατρόμητος', 'levadiakos', 'λεβαδειακός',
     'ofi', 'οφη', 'brann', 'μπραν', 'hfc', 'Χράντρετς',
     'sofia', 'σόφια', 'cska', 'leverkusen', 'celtic', 'lask',
-]
-
-# European competition opponent keywords (non-Greek teams that appear in European qualifiers)
-EUROPE_OPPONENTS = [
-    'brann', 'μπραν', 'norway', 'norwegian', 'hfc', 'Χράντρετς',
-    'cska', 'sofia', 'σόφια', 'leverkusen', 'celtic', 'lask',
-    'feyenoord', 'ajax', 'psv', 'sporting', 'benfica', 'porto',
-    'rangers', 'dynamo', 'shakhtar', 'maribor', 'salzburg',
-    'young boys', 'basel', 'ludogorets', 'ferencvaros',
 ]
 
 
@@ -152,7 +137,7 @@ def is_football_related(title, description=''):
     text = (title + ' ' + description).lower()
     # Must have at least one football keyword
     football_kw = ['football', 'ποδόσφαιρο', 'goal', 'γκολ', 'highlight', 'match',
-                   'αγώνας', 'vs', 'versus', '-', 'league', 'cup', 'κύπελλο',
+                   'αγώνας', 'vs', 'versus', 'league', 'cup', 'κύπελλο',
                    'conference', 'europa', 'champion', 'super league', 'πρωτάθλημα',
                    'προκριση', 'πρόκριση', 'qualify', 'qualif', 'highlights',
                    'στιγμιότυπα', 'γκολαρες', 'live', 'post game', 'review',
@@ -184,7 +169,7 @@ def is_match_highlight(title, description=''):
     # INCLUDE if has match-related keywords
     include = ['highlight', 'highlights', 'all goals', 'goals', 'every goal',
                'extended highlights', 'key moments', 'γκολ', 'γκολαρες',
-               'στιγμιότυπα', 'vs', '-', 'live', 'post game', 'review',
+               'στιγμιότυπα', 'vs', 'live', 'post game', 'review',
                'παρακάμερα', 'behind the scenes', 'aftermovie', 'build',
                'δηλώσεις', 'statements', 'show', 'γύρος', 'round',
                'md ', 'matchday', 'προπόνηση', 'training', 'press conference',
@@ -193,7 +178,7 @@ def is_match_highlight(title, description=''):
 
 
 def detect_competition(title, description=''):
-    """Detect European competition from title — explicit mentions + context."""
+    """Detect European competition from title — explicit mentions only."""
     text = (title + ' ' + description).lower()
     if any(kw in text for kw in ['champions league', 'ucl']):
         return 'cl'
@@ -201,10 +186,6 @@ def detect_competition(title, description=''):
         return 'el'
     if any(kw in text for kw in ['conference league', 'uecl']):
         return 'ecl'
-    # Greek team playing European qualifier (προκριση = qualification)
-    if any(kw in text for kw in ['προκριση', 'πρόκριση', 'qualification']):
-        if any(team in text for team in GREEK_TEAMS):
-            return 'ecl'
     return 'league'
 
 
@@ -233,12 +214,16 @@ def extract_teams(title):
             for cleanup in ['HIGHLIGHTS', 'Highlights', 'Extended Highlights',
                            'All Goals', 'Goals', 'Super League', 'Champions League',
                            'Europa League', 'Conference League', 'PAOK TV', 'AEK FC',
-                           'FC', 'F.C.', 'FC TV', 'αγώνα', 'match', 'MD1', 'MD 1',
-                           'MD2', 'MD 2', '27/08/2026', '26/08/2026', '25/08/2026',
-                           'LIVE', 'Post Game', 'Post game', 'Press Conference',
+                           'FC', 'F.C.', 'FC TV', 'αγώνα', 'match', 'LIVE',
+                           'Post Game', 'Post game', 'Press Conference',
                            'Pre-game', 'Pre game', 'OFI Crete', 'ΠΑΕ', 'ΠΑΕ ΟΦΗ']:
                 t1 = t1.replace(cleanup, '').strip()
                 t2 = t2.replace(cleanup, '').strip()
+            # Remove dates like MD1, MD 1, 27/08/2026
+            t1 = re.sub(r'\bMD\s*\d+\b', '', t1).strip()
+            t1 = re.sub(r'\b\d{1,2}/\d{1,2}/\d{2,4}\b', '', t1).strip()
+            t2 = re.sub(r'\bMD\s*\d+\b', '', t2).strip()
+            t2 = re.sub(r'\b\d{1,2}/\d{1,2}/\d{2,4}\b', '', t2).strip()
             # Remove trailing scores
             t1 = re.sub(r'\s+\d+$', '', t1).strip()
             t2 = re.sub(r'\s+\d+$', '', t2).strip()
@@ -289,16 +274,6 @@ def process_channel(channel_name, channel_info, source_type):
 
         # Detect competition
         competition = detect_competition(video['title'], video.get('description', ''))
-
-        # For European qualifiers, detect from explicit keywords only
-        if competition == 'league':
-            text = (video['title'] + ' ' + video.get('description', '')).lower()
-            if any(kw in text for kw in ['conference league', 'uecl']):
-                competition = 'ecl'
-            elif any(kw in text for kw in ['europa league', 'uel']):
-                competition = 'el'
-            elif any(kw in text for kw in ['champions league', 'ucl']):
-                competition = 'cl'
 
         teams = extract_teams(video['title'])
 
@@ -358,11 +333,11 @@ def main():
 
     # Keep 30 days
     now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=30)
     filtered = []
     for h in all_highlights:
         try:
             dt = datetime.fromisoformat(h['pubDate'].replace('Z', '+00:00'))
-            cutoff = now - timedelta(days=30)
             if dt > cutoff:
                 filtered.append(h)
         except Exception:
@@ -375,7 +350,6 @@ def main():
 
     print("\n" + "=" * 50)
     print(f"Total highlights: {len(filtered)}")
-    from collections import Counter
     comp_counts = Counter(h['competition'] for h in filtered)
     source_counts = Counter(h['source'] for h in filtered)
     for comp, count in comp_counts.most_common():

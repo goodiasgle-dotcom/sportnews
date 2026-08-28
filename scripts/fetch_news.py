@@ -51,21 +51,20 @@ FOOTBALL_KEYWORDS_EN = [
 
 # Source to CSS class mapping
 SOURCE_CLASSES = {
-    'Sport24': 'sport24',
     'Gazzetta.gr': 'gazzetta',
-    'Sportime': 'sportime',
+    'Gazzetta Football': 'gazzetta',
     'Novasports': 'novasports',
+    'Redaroume': 'default',
+    'OPA.gr': 'default',
     'BBC Sport': 'bbc',
     'Sky Sports': 'sky',
-    'ESPN': 'espn',
     'The Guardian': 'guardian',
     'Football Italia': 'football-italia',
-    'Gazzetta dello Sport': 'gazzetta-it',
-    'Sky Sport Italia': 'sky-it',
-    "L'Equipe": 'lequipe',
-    'Kicker': 'kicker',
-    'Marca': 'marca',
-    'ESPN Deportes': 'espn'
+    'Get German Football News': 'default',
+    'Get French Football News': 'default',
+    'Get Spanish Football News': 'default',
+    'Get Italian Football News': 'football-italia',
+    '101 Great Goals': 'default',
 }
 
 
@@ -285,7 +284,7 @@ def time_ago(iso_date):
         else:
             days = seconds // 86400
             return f'{days} μέρα' if days == 1 else f'{days} μέρες'
-    except:
+    except (ValueError, TypeError, OverflowError):
         return 'Πρόσφατα'
 
 
@@ -386,10 +385,11 @@ def main():
                     stats['translated'] += 1
                     feed_translations += 1
                     translation_budget -= 1
-                time.sleep(5)  # Longer delay to avoid 429
+                    time.sleep(5)  # Delay only after successful translation
             
             # Create news item
             competition = detect_competition(item['title'], item.get('description', ''))
+            pub_date = parse_date(item.get('pubDate', ''))
             news_item = {
                 'id': generate_id(title, feed['name']),
                 'title': title,
@@ -397,8 +397,8 @@ def main():
                 'source': feed['name'],
                 'source_class': SOURCE_CLASSES.get(feed['name'], 'default'),
                 'link': item['link'],
-                'pubDate': parse_date(item.get('pubDate', '')),
-                'time_display': time_ago(parse_date(item.get('pubDate', ''))),
+                'pubDate': pub_date,
+                'time_display': time_ago(pub_date),
                 'country': feed['country'],
                 'competition': competition
             }
@@ -421,6 +421,9 @@ def main():
     if removed:
         print(f"Removed {removed} articles older than 14 days")
     
+    # Save
+    save_json(OUTPUT_FILE, all_news)
+
     print("\n" + "=" * 50)
     print(f"Stats:")
     print(f"  Total items fetched: {stats['total']}")

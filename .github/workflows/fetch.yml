@@ -33,6 +33,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add static/news.json static/highlights.json
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update news & highlights [skip ci]"
+            git commit -m "Auto-update news & highlights"
             git push
           fi
