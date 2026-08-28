@@ -93,7 +93,7 @@ function loadMoreHighlights(filtered, container) {
 function createHighlightCard(hl) {
     const card = document.createElement('div');
     card.className = 'highlight-card';
-    card.onclick = function() { openHighlightModal(hl.videoId); };
+    card.onclick = function() { openHighlightModal(hl.videoId, hl.platform); };
 
     const compLabel = {
         'cl': 'UCL',
@@ -102,11 +102,16 @@ function createHighlightCard(hl) {
         'league': 'Πρωτάθλημα'
     }[hl.competition] || '';
 
+    const platformBadge = hl.platform === 'dailymotion'
+        ? '<span class="platform-badge dm-badge">DM</span>'
+        : '';
+
     card.innerHTML = `
         <div class="highlight-thumb">
             <img src="${escapeHtml(hl.thumbnail)}" alt="${escapeHtml(hl.title)}" loading="lazy">
             <div class="highlight-play"></div>
             ${compLabel ? `<span class="highlight-comp-badge">${compLabel}</span>` : ''}
+            ${platformBadge}
         </div>
         <div class="highlight-info">
             <div class="highlight-title">${escapeHtml(hl.title)}</div>
@@ -117,7 +122,21 @@ function createHighlightCard(hl) {
     return card;
 }
 
-function openHighlightModal(videoId) {
+function getEmbedUrl(videoId, platform) {
+    if (platform === 'dailymotion') {
+        return `https://geo.dailymotion.com/player.html?video=${videoId}&autoplay=1`;
+    }
+    return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+}
+
+function getWatchUrl(videoId, platform) {
+    if (platform === 'dailymotion') {
+        return `https://www.dailymotion.com/video/${videoId}`;
+    }
+    return `https://www.youtube.com/watch?v=${videoId}`;
+}
+
+function openHighlightModal(videoId, platform) {
     let modal = document.getElementById('highlight-modal');
     if (!modal) {
         modal = document.createElement('div');
@@ -127,10 +146,10 @@ function openHighlightModal(videoId) {
             <div class="modal-content">
                 <button class="modal-close" onclick="closeHighlightModal()">&times;</button>
                 <div class="modal-player">
-                    <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; web-share" allowfullscreen></iframe>
                     <div class="modal-unavailable" style="display:none;">
-                        <p>&#9888; Το βίντεο δεν είναι διαθέσιμο στη χώρα σου</p>
-                        <a id="yt-direct-link" href="" target="_blank" rel="noopener" class="read-original">Δες το στο YouTube →</a>
+                        <p>&#9888; Το βίντεο δεν είναι διαθέσιμο</p>
+                        <a id="watch-direct-link" href="" target="_blank" rel="noopener" class="read-original">Δες το απευθείας →</a>
                     </div>
                 </div>
             </div>
@@ -143,22 +162,22 @@ function openHighlightModal(videoId) {
 
     const iframe = modal.querySelector('iframe');
     const unavailable = modal.querySelector('.modal-unavailable');
-    const directLink = modal.querySelector('#yt-direct-link');
+    const directLink = modal.querySelector('#watch-direct-link');
 
     unavailable.style.display = 'none';
     iframe.style.display = 'block';
-    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-    directLink.href = `https://www.youtube.com/watch?v=${videoId}`;
+    iframe.src = getEmbedUrl(videoId, platform);
+    directLink.href = getWatchUrl(videoId, platform);
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 
-    // Handle geo-restriction errors
+    // Handle geo-restriction errors (mainly for YouTube)
     iframe.onerror = function() {
         iframe.style.display = 'none';
         unavailable.style.display = 'flex';
     };
 
-    // Also detect via YouTube IFrame API timeout
+    // Detect playback errors after load
     setTimeout(function() {
         try {
             const doc = iframe.contentDocument || iframe.contentWindow.document;
@@ -167,7 +186,7 @@ function openHighlightModal(videoId) {
                 unavailable.style.display = 'flex';
             }
         } catch(e) {}
-    }, 3000);
+    }, 4000);
 }
 
 function closeHighlightModal() {
