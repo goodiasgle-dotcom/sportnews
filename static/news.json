@@ -8,7 +8,8 @@
     "link": "https://www.gazzetta.gr/football/europa-league/2564413/europa-league-oi-meres-ton-agonon-olympiakoy-kai-ofi-sti-league",
     "pubDate": "2026-08-28T00:20:06+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "el"
   },
   {
     "id": "533db67b2bcb",
@@ -19,7 +20,8 @@
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564412/panathinaikos-oi-imerominies-ton-agonon-ton-prasinon-stin",
     "pubDate": "2026-08-28T00:18:40+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "aba32824c67a",
@@ -41,7 +43,8 @@
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564410/conference-league-oi-36-omades-kai-oi-pithanoi-antipaloi",
     "pubDate": "2026-08-28T00:07:11+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "31193aa985b7",
@@ -74,7 +77,8 @@
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564408/nistroyp-ayti-itan-i-pio-treli-prokrisi",
     "pubDate": "2026-08-27T23:51:34+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "el"
   },
   {
     "id": "003fe62b65a7",
@@ -85,7 +89,8 @@
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564405/panathinaikos-me-ton-kosmo-panigyrisan-tin-prokrisi-oi",
     "pubDate": "2026-08-27T23:48:26+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "5143c4312ff2",
@@ -118,7 +123,8 @@
     "link": "https://www.gazzetta.gr/football/superleague/2564402/o-agios-ntesers-ypegrapse-happy-end-toy-kalokairioy-gia-ton",
     "pubDate": "2026-08-27T23:41:39+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "b12bf2170658",
@@ -129,7 +135,8 @@
     "link": "https://www.gazzetta.gr/football/europa-conference-league/2564400/conference-league-o-kostoylas-koybalise-ti-mpraiton",
     "pubDate": "2026-08-27T23:37:51+02:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "32b19ee5b874",
@@ -151,7 +158,8 @@
     "link": "https://www.skysports.com/football/brighton-and-hove-albion-vs-tromso/report/577286",
     "pubDate": "2026-08-27T23:31:16.401880+00:00",
     "time_display": "Μόλις τώρα",
-    "country": "uk"
+    "country": "uk",
+    "competition": "cl"
   },
   {
     "id": "f04826b58fbf",
@@ -250,7 +258,8 @@
     "link": "https://www.gazzetta.gr/football/europa-league/2564396/tsska-sofias-ofi-0-2-ta-highlights-tis-anametrisis",
     "pubDate": "2026-08-27T23:23:35+02:00",
     "time_display": "2 ώρες",
-    "country": "gr"
+    "country": "gr",
+    "competition": "el"
   },
   {
     "id": "86fe9062b136",
@@ -294,7 +303,8 @@
     "link": "https://www.theguardian.com/football/2026/aug/27/atletico-madrid-julian-alvarez-barcelona-transfer-news",
     "pubDate": "2026-08-27T22:16:23+00:00",
     "time_display": "1 ώρα",
-    "country": "uk"
+    "country": "uk",
+    "competition": "el"
   },
   {
     "id": "bb928faced11",
@@ -305,7 +315,8 @@
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-champions-league/article/15065908/se-apostasi-anapnois-apo-ti-10i-thesi-tis-uefa-i-ellada/",
     "pubDate": "2026-08-27T22:14:05+00:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "cl"
   },
   {
     "id": "6bd88ac119a5",
@@ -338,7 +349,8 @@
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-conference-league/article/15065811/conference-league-dyskoles-prokriseis-gia-xetafe-gandi-kai-linkoln/",
     "pubDate": "2026-08-27T21:54:25+00:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "05f786be4f75",
@@ -360,7 +372,8 @@
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-conference-league/article/15065771/symplirothike-to-pazl-tis-league-phase-tou-conference-league-to-gkroup-dynamikotitas-tou-panathinaikou/",
     "pubDate": "2026-08-27T21:34:59+00:00",
     "time_display": "1 ώρα",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "f1b9550c4cd8",
@@ -382,7 +395,8 @@
     "link": "https://www.getfootballnewsgermany.com/2026/uefa-champions-league-draw-bayern-munich-and-borussia-dortmund-set-to-face-english-champions-arsenal/",
     "pubDate": "2026-08-27T21:31:22+00:00",
     "time_display": "2 ώρες",
-    "country": "de"
+    "country": "de",
+    "competition": "cl"
   },
   {
     "id": "acb9a99cf02b",
@@ -459,7 +473,8 @@
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-conference-league/article/15065681/ta-sygxaritiria-tis-kae-stin-pae-panathinaikos-gia-ti-megali-prokrisi-sti-league-phase-tou-conference-league/",
     "pubDate": "2026-08-27T21:08:49+00:00",
     "time_display": "2 ώρες",
-    "country": "gr"
+    "country": "gr",
+    "competition": "ecl"
   },
   {
     "id": "a1b10338798c",
@@ -525,7 +540,8 @@
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-league/article/15065615/kontis-gia-metagrafes-kai-prokrisi-to-mellon-mas-anikei/",
     "pubDate": "2026-08-27T21:02:12+00:00",
     "time_display": "2 ώρες",
-    "country": "gr"
+    "country": "gr",
+    "competition": "el"
   },
   {
     "id": "fd57b6fe56e5",
@@ -624,7 +640,8 @@
     "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-league/article/15065493/ofi-ta-xrimata-pou-fernei-i-prokrisi-stin-league-phase/",
     "pubDate": "2026-08-27T20:42:53+00:00",
     "time_display": "2 ώρες",
-    "country": "gr"
+    "country": "gr",
+    "competition": "el"
   },
   {
     "id": "b43855be28dd",
@@ -657,7 +674,8 @@
     "link": "https://www.101greatgoals.com/football/conference-league/derek-mcinnes-embarrassed-as-rangers-suffer-shock-conference-league-exit/",
     "pubDate": "2026-08-27T20:40:36+00:00",
     "time_display": "2 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "ecl"
   },
   {
     "id": "151c602edaf9",
@@ -690,7 +708,8 @@
     "link": "https://www.101greatgoals.com/news/brighton-4-0-tromso-seagulls-cruise-into-conference-league/",
     "pubDate": "2026-08-27T20:32:07+00:00",
     "time_display": "2 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "ecl"
   },
   {
     "id": "a7caf8cfa8d3",
@@ -723,7 +742,8 @@
     "link": "https://www.bbc.co.uk/sport/football/articles/c4gvxw90428o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-08-27T20:23:59+00:00",
     "time_display": "3 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "ecl"
   },
   {
     "id": "f25e14ddf80b",
@@ -811,7 +831,8 @@
     "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-monaco-4-1-agg-7-3-gornik-zabrze-europa-conference-league-awaits-filipe-luis-side/",
     "pubDate": "2026-08-27T18:50:12+00:00",
     "time_display": "4 ώρες",
-    "country": "fr"
+    "country": "fr",
+    "competition": "ecl"
   },
   {
     "id": "e93c185b2619",
@@ -866,7 +887,8 @@
     "link": "https://football-italia.net/galantic-roma-always-be-champions-league/",
     "pubDate": "2026-08-27T18:22:06+00:00",
     "time_display": "5 ώρες",
-    "country": "it"
+    "country": "it",
+    "competition": "cl"
   },
   {
     "id": "aca57a888587",
@@ -899,7 +921,8 @@
     "link": "https://football-italia.net/marotta-inter-right-to-dream-champions-league/",
     "pubDate": "2026-08-27T18:05:17+00:00",
     "time_display": "5 ώρες",
-    "country": "it"
+    "country": "it",
+    "competition": "cl"
   },
   {
     "id": "aeb32a742537",
@@ -921,7 +944,8 @@
     "link": "https://football-italia.net/champions-league-fabregas-barcelona-como/",
     "pubDate": "2026-08-27T17:59:41+00:00",
     "time_display": "5 ώρες",
-    "country": "it"
+    "country": "it",
+    "competition": "cl"
   },
   {
     "id": "d4298ff62740",
@@ -932,7 +956,8 @@
     "link": "https://football-italia.net/suwarso-surreal-como-champions-stadium-well/",
     "pubDate": "2026-08-27T17:46:13+00:00",
     "time_display": "5 ώρες",
-    "country": "it"
+    "country": "it",
+    "competition": "cl"
   },
   {
     "id": "e0abaea898b6",
@@ -943,7 +968,8 @@
     "link": "https://www.theguardian.com/football/2026/aug/27/champions-league-draw-arsenal-face-real-madrid-as-manchester-city-get-psg",
     "pubDate": "2026-08-27T17:44:25+00:00",
     "time_display": "5 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "cl"
   },
   {
     "id": "dfc086f8ea93",
@@ -954,7 +980,8 @@
     "link": "https://football-italia.net/champions-league-draw-2026-27-napoli-arsenal/",
     "pubDate": "2026-08-27T17:40:22+00:00",
     "time_display": "5 ώρες",
-    "country": "it"
+    "country": "it",
+    "competition": "cl"
   },
   {
     "id": "e4c93b26e418",
@@ -965,7 +992,8 @@
     "link": "https://www.bbc.co.uk/sport/football/articles/c5ywxxll10jo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-08-27T17:32:55+00:00",
     "time_display": "5 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "cl"
   },
   {
     "id": "b1f7e6078a8c",
@@ -987,7 +1015,8 @@
     "link": "https://football-italia.net/champions-league-roma-mourinho-luis-old-foe/",
     "pubDate": "2026-08-27T17:26:04+00:00",
     "time_display": "6 ώρες",
-    "country": "it"
+    "country": "it",
+    "competition": "cl"
   },
   {
     "id": "284c5b57859f",
@@ -998,7 +1027,8 @@
     "link": "https://www.101greatgoals.com/news/champions-league-arsenal-to-face-real-madrid-and-bayern-munich/",
     "pubDate": "2026-08-27T17:21:04+00:00",
     "time_display": "6 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "cl"
   },
   {
     "id": "6897fd4034f3",
@@ -1009,7 +1039,8 @@
     "link": "https://www.getfootballnewsfrance.com/2026/full-draw-back-to-back-champions-league-winners-psg-to-face-barcelona-and-manchester-city-in-league-phase/",
     "pubDate": "2026-08-27T17:17:35+00:00",
     "time_display": "6 ώρες",
-    "country": "fr"
+    "country": "fr",
+    "competition": "cl"
   },
   {
     "id": "d50de2ffaea4",
@@ -1119,7 +1150,8 @@
     "link": "https://www.101greatgoals.com/football/conference-league/jablonec-v-rangers-confirmed-line-ups/",
     "pubDate": "2026-08-27T15:06:04+00:00",
     "time_display": "8 ώρες",
-    "country": "uk"
+    "country": "uk",
+    "competition": "ecl"
   },
   {
     "id": "c7c47b835b46",
