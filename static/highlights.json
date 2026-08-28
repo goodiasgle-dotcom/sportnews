@@ -1,14 +1,36 @@
 [
   {
-    "id": "-sMBiedVr40",
-    "videoId": "-sMBiedVr40",
-    "title": "Τα στιγμιότυπα του ΠΑΟΚ-Λεβαδειακός - PAOK TV",
-    "thumbnail": "https://i2.ytimg.com/vi/-sMBiedVr40/hqdefault.jpg",
+    "id": "lzX46UG013E",
+    "videoId": "lzX46UG013E",
+    "title": "Η παρακάμερα του ΠΑΟΚ-Λεβαδειακός - PAOK TV",
+    "thumbnail": "https://i1.ytimg.com/vi/lzX46UG013E/hqdefault.jpg",
     "teams": "ΠΑΟΚ vs Λεβαδειακός",
     "competition": "league",
     "channel": "PAOK FC",
     "platform": "youtube",
-    "pubDate": "2026-08-23T21:27:51+00:00"
+    "pubDate": "2026-08-24T14:19:48+00:00"
+  },
+  {
+    "id": "RshE-ieafrk",
+    "videoId": "RshE-ieafrk",
+    "title": "Η παρακάμερα του αγώνα ΑΕΚ – Ηρακλής 4-0 | AEK F.C.",
+    "thumbnail": "https://i3.ytimg.com/vi/RshE-ieafrk/hqdefault.jpg",
+    "teams": "ΑΕΚ vs Ηρακλής",
+    "competition": "league",
+    "channel": "AEK FC",
+    "platform": "youtube",
+    "pubDate": "2026-08-23T16:57:34+00:00"
+  },
+  {
+    "id": "_TQetq_iwQc",
+    "videoId": "_TQetq_iwQc",
+    "title": "Η παρακάμερα του Ολυμπιακός - Ατρόμητος! / Olympiacos - Atromitos behind the scenes!",
+    "thumbnail": "https://i4.ytimg.com/vi/_TQetq_iwQc/hqdefault.jpg",
+    "teams": "Ολυμπιακός vs Ατρόμητος! / Olympiacos",
+    "competition": "league",
+    "channel": "Olympiacos FC",
+    "platform": "youtube",
+    "pubDate": "2026-08-23T14:47:31+00:00"
   },
   {
     "id": "RHfTfZpFVOI",
@@ -22,14 +44,69 @@
     "pubDate": "2026-08-22T20:40:12+00:00"
   },
   {
-    "id": "2PNmcEh7mmQ",
-    "videoId": "2PNmcEh7mmQ",
-    "title": "Τα στιγμιότυπα του ΠΑΟΚ-Μπραν - PAOK TV",
-    "thumbnail": "https://i3.ytimg.com/vi/2PNmcEh7mmQ/hqdefault.jpg",
+    "id": "tkeFLIeDHLs",
+    "videoId": "tkeFLIeDHLs",
+    "title": "Η παρακάμερα του ΠΑΟΚ-Μπραν - PAOK TV",
+    "thumbnail": "https://i1.ytimg.com/vi/tkeFLIeDHLs/hqdefault.jpg",
     "teams": "ΠΑΟΚ vs Μπραν",
     "competition": "ecl",
     "channel": "PAOK FC",
     "platform": "youtube",
-    "pubDate": "2026-08-21T08:49:49+00:00"
+    "pubDate": "2026-08-21T14:22:37+00:00"
+  },
+  {
+    "id": "wb0iEbJHj78",
+    "videoId": "wb0iEbJHj78",
+    "title": "Η παρακάμερα του αγώνα Λέφσκι-ΑΕΚ 0-0 | AEK F.C.",
+    "thumbnail": "https://i4.ytimg.com/vi/wb0iEbJHj78/hqdefault.jpg",
+    "teams": "Λέφσκι vs ΑΕΚ",
+    "competition": "cl",
+    "channel": "AEK FC",
+    "platform": "youtube",
+    "pubDate": "2026-08-21T06:46:28+00:00"
+  },
+  {
+    "id": "e7O1mQpGu-U",
+    "videoId": "e7O1mQpGu-U",
+    "title": "Inside the Build: A Look Within",
+    "thumbnail": "https://i2.ytimg.com/vi/e7O1mQpGu-U/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Panathinaikos FC",
+    "platform": "youtube",
+    "pubDate": "2026-08-20T07:14:53+00:00"
+  },
+  {
+    "id": "VwirEQbgnQg",
+    "videoId": "VwirEQbgnQg",
+    "title": "Through to the Playoffs - Aftermovie v CSKA 1948 11.08.2026",
+    "thumbnail": "https://i3.ytimg.com/vi/VwirEQbgnQg/hqdefault.jpg",
+    "teams": "Through to the Playoffs vs Aftermovie v CSKA 1948 11.08.2026",
+    "competition": "league",
+    "channel": "Panathinaikos FC",
+    "platform": "youtube",
+    "pubDate": "2026-08-12T16:56:41+00:00"
+  },
+  {
+    "id": "MFhZCZ1WEO4",
+    "videoId": "MFhZCZ1WEO4",
+    "title": "ΑΕΚ-ATHENS KALLITHEA 4-0 | Highlights | Friendly Match 26/27| AEK F.C.",
+    "thumbnail": "https://i2.ytimg.com/vi/MFhZCZ1WEO4/hqdefault.jpg",
+    "teams": "ΑΕΚ vs ATHENS KALLITHEA",
+    "competition": "league",
+    "channel": "AEK FC",
+    "platform": "youtube",
+    "pubDate": "2026-08-09T10:50:51+00:00"
+  },
+  {
+    "id": "gUx5xPFNzzs",
+    "videoId": "gUx5xPFNzzs",
+    "title": "United as One - Aftermovie v Paksi (H) 30.07.2026",
+    "thumbnail": "https://i4.ytimg.com/vi/gUx5xPFNzzs/hqdefault.jpg",
+    "teams": "United as One vs Aftermovie v Paksi (H) 30.07.2026",
+    "competition": "league",
+    "channel": "Panathinaikos FC",
+    "platform": "youtube",
+    "pubDate": "2026-07-31T10:52:06+00:00"
   }
 ]

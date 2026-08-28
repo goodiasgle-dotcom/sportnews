@@ -24,13 +24,14 @@ OUTPUT_FILE = os.path.join(PROJECT_DIR, 'static', 'highlights.json')
 GREEK_CLUBS = {
     'PAOK FC': {
         'id': 'UCInZnZ8JYwmIvs8gtNriwSQ',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα'],
-        'keywords_en': ['highlights', 'goals', 'match'],
+        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα',
+                        'match', 'highlights'],
+        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
     },
     'AEK FC': {
         'id': 'UCX8HprRO1BYnQ6Mu2nB9VsQ',
-        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας'],
-        'keywords_en': ['highlights', 'goals', 'match'],
+        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα'],
+        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
     },
     'Olympiacos FC': {
         'id': 'UCLf7YXb-0PWEeq59Z_q318A',
@@ -40,7 +41,19 @@ GREEK_CLUBS = {
     'Aris FC': {
         'id': 'UCy8t8HKIih3JQZygj4XTejA',
         'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα'],
-        'keywords_en': ['highlights', 'goals', 'match'],
+        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes'],
+    },
+    'Panathinaikos FC': {
+        'id': 'UCvDGYaeFq9sBdj0cGnZ_Uhg',
+        'keywords_gr': ['στιγμιότυπα', 'highlights', 'γκολ', 'αγώνας', 'παρακάμερα',
+                        'aftermovie', 'build'],
+        'keywords_en': ['highlights', 'goals', 'match', 'behind the scenes', 'aftermovie'],
+    },
+    'Score.gr': {
+        'id': 'UCiaVQyCQACIgkBPYpAjKJGA',
+        'keywords_gr': ['highlights', 'γκολ', 'αγώνας', 'στιγμιότυπα', 'review',
+                        'παιχνίδι', 'γύρος'],
+        'keywords_en': ['highlights', 'goals', 'match', 'review', 'round'],
     },
 }
 
@@ -174,14 +187,13 @@ def is_match_highlight(title, description='', keywords_gr=None, keywords_en=None
                'jumbo pack', 'random pack', 'ultimate team', 'season',
                'jersey', 'fanis', 'hellenic', 'τσακ κοτζαμπαση',
                'matchday', 'md-', 'md 1', 'md 2', 'md 3', 'md 4',
-               'friendly', 'φιλικό', 'behind the scenes', 'παρακάμερα',
-               'δηλώσεις', 'statements', 'presser', 'rondo',
-               'atmosphere', 'θέαμα', 'κόσμος', 'fans', 'ultras',
+               'rondo', 'atmosphere', 'θέαμα', 'κόσμος', 'fans', 'ultras',
                'choreography', 'tifo']
     if any(kw in text for kw in exclude):
         return False
 
     # For Greek clubs: look for match-related keywords
+    # These clubs upload behind-the-scenes first, actual highlights later
     if keywords_gr:
         if any(kw.lower() in text for kw in keywords_gr):
             return True
