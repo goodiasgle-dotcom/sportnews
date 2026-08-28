@@ -184,6 +184,19 @@ def is_football_related(title, description=''):
     return False
 
 
+def detect_competition(title, description=''):
+    """Detect European competition from title/description."""
+    text = (title + ' ' + description).lower()
+    
+    if any(kw in text for kw in ['champions league', 'ucl', 'league phase draw', 'ucl play-off']):
+        return 'cl'
+    if any(kw in text for kw in ['europa league', 'uel']):
+        return 'el'
+    if any(kw in text for kw in ['conference league', 'uecl']):
+        return 'ecl'
+    return ''
+
+
 def needs_translation(language):
     """Check if text needs translation (not Greek)."""
     return language != 'el'
@@ -376,6 +389,7 @@ def main():
                 time.sleep(5)  # Longer delay to avoid 429
             
             # Create news item
+            competition = detect_competition(item['title'], item.get('description', ''))
             news_item = {
                 'id': generate_id(title, feed['name']),
                 'title': title,
@@ -385,7 +399,8 @@ def main():
                 'link': item['link'],
                 'pubDate': parse_date(item.get('pubDate', '')),
                 'time_display': time_ago(parse_date(item.get('pubDate', ''))),
-                'country': feed['country']
+                'country': feed['country'],
+                'competition': competition
             }
             
             all_news.append(news_item)

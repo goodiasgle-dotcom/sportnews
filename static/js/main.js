@@ -1,15 +1,19 @@
 // Sportnews - Main JavaScript
 
 let allNews = [];
+let allHighlights = [];
 let displayedCount = 0;
 const ITEMS_PER_PAGE = 5;
+const HIGHLIGHTS_PER_PAGE = 6;
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     loadNewsData();
+    loadHighlightsData();
     initTheme();
     initBackToTop();
     initFilters();
+    initHighlightFilters();
 });
 
 // Load news from JSON data file
@@ -33,14 +37,125 @@ async function loadNewsData() {
     }
 }
 
+// Load highlights from JSON data file
+async function loadHighlightsData() {
+    const hlLoading = document.getElementById('highlights-loading');
+    const hlEmpty = document.getElementById('highlights-empty');
+    const hlContainer = document.getElementById('highlights-container');
+
+    try {
+        const response = await fetch('highlights.json');
+        if (!response.ok) throw new Error('No highlights yet');
+
+        allHighlights = await response.json();
+        if (allHighlights.length === 0) {
+            hlLoading.style.display = 'none';
+            hlEmpty.style.display = 'block';
+            return;
+        }
+        hlLoading.style.display = 'none';
+        renderHighlights('all');
+    } catch (error) {
+        hlLoading.style.display = 'none';
+        hlEmpty.style.display = 'block';
+    }
+}
+
+// Render highlights for current filter
+let hlDisplayedCount = 0;
+let currentHlFilter = 'all';
+
+function renderHighlights(filter) {
+    const container = document.getElementById('highlights-container');
+    container.innerHTML = '';
+    currentHlFilter = filter;
+    hlDisplayedCount = 0;
+
+    const filtered = filter === 'all'
+        ? allHighlights
+        : allHighlights.filter(h => h.competition === filter);
+
+    loadMoreHighlights(filtered, container);
+}
+
+function loadMoreHighlights(filtered, container) {
+    const start = hlDisplayedCount;
+    const end = Math.min(start + HIGHLIGHTS_PER_PAGE, filtered.length);
+
+    for (let i = start; i < end; i++) {
+        const hl = filtered[i];
+        const card = createHighlightCard(hl);
+        container.appendChild(card);
+    }
+    hlDisplayedCount = end;
+}
+
+function createHighlightCard(hl) {
+    const card = document.createElement('div');
+    card.className = 'highlight-card';
+    card.onclick = function() { openHighlightModal(hl.videoId); };
+
+    const compLabel = {
+        'cl': 'UCL',
+        'el': 'UEL',
+        'ecl': 'UECL',
+        'league': 'Πρωτάθλημα'
+    }[hl.competition] || '';
+
+    card.innerHTML = `
+        <div class="highlight-thumb">
+            <img src="${escapeHtml(hl.thumbnail)}" alt="${escapeHtml(hl.title)}" loading="lazy">
+            <div class="highlight-play"></div>
+            ${compLabel ? `<span class="highlight-comp-badge">${compLabel}</span>` : ''}
+        </div>
+        <div class="highlight-info">
+            <div class="highlight-title">${escapeHtml(hl.title)}</div>
+            <div class="highlight-meta">${escapeHtml(hl.teams || '')}</div>
+        </div>
+    `;
+
+    return card;
+}
+
+function openHighlightModal(videoId) {
+    let modal = document.getElementById('highlight-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'highlight-modal';
+        modal.className = 'highlight-video-modal';
+        modal.innerHTML = `
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeHighlightModal()">&times;</button>
+                <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        `;
+        modal.onclick = function(e) {
+            if (e.target === modal) closeHighlightModal();
+        };
+        document.body.appendChild(modal);
+    }
+
+    const iframe = modal.querySelector('iframe');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeHighlightModal() {
+    const modal = document.getElementById('highlight-modal');
+    if (modal) {
+        modal.classList.remove('active');
+        modal.querySelector('iframe').src = '';
+        document.body.style.overflow = '';
+    }
+}
+
 // Load more news items
 function loadMoreNews() {
     const container = document.getElementById('news-container');
     const loadMoreBtn = document.getElementById('load-more');
 
-    const filtered = currentFilter === 'all'
-        ? allNews
-        : allNews.filter(n => n.country === currentFilter);
+    const filtered = getFilteredNews();
 
     const start = displayedCount;
     const end = Math.min(start + ITEMS_PER_PAGE, filtered.length);
@@ -61,7 +176,21 @@ function loadMoreNews() {
 
     if (filtered.length === 0) {
         showEmptyState();
+    } else {
+        hideEmptyState();
     }
+}
+
+function getFilteredNews() {
+    if (currentFilter === 'all') return allNews;
+
+    // Competition filters (cl, el, ecl)
+    if (['cl', 'el', 'ecl'].includes(currentFilter)) {
+        return allNews.filter(n => n.competition === currentFilter);
+    }
+
+    // Country filters
+    return allNews.filter(n => n.country === currentFilter);
 }
 
 // Create a news card element
@@ -70,6 +199,7 @@ function createNewsCard(news) {
     article.className = 'news-card';
     article.dataset.id = news.id;
     article.dataset.country = news.country || 'all';
+    article.dataset.competition = news.competition || '';
 
     const sourceClass = getSourceClass(news.source);
     const isNew = isRecentlyPublished(news.pubDate);
@@ -78,6 +208,7 @@ function createNewsCard(news) {
         <div class="card-header">
             <div class="card-header-left">
                 <span class="source-badge source-${sourceClass}">${escapeHtml(news.source)}</span>
+                ${news.competition ? `<span class="comp-badge comp-${news.competition}">${getCompLabel(news.competition)}</span>` : ''}
                 ${isNew ? '<span class="new-badge">ΝΕΟ</span>' : ''}
             </div>
             <span class="post-time">${escapeHtml(news.time_display)}</span>
@@ -100,6 +231,10 @@ function createNewsCard(news) {
     `;
 
     return article;
+}
+
+function getCompLabel(comp) {
+    return { 'cl': 'UCL', 'el': 'UEL', 'ecl': 'UECL' }[comp] || '';
 }
 
 // Toggle card expansion with smooth animation
@@ -184,6 +319,12 @@ function showEmptyState() {
     `;
 }
 
+function hideEmptyState() {
+    const container = document.getElementById('news-container');
+    const empty = container.querySelector('.empty-state');
+    if (empty) empty.remove();
+}
+
 // Escape HTML to prevent XSS
 function escapeHtml(text) {
     const div = document.createElement('div');
@@ -223,12 +364,13 @@ function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// === COUNTRY FILTER ===
+// === NEWS COUNTRY FILTER ===
 let currentFilter = 'all';
 
 function initFilters() {
     document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', function() {
+            if (this.disabled) return;
             currentFilter = this.dataset.country;
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             this.classList.add('active');
@@ -244,12 +386,18 @@ function resetAndFilter() {
     loadMoreNews();
 }
 
-function applyCurrentFilter() {
-    document.querySelectorAll('.news-card').forEach(card => {
-        if (currentFilter === 'all') {
-            card.style.display = '';
-        } else {
-            card.style.display = card.dataset.country === currentFilter ? '' : 'none';
-        }
+// === HIGHLIGHTS FILTER ===
+function initHighlightFilters() {
+    document.querySelectorAll('.hl-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+            document.querySelectorAll('.hl-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            renderHighlights(this.dataset.comp);
+        });
     });
 }
+
+// Close modal on Escape
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeHighlightModal();
+});

@@ -37,7 +37,7 @@
     },
     {
       "name": "BBC Sport",
-      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
       "language": "en",
       "country": "uk",
       "category": "football"
@@ -98,5 +98,10 @@
       "country": "uk",
       "category": "football"
     }
-  ]
+  ],
+  "competition_keywords": {
+    "cl": ["champions league", "ucl", "ucl play-off", "league phase draw"],
+    "el": ["europa league", "uel"],
+    "ecl": ["conference league", "uecl"]
+  }
 }

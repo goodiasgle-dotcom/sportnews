@@ -12,7 +12,6 @@
     </div>
 </header>
 
-
 <nav class="filter-bar" id="filter-bar">
     <button class="filter-btn active" data-country="all">Όλα</button>
     <button class="filter-btn" data-country="gr">Ελλάδα</button>
@@ -21,6 +20,10 @@
     <button class="filter-btn" data-country="de">Γερμανία</button>
     <button class="filter-btn" data-country="fr">Γαλλία</button>
     <button class="filter-btn" data-country="es">Ισπανία</button>
+    <button class="filter-btn filter-divider" disabled>|</button>
+    <button class="filter-btn" data-country="cl">Champions League</button>
+    <button class="filter-btn" data-country="el">Europa League</button>
+    <button class="filter-btn" data-country="ecl">Conference League</button>
 </nav>
 
 <main class="news-feed">
@@ -46,6 +49,31 @@
         </div>
     </div>
 </main>
+
+<section class="highlights-section" id="highlights-section">
+    <div class="highlights-header">
+        <h2>&#9917; ΓΚΟΛ</h2>
+        <span class="highlights-subtitle">Τα γκολ και τα highlight των τελευταίων αγώνων</span>
+    </div>
+    <div class="highlights-tabs" id="highlights-tabs">
+        <button class="hl-tab active" data-comp="all">Όλα</button>
+        <button class="hl-tab" data-comp="cl">Champions League</button>
+        <button class="hl-tab" data-comp="el">Europa League</button>
+        <button class="hl-tab" data-comp="ecl">Conference League</button>
+        <button class="hl-tab" data-comp="league">Πρωτάθλημα</button>
+    </div>
+    <div id="highlights-container" class="highlights-list">
+    </div>
+    <div id="highlights-loading" class="highlights-loading">
+        <div class="skeleton-card" style="aspect-ratio:16/9;border-radius:12px;"></div>
+        <div class="skeleton-card" style="aspect-ratio:16/9;border-radius:12px;"></div>
+    </div>
+    <div id="highlights-empty" class="empty-state" style="display:none;">
+        <div class="icon">&#127916;</div>
+        <h3>Δεν βρέθηκαν highlights</h3>
+        <p>Δοκιμάστε αργότερα</p>
+    </div>
+</section>
 
 <footer class="site-footer">
     <p>&copy; 2026 Sportnews - &#920;&#955;&#945; &#964;&#945; &#957;&#941;&#945; &#945;&#960;&#972; &#964;&#959;&#957; &#945;&#952;&#955;&#951;&#964;&#953;&#954;&#972; &#954;&#972;&#963;&#956;&#959;</p>
