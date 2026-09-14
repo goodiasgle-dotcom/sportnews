@@ -1,5 +1,17 @@
 [
   {
+    "id": "A4fZY0NoQa8",
+    "videoId": "A4fZY0NoQa8",
+    "title": "Τα στιγμιότυπα του ΠΑΟΚ-Άρης - PAOK TV",
+    "thumbnail": "https://i2.ytimg.com/vi/A4fZY0NoQa8/hqdefault.jpg",
+    "teams": "ΠΑΟΚ vs Άρης",
+    "competition": "league",
+    "channel": "PAOK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-09-13T21:50:44+00:00"
+  },
+  {
     "id": "HUfpI2Lo_tA",
     "videoId": "HUfpI2Lo_tA",
     "title": "Press Conference: PAOK FC Vs Aris - PAOK TV",
@@ -298,30 +310,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-09-13T17:40:21+00:00"
-  },
-  {
-    "id": "PfGBpBwI3j0",
-    "videoId": "PfGBpBwI3j0",
-    "title": "⚫⚽ Μορέιρα και Μπολίβαρ υπέγραψαν την ανατροπή της Καλαμάτας!",
-    "thumbnail": "https://i1.ytimg.com/vi/PfGBpBwI3j0/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-13T17:23:16+00:00"
-  },
-  {
-    "id": "EfvxrT1TySc",
-    "videoId": "EfvxrT1TySc",
-    "title": "Ώρα Ελλάδος -  Live Stream | 14/09/2026 | OPEN TV",
-    "thumbnail": "https://i2.ytimg.com/vi/EfvxrT1TySc/hqdefault.jpg",
-    "teams": "Ώρα Ελλάδος vs Live Stream",
-    "competition": "league",
-    "channel": "Open TV",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-13T16:16:14+00:00"
   },
   {
     "id": "-ZfaC19LmyY",
@@ -670,18 +658,6 @@
     "source": "news",
     "platform": "youtube",
     "pubDate": "2026-09-04T06:44:15+00:00"
-  },
-  {
-    "id": "MdeFNOYx3bc",
-    "videoId": "MdeFNOYx3bc",
-    "title": "Η παρακάμερα του ΠΑΟΚ-ΟΦΗ - PAOK TV",
-    "thumbnail": "https://i2.ytimg.com/vi/MdeFNOYx3bc/hqdefault.jpg",
-    "teams": "ΠΑΟΚ vs ΟΦΗ",
-    "competition": "league",
-    "channel": "PAOK FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-09-03T12:22:44+00:00"
   },
   {
     "id": "6V_yZIJArhA",
