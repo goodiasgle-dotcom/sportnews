@@ -1,50 +1,38 @@
 [
   {
-    "id": "904678be3a46",
-    "title": "Ολυμπιακός: Ολοκληρώθηκε η σπουδαία μεταγραφή του Μάριους",
-    "highlights": "Ο Αφρικανός διεθνής σέντερ φορ μπορεί να λογίζεται πλέον παίκτης του Ολυμπιακού σύμφωνα με έγκυρες τουρκικές πηγές.",
+    "id": "6adbb49d4a1f",
+    "title": "Άρης: Οι αλλαγές που ετοιμάζει για τη Μαρκό και η ανάγκη για νίκη",
+    "highlights": "Ο Άρης υποδέχεται τη Μαρκό (16:45 - ΣΚΑΪ) με στόχο να επιστρέψει στις νίκες και να βελτιώσει τη θέση του στη League Phase, με τον Μιχάλη Γρηγορίου να ετοιμάζει rotation.",
     "source": "Gazzetta.gr",
     "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2569596/olympiakos-oloklirothike-toy-marioys",
-    "pubDate": "2026-09-16T00:33:14+02:00",
-    "time_display": "1 ώρα",
+    "link": "https://www.gazzetta.gr/football/kypello-elladas/2569532/aris-oi-allages-poy-etoimazei-gia-ti-marko-kai-i-anagki-gia-niki",
+    "pubDate": "2026-09-16T08:45:50+02:00",
+    "time_display": "Μόλις τώρα",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "c512de2fba54",
-    "title": "Webb: Foden red justified but Fernandes escaped yellow for 'petulant' kick",
-    "highlights": "Pro Ref chief Howard Webb has backed the decision to send off Phil Foden in the Manchester derby but revealed VAR could not intervene to caution Bruno Fernandes for the \"petulant\" kick that sparked the altercation.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/news/12040/13586192/pro-ref-chief-howard-webb-agrees-with-phil-foden-red-card-in-manchester-derby-but-admits-bruno-fernandes-should-have-been-booked",
-    "pubDate": "2026-09-16T00:21:48.498760+00:00",
+    "id": "6ed51516442a",
+    "title": "Ολυμπιακός - Γιαγκελόνια: Η ώρα και το κανάλι μετάδοσης του αγώνα",
+    "highlights": "Η ώρα και το κανάλι μετάδοσης της αποψινής (16/9) πρεμιέρας του Ολυμπιακού στο Europa League με τη Γιαγκελόνια.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/europa-league/2569534/olympiakos-giagkelonia-i-ora-kai-kanali-metadosis-toy-agona",
+    "pubDate": "2026-09-16T08:08:00+02:00",
     "time_display": "Μόλις τώρα",
-    "country": "uk",
-    "competition": ""
+    "country": "gr",
+    "competition": "el"
   },
   {
-    "id": "0cb2d2f47849",
-    "title": "Webb: VAR had 'tunnel vision' on Haaland which led to Enzo error",
-    "highlights": "Pro Ref chief Howard Webb says VAR missed Enzo Fernandez being offside for Erling Haaland's winning goal in the Manchester derby due to \"tunnel vision\".",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/news/12040/13586101/pro-ref-chief-howard-webb-admits-var-had-tunnel-vision-on-erling-haaland-leading-to-enzo-fernandez-error",
-    "pubDate": "2026-09-16T00:21:48.498692+00:00",
+    "id": "2876ec132d78",
+    "title": "Πρόγραμμα τηλεόρασης: Όλοι οι αγώνες και οι αθλητικές μεταδόσεις σήμερα (16/9)",
+    "highlights": "Δείτε στον τηλεοπτικό οδηγό του Gazzetta ώρες και κανάλια για την αθλητική δράση της ημέρας.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/2569615/programma-tileorasis-oloi-oi-agones-kai-oi-athlitikes-metadoseis-simera-169",
+    "pubDate": "2026-09-16T08:05:00+02:00",
     "time_display": "Μόλις τώρα",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "d5130bed832a",
-    "title": "Dowman shines as Arsenal ease past Ipswich",
-    "highlights": "Highlights from the Carabao Cup round three clash between Ipswich and Arsenal.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/watch/video/13586378/ipswich-town-2-4-arsenal-carabao-cup-highlights",
-    "pubDate": "2026-09-16T00:21:48.498626+00:00",
-    "time_display": "Μόλις τώρα",
-    "country": "uk",
+    "country": "gr",
     "competition": ""
   },
   {
@@ -54,7 +42,19 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/middlesbrough-vs-millwall/report/560562",
-    "pubDate": "2026-09-16T00:21:48.498563+00:00",
+    "pubDate": "2026-09-16T05:59:42.744198+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "40355a1a4a6c",
+    "title": "Mbappe scores and provides last-gasp assist to help rescue Real Madrid!",
+    "highlights": "Highlights of the La Liga match between Elche and Real Madrid.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/watch/video/13586421/elche-2-3-real-madrid-la-liga-highlights",
+    "pubDate": "2026-09-16T05:59:42.744129+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk",
     "competition": ""
@@ -66,7 +66,7 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/bristol-city-vs-lincoln-city/report/560560",
-    "pubDate": "2026-09-16T00:21:48.498471+00:00",
+    "pubDate": "2026-09-16T05:59:42.744057+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk",
     "competition": ""
@@ -78,19 +78,19 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/report/577579",
-    "pubDate": "2026-09-16T00:21:48.498413+00:00",
+    "pubDate": "2026-09-16T05:59:42.743984+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "4b42459bb517",
-    "title": "Ο Szoboszlai σκοράρει 30 γιάρδες καθώς η Λίβερπουλ νίκησε τον Spurs για να προοδεύσει",
+    "id": "f0e5754bd6d3",
+    "title": "Szoboszlai scores 30-yard SCREAMER as Liverpool beat Spurs to progress",
     "highlights": "Highlights of the Carabao Cup match between Liverpool and Tottenham.",
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/watch/video/13586401/liverpool-3-1-spurs-carabao-cup-highlights",
-    "pubDate": "2026-09-16T00:21:48.498290+00:00",
+    "pubDate": "2026-09-16T05:59:42.743883+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk",
     "competition": ""
@@ -102,68 +102,140 @@
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/football/peterborough-united-vs-barnsley/report/577583",
-    "pubDate": "2026-09-16T00:21:42.638360+00:00",
+    "pubDate": "2026-09-16T05:59:42.743648+00:00",
     "time_display": "Μόλις τώρα",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "f61ddee151b8",
+    "id": "1384cf7e751e",
+    "title": "Ποιο είναι το επόμενο βήμα για την Arsenal Prodigy Dowman μετά την τελευταία εμφάνιση της δήλωσης;",
+    "highlights": "Max Dowman has waited patiently for opportunities in Arsenal's first team, but when he gets them, he delivers.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/football/news/12040/13586419/max-dowman-arsenal-prodigy-delivers-latest-statement-performance-as-mikel-arteta-urges-caution-over-16-year-old",
+    "pubDate": "2026-09-16T05:59:36.853160+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "cd5a7b1b4413",
+    "title": "Why are Man Utd better without the ball?",
+    "highlights": "Under Michael Carrick, Manchester United average 1.5 points per game when they have more than 50% of the ball. When they have less than 50%, this number is 2.6.",
+    "source": "BBC Sport",
+    "source_class": "bbc",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cxnvl2nv525ro?at_medium=RSS&at_campaign=rss",
+    "pubDate": "2026-09-16T05:46:28+00:00",
+    "time_display": "13 λεπτά",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "a99e7481a5e2",
+    "title": "Ολυμπιακός – Γιαγκελόνια: Ευρωπαϊκή πρεμιέρα στο «Γ. Καραϊσκάκης»",
+    "highlights": "Πρεμιέρα για τον Ολυμπιακό στο «Γ. Καραϊσκάκης» για το Europa League. Οι Πειραιώτες φιλοξενούν στο Φάληρο τη Γιαγκελόνια και στοχεύουν στην πρώτη νίκη της φετινής ευρωπαϊκής τους πορείας. Η αναμέτρηση είναι προγραμματισμένη για το βράδυ της Τετάρτης 16 Σεπτεμβρίου στις 22:00 και μπορείτε να την παρα...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-league/article/15111667/olympiakos-giagkelonia-eyropaiki-premiera-sto-g-karaiskakis/",
+    "pubDate": "2026-09-16T05:39:00+00:00",
+    "time_display": "20 λεπτά",
+    "country": "gr",
+    "competition": "el"
+  },
+  {
+    "id": "30a275708ff9",
+    "title": "Με Ολυμπιακός – Γιαγκελόνια, Άρης – Μαρκό, Κηφισιά – Παναθηναϊκός και Ατρόμητος – ΠΑΟΚ οι μεταδόσεις της ημέρας",
+    "highlights": "Αναλυτικά: Οι αθλητικές μεταδόσεις",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/category/epikairotita/article/15110745/me-olympiakos-giagkelonia-aris-marko-kifisia-panathinaikos-kai-atromitos-paok-oi-metadoseis-tis-imeras/",
+    "pubDate": "2026-09-16T05:28:00+00:00",
+    "time_display": "31 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "e1cece8e72bf",
+    "title": "Σαν σήμερα, 16 Σεπτεμβρίου 1970: Το πρώτο βήμα του Παναθηναϊκού για το έπος του Γουέμπλεϊ!",
+    "highlights": "Αντιμετωπίζοντας τη Ζενές Ες στο Λουξεμβούργο για τον πρώτο γύρο της διοργάνωσης, η ομάδα του Φέρεντς Πούσκας επικράτησε με 2-1, βάζοντας τα θεμέλια της πρόκρισης. Το σκορ άνοιξε μόλις στο 6ο λεπτό ο Αντώνης Αντωνιάδης, ο οποίος έμελλε να αναδειχθεί σε πρώτο σκόρερ του τουρνουά με συνολικά δέκα τέρμ...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-champions-league/article/15101035/san-simera-16-septemvriou-1970-to-proto-vima-tou-panathinaikou-gia-to-epos-tou-gouemplei/",
+    "pubDate": "2026-09-16T04:46:00+00:00",
+    "time_display": "1 ώρα",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "838b7d230ad5",
+    "title": "Αναζητώντας την καταξίωση αλλά και την εξιλέωση!",
+    "highlights": "Ως αντίδοτο στις ανησυχίες τους, σε αυτή τη χρονική περίοδο, αναμένεατι να δούνε τους αποψινούς αγώνες του Λιγκ καπ η Μάντσεστερ Γιουνάιτεντ και η Άστον Βίλα ενώ στο ξεκίνημα του Γιουρόπα Λιγκ, είναι λογικό να βρει δυσκολίες ο Ολυμπιακός έπειτα από τις πολλές αλλαγές των τελευταίων εβδομάδων, όπως κ...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/category/every-day-bet/article/15110924/anazitontas-tin-kataksiosi-alla-kai-tin-eksileosi/",
+    "pubDate": "2026-09-16T04:44:00+00:00",
+    "time_display": "1 ώρα",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "904678be3a46",
+    "title": "Ολυμπιακός: Ολοκληρώθηκε η σπουδαία μεταγραφή του Μάριους",
+    "highlights": "Ο Αφρικανός διεθνής σέντερ φορ μπορεί να λογίζεται πλέον παίκτης του Ολυμπιακού σύμφωνα με έγκυρες τουρκικές πηγές.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2569596/olympiakos-oloklirothike-toy-marioys",
+    "pubDate": "2026-09-16T00:33:14+02:00",
+    "time_display": "7 ώρες",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "bc86b4ee3f4e",
     "title": "League Cup: Τεσσάρα η Άρσεναλ, πρόκριση για Λίβερπουλ",
     "highlights": "Στους «16» του League Cup Άρσεναλ και Λίβερπουλ, αποκλείστηκε η Γουέστ Χαμ παρά την ασίστ του Μαυροπάνου.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/efl-cup/2569590/league-cup-tessara-i-arsenal-prokrisi-gia-liberpoyl",
     "pubDate": "2026-09-15T23:59:30+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "b551dc6f6be3",
+    "id": "94fff981011b",
     "title": "Ολυμπιακός: Ο τεχνικός της Γιαγκελόνια πιστεύει στη νίκη μέσα στον Πειραιά",
     "highlights": "Ο τεχνικός της Γιαγκελόνια Αντριάν Σίμενιετς τόνισε ότι η ομάδα του σέβεται τον Ολυμπιακό, αλλά υπάρχει μεγάλη πίστη για τη νίκη.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-league/2569589/olympiakos-o-tehnikos-tis-giagkelonia-pisteyei-sti-niki-mesa-ston",
     "pubDate": "2026-09-15T23:53:05+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "9899b36fb30b",
-    "title": "Κρυβόταν σε κοινή θέα στη Μαδαγασκάρη: Βρήκαν νέο είδος σε ένα από τα πιο παράξενα δέντρα του κόσμου",
-    "highlights": "Επιστήμονες διαπίστωσαν μέσω γενετικών αναλύσεων ότι δύο δέντρα που έμοιαζαν σχεδόν ίδια ανήκουν στην πραγματικότητα σε διαφορετικά είδη",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/plus/2569582/krybotan-se-koini-thea-sti-madagaskari-brikan-neo-eidos-se-ena-apo-ta-pio-paraxena",
-    "pubDate": "2026-09-15T23:46:00+02:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "05abdc17d295",
+    "id": "b86fda641bf4",
     "title": "Σκάνδαλο στη Ναντ: Στο... κάδρο ο Σισοκό, τι αποκάλυψε ο Τσιριβέγια στις Αρχές",
     "highlights": "Έρευνα-σοκ στη Ναντ για μεταγραφές και εκατομμύρια σε προμήθειες, με τον Σισοκό στο κάδρο και τον Τσιριβέγια να καταθέτει στις Αρχές.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/ligue-1/2569586/skandalo-sti-nant-sto-kadro-o-sisoko-ti-apokalypse-o-tsiribegia-stis-arhes",
     "pubDate": "2026-09-15T23:28:54+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "0fc584e9af59",
+    "id": "bbd476f9c313",
     "title": "Το απίστευτο ρεκόρ τζίρου στις μεταγραφές και η «επιείκεια» των οπαδών που θέλουν κούπες",
     "highlights": "Ο Γιάννης Σερέτης γράφει για τα απίστευτα εφετινά ποσά στο πάρε - δώσε των τεσσάρων διεκδικητών του τίτλου και για τις παράλογες απαιτήσεις για ομάδες με αναρίθμητες αλλαγές και καινούριους προπονητές.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2569577/apisteyto-rekor-tziroy-stis-metagrafes-kai-i-epieikeia-ton-opadon-poy",
     "pubDate": "2026-09-15T23:25:00+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -175,7 +247,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2569559/metagrafes-pote-kleinei-parathyro-gia-toys-eleytheroys",
     "pubDate": "2026-09-15T23:04:29+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -187,7 +259,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cxj06nmjl3l6o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T22:50:30+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -199,7 +271,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/premier-league/2569579/var-ihitiko-toy-diaititikoy-skandaloy-pos-metrise-gkol-tis-siti",
     "pubDate": "2026-09-15T22:50:19+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -211,7 +283,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c8ly49lv3vx1o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T22:50:04+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -223,7 +295,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/lionel-messi-called-up-argentina-farewell-appearance-friendly-benin",
     "pubDate": "2026-09-15T22:28:15+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -235,20 +307,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c54g7w2jz77mo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T22:26:50+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "f542a2522b3e",
-    "title": "0 completed dribbles, 0 crosses, 2 big chances missed: Real Madrid star’s dismal display vs Elche in numbers",
-    "highlights": "The statistics behind the concerning individual performance produced by Real Madrid star Vinícius Jr. in the club’s latest outing have come to the fore online. This comes fresh off an…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/0-completed-dribbles-0-crosses-2-big-chances-missed-real-madrid-stars-dismal-display-vs-elche-in-numbers/",
-    "pubDate": "2026-09-15T22:10:00+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -259,32 +319,8 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-league/2569526/zeblakof-ekei-mporei-na-htypisei-ti-giagkelonia-o-olympiakos",
     "pubDate": "2026-09-15T22:00:43+02:00",
-    "time_display": "4 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "3d2e18f0131e",
-    "title": "Kylian Mbappé beaten to Man of the Match award in Real Madrid’s win over Elche",
-    "highlights": "Real Madrid star Kylian Mbappé was overlooked for the Man of the Match prize in the club’s most recent outing. This came despite an individual performance featuring both a goal…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/kylian-mbappe-beaten-to-man-of-the-match-award-in-real-madrids-win-over-elche/",
-    "pubDate": "2026-09-15T22:00:00+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "d56a26fa840e",
-    "title": "Surprise Real Madrid star has now directly won the club 4 points in La Liga this season",
-    "highlights": "La Liga giants Real Madrid had an emerging hero to thank for avoiding what would have been costly dropped points in the race for the title on Tuesday. The player…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/surprise-real-madrid-star-has-now-directly-won-the-club-4-points-in-la-liga-this-season/",
-    "pubDate": "2026-09-15T21:50:56+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -295,7 +331,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/diethneis-pagkosmio-podosfairo/article/15111423/olympiakos-symfonia-gia-mouantilmantzi-erxetai-ellada-o-paiktis/",
     "pubDate": "2026-09-15T21:49:57+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -307,7 +343,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/fifa-world-cup/article/15110928/to-tim-tou-zintan-ston-pagko-ton-trikolor/",
     "pubDate": "2026-09-15T21:49:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -319,20 +355,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/craig-bellamy-rejected-burnley-manager-job-stay-wales-football",
     "pubDate": "2026-09-15T21:44:23+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "4013a4e9a668",
-    "title": "Γκολ ο Γιακουμάκης, τεσσάρα στην ομάδα του Κριστιάνο!",
-    "highlights": "Ο Γιακουμάκης υπέγραψε τη συντριβή της Αλ Νασρ, μιας και η Αλ Αΐν διέλυσε την ομάδα του Κριστιάνο Ρονάλντο με 4-0.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/2569569/gkol-o-giakoymakis-tessara-stin-omada-toy-kristiano",
-    "pubDate": "2026-09-15T21:43:01+02:00",
-    "time_display": "4 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -343,19 +367,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/premier-league/article/15110910/i-periorismeni-optiki-kai-to-gkol-tou-xaalant-pou-den-eprepe-na-metrisei/",
     "pubDate": "2026-09-15T21:39:00+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "79eea3f25052",
-    "title": "Ολυμπιακός: Η πρώτη ευρωπαϊκή αποστολή του Αλγκουαθίλ με Γιάρεμτσουκ και χωρίς Φορτούνη - Σα",
-    "highlights": "Ο Ισπανός προπονητής έβγαλε την αποστολή του Ολυμπιακού για τον αγώνα με τη Γιαγκελόνια, που δεν έχει τον τιμωρημένο Φορτούνη και τον τραυματία Σα.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/europa-league/2569568/olympiakos-i-proti-eyropaiki-apostoli-toy-algkoyathil-me-giaremtsoyk",
-    "pubDate": "2026-09-15T21:36:31+02:00",
-    "time_display": "4 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -367,7 +379,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/elche-real-madrid-report/",
     "pubDate": "2026-09-15T21:31:51+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -379,7 +391,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/coppa-italia/article/15111331/fiorentina-piza-3-0-me-neo-aera-stous-16-highlights/",
     "pubDate": "2026-09-15T21:29:51+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -391,19 +403,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/laliga-division/article/15111124/eltse-real-madritis-2-3-niki-thriler-me-lytroti-ton-espi/",
     "pubDate": "2026-09-15T21:29:20+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "fca964d2a490",
-    "title": "ΕΠΟ: Το απολαυστικό επετειακό βίντεο για τα 100 χρόνια της Ομοσπονδίας (video)",
-    "highlights": "Μέσα σε μόλις τρία λεπτά, το ρετρό video ξετυλίγει την ιστορία της Ελληνικής Ποδοσφαιρικής Ομοσπονδίας, παρουσιάζοντας σημαντικούς σταθμούς από την ίδρυσή της, μεγάλες στιγμές των Εθνικών Ομάδων και πρόσωπα που άφησαν το αποτύπωμά τους στο ελληνικό ποδόσφαιρο. Φυσικά, από μια τέτοια ιστορική αναδρομ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/podosfairo/ethniki-elladas-podosfairo/article/15111227/epo-to-apolaystiko-epeteiako-vinteo-gia-ta-100-xronia-tis-omospondias-video/",
-    "pubDate": "2026-09-15T21:17:23+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -415,7 +415,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/ipswich-arsenal-carabao-cup-third-round-match-report",
     "pubDate": "2026-09-15T21:14:31+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -427,7 +427,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/liverpool-tottenham-carabao-cup-third-round-match-report",
     "pubDate": "2026-09-15T21:12:54+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -439,32 +439,8 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/liverpool-tottenham-report/",
     "pubDate": "2026-09-15T21:08:55+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "6f245d21fddf",
-    "title": "Δεν πάει πουθενά ο ντε λα Φουέντε!",
-    "highlights": "Ο Ισπανός προπονητής Λουίς ντε λα Φουέντε, που οδήγησε την εθνική ομάδα της χώρας του στην κατάκτηση του Παγκοσμίου Κυπέλλου 2026, όπως και στο Ευρωπαϊκό Πρωτάθλημα 2024, συμφώνησε στην επέκταση του συμβολαίου του έως το 2030, όπως μεταδίδουν τα ισπανικά ΜΜΕ. Ο Ντε λα Φουέντε, είχε συμβόλαιο σε ισχύ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/fifa-world-cup/article/15110992/den-paei-pouthena-o-nte-la-fouente/",
-    "pubDate": "2026-09-15T21:07:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "b1639992bae2",
-    "title": "Bologna set to sack Domenico Tedesco, replacement identified",
-    "highlights": "Serie A side Bologna have become the second team in the Italian top-flight to sack their manager, with Domenico Tedesco set to part ways after just four games into the…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/bologna-set-to-sack-domenico-tedesco-replacement-identified/",
-    "pubDate": "2026-09-15T21:03:55+00:00",
-    "time_display": "3 ώρες",
-    "country": "it",
     "competition": ""
   },
   {
@@ -475,7 +451,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/ipswich-arsenal-report-dowman-brace/",
     "pubDate": "2026-09-15T20:57:15+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -487,44 +463,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/west-ham-fulham-carabao-cup-third-round-match-report",
     "pubDate": "2026-09-15T20:54:25+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "4ba3cff61c37",
-    "title": "PSG among clubs seeking to sign Manchester United prodigy JJ Gabriel",
-    "highlights": "Paris Saint-Germain are reportedly among the clubs interested in signing Manchester United’s highly-rated youngster JJ Gabriel (15), according to The Athletic. Real Madrid, Barcelona and Bayern Munich are also said…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/psg-among-clubs-seeking-to-sign-manchester-united-prodigy-jj-gabriel/",
-    "pubDate": "2026-09-15T20:49:14+00:00",
-    "time_display": "3 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "7e7882c1c9d9",
-    "title": "Official: Lionel Messi called up by Argentina for international farewell",
-    "highlights": "Barcelona icon Lionel Messi has been afforded a call-up to the latest Argentine national team squad for the upcoming international break. This comes with a view to affording the veteran…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/official-lionel-messi-called-up-by-argentina-for-international-farewell/",
-    "pubDate": "2026-09-15T20:35:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "d2ca70cbb726",
-    "title": "Photo: Real Madrid summer signing’s relief after bagging first goal contribution for the club",
-    "highlights": "Real Madrid star Yan Diomandé could not help but allow his relief to show after finally notching his first direct goal contribution for the club on Tuesday. José Mourinho’s troops…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/photo-real-madrid-summer-signings-relief-after-bagging-first-goal-contribution-for-the-club/",
-    "pubDate": "2026-09-15T20:27:43+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -535,7 +475,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/etoimos-o-olympiakos-ti-giagkelonia/",
     "pubDate": "2026-09-15T20:22:49+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": "el"
   },
@@ -547,80 +487,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cqzezjn3wzjpo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T20:19:31+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "3019229a2bb7",
-    "title": "Watch: Barcelona summer signing continues to impress in training",
-    "highlights": "Barcelona summer signing Gabriel Jesus did his utmost to continue pushing his candidacy for more consistent minutes in the club’s frontline on Tuesday morning. This came courtesy of an impressive…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/watch-barcelona-summer-signing-continues-to-impress-in-training/",
-    "pubDate": "2026-09-15T20:15:00+00:00",
-    "time_display": "4 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "7a1127f594c9",
-    "title": "Αλαβές – Βαλένθια 0-1: Διπλό-ανάσα με “χρυσή” αλλαγή!",
-    "highlights": "Σε ένα παιχνίδι γεμάτο αγωνία και δραματικές στιγμές μέχρι το τελευταίο σφύριγμα, η Βαλένθια κατάφερε να φύγει με ένα πολύτιμο τρίποντο από την έδρα της Αλαβές, επικρατώντας με 1-0 για την 7η αγωνιστική της LaLiga. Ακυρωθέν γκολ, ευκαιρίες και απόλυτη ισορροπία στο πρώτο μέρος Η Βαλένθια μπήκε στον ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/laliga-division/article/15111111/alaves-valenthia-0-1-diplo-anasa-me-xrysi-allagi/",
-    "pubDate": "2026-09-15T20:08:59+00:00",
-    "time_display": "4 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "265b952719ca",
-    "title": "Άγιαξ-Βίλεμ 5-1: Από πεντάρα σε πεντάρα… (highlights)",
-    "highlights": "Πέντε γκολ την Κυριακή, πέντε γκολ και την Τετάρτη για τον Άγιαξ, ο οποίος συνέτριψε 5-1 τη Βίλεμ σε εξ αναβολής αναμέτρηση για την 3η αγωνιστική της Eredivisie. Ο Άγιαξ που τελείωσε το ματς με 33 τελικές (13 στην εστία), άνοιξε το σκορ στο 41′ με τον Κλάασεν, ενώ στο 45′ ο Μπραντ σημείωσε το",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/eredivisie/article/15111082/agiaks-vilem-5-1-apo-pentara-se-pentara-highlights/",
-    "pubDate": "2026-09-15T19:59:28+00:00",
-    "time_display": "4 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "d0d20da853ad",
-    "title": "Barcelona open talks over key contract renewal",
-    "highlights": "The brass at La Liga giants Barcelona have early this week moved to tie a leading member of the club’s attacking ranks down for the long term. This comes amid…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-open-talks-over-key-contract-renewal/",
-    "pubDate": "2026-09-15T19:55:00+00:00",
-    "time_display": "4 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "84896fcaffb3",
-    "title": "Barcelona star reveals details of José Mourinho phone call",
-    "highlights": "Barcelona summer signing Rodri has early this week provided an insight into the conversations he held with Real Madrid head coach José Mourinho, prior to taking his talents to Catalunya’s capital.…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-star-reveals-details-of-jose-mourinho-phone-call/",
-    "pubDate": "2026-09-15T19:35:00+00:00",
-    "time_display": "4 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "8534f133ea39",
-    "title": "Barcelona have made ‘a firm pitch’ to sign Man United wantaway",
-    "highlights": "La Liga giants Barcelona are pushing to beat out the stiff competition for the signature of Manchester United teenage prodigy JJ Gabriel. This comes after the 15-year-old dropped something of…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-have-made-a-firm-pitch-to-sign-man-united-wantaway/",
-    "pubDate": "2026-09-15T19:15:00+00:00",
-    "time_display": "5 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -631,7 +499,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/news/jj-gabriel-manchester-united-real-madrid-free-transfer/",
     "pubDate": "2026-09-15T18:56:17+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -643,7 +511,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/al-ain-vs-al-nassr-report-result-goals-cristiano-ronaldo-afc-champions-league-saudi-ange-postecoglou/",
     "pubDate": "2026-09-15T18:56:11+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -655,7 +523,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/live/liverpool-vs-tottenham-live-score-text-updates-goals-efl-cupstats-latest-result-spurs-carabao/",
     "pubDate": "2026-09-15T18:55:55+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -667,20 +535,8 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/live/ipswich-town-vs-arsenal-live-score-text-updates-goals-efl-cup-stats-latest-result-carabao/",
     "pubDate": "2026-09-15T18:55:12+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "4d530d581baf",
-    "title": "Dumfries vs Alexander-Arnold – José Mourinho has already chosen his first-choice right-back",
-    "highlights": "Real Madrid head coach José Mourinho has already made a definitive call on the right-back pecking order in his Blancos squad. This comes amid the understanding that the Portuguese considers…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/dumfries-vs-alexander-arnold-jose-mourinho-has-already-chosen-his-first-choice-right-back/",
-    "pubDate": "2026-09-15T18:55:00+00:00",
-    "time_display": "5 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -691,7 +547,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/news/liverpool-vs-tottenham-live-teams-line-ups-efl-cup-where-to-watch-tv-channel-live-online-stream-carabao/",
     "pubDate": "2026-09-15T18:54:43+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -703,7 +559,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/live/elche-vs-real-madrid-live-score-text-updates-goals-stats-latest-result-la-liga/",
     "pubDate": "2026-09-15T18:53:55+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -715,7 +571,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/elche-vs-real-madrid-live-team-news-line-ups-online-stream-tv-channel-where-to-watch/",
     "pubDate": "2026-09-15T18:52:18+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -727,7 +583,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/entaoyi-eygnomon-tin-agapi-ton-filathlon-olympiakoy/",
     "pubDate": "2026-09-15T18:26:56+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -739,19 +595,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/juventus-eye-loan-swoop-for-arsenal-madueke/",
     "pubDate": "2026-09-15T18:04:00+00:00",
-    "time_display": "6 ώρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "2c2e0a8e36b3",
-    "title": "How Leo Balerdi has quickly become a leader for Roma manager Gian Piero Gasperini",
-    "highlights": "Serie A giants Roma signed Leonardo Balerdi from Marseille in the summer in what was a quickly executed deal. A defensive addition was much needed for Gian Piero Gasperini and…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/how-leo-balerdi-has-quickly-become-a-leader-for-roma-manager-gian-piero-gasperini/",
-    "pubDate": "2026-09-15T17:42:52+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -763,7 +607,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cv4g5rp56p55o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T17:42:20+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -775,7 +619,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/supercoppa-italiana-location-inter-lazio/",
     "pubDate": "2026-09-15T17:35:00+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -787,7 +631,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/milan-defender-gila-honour-to-play-with-modric/",
     "pubDate": "2026-09-15T17:05:00+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -799,7 +643,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/inter-roma-como-keep-running-ausilio-tottenham/",
     "pubDate": "2026-09-15T17:02:13+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -811,7 +655,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/howard-webb-says-accidental-handball-law-a-nonsense-and-calls-for-reform",
     "pubDate": "2026-09-15T16:59:16+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -823,44 +667,8 @@
     "source_class": "default",
     "link": "https://redaroume.gr/erythroleyki-anna-zafeiropoyloy/",
     "pubDate": "2026-09-15T16:58:29+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "13 ώρες",
     "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "dc773e84c495",
-    "title": "Antonio Conte rejects Fenerbahce and why Manchester United could be a destination",
-    "highlights": "Antonio Conte was last seen managing Serie A giants Napoli, where he also won the title two seasons ago. He is without a club right now and has expressed his…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/antonio-conte-rejects-fenerbahce-and-why-manchester-united-could-be-a-destination/",
-    "pubDate": "2026-09-15T16:54:07+00:00",
-    "time_display": "7 ώρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "f8130768d094",
-    "title": "Why Real Madrid’s Franco Mastantuono is right where he wants to be",
-    "highlights": "The liberation of Fiorentina has begun. Paolo Vanoli is the right man for the job, and Mastantuono finally has a fair shot at succeeding in Florence.",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/why-real-madrids-franco-mastantuono-is-right-where-he-wants-to-be/",
-    "pubDate": "2026-09-15T16:43:12+00:00",
-    "time_display": "7 ώρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "69f3106d8502",
-    "title": "Milan’s Alphadjo Cissè ready for Italy call-up, believes Ruben Amorim",
-    "highlights": "Speaking to Sky Sport ahead of his side’s Saturday showdown against Lazio, Ruben Amorim discussed, among other things, the progress of young Alphadjo Cissè under him.",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/milans-alphadjo-cisse-ready-for-italy-call-up-believes-ruben-amorim/",
-    "pubDate": "2026-09-15T16:37:55+00:00",
-    "time_display": "7 ώρες",
-    "country": "it",
     "competition": ""
   },
   {
@@ -871,7 +679,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/al-ain-vs-al-nassr-line-ups-cristiano-ronaldo-afc-champions-league-elite-teams-where-to-watch-tv-channel-live-online-stream/",
     "pubDate": "2026-09-15T16:26:40+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -883,7 +691,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/manchester-united-eye-conte-pressure-carrick/",
     "pubDate": "2026-09-15T16:15:00+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "13 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -895,7 +703,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/italy-nations-league-relegation-reprieve/",
     "pubDate": "2026-09-15T15:45:00+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "14 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -907,7 +715,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/ese-to-conference-league-perase-na-koitaxoyme-mprosta/",
     "pubDate": "2026-09-15T14:57:56+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "gr",
     "competition": "ecl"
   },
@@ -919,7 +727,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/top-10-best-italy-players-in-serie-a-week-4/",
     "pubDate": "2026-09-15T14:53:23+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -931,7 +739,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/scotland-pocognoli-calls-up-6-serie-a-players/",
     "pubDate": "2026-09-15T14:45:34+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -943,7 +751,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/mpafes-echoyme-mia-nea-proklisi-mprosta-mas/",
     "pubDate": "2026-09-15T14:33:43+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -955,7 +763,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/latest-leoni-injury-update-liverpool-spurs/",
     "pubDate": "2026-09-15T14:19:16+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "15 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -967,7 +775,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/manchester-united-jj-gabriel-asks-to-leave",
     "pubDate": "2026-09-15T14:18:24+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -979,7 +787,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c61kxp0w732vo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T14:14:22+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -991,7 +799,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/ramos-i-definitely-want-to-score-vs-benfica/",
     "pubDate": "2026-09-15T13:59:20+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -1003,21 +811,9 @@
     "source_class": "default",
     "link": "https://redaroume.gr/poly-konta-se-symfonia-ti-samsoynspor-o-olympiakos/",
     "pubDate": "2026-09-15T13:55:09+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "gr",
     "competition": ""
-  },
-  {
-    "id": "bb46734a2a30",
-    "title": "Lyon to rotate for Europa League opener?",
-    "highlights": "Whilst Olympique Lyonnais will have their sights set on going far in this season’s UEFA Europa League, they may field a weakened side in their opener against RSC Anderlecht on…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/lyon-to-rotate-for-europa-league-opener/",
-    "pubDate": "2026-09-15T13:52:15+00:00",
-    "time_display": "10 ώρες",
-    "country": "fr",
-    "competition": "el"
   },
   {
     "id": "34132cca548f",
@@ -1027,7 +823,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/uk-news/2026/sep/15/raheem-sterling-pleads-guilty-dangerous-driving-possession-nitrous-oxide",
     "pubDate": "2026-09-15T13:39:34+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1039,7 +835,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-09-15T13:33:09+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1051,7 +847,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/jj-gabriel-stuns-manchester-united-by-asking-for-old-trafford-exit/",
     "pubDate": "2026-09-15T13:26:55+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1063,7 +859,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/apantise-arnitika-o-mentilimpar-sti-valenthia/",
     "pubDate": "2026-09-15T13:26:13+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -1075,7 +871,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/three-things-we-learned-hansi-flick-press-conference-barcelona-racing-santander-lamine-yamal-gavi-ballon-dor/",
     "pubDate": "2026-09-15T13:04:27+00:00",
-    "time_display": "11 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1087,7 +883,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/six-breakout-stars-from-the-womens-under-20-world-cup",
     "pubDate": "2026-09-15T12:00:42+00:00",
-    "time_display": "12 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1099,7 +895,7 @@
     "source_class": "default",
     "link": "https://redaroume.gr/to-ivanofeio-xekinaei-o-dromos-to-17o/",
     "pubDate": "2026-09-15T11:00:32+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "18 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -1111,44 +907,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/picture/2026/sep/15/david-squires-on-a-big-weekend-for-controversial-calls-in-the-premier-league",
     "pubDate": "2026-09-15T10:31:47+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "19 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "f5e164f9444a",
-    "title": "Liverpool’s Jeremy Jacquet and Brighton’s Olivier Boscagli feature in Zinédine Zidane’s provisional France squad",
-    "highlights": "There could be a few debutants included in the France squad as the arrival of Zinédine Zidane marks the start of a new era for Les Bleus. Liverpool defender Jérémy…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/liverpools-jeremy-jacquet-and-brightons-olivier-boscagli-feature-in-zinedine-zidanes-provisional-france-squad/",
-    "pubDate": "2026-09-15T08:06:37+00:00",
-    "time_display": "16 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "65b9c6907742",
-    "title": "Kylian Mbappé ‘surprised’ by Ousmane Dembélé’s Ballon d’Or retort",
-    "highlights": "Without naming Kylian Mbappé (27), Ousmane Dembélé (29) hit back at the France captain’s “chosen one” comments on Sunday night in an interview with Ligue 1 Plus. Mbappé, L’Équipe understands,…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/kylian-mbappe-surprised-by-ousmane-dembeles-ballon-dor-retort/",
-    "pubDate": "2026-09-15T07:55:37+00:00",
-    "time_display": "16 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "08062fb7a36f",
-    "title": "Monaco’s Paris Brunner faces possible suspension for celebration",
-    "highlights": "Paris Brunner (20) has begun the season in excellent form for AS Monaco. The German has benefited from the absences of Folarin Balogun and Matthis Abline up front to assert…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/monacos-paris-brunner-faces-possible-suspension-for-celebration/",
-    "pubDate": "2026-09-15T07:39:07+00:00",
-    "time_display": "16 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -1159,21 +919,9 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/sep/15/manchester-united-premier-league-analysis",
     "pubDate": "2026-09-15T07:00:28+00:00",
-    "time_display": "17 ώρες",
+    "time_display": "22 ώρες",
     "country": "uk",
     "competition": "cl"
-  },
-  {
-    "id": "b1180538d7f9",
-    "title": "Milan speak to Al Nassr to extend multi-club model",
-    "highlights": "Serie A side Milan’s owner Gerry Cardinale is looking to expand his football empire and considerations are being made to include Al Nassr into the network. In Serie A, Roma…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/milan-speak-to-al-nassr-to-extend-multi-club-model/",
-    "pubDate": "2026-09-14T19:07:47+00:00",
-    "time_display": "1 μέρα",
-    "country": "it",
-    "competition": ""
   },
   {
     "id": "7f9ed4031be1",
@@ -1200,30 +948,6 @@
     "competition": ""
   },
   {
-    "id": "d8c07c06af2c",
-    "title": "Juventus monitoring Sassuolo’s Darryl Bakola after Sunday heroics",
-    "highlights": "Serie A side Juventus suffered a dramatic 3-2 defeat to Sassuolo on Sunday and midfielder Darryl Bakola sparkled. The teenager came off the bench in the second half and made…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/juventus-monitoring-sassuolos-darryl-bakola-after-sunday-heroics/",
-    "pubDate": "2026-09-14T15:16:57+00:00",
-    "time_display": "1 μέρα",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "c5d035c5fe12",
-    "title": "Three factors holding Juventus back this season",
-    "highlights": "Serie A side Juventus endured a 3-2 defeat to Sassuolo and the loss came in rather dramatic circumstances. The game picked up towards the end of the tie and Juve’s…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/three-factors-holding-juventus-back-this-season/",
-    "pubDate": "2026-09-14T14:53:07+00:00",
-    "time_display": "1 μέρα",
-    "country": "it",
-    "competition": ""
-  },
-  {
     "id": "d6f7045a353d",
     "title": "Stuttgart tried to sign Fabio Silva before his move to Borussia Dortmund",
     "highlights": "VfB Stuttgart sporting director Fabian Wohlgemuth has revealed that the Swabians wanted to sign Portuguese forward Fabio Silva before his move to Borussia Dortmund. “We looked into him a year…",
@@ -1233,18 +957,6 @@
     "pubDate": "2026-09-14T10:07:57+00:00",
     "time_display": "1 μέρα",
     "country": "de",
-    "competition": ""
-  },
-  {
-    "id": "5f3cc3cc562f",
-    "title": "Roma boss Gian Piero Gasperini hails talent Rodrigo Mora",
-    "highlights": "Serie A side Roma have impressed in the league this season and many attacking players have thrived. This also includes summer signing Rodrigo Mora, who has one goal this season.…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/roma-boss-gian-piero-gasperini-hails-talent-rodrigo-mora/",
-    "pubDate": "2026-09-13T19:11:29+00:00",
-    "time_display": "2 μέρες",
-    "country": "it",
     "competition": ""
   },
   {
