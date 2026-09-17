@@ -1,5 +1,101 @@
 [
   {
+    "id": "ZAsv4wkZO4Q",
+    "videoId": "ZAsv4wkZO4Q",
+    "title": "Άρης - Μαρκό 1-0: Ζορίστηκαν οι \"Κίτρινοι\" αλλά πήραν την πρώτη νίκη τους τον Σεπτέμβριο",
+    "thumbnail": "https://i3.ytimg.com/vi/ZAsv4wkZO4Q/hqdefault.jpg",
+    "teams": "Άρης vs Μαρκό",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T20:31:29+00:00"
+  },
+  {
+    "id": "uIWAVGNJXzo",
+    "videoId": "uIWAVGNJXzo",
+    "title": "Κηφισιά - Παναθηναϊκός 0-2: Στη δική τους Λεωφόρο οι \"Πράσινοι\" διεύρυναν το νικηφόρο σερί",
+    "thumbnail": "https://i2.ytimg.com/vi/uIWAVGNJXzo/hqdefault.jpg",
+    "teams": "Κηφισιά vs Παναθηναϊκός",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T20:23:48+00:00"
+  },
+  {
+    "id": "g-j7aov_r9A",
+    "videoId": "g-j7aov_r9A",
+    "title": "Δηλώσεις από τον προπονητή του ΠΑΟΚ, Αλέσιο Λίσι | Ώρα για Κύπελλο | 17/09/2026",
+    "thumbnail": "https://i4.ytimg.com/vi/g-j7aov_r9A/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T20:14:51+00:00"
+  },
+  {
+    "id": "qu5yAsbfsQU",
+    "videoId": "qu5yAsbfsQU",
+    "title": "Ατρόμητος - ΠΑΟΚ 0-1: Πήρε τη νίκη η ομάδα του Λίσι και έβαλε πλώρη για τετράδα",
+    "thumbnail": "https://i2.ytimg.com/vi/qu5yAsbfsQU/hqdefault.jpg",
+    "teams": "Ατρόμητος vs ΠΑΟΚ",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T20:10:16+00:00"
+  },
+  {
+    "id": "ts3vSPmv3qs",
+    "videoId": "ts3vSPmv3qs",
+    "title": "Χρήστος Αλεξίου: \"Δεν περίμενα οτι θα βάλω 2 γκολ\" | Ώρα για Κύπελλο | 17/09/2026",
+    "thumbnail": "https://i1.ytimg.com/vi/ts3vSPmv3qs/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T20:01:30+00:00"
+  },
+  {
+    "id": "_6yRoqEMDl8",
+    "videoId": "_6yRoqEMDl8",
+    "title": "Press Conference  OFI Crete FC Vs TSG Hoffenheim 17/9/26",
+    "thumbnail": "https://i4.ytimg.com/vi/_6yRoqEMDl8/hqdefault.jpg",
+    "teams": "",
+    "competition": "el",
+    "channel": "OFI CRETE FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T20:00:49+00:00"
+  },
+  {
+    "id": "tXZxnhVSNT0",
+    "videoId": "tXZxnhVSNT0",
+    "title": "Μάρκο Νίκολιτς: \"Ο Πέτρος Μάνταλος έδωσε μια καταπληκτική παράσταση\" | Ώρα για Κύπελλο | 17/09/2026",
+    "thumbnail": "https://i1.ytimg.com/vi/tXZxnhVSNT0/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T19:56:58+00:00"
+  },
+  {
+    "id": "ST68jeBH0YA",
+    "videoId": "ST68jeBH0YA",
+    "title": "Δηλώσεις (Ολυμπιακός - Γιαγκιελόνια) / Statements (Olympiacos​ - Jagiellonia)",
+    "thumbnail": "https://i4.ytimg.com/vi/ST68jeBH0YA/hqdefault.jpg",
+    "teams": "",
+    "competition": "el",
+    "channel": "Olympiacos FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-09-17T19:03:10+00:00"
+  },
+  {
     "id": "Jbd77BBzy5k",
     "videoId": "Jbd77BBzy5k",
     "title": "Η Συνέντευξη Τύπου του Μάρκο Νίκολιτς μετά το 8-1 επί του Πανσερραϊκού | AEK F.C.",
@@ -60,78 +156,6 @@
     "pubDate": "2026-09-17T17:33:30+00:00"
   },
   {
-    "id": "fgBS6T-6v4g",
-    "videoId": "fgBS6T-6v4g",
-    "title": "AEK - Πανσερραϊκός 8-1 | HIGHLIGHTS | 17/09/2026",
-    "thumbnail": "https://i3.ytimg.com/vi/fgBS6T-6v4g/hqdefault.jpg",
-    "teams": "AEK vs Πανσερραϊκός",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T17:22:53+00:00"
-  },
-  {
-    "id": "qRAN0RLaeOY",
-    "videoId": "qRAN0RLaeOY",
-    "title": "Αποχώρησε από το ΠΑΣΟΚ η Ρόζα Βρεττού | Βραδινό δελτίο | 17/09/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/qRAN0RLaeOY/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T17:20:27+00:00"
-  },
-  {
-    "id": "Q_tCNlTdCKA",
-    "videoId": "Q_tCNlTdCKA",
-    "title": "Αντώνης Σαμαράς: \"Κλείδωσε\" τα ψηφοδέλτια - Έτοιμα και τα γραφεία για το κόμμα | Βραδινό δελτίο",
-    "thumbnail": "https://i2.ytimg.com/vi/Q_tCNlTdCKA/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T17:13:36+00:00"
-  },
-  {
-    "id": "mC9_TKsfl6Q",
-    "videoId": "mC9_TKsfl6Q",
-    "title": "Ελλάδα - Ισραήλ: Κοινή ναυτική άσκηση στην Ανατολική Μεσόγειο | Βραδινό δελτίο | 17/09/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/mC9_TKsfl6Q/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T17:06:38+00:00"
-  },
-  {
-    "id": "WSRz3_G1Xjg",
-    "videoId": "WSRz3_G1Xjg",
-    "title": "Συνάντηση Τραμπ-Ερντογάν στην Νέα Υόρκη - Τον Οκτώβριο στην Αθήνα ο Μάρκο Ρούμπιο",
-    "thumbnail": "https://i4.ytimg.com/vi/WSRz3_G1Xjg/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T17:03:21+00:00"
-  },
-  {
-    "id": "4r0st7r9B7s",
-    "videoId": "4r0st7r9B7s",
-    "title": "Προαναγγελία μέτρων στήριξης από τον Κ. Μητσοτάκη για πετρέλαιο θέρμανσης και καύσιμα",
-    "thumbnail": "https://i1.ytimg.com/vi/4r0st7r9B7s/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T16:56:52+00:00"
-  },
-  {
     "id": "okeBN1vbVIM",
     "videoId": "okeBN1vbVIM",
     "title": "Ώρα Ελλάδος -  Live Stream | 18/09/2026 | OPEN TV",
@@ -144,30 +168,6 @@
     "pubDate": "2026-09-17T16:50:44+00:00"
   },
   {
-    "id": "2rxp7RVMqeo",
-    "videoId": "2rxp7RVMqeo",
-    "title": "Ο Ηλιάδης πετυχαίνει το γκολ της τιμής και κάνει το 8-1 | ΑΕΚ - Πανσερραϊκός | 17/09/2026",
-    "thumbnail": "https://i3.ytimg.com/vi/2rxp7RVMqeo/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T16:37:54+00:00"
-  },
-  {
-    "id": "L4cRJqJ3db4",
-    "videoId": "L4cRJqJ3db4",
-    "title": "7-0 με τον Ζούμπκοφ να βάζει το γκολ που ήθελε τόσο πολύ | ΑΕΚ - Πανσερραϊκός | 17/09/2026",
-    "thumbnail": "https://i1.ytimg.com/vi/L4cRJqJ3db4/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T16:19:29+00:00"
-  },
-  {
     "id": "4KouSqj8X08",
     "videoId": "4KouSqj8X08",
     "title": "Τουρκικά ΜΜΕ: «Πολεμικό παραλήρημα» μετά την επίσκεψη Μητσοτάκη στο Καστελόριζο",
@@ -178,18 +178,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-09-17T16:10:52+00:00"
-  },
-  {
-    "id": "_6yRoqEMDl8",
-    "videoId": "_6yRoqEMDl8",
-    "title": "Press Conference  OFI Crete FC Vs TSG Hoffenheim 17/9/26",
-    "thumbnail": "https://i4.ytimg.com/vi/_6yRoqEMDl8/hqdefault.jpg",
-    "teams": "",
-    "competition": "el",
-    "channel": "OFI CRETE FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T15:56:15+00:00"
   },
   {
     "id": "n-IgdQ2u_zo",
@@ -946,18 +934,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-08-30T21:11:58+00:00"
-  },
-  {
-    "id": "gsP_YxM-5EE",
-    "videoId": "gsP_YxM-5EE",
-    "title": "LIVE - Η προθέρμανση της ομάδας μας! / LIVE - The players are out for the warm-up!",
-    "thumbnail": "https://i4.ytimg.com/vi/gsP_YxM-5EE/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Olympiacos FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-08-30T17:52:49+00:00"
   },
   {
     "id": "bmmXXrdGO_8",
