@@ -1,5 +1,41 @@
 [
   {
+    "id": "vAFhEhBotOA",
+    "videoId": "vAFhEhBotOA",
+    "title": "Βόλος ΝΠΣ - AEK 1-2 | Highlights Super League 26/27 – MD5 | ΑΕΚ F.C.",
+    "thumbnail": "https://i3.ytimg.com/vi/vAFhEhBotOA/hqdefault.jpg",
+    "teams": "Βόλος ΝΠΣ vs AEK",
+    "competition": "league",
+    "channel": "AEK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-09-20T20:11:03+00:00"
+  },
+  {
+    "id": "tKPIzMW-YgE",
+    "videoId": "tKPIzMW-YgE",
+    "title": "Πάντερμπορν – Χόφενχαϊμ: 3-1 (MD 4, 20/09/2026)",
+    "thumbnail": "https://i1.ytimg.com/vi/tKPIzMW-YgE/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-20T19:44:42+00:00"
+  },
+  {
+    "id": "Jpzlpc60xj8",
+    "videoId": "Jpzlpc60xj8",
+    "title": "Καλαμάτα-Παναθηναϊκός: Το γκολ του ματς",
+    "thumbnail": "https://i3.ytimg.com/vi/Jpzlpc60xj8/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-20T18:51:39+00:00"
+  },
+  {
     "id": "PICjKEUvT0U",
     "videoId": "PICjKEUvT0U",
     "title": "Σάλκε-Έλβερσμπεργκ: 0-0 (MD 4, 20/09/2026)",
@@ -192,30 +228,6 @@
     "pubDate": "2026-09-20T15:07:09+00:00"
   },
   {
-    "id": "UEg52dhFVRs",
-    "videoId": "UEg52dhFVRs",
-    "title": "Άλκμααρ - Τέλσταρ: 1-0 (MD 7, 20/09/2026)",
-    "thumbnail": "https://i2.ytimg.com/vi/UEg52dhFVRs/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-20T14:55:02+00:00"
-  },
-  {
-    "id": "QFiiUlwM1mI",
-    "videoId": "QFiiUlwM1mI",
-    "title": "Τβέντε - Αϊντχόφεν: 3-2 (MD 7, 20/09/2026)",
-    "thumbnail": "https://i2.ytimg.com/vi/QFiiUlwM1mI/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-20T14:49:00+00:00"
-  },
-  {
     "id": "JyVgQXOL5oo",
     "videoId": "JyVgQXOL5oo",
     "title": "\"Διαχωρίζω τη Θέση Μου\": Πρεμιέρα αύριο στις 19:35-Τα θέματα της ημέρας με ξεχωριστή ματιά & χιούμορ",
@@ -310,18 +322,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-09-20T11:21:52+00:00"
-  },
-  {
-    "id": "pZzVhVYiPv0",
-    "videoId": "pZzVhVYiPv0",
-    "title": "Κρίσιμες εκλογές σε Βερολίνο - Μεκλεμβούργο | Μεσημβρινό δελτίο | 20/09/2026",
-    "thumbnail": "https://i1.ytimg.com/vi/pZzVhVYiPv0/hqdefault.jpg",
-    "teams": "Κρίσιμες εκλογές σε Βερολίνο vs Μεκλεμβούργο",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-20T11:18:10+00:00"
   },
   {
     "id": "mBc0iCAd3eM",
@@ -958,18 +958,6 @@
     "source": "news",
     "platform": "youtube",
     "pubDate": "2026-09-04T06:44:15+00:00"
-  },
-  {
-    "id": "6V_yZIJArhA",
-    "videoId": "6V_yZIJArhA",
-    "title": "Ζοάο Μάριο: «Να γίνουμε ξανά πρωταθλητές»! | AEK F.C.",
-    "thumbnail": "https://i3.ytimg.com/vi/6V_yZIJArhA/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "AEK FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-09-03T08:39:16+00:00"
   },
   {
     "id": "tWtICn2GZuo",
