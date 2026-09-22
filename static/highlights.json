@@ -144,30 +144,6 @@
     "pubDate": "2026-09-22T17:10:57+00:00"
   },
   {
-    "id": "hxpligY3bxI",
-    "videoId": "hxpligY3bxI",
-    "title": "Ο Μ. Ιγνατίου αναλύει και σχολιάζει όλα όσα είπε ο Τραμπ από το βήμα της ΓΣ του ΟΗΕ",
-    "thumbnail": "https://i1.ytimg.com/vi/hxpligY3bxI/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-22T17:09:13+00:00"
-  },
-  {
-    "id": "AAtSBFI9jrE",
-    "videoId": "AAtSBFI9jrE",
-    "title": "Διαχωρίζω τη Θέση Μου | 22/09/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/AAtSBFI9jrE/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-22T16:52:42+00:00"
-  },
-  {
     "id": "mWS1-2VlJ5c",
     "videoId": "mWS1-2VlJ5c",
     "title": "Η παρακάμερα του Λεβαδειακός - Ολυμπιακός! / Levadiakos - Olympiacos behind the scenes!",
@@ -214,6 +190,18 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-09-21T19:49:03+00:00"
+  },
+  {
+    "id": "9-XAI6rbh5k",
+    "videoId": "9-XAI6rbh5k",
+    "title": "STATUS QUO - Live streaming 22/09/2026 | OPEN TV",
+    "thumbnail": "https://i2.ytimg.com/vi/9-XAI6rbh5k/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Open TV",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-21T14:53:39+00:00"
   },
   {
     "id": "UN-e_LRQ9IQ",
