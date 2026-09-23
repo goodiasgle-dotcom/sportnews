@@ -1,5 +1,17 @@
 [
   {
+    "id": "P4_tjgo-CVQ",
+    "videoId": "P4_tjgo-CVQ",
+    "title": "10 Παντού - Live Stream | 23/09/2026| OPEN TV",
+    "thumbnail": "https://i1.ytimg.com/vi/P4_tjgo-CVQ/hqdefault.jpg",
+    "teams": "10 Παντού vs Live Stream",
+    "competition": "league",
+    "channel": "Open TV",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-09-23T22:04:10+00:00"
+  },
+  {
     "id": "5tzHBlIVzfk",
     "videoId": "5tzHBlIVzfk",
     "title": "Πρόγνωση Καιρού | 23/09/2026",
@@ -130,30 +142,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-09-23T18:04:56+00:00"
-  },
-  {
-    "id": "imXCp4Ay3Rg",
-    "videoId": "imXCp4Ay3Rg",
-    "title": "Τραμπ-Ερντογάν: Εγκώμια αλλά το...ραντεβού δεν έγινε | Ειδήσεις Βραδινό Δελτίο | 23/09/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/imXCp4Ay3Rg/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-23T18:04:16+00:00"
-  },
-  {
-    "id": "CkeBrUrtQoQ",
-    "videoId": "CkeBrUrtQoQ",
-    "title": "Αυστηρή απάντηση της Αθήνας στην Τουρκική πρόκληση για την Τριπολιτσά | Ειδήσεις Βραδινό Δελτίο",
-    "thumbnail": "https://i4.ytimg.com/vi/CkeBrUrtQoQ/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-23T18:03:36+00:00"
   },
   {
     "id": "mgamBvKwSDM",
@@ -298,42 +286,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-09-20T20:11:03+00:00"
-  },
-  {
-    "id": "tKPIzMW-YgE",
-    "videoId": "tKPIzMW-YgE",
-    "title": "Πάντερμπορν – Χόφενχαϊμ: 3-1 (MD 4, 20/09/2026)",
-    "thumbnail": "https://i1.ytimg.com/vi/tKPIzMW-YgE/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-20T19:44:42+00:00"
-  },
-  {
-    "id": "Jpzlpc60xj8",
-    "videoId": "Jpzlpc60xj8",
-    "title": "Καλαμάτα-Παναθηναϊκός: Το γκολ του ματς",
-    "thumbnail": "https://i3.ytimg.com/vi/Jpzlpc60xj8/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-20T18:51:39+00:00"
-  },
-  {
-    "id": "PICjKEUvT0U",
-    "videoId": "PICjKEUvT0U",
-    "title": "Σάλκε-Έλβερσμπεργκ: 0-0 (MD 4, 20/09/2026)",
-    "thumbnail": "https://i1.ytimg.com/vi/PICjKEUvT0U/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-09-20T17:46:34+00:00"
   },
   {
     "id": "fdRo3XX8FYI",
