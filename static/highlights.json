@@ -1,5 +1,65 @@
 [
   {
+    "id": "zQnNIpJem7c",
+    "videoId": "zQnNIpJem7c",
+    "title": "Ελλάδα-Γερμανία: 0-0 (MD 4 Nations League, 04/10/2026)",
+    "thumbnail": "https://i3.ytimg.com/vi/zQnNIpJem7c/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-04T22:00:11+00:00"
+  },
+  {
+    "id": "HGLZATSPs0E",
+    "videoId": "HGLZATSPs0E",
+    "title": "Πορτογαλία-Νορβηγία: 2-1 (MD 4 Nations League, 04/10/2026)",
+    "thumbnail": "https://i1.ytimg.com/vi/HGLZATSPs0E/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-04T21:05:27+00:00"
+  },
+  {
+    "id": "8G3ZixtY98w",
+    "videoId": "8G3ZixtY98w",
+    "title": "Ολλανδία-Σερβία: 2-1 (MD 4 Nations League, 04/10/2026)",
+    "thumbnail": "https://i1.ytimg.com/vi/8G3ZixtY98w/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-04T21:00:03+00:00"
+  },
+  {
+    "id": "P60ulqG8snU",
+    "videoId": "P60ulqG8snU",
+    "title": "Ουαλία-Δανία: 0-1 (MD 4 Nations League, 04/10/2026)",
+    "thumbnail": "https://i1.ytimg.com/vi/P60ulqG8snU/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-04T20:58:47+00:00"
+  },
+  {
+    "id": "yif_H0rdihw",
+    "videoId": "yif_H0rdihw",
+    "title": "Ιρλανδία-Ισραήλ: 1-1 (MD 4 Nations League, 04/10/2026)",
+    "thumbnail": "https://i2.ytimg.com/vi/yif_H0rdihw/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-04T20:58:21+00:00"
+  },
+  {
     "id": "my90soHwS78",
     "videoId": "my90soHwS78",
     "title": "Πρόγνωση Καιρού | 04/10/2026",
@@ -216,18 +276,6 @@
     "pubDate": "2026-10-04T12:59:55+00:00"
   },
   {
-    "id": "wua2hZE8f94",
-    "videoId": "wua2hZE8f94",
-    "title": "Ιράν: Κλειστό το Ορμούζ μέχρι να εκπληρωθούν οι 7 όροι | Ειδήσεις Μεσημβρινό Δελτίο | 04/10/2026",
-    "thumbnail": "https://i4.ytimg.com/vi/wua2hZE8f94/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-04T12:59:27+00:00"
-  },
-  {
     "id": "ala2-9QteHs",
     "videoId": "ala2-9QteHs",
     "title": "⚽ Η συνέντευξη Τύπου του Κλοπ… ξανά viral!",
@@ -274,54 +322,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-10-03T20:51:43+00:00"
-  },
-  {
-    "id": "HEB8UYGO9aI",
-    "videoId": "HEB8UYGO9aI",
-    "title": "Ισλανδία-Βουλγαρία: 3-0  (MD 3 Nations League, 03/10/2026)",
-    "thumbnail": "https://i1.ytimg.com/vi/HEB8UYGO9aI/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-03T18:22:49+00:00"
-  },
-  {
-    "id": "d4Luobx6TUU",
-    "videoId": "d4Luobx6TUU",
-    "title": "Εσθονία – Λουξεμβούργο: 1-0  (MD 3 Nations League, 03/10/2026)",
-    "thumbnail": "https://i1.ytimg.com/vi/d4Luobx6TUU/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-03T18:20:20+00:00"
-  },
-  {
-    "id": "9VzkalKKoE4",
-    "videoId": "9VzkalKKoE4",
-    "title": "Λευκορωσία – Σαν Μαρίνο: 4-0  (MD 3 Nations League, 03/10/2026)",
-    "thumbnail": "https://i2.ytimg.com/vi/9VzkalKKoE4/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-03T18:19:16+00:00"
-  },
-  {
-    "id": "tPiUzV2RuTA",
-    "videoId": "tPiUzV2RuTA",
-    "title": "Κροατία – Αγγλία: 0-7  (MD 3 Nations League, 03/10/2026)",
-    "thumbnail": "https://i1.ytimg.com/vi/tPiUzV2RuTA/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-03T18:16:39+00:00"
   },
   {
     "id": "KOR0ey7UGSo",
