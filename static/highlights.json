@@ -1,5 +1,53 @@
 [
   {
+    "id": "DWwE2CcLCHg",
+    "videoId": "DWwE2CcLCHg",
+    "title": "Τέλσταρ - Φέγενορντ: 3-4 (MD 9, 17/10/2026)",
+    "thumbnail": "https://i1.ytimg.com/vi/DWwE2CcLCHg/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-17T20:52:26+00:00"
+  },
+  {
+    "id": "ODDKQEmXue4",
+    "videoId": "ODDKQEmXue4",
+    "title": "Νιουκάστλ - Άστον Βίλα: 0-1 (MD 7, 17/10/2026)",
+    "thumbnail": "https://i4.ytimg.com/vi/ODDKQEmXue4/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-17T18:58:26+00:00"
+  },
+  {
+    "id": "b2wu9rwVXzU",
+    "videoId": "b2wu9rwVXzU",
+    "title": "Μπάγερν Μονάχου - Λειψία: 6-1 (MD 6, 17/10/2026)",
+    "thumbnail": "https://i3.ytimg.com/vi/b2wu9rwVXzU/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-17T18:48:48+00:00"
+  },
+  {
+    "id": "S4udsqD9f4I",
+    "videoId": "S4udsqD9f4I",
+    "title": "Τώρα Μαζί - Live Stream | 17/10/2026 | OPEN TV",
+    "thumbnail": "https://i4.ytimg.com/vi/S4udsqD9f4I/hqdefault.jpg",
+    "teams": "Τώρα Μαζί vs Live Stream",
+    "competition": "league",
+    "channel": "Open TV",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-17T18:48:30+00:00"
+  },
+  {
     "id": "nMFiTufpMPc",
     "videoId": "nMFiTufpMPc",
     "title": "Ιταλία: Σκηνές χάους και έντασης με μαθητές και φοιτητές να κατεβαίνουν στους δρόμους",
@@ -228,42 +276,6 @@
     "pubDate": "2026-10-17T16:17:51+00:00"
   },
   {
-    "id": "WM2aVO76s3Q",
-    "videoId": "WM2aVO76s3Q",
-    "title": "Σάλκε - Μάιντς: 0-1 (MD 6, 17/10/2026)",
-    "thumbnail": "https://i4.ytimg.com/vi/WM2aVO76s3Q/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-17T16:13:43+00:00"
-  },
-  {
-    "id": "gERmjsvc1e8",
-    "videoId": "gERmjsvc1e8",
-    "title": "Κεντρικό δελτίο ειδήσεων ΣΚ - Live Stream | 18/10/2026 | OPEN TV",
-    "thumbnail": "https://i4.ytimg.com/vi/gERmjsvc1e8/hqdefault.jpg",
-    "teams": "Κεντρικό δελτίο ειδήσεων ΣΚ vs Live Stream",
-    "competition": "league",
-    "channel": "Open TV",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-17T15:49:36+00:00"
-  },
-  {
-    "id": "I_O2m3gaTX8",
-    "videoId": "I_O2m3gaTX8",
-    "title": "Έβερτον - Τσέλσι: 0-2 (MD 7, 17/10/2026)",
-    "thumbnail": "https://i2.ytimg.com/vi/I_O2m3gaTX8/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-17T14:36:17+00:00"
-  },
-  {
     "id": "1JiIpiNsC48",
     "videoId": "1JiIpiNsC48",
     "title": "Υποθέσεις δηλητηριάσεων που συγκλόνισαν την Ελλάδα | Weekend Live | 17/10/2026",
@@ -322,30 +334,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-10-17T12:13:40+00:00"
-  },
-  {
-    "id": "0SuqT35Xqw4",
-    "videoId": "0SuqT35Xqw4",
-    "title": "Σαμαράς: «Μπήκε σε κρίση η Γιουνάιτεντ, αν χάσει από τη Λιντς...» (video)",
-    "thumbnail": "https://i1.ytimg.com/vi/0SuqT35Xqw4/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-17T12:07:37+00:00"
-  },
-  {
-    "id": "POD0x592OF0",
-    "videoId": "POD0x592OF0",
-    "title": "Οι ουσίες που εντοπίστηκαν στο αίμα του Γιώργου Μαζωνάκη | Weekend Live | 17/10/2026",
-    "thumbnail": "https://i1.ytimg.com/vi/POD0x592OF0/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-17T12:02:39+00:00"
   },
   {
     "id": "v5yTWzdDA0Y",
@@ -720,18 +708,6 @@
     "pubDate": "2026-10-03T00:30:18+00:00"
   },
   {
-    "id": "XudXfh3pvoc",
-    "videoId": "XudXfh3pvoc",
-    "title": "Τα στιγμιότυπα του φιλικού με τον ΠΑΟΚ Β - PAOK TV",
-    "thumbnail": "https://i1.ytimg.com/vi/XudXfh3pvoc/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "PAOK FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-10-02T13:14:11+00:00"
-  },
-  {
     "id": "5EbNVmV4mF8",
     "videoId": "5EbNVmV4mF8",
     "title": "Με στραμμένο το κεφάλι στην Ολλανδία η Ελλάδα μετά το μεγάλο διπλό με τη Γερμανία – Ρεπορτάζ Big 5.",
@@ -862,29 +838,5 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-09-18T08:08:56+00:00"
-  },
-  {
-    "id": "_6yRoqEMDl8",
-    "videoId": "_6yRoqEMDl8",
-    "title": "Press Conference  OFI Crete FC Vs TSG Hoffenheim 17/9/26",
-    "thumbnail": "https://i4.ytimg.com/vi/_6yRoqEMDl8/hqdefault.jpg",
-    "teams": "",
-    "competition": "el",
-    "channel": "OFI CRETE FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T20:00:49+00:00"
-  },
-  {
-    "id": "ST68jeBH0YA",
-    "videoId": "ST68jeBH0YA",
-    "title": "Δηλώσεις (Ολυμπιακός - Γιαγκιελόνια) / Statements (Olympiacos​ - Jagiellonia)",
-    "thumbnail": "https://i4.ytimg.com/vi/ST68jeBH0YA/hqdefault.jpg",
-    "teams": "",
-    "competition": "el",
-    "channel": "Olympiacos FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-09-17T19:03:10+00:00"
   }
 ]
