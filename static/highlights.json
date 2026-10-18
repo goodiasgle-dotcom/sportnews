@@ -1,5 +1,113 @@
 [
   {
+    "id": "G7YZqVyFq24",
+    "videoId": "G7YZqVyFq24",
+    "title": "ΠΑΟΚ - Ηρακλής 2-1: Τα γκολ της αναμέτρησης (video)",
+    "thumbnail": "https://i4.ytimg.com/vi/G7YZqVyFq24/hqdefault.jpg",
+    "teams": "ΠΑΟΚ vs Ηρακλής",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T20:24:48+00:00"
+  },
+  {
+    "id": "VqSvtBP7QLQ",
+    "videoId": "VqSvtBP7QLQ",
+    "title": "Press Conference: PAOK FC Vs POT Hraklis - PAOK TV",
+    "thumbnail": "https://i3.ytimg.com/vi/VqSvtBP7QLQ/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "PAOK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T20:11:52+00:00"
+  },
+  {
+    "id": "P4stWDXAazU",
+    "videoId": "P4stWDXAazU",
+    "title": "LIVE - H Συνέντευξη Τύπου μετά τον αγώνα με τον Παναιτωλικό!",
+    "thumbnail": "https://i1.ytimg.com/vi/P4stWDXAazU/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Olympiacos FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T18:09:54+00:00"
+  },
+  {
+    "id": "fhAkqWzrgFs",
+    "videoId": "fhAkqWzrgFs",
+    "title": "Panathinaikos v Asteras Aktor (SLGR) | Highlights 18.10.26",
+    "thumbnail": "https://i3.ytimg.com/vi/fhAkqWzrgFs/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Panathinaikos FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T18:03:16+00:00"
+  },
+  {
+    "id": "fcdVgsJlQG0",
+    "videoId": "fcdVgsJlQG0",
+    "title": "Νότιγχαμ Φόρεστ - Άρσεναλ: 0-1 (MD 7, 18/10/2026)",
+    "thumbnail": "https://i3.ytimg.com/vi/fcdVgsJlQG0/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T17:52:52+00:00"
+  },
+  {
+    "id": "sJwQMH_s-iY",
+    "videoId": "sJwQMH_s-iY",
+    "title": "Εξιχνιάστηκε τηλεφωνική απάτη με λεία 220 χρυσές λίρες, 7.500 ευρώ και κοσμήματα αξίας 15.000 ευρώ",
+    "thumbnail": "https://i4.ytimg.com/vi/sJwQMH_s-iY/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T17:36:34+00:00"
+  },
+  {
+    "id": "bNKHdSK5AZM",
+    "videoId": "bNKHdSK5AZM",
+    "title": "Σοβαρό τροχαίο στην Αττική: Οδηγός εκσφενδονίστηκε στις γραμμές του προαστιακού | Βραδινό δελτίο",
+    "thumbnail": "https://i3.ytimg.com/vi/bNKHdSK5AZM/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T17:29:00+00:00"
+  },
+  {
+    "id": "QAs7l8mgdyA",
+    "videoId": "QAs7l8mgdyA",
+    "title": "Νεκροί οι δύο επιβαίνοντες από το μονοκινητήριο αεροσκάφος που συνετρίβη στην Πιερία",
+    "thumbnail": "https://i2.ytimg.com/vi/QAs7l8mgdyA/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T17:25:37+00:00"
+  },
+  {
+    "id": "Fe1Y8lWxk2Y",
+    "videoId": "Fe1Y8lWxk2Y",
+    "title": "Χρόνιγκεν - Άγιαξ: 2-5 (MD 9, 18/10/2026)",
+    "thumbnail": "https://i3.ytimg.com/vi/Fe1Y8lWxk2Y/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-18T17:21:18+00:00"
+  },
+  {
     "id": "Z9LFTZ9bOic",
     "videoId": "Z9LFTZ9bOic",
     "title": "Τραμπ: Μήνυμα στήριξης στον Νετανιάχου για τις εκλογές στο Ισραήλ | Βραδινό δελτίο | 18/10/2026",
@@ -192,30 +300,6 @@
     "pubDate": "2026-10-18T15:24:57+00:00"
   },
   {
-    "id": "v0m41B3A_Mo",
-    "videoId": "v0m41B3A_Mo",
-    "title": "⚽🚀 Κοιτάζει ο Ντιέγκο Γκόμεζ και... ΜΠΑΜ από το κέντρο!",
-    "thumbnail": "https://i3.ytimg.com/vi/v0m41B3A_Mo/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T14:14:05+00:00"
-  },
-  {
-    "id": "awQpK9RPFW8",
-    "videoId": "awQpK9RPFW8",
-    "title": "Δελτίο στη νοηματική 18/10/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/awQpK9RPFW8/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Open TV",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T13:21:41+00:00"
-  },
-  {
     "id": "KgjFM2I7hps",
     "videoId": "KgjFM2I7hps",
     "title": "Κυψέλη: Απαντήσεις ζητούν οι κάτοικοι για τις σοβαρές ζημιές ατα σπίτια τους από τον μετροπόντικα",
@@ -288,42 +372,6 @@
     "pubDate": "2026-10-18T11:19:59+00:00"
   },
   {
-    "id": "Km6SNmBUrvo",
-    "videoId": "Km6SNmBUrvo",
-    "title": "Τροχαίο με έναν σοβαρά τραυματία στην Αττική Οδό - Aλλαγές στον Προαστιακό | Μεσημβρινό δελτίο",
-    "thumbnail": "https://i4.ytimg.com/vi/Km6SNmBUrvo/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T11:15:17+00:00"
-  },
-  {
-    "id": "dBuRluqJXdg",
-    "videoId": "dBuRluqJXdg",
-    "title": "Συναγερμός στο αεροδρόμιο της Λειψίας: Αυτοκίνητο παραβίασε την περίφραξη | Μεσημβρινό δελτίο",
-    "thumbnail": "https://i1.ytimg.com/vi/dBuRluqJXdg/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T11:10:10+00:00"
-  },
-  {
-    "id": "xxnl4Z0VIiY",
-    "videoId": "xxnl4Z0VIiY",
-    "title": "Πλήγμα στους οδικούς προορισμούς φέρνει το ράλι στις τιμές καυσίμων | Μεσημβρινό δελτίο",
-    "thumbnail": "https://i1.ytimg.com/vi/xxnl4Z0VIiY/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T11:07:22+00:00"
-  },
-  {
     "id": "4mnD_S93Kmk",
     "videoId": "4mnD_S93Kmk",
     "title": "Η πρώτη προπόνηση της ΑΕΚ στο Μάντσεστερ | AEK F.C.",
@@ -334,42 +382,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-10-18T09:56:15+00:00"
-  },
-  {
-    "id": "Ki-pidpu8AY",
-    "videoId": "Ki-pidpu8AY",
-    "title": "Ο Πρόεδρος των Δημοκρατών, Στέφανος Κασσελάκης, καλεσμένος στο \"Ρεπορτάζ στις 10\" | 18/10/2026",
-    "thumbnail": "https://i4.ytimg.com/vi/Ki-pidpu8AY/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T09:15:35+00:00"
-  },
-  {
-    "id": "QyIE1Oj3pVs",
-    "videoId": "QyIE1Oj3pVs",
-    "title": "Στο \"στόχαστρο\" του Κογκρέσου η Κίμπερλι Γκιλφόιλ | Ρεπορτάζ στις 10 | 18/10/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/QyIE1Oj3pVs/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-18T08:37:03+00:00"
-  },
-  {
-    "id": "DWwE2CcLCHg",
-    "videoId": "DWwE2CcLCHg",
-    "title": "Τέλσταρ - Φέγενορντ: 3-4 (MD 9, 17/10/2026)",
-    "thumbnail": "https://i1.ytimg.com/vi/DWwE2CcLCHg/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-17T20:52:26+00:00"
   },
   {
     "id": "OU2VrhT87Zw",
@@ -502,18 +514,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-10-14T17:36:36+00:00"
-  },
-  {
-    "id": "P4stWDXAazU",
-    "videoId": "P4stWDXAazU",
-    "title": "LIVE - H Συνέντευξη Τύπου μετά τον αγώνα με τον Παναιτωλικό!",
-    "thumbnail": "https://i1.ytimg.com/vi/P4stWDXAazU/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Olympiacos FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-10-14T17:15:17+00:00"
   },
   {
     "id": "ds5eUxd0juE",
