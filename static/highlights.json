@@ -1,5 +1,53 @@
 [
   {
+    "id": "ULErUle1auM",
+    "videoId": "ULErUle1auM",
+    "title": "Ροστόκ - Άρης: 79-110 (MD 4, 20/10/2026)",
+    "thumbnail": "https://i2.ytimg.com/vi/ULErUle1auM/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:36:16+00:00"
+  },
+  {
+    "id": "jt31SV-u6Nk",
+    "videoId": "jt31SV-u6Nk",
+    "title": "Κύριος Ευτύχης, ετών 90: Άμα θέλεις να έχεις ζωή απάνω σου πρέπει να κινείσαι   | Πρωταγωνιστές",
+    "thumbnail": "https://i3.ytimg.com/vi/jt31SV-u6Nk/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:35:11+00:00"
+  },
+  {
+    "id": "yp8JFnRz6Dk",
+    "videoId": "yp8JFnRz6Dk",
+    "title": "Μερικά από τα πιο συνηθισμένα ρητά για τη μακροζωία – Μύθοι ή πραγματικότητα;  | Πρωταγωνιστές",
+    "thumbnail": "https://i2.ytimg.com/vi/yp8JFnRz6Dk/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:35:08+00:00"
+  },
+  {
+    "id": "YGVZesx7CN8",
+    "videoId": "YGVZesx7CN8",
+    "title": "Κυρία Έφη: Η μακροζωία είναι να μην μένεις αδρανής και να αγαπάς τη ζωή | Πρωταγωνιστές | 19/10/2026",
+    "thumbnail": "https://i2.ytimg.com/vi/YGVZesx7CN8/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:35:05+00:00"
+  },
+  {
     "id": "k6KYKeGvmYw",
     "videoId": "k6KYKeGvmYw",
     "title": "AEK F.C. - Press Conference Live",
@@ -9,7 +57,115 @@
     "channel": "AEK FC",
     "source": "club",
     "platform": "youtube",
-    "pubDate": "2026-10-20T19:45:29+00:00"
+    "pubDate": "2026-10-20T21:26:56+00:00"
+  },
+  {
+    "id": "Z4FB-OSyVBo",
+    "videoId": "Z4FB-OSyVBo",
+    "title": "Μακροζωία: Οι αρνητικές συνέπειες της μοναξιάς και τα φάρμακα αντιγήρανσης, που απλά δεν υπάρχουν",
+    "thumbnail": "https://i3.ytimg.com/vi/Z4FB-OSyVBo/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:23:49+00:00"
+  },
+  {
+    "id": "UnqU-fPtufY",
+    "videoId": "UnqU-fPtufY",
+    "title": "Μανρέσα – Ρόμα: 108-88 (MD 4, 20/10/2026)",
+    "thumbnail": "https://i2.ytimg.com/vi/UnqU-fPtufY/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:22:38+00:00"
+  },
+  {
+    "id": "7_J3ldJNIU8",
+    "videoId": "7_J3ldJNIU8",
+    "title": "AEK F.C. - Pre Game Manchester City - AEK",
+    "thumbnail": "https://i4.ytimg.com/vi/7_J3ldJNIU8/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "AEK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:10:08+00:00"
+  },
+  {
+    "id": "rBEqQVWyyvQ",
+    "videoId": "rBEqQVWyyvQ",
+    "title": "Ο καθηγητής Λ. Συντώσης απαριθμεί τους πυλώνες που επηρεάζουν την υγεία και τη μακροζωία μας",
+    "thumbnail": "https://i3.ytimg.com/vi/rBEqQVWyyvQ/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:08:29+00:00"
+  },
+  {
+    "id": "z1Rj8AwES2A",
+    "videoId": "z1Rj8AwES2A",
+    "title": "Θα αποκαλύψει ο αιωνόβιος Γιάννης Βογιατζής το μυστικό της μακροζωίας στον Σταύρο Θεοδωράκη;",
+    "thumbnail": "https://i3.ytimg.com/vi/z1Rj8AwES2A/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T21:03:40+00:00"
+  },
+  {
+    "id": "Qk_RKn4Bpmg",
+    "videoId": "Qk_RKn4Bpmg",
+    "title": "Είναι το μυστικό της μακροζωίας στα ορεινά της Κρήτης; - Πως ο κυρ Νίκος έφτασε 101 ετών;",
+    "thumbnail": "https://i2.ytimg.com/vi/Qk_RKn4Bpmg/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T20:59:49+00:00"
+  },
+  {
+    "id": "koWHzITjqrI",
+    "videoId": "koWHzITjqrI",
+    "title": "Δρ. Νίκη Χονδρογιάννη: Η μακροζωία δεν αγοράζεται, ούτε ευρώ σε υπηρεσίες χωρίς επιστημονική βάση",
+    "thumbnail": "https://i4.ytimg.com/vi/koWHzITjqrI/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T20:54:21+00:00"
+  },
+  {
+    "id": "VrT_xnYPeLE",
+    "videoId": "VrT_xnYPeLE",
+    "title": "Απόψε οι «Πρωταγωνιστές» ανοίγουν τον φάκελο της μακροζωίας και προσπαθούν να δώσουν απαντήσεις",
+    "thumbnail": "https://i3.ytimg.com/vi/VrT_xnYPeLE/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T20:52:03+00:00"
+  },
+  {
+    "id": "QbbXpqc6ib4",
+    "videoId": "QbbXpqc6ib4",
+    "title": "Μπλε Ώρες | Τα νέα που λαμβάνει η Στέλλα την απογοητεύουν | 20/10/26",
+    "thumbnail": "https://i2.ytimg.com/vi/QbbXpqc6ib4/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "SKAI.gr",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-20T20:27:03+00:00"
   },
   {
     "id": "FVi1INOWj8Y",
@@ -24,90 +180,6 @@
     "pubDate": "2026-10-20T19:38:49+00:00"
   },
   {
-    "id": "6rUT271aadk",
-    "videoId": "6rUT271aadk",
-    "title": "Πρόγνωση Καιρού | 20/10/2026",
-    "thumbnail": "https://i3.ytimg.com/vi/6rUT271aadk/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T19:18:55+00:00"
-  },
-  {
-    "id": "slP35LUngo0",
-    "videoId": "slP35LUngo0",
-    "title": "ECO NEWS BY ΔΕΗ | KM3NET: Το εμβληματικό πείραμα στο οποίο συμμετέχει ο Δημόκριτος | 20/10/2026",
-    "thumbnail": "https://i4.ytimg.com/vi/slP35LUngo0/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T19:01:26+00:00"
-  },
-  {
-    "id": "fAIMlNO0jXc",
-    "videoId": "fAIMlNO0jXc",
-    "title": "Ο Στ. Θεοδωράκης και οι «Πρωταγωνιστές» του στον ΣΚΑΪ – Απόψε ανοίγουν τον φάκελο «μακροζωία»",
-    "thumbnail": "https://i3.ytimg.com/vi/fAIMlNO0jXc/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T18:51:06+00:00"
-  },
-  {
-    "id": "QXGhI-Fvj9c",
-    "videoId": "QXGhI-Fvj9c",
-    "title": "Ρεπορτάζ ΣΚΑΪ: Διαφημίζουν διάθεση ναρκωτικών μέσω Telegram και πληρωμή μέσω κρυπτονομισμάτων",
-    "thumbnail": "https://i2.ytimg.com/vi/QXGhI-Fvj9c/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T18:50:04+00:00"
-  },
-  {
-    "id": "d85EVo-WZ_o",
-    "videoId": "d85EVo-WZ_o",
-    "title": "Ακόμα μία νύχτα βίαιων επεισοδίων στα Τίρανα – Ζωντανή σύνδεση | Βραδινό Δελτίο | 19/10/2026",
-    "thumbnail": "https://i1.ytimg.com/vi/d85EVo-WZ_o/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T18:49:29+00:00"
-  },
-  {
-    "id": "wycTKl-mzkE",
-    "videoId": "wycTKl-mzkE",
-    "title": "Το σχόλιο του Αλ. Παπαχελά για τις ταραχές στη Γαλλία και άλλες ευρωπαϊκές χώρες | Ειδήσεις | 19/10",
-    "thumbnail": "https://i4.ytimg.com/vi/wycTKl-mzkE/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T18:47:53+00:00"
-  },
-  {
-    "id": "DDg1VS2xIbw",
-    "videoId": "DDg1VS2xIbw",
-    "title": "Γαλλία: Επιστρατεύεται ο στρατός ενόψει των νέων διαδηλώσεων του Σαββάτου | Βραδινό Δελτίο | 19/10",
-    "thumbnail": "https://i1.ytimg.com/vi/DDg1VS2xIbw/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T18:46:26+00:00"
-  },
-  {
     "id": "upUOeducD40",
     "videoId": "upUOeducD40",
     "title": "Μπάλκαν - Λιετκαμπέλις: 57-64 (MD 4, 20/10/2026)",
@@ -118,54 +190,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-10-20T18:38:02+00:00"
-  },
-  {
-    "id": "AsLBTvPWpIk",
-    "videoId": "AsLBTvPWpIk",
-    "title": "Συνεχείς οι ροές μεταναστών στην Κρήτη – Βίντεο ντοκουμέντα  | Ειδήσεις Βραδινό Δελτίο | 19/10/2026",
-    "thumbnail": "https://i2.ytimg.com/vi/AsLBTvPWpIk/hqdefault.jpg",
-    "teams": "Συνεχείς οι ροές μεταναστών στην Κρήτη vs Βίντεο ντοκουμέντα",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T18:24:08+00:00"
-  },
-  {
-    "id": "kl-_8l5eKyA",
-    "videoId": "kl-_8l5eKyA",
-    "title": "Πως κυρώθηκε στη Βεγγάζη το παράνομο μνημόνιο που «εξαφανίζει» την Κρήτη – Ο Κ. Φίλης σχολιάζει",
-    "thumbnail": "https://i4.ytimg.com/vi/kl-_8l5eKyA/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T17:53:39+00:00"
-  },
-  {
-    "id": "ZxnT0zIAPKM",
-    "videoId": "ZxnT0zIAPKM",
-    "title": "Ο Μπάρακ κατηγορείται πως χρησιμοποιεί τη θέση του για προσωπικό πλουτισμό–Ο Μ.Ιγνατίου με ρεπορτάζ",
-    "thumbnail": "https://i3.ytimg.com/vi/ZxnT0zIAPKM/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T17:53:03+00:00"
-  },
-  {
-    "id": "izbiUpGubJY",
-    "videoId": "izbiUpGubJY",
-    "title": "H τουρκική προεδρία για το μνημόνιο - Στη Λιβύη για ευχαριστίες ο Καλίν-Νέα NAVTEX στην Αν. Μεσόγειο",
-    "thumbnail": "https://i2.ytimg.com/vi/izbiUpGubJY/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T17:51:15+00:00"
   },
   {
     "id": "PyPrBP3MJ-k",
@@ -192,18 +216,6 @@
     "pubDate": "2026-10-20T16:35:30+00:00"
   },
   {
-    "id": "XgA8Up6fm4s",
-    "videoId": "XgA8Up6fm4s",
-    "title": "Αλβανία: Νέες διαδηλώσεις κάθε βράδυ στα Τίρανα",
-    "thumbnail": "https://i1.ytimg.com/vi/XgA8Up6fm4s/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Open TV",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T16:24:20+00:00"
-  },
-  {
     "id": "FUysytNnuyg",
     "videoId": "FUysytNnuyg",
     "title": "AEK F.C. - Pre Game Live Youth League Phase MD3",
@@ -214,54 +226,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-10-20T16:12:44+00:00"
-  },
-  {
-    "id": "sNMZBpUSAPE",
-    "videoId": "sNMZBpUSAPE",
-    "title": "Διαχωρίζω τη Θέση Μου | 20/10/2026",
-    "thumbnail": "https://i4.ytimg.com/vi/sNMZBpUSAPE/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T15:53:19+00:00"
-  },
-  {
-    "id": "HI33lNXVm1g",
-    "videoId": "HI33lNXVm1g",
-    "title": "Ο Σταύρος Βαρθαλίτης ετοιμάζει ριγκατόνι στρογκανόφ με τυριά | Studio στις 3 | 20/10/2026",
-    "thumbnail": "https://i1.ytimg.com/vi/HI33lNXVm1g/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T15:12:08+00:00"
-  },
-  {
-    "id": "X8nLcawxAio",
-    "videoId": "X8nLcawxAio",
-    "title": "Ο Αλέξανδρος Τσουβέλας στον καναπέ του «Studio στις 3» | 20/10/2026",
-    "thumbnail": "https://i1.ytimg.com/vi/X8nLcawxAio/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "SKAI.gr",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T14:59:46+00:00"
-  },
-  {
-    "id": "7_J3ldJNIU8",
-    "videoId": "7_J3ldJNIU8",
-    "title": "AEK F.C. - Pre Game Manchester City - AEK",
-    "thumbnail": "https://i4.ytimg.com/vi/7_J3ldJNIU8/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "AEK FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T10:00:31+00:00"
   },
   {
     "id": "zJDdS8v5D7U",
@@ -360,18 +324,6 @@
     "pubDate": "2026-10-19T18:37:27+00:00"
   },
   {
-    "id": "rd4PtmCIPms",
-    "videoId": "rd4PtmCIPms",
-    "title": "Ο Γιώργος Σαμαράς επέστρεψε ως «Πολίτης» για το Μάντσεστερ Σίτι – ΑΕΚ!",
-    "thumbnail": "https://i3.ytimg.com/vi/rd4PtmCIPms/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "Novasports",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-19T18:32:34+00:00"
-  },
-  {
     "id": "P5HPdNmooiU",
     "videoId": "P5HPdNmooiU",
     "title": "Η παρακάμερα του Παναιτωλικός - Ολυμπιακός! / Panetolikos - Olympiacos behind the scenes!",
@@ -394,6 +346,18 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-10-19T16:33:01+00:00"
+  },
+  {
+    "id": "MVTglD0VBZw",
+    "videoId": "MVTglD0VBZw",
+    "title": "STATUS QUO - Live Stream | 20/10/2026 | OPEN TV",
+    "thumbnail": "https://i2.ytimg.com/vi/MVTglD0VBZw/hqdefault.jpg",
+    "teams": "STATUS QUO vs Live Stream",
+    "competition": "league",
+    "channel": "Open TV",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-10-19T16:07:32+00:00"
   },
   {
     "id": "ApI2Jg1cN88",
