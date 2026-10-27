@@ -1,5 +1,17 @@
 [
   {
+    "id": "5dfa662a7509",
+    "title": "Παρακολουθήστε τα γκολ που κέρδισαν την Kane the Ballon d'Or",
+    "highlights": "We take a look at all Harry Kane's goals for Bayern Munich from the 2025/2026 Bundesliga season, as the record-setting goal scorer becomes the first English winner of the Ballon d'Or since Michael Owen in 2001.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/watch/video/13591355/can-the-english-goal-machine-secure-the-ballon-dor-all-of-harry-kanes-goals-from-the-2025-2026-bundesliga-season",
+    "pubDate": "2026-10-27T05:00:21.861677+00:00",
+    "time_display": "Μόλις τώρα",
+    "country": "uk",
+    "competition": ""
+  },
+  {
     "id": "a4e91f650ade",
     "title": "Χρυσή Μπάλα: Η Παρί σάρωσε την Ευρώπη και βραβεύτηκε ως η κορυφαία ομάδα",
     "highlights": "Την ώρα που η Παρί επικρατούσε 2-0 επί της Λιόν για να πατήσει στην κορυφή της Ligue 1, οι διοργανωτές της Χρυσής Μπάλας την τίμησαν με το βραβείο της κορυφαίας ομάδας.",
@@ -7,7 +19,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/2581047/hrysi-mpala-i-pari-sarose-tin-eyropi-kai-brabeytike-os-i-koryfaia-omada",
     "pubDate": "2026-10-27T00:07:29+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "6 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -19,7 +31,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/mundial/2581040/hrysi-mpala-koryfaios-termatofylakas-tis-hronias-o-oynai-simon",
     "pubDate": "2026-10-26T23:40:17+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -31,7 +43,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2581018/panathinaikossiril-ntesers-i-podosfairiki-eylogia-na-eheis-senter",
     "pubDate": "2026-10-26T23:30:00+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -43,44 +55,8 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/football/live-blog/12040/13601936/ballon-dor-2026-ceremony-live-harry-kane-alexia-putellas-among-favourites-for-france-football-award",
     "pubDate": "2026-10-26T23:30:00+00:00",
-    "time_display": "21 λεπτά",
+    "time_display": "5 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "f28cbed35ee3",
-    "title": "Ballon d'Or 2026: Ενημερώσεις από την τελετή απονομής βραβείων στο Λονδίνο – όπως συνέβη",
-    "highlights": "Alexia Putellas won the women’s Ballon d’Or for the third time while Harry Kane took the men’s, the first Englishman so to do for 25 years Talking of UK winners, it’s absolutely insane to think that, in 1968, three winners – Denis Law, Bobby Charlton and George Best – played in the same Manchester U...",
-    "source": "The Guardian",
-    "source_class": "guardian",
-    "link": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
-    "pubDate": "2026-10-26T23:26:00+00:00",
-    "time_display": "25 λεπτά",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "2c659656ea55",
-    "title": "Lamine Yamal looked heartbroken as Harry Kane collected Ballon d’Or trophy",
-    "highlights": "Barcelona star Lamine Yamal was left looking nothing short of inconsolable after missing out on the Ballon d’Or award for the latest time on Monday night. Wide-man Lamine was of…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/lamine-yamal-looked-heartbroken-as-harry-kane-collected-ballon-dor-trophy/",
-    "pubDate": "2026-10-26T23:25:39+00:00",
-    "time_display": "26 λεπτά",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "87a039ba7a87",
-    "title": "Harry Kane pips Kylian Mbappé to 2025-2026 Men’s Ballon d’Or",
-    "highlights": "Bayern Munich striker and England captain Harry Kane (33) was handed the 2025-2026 Men’s ​Ballon d’Or on ‌Monday at Palladium Theatre, in Kane’s London hometown. The 33-year-old also secured the…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/harry-kane-pips-kylian-mbappe-to-2025-2026-mens-ballon-dor/",
-    "pubDate": "2026-10-26T23:19:13+00:00",
-    "time_display": "33 λεπτά",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -91,7 +67,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-26T23:14:39+00:00",
-    "time_display": "36 λεπτά",
+    "time_display": "5 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -103,32 +79,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/harry-kane-ends-englands-25-year-wait-for-a-mens-ballon-dor",
     "pubDate": "2026-10-26T23:11:22+00:00",
-    "time_display": "40 λεπτά",
+    "time_display": "5 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "4b4788a46fa7",
-    "title": "Lamine vs Mbappé: Who finished higher in Ballon d’Or voting?",
-    "highlights": "La Liga’s two leading attacking stars were forced to watch on as Bayern Munich frontman Harry Kane lifted the Ballon d’Or on Monday evening. Which of Lamine Yamal and Kylian…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/lamine-vs-mbappe-who-finished-higher-in-ballon-dor-voting/",
-    "pubDate": "2026-10-26T23:06:57+00:00",
-    "time_display": "45 λεπτά",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "b18f6e5ae219",
-    "title": "Official: Barcelona & Real Madrid stars miss out on Ballon d’Or",
-    "highlights": "The winner of the 2026 Ballon d’Or award has been officially announced on Monday evening. This comes amid confirmation that La Liga’s leading stars have missed out. A three-way race…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/official-barcelona-real-madrid-stars-miss-out-on-ballon-dor/",
-    "pubDate": "2026-10-26T22:57:52+00:00",
-    "time_display": "54 λεπτά",
-    "country": "es",
     "competition": ""
   },
   {
@@ -139,7 +91,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/europa-league/2581033/olympiakos-pros-tetarti-4-noembrioy-me-ren",
     "pubDate": "2026-10-26T22:44:54+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -151,7 +103,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/primeira-liga/2581031/paylidis-astamatitos-me-neo-gkol-gia-ti-mpenfika",
     "pubDate": "2026-10-26T22:40:20+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -163,7 +115,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/juventus-starlet-alajbegovic-ranks-7th-kopa/",
     "pubDate": "2026-10-26T22:04:04+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "6 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -175,32 +127,8 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2581008/aris-amesa-strofi-ston-panathinaiko-kai-allages-stin-endekada",
     "pubDate": "2026-10-26T22:00:32+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "626f8b67c1dd",
-    "title": "Official: Athletic Club star beats Barcelona & Real Madrid players to award at Ballon d’Or gala",
-    "highlights": "Athletic Club star Unai Simón has on Monday evening beaten out stiff competition to the award for Goalkeeper of the Year at the Ballon d’Or ceremony. This of course comes…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/official-athletic-club-star-beats-barcelona-real-madrid-players-to-award-at-ballon-dor-gala/",
-    "pubDate": "2026-10-26T21:55:00+00:00",
-    "time_display": "1 ώρα",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "a72fa1a9b3ef",
-    "title": "Barcelona only have 4 fit senior defenders",
-    "highlights": "La Liga giants Barcelona currently have only four fit senior defenders to choose from. This comes after the club were dealt their latest setback on the personnel front on Sunday.…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-only-have-4-fit-senior-defenders/",
-    "pubDate": "2026-10-26T21:42:50+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -211,80 +139,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cj3vq7l22yk9o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-26T21:38:42+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "7 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "24a7d7e12075",
-    "title": "PLAYER RATINGS | PSG 2-0 Lyon: Les Parisiens go top of Ligue thanks to super-sub Mika Godts",
-    "highlights": "Round 8, Ligue 1 McDonald’s, 26/10/2026 With three points meaning either team would take top spot in Ligue 1, it was PSG who returned to the summit thanks to impressive…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-psg-2-0-lyon-les-parisiens-go-top-of-ligue-thanks-to-super-sub-mika-godts/",
-    "pubDate": "2026-10-26T21:25:30+00:00",
-    "time_display": "2 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "6d6a5530cf26",
-    "title": "Lamine Yamal after securing latest award: ‘Barcelona teammate should have won’",
-    "highlights": "Barcelona star Lamine Yamal made use of his acceptance speech for the Kopa Trophy on Monday evening to reveal his take that fellow Blaugrana youngster and close friend Pau Cubarsí…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/lamine-yamal-after-securing-latest-award-barcelona-teammate-should-have-won/",
-    "pubDate": "2026-10-26T21:20:00+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "f00abe9593a2",
-    "title": "Hansi Flick recommends signing of German international to Barcelona board",
-    "highlights": "Barcelona head coach Hansi Flick is keen to link up with a fellow countryman in Catalunya’s capital over the months ahead. This comes amid the understanding that the German tactician…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/hansi-flick-recommends-signing-of-german-international-to-barcelona-board/",
-    "pubDate": "2026-10-26T21:10:00+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "3c28de7d3ce4",
-    "title": "Barcelona star claims Blaugrana ‘were better’ than Real Madrid in defeat",
-    "highlights": "Barcelona star João Cancelo has revealed his take that, over the course of the 90 minutes, he and his teammates outperformed Real Madrid on Sunday. This of course comes fresh…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-star-claims-blaugrana-were-better-than-real-madrid-in-defeat/",
-    "pubDate": "2026-10-26T20:52:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "4ecca11e11e0",
-    "title": "Valencia handed injury boost",
-    "highlights": "La Liga outfit Valencia have early this week been afforded a welcome boost on the personnel front. This comes amid confirmation that Umar Sadiq has returned to group training. Attacker…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/valencia-handed-injury-boost/",
-    "pubDate": "2026-10-26T20:35:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "c2845b07354c",
-    "title": "Watch: Real Madrid fans claim to have been kicked out of Camp Nou for celebrating opening goal vs Barcelona",
-    "highlights": "Footage stemming from the Spotify Camp Nou has gone viral in the aftermath of last night’s clash between Barcelona and Real Madrid. This comes as members of the visiting crowd…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/watch-real-madrid-fans-claim-to-have-been-kicked-out-of-camp-nou-for-celebrating-opening-goal-vs-barcelona/",
-    "pubDate": "2026-10-26T20:17:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -295,7 +151,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/milan-keeping-tabs-on-bruno-fernandes-man-utd/",
     "pubDate": "2026-10-26T20:00:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -307,7 +163,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/football/news/12040/13602156/manchester-united-players-to-return-to-training-on-tuesday-but-uncertain-if-michael-carrick-will-be-in-charge",
     "pubDate": "2026-10-26T19:30:00+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -319,7 +175,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/ligue-1/psg-vs-lyon-live-teams-line-ups-where-to-watch-tv-channel-online-stream/",
     "pubDate": "2026-10-26T19:23:13+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -331,7 +187,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/damning-data-michael-carrick-manchester-united-head-coach",
     "pubDate": "2026-10-26T18:50:43+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -343,7 +199,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/ballon-dor-history-all-the-italians-serie-a/",
     "pubDate": "2026-10-26T18:40:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -355,7 +211,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/milan-suffer-another-blow-loftus-cheek-out/",
     "pubDate": "2026-10-26T18:10:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -367,7 +223,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/udinese-back-runjaic-despite-disastrous-start/",
     "pubDate": "2026-10-26T17:45:00+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -379,7 +235,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/official-inters-lautaro-martinez-ballon-dor/",
     "pubDate": "2026-10-26T17:20:00+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -391,33 +247,21 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sounds/play/p0pjq3nz?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-26T17:18:00+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "5e2d5c44e284",
-    "title": "Ο Makin θέλει να είναι ο επόμενος μεγάλος πρωταθλητής της Liverpool",
+    "id": "8407bb11de80",
+    "title": "Makin wants to be Liverpool's next great champion",
     "highlights": "Middleweight Callum Makin has excelled for the GB boxing team, but his Olympic future rests on a decision.",
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/boxing/news/12040/13604029/callum-makin-wants-to-be-liverpools-next-great-champion-my-dream-is-to-follow-in-their-footsteps-and-create-a-story-for-myself",
     "pubDate": "2026-10-26T17:00:00+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
-  },
-  {
-    "id": "e1b917d2c2de",
-    "title": "Juventus still in hunt for Marseille’s Pierre-Emile Hojbjerg, contacts on",
-    "highlights": "Serie A side Juventus could make do with another midfield addition, especially as Khephren Thuram and Manuel Locatelli. They continue to monitor potential signings to bolster that part of the…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/juventus-still-in-hunt-for-marseilles-pierre-emile-hojbjerg-contacts-on/",
-    "pubDate": "2026-10-26T17:00:00+00:00",
-    "time_display": "6 ώρες",
-    "country": "it",
-    "competition": "el"
   },
   {
     "id": "264a3d43805c",
@@ -427,19 +271,19 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/baresi-mural-casa-milan-vandalised-again/",
     "pubDate": "2026-10-26T16:58:02+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
   {
-    "id": "1d7b94bbac9d",
-    "title": "Michael Carrick attends Manchester United training ground as club discuss his fate",
+    "id": "d5120351ded4",
+    "title": "Ο Μάικλ Κάρικ παρευρίσκεται στο προπονητικό κέντρο της Μάντσεστερ Γιουνάιτεντ καθώς ο σύλλογος συζητά",
     "highlights": "Head coach arrives to watch under-21s play Bruno Fernandes likes Instagram post about loyalty Michael Carrick was at Manchester United’s training ground on Monday afternoon as elsewhere at the ­Carrington base Jason Wilcox, the director of football, and Omar ­Berrada, the chief executive officer, de...",
     "source": "The Guardian",
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/michael-carrick-manchester-united-training-ground-club-discuss-sacking",
     "pubDate": "2026-10-26T16:57:27+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -451,7 +295,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
     "pubDate": "2026-10-26T16:35:26+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -463,7 +307,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/milan-target-derby-return-gila-rabiot-moreira/",
     "pubDate": "2026-10-26T16:31:43+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -475,20 +319,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/boniek-slams-juventus-just-good-players/",
     "pubDate": "2026-10-26T16:04:41+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "e00b7c45fa5f",
-    "title": "Nico Williams confirms having said ‘no’ to PSG, Arsenal and Barça to stay at Athletic Club",
-    "highlights": "Athletic Club’s Nico Williams (24) has confirmed that he turned down opportunities to join Paris Saint-Germain, Arsenal as well as FC Barcelona in order to stay at the club. “I…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/nico-williams-confirms-having-said-no-to-psg-arsenal-and-barca-to-stay-at-athletic-club/",
-    "pubDate": "2026-10-26T15:36:51+00:00",
-    "time_display": "8 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -499,7 +331,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cqdr8zv5dg42o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-26T15:34:23+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -511,43 +343,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/rocchi-resigns-from-aia-to-continue-dazn-role/",
     "pubDate": "2026-10-26T15:32:57+00:00",
-    "time_display": "8 ώρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "163549b2127a",
-    "title": "What is holding up Federico Dimarco’s renewal at Inter",
-    "highlights": "Serie A side Inter have seen Federico Dimarco become a vital player since last season, when he was one of the most creative players on the planet. His importance hasn’t…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/what-is-holding-up-federico-dimarcos-renewal-at-inter/",
-    "pubDate": "2026-10-26T15:32:41+00:00",
-    "time_display": "8 ώρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "b38b48f400e0",
-    "title": "PSG president Nasser Al-Khelaïfi to miss Ballon d’Or ceremony",
-    "highlights": "Paris Saint-Germain president Nasser Al-Khelaïfi will not be attending the Ballon d’Or ceremony at the London Palladium this Monday evening, according to information from RMC Sport. Whilst no fewer than…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/psg-president-nasser-al-khelaifi-to-miss-ballon-dor-ceremony/",
-    "pubDate": "2026-10-26T15:18:47+00:00",
-    "time_display": "8 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "7e544d159fb5",
-    "title": "Ex-Tottenham boss Igor Tudor in line to replace Maurizio Sarri at Atalanta",
-    "highlights": "Serie A side Atalanta have been struggling so far this season and were held to a dramatic 4-4 draw by Frosinone at the weekend. This came after a loss to…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/ex-tottenham-boss-igor-tudor-in-line-to-replace-maurizio-sarri-at-atalanta/",
-    "pubDate": "2026-10-26T15:16:32+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "13 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -559,7 +355,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/bookies-suspend-market-on-michael-carrick-to-be-sacked-who-will-be-manchester-united-boss-on-january-1/",
     "pubDate": "2026-10-26T15:16:09+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -571,21 +367,9 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/ambrosini-advises-camarda-to-look-at-tresoldi/",
     "pubDate": "2026-10-26T15:03:38+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "13 ώρες",
     "country": "it",
     "competition": ""
-  },
-  {
-    "id": "a6443694de6f",
-    "title": "Manchester United v Roma: Gasperini receives huge boosts ahead of CL tie",
-    "highlights": "Serie A side Roma take on Manchester United next week in what will be a huge Champions League game. Not too long ago, it would have felt like the Giallorossi…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/manchester-united-v-roma-gasperini-receives-huge-boosts-ahead-of-cl-tie/",
-    "pubDate": "2026-10-26T15:00:49+00:00",
-    "time_display": "8 ώρες",
-    "country": "it",
-    "competition": "cl"
   },
   {
     "id": "56c4e12f2449",
@@ -595,44 +379,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/the-horse-that-brought-down-manchester-united",
     "pubDate": "2026-10-26T14:43:51+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "8d9bc16eee19",
-    "title": "Sunderland retain Geny Catamo interest; Newcastle, Leeds, Everton join the race",
-    "highlights": "Sunderland were interested in Sporting CP winger Geny Catamo (25) over the summer. Whilst they failed to get a deal over the line, they retain their interest, according to Franco-Belgian…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/sunderland-retain-geny-catamo-interest-newcastle-leeds-everton-join-the-race/",
-    "pubDate": "2026-10-26T14:38:03+00:00",
-    "time_display": "9 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "2f4e7d10461a",
-    "title": "Monaco manager Filipe Luís substitute management raising concerns",
-    "highlights": "AS Monaco had got off to a flying start in Ligue 1. However, over the past few weeks, the machine seems to have hit a bit of a snag. Whilst…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/monaco-manager-filipe-luis-substitute-management-raising-concerns/",
-    "pubDate": "2026-10-26T14:28:35+00:00",
-    "time_display": "9 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "03c5df27b06e",
-    "title": "Faris Moumbagna relegated to Marseille reserves",
-    "highlights": "Whilst Olympique de Marseille have a paper-thin squad following the summer fire sale, Bruno Genesio has made some strong calls with his squad management in recent weeks. As reported by…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/faris-moumbagna-relegated-to-marseille-reserves/",
-    "pubDate": "2026-10-26T14:26:33+00:00",
-    "time_display": "9 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -643,21 +391,9 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/davide-ancelotti-lille-champions-league-ligue-1",
     "pubDate": "2026-10-26T13:27:30+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": "cl"
-  },
-  {
-    "id": "5a8d20b2e38e",
-    "title": "France legend David Trezeguet predicts PSG winger Kvicha Kvaratskhelia to win a Ballon d’Or ‘in the future’",
-    "highlights": "Considered by many to be Ousmane Dembélé’s (29) heir apparent, set to add his name to the prestigious list of Ballon d’Or winners, can Kvicha Kvaratskhelia (25) truly claim the…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/france-legend-david-trezeguet-predicts-psg-winger-kvicha-kvaratskhelia-to-win-a-ballon-dor-in-the-future/",
-    "pubDate": "2026-10-26T13:25:59+00:00",
-    "time_display": "10 ώρες",
-    "country": "fr",
-    "competition": ""
   },
   {
     "id": "1b3b0df7c49a",
@@ -667,7 +403,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-previews/fleetwood-town-v-arsenal-efl-cup-preview-team-news-line-ups-stats-where-to-watch-tv-channel-live-online-stream-carabao/",
     "pubDate": "2026-10-26T13:11:14+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -679,7 +415,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/wsl-talking-points-alessia-russo-arsenal-tottenham-manchester-united-city",
     "pubDate": "2026-10-26T11:59:27+00:00",
-    "time_display": "11 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -691,7 +427,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/scott-mctominay-napoli-roma-serie-a-massimiliano-allegri-not-lucid-enough",
     "pubDate": "2026-10-26T11:21:26+00:00",
-    "time_display": "12 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -703,7 +439,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/fullkrug-werder-bremen-return-correct-decision-bundesliga/",
     "pubDate": "2026-10-26T10:03:29+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "18 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -715,7 +451,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/cricket/news/12040/13603915/englands-odi-struggles-how-worried-should-harry-brooks-side-be-after-another-unfathomable-defeat",
     "pubDate": "2026-10-26T10:00:00+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "19 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -727,7 +463,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/ligue-1/tip-of-the-day-ferran-torres-psg/",
     "pubDate": "2026-10-26T09:00:00+00:00",
-    "time_display": "14 ώρες",
+    "time_display": "20 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -739,7 +475,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/26/premier-league-10-talking-points-from-the-weekends-action",
     "pubDate": "2026-10-26T08:00:26+00:00",
-    "time_display": "15 ώρες",
+    "time_display": "21 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -751,7 +487,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cqdr8e81xjy7o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-26T07:36:20+00:00",
-    "time_display": "16 ώρες",
+    "time_display": "21 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -763,7 +499,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-26T00:07:16+00:00",
-    "time_display": "23 ώρες",
+    "time_display": "1 μέρα",
     "country": "uk",
     "competition": ""
   },
@@ -799,6 +535,18 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report",
     "pubDate": "2026-10-25T20:38:20+00:00",
+    "time_display": "1 μέρα",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "f3a7308bec3e",
+    "title": "Pierre Sage regrets ‘missed 15 minutes’ as defeat increases heat on Crystal Palace manager",
+    "highlights": "Sage’s side beaten 2-0 at home by Newcastle ‘Every mistake that is bad will be a goal’ Pierre Sage blamed a 15-minute loss of concentration for Crystal Palace’s 2-0 defeat by Newcastle and insisted he remains the right man to lead the south London club. “We missed 15 minutes when we came back from t...",
+    "source": "The Guardian",
+    "source_class": "guardian",
+    "link": "https://www.theguardian.com/football/2026/oct/25/pierre-sage-regrets-missed-15-minutes-as-defeat-increases-heat-on-crystal-palace-manager",
+    "pubDate": "2026-10-25T18:17:10+00:00",
     "time_display": "1 μέρα",
     "country": "uk",
     "competition": ""
@@ -876,18 +624,6 @@
     "competition": ""
   },
   {
-    "id": "891c1a41b532",
-    "title": "Napoli and Barcelona monitor Tottenham’s Lucas Bergvall",
-    "highlights": "Tottenham midfielder Lucas Bergvall has previously been linked with a move to Serie A. Clubs had been monitoring his situation in the summer, when things around his future seemed very…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/napoli-and-barcelona-monitor-tottenhams-lucas-bergvall/",
-    "pubDate": "2026-10-24T16:31:11+00:00",
-    "time_display": "2 μέρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
     "id": "c70e8f42119b",
     "title": "Three things we learnt from Bundesliga Matchday 7 – Antonio Nusa, Werder Bremen are fun and Said El Mala",
     "highlights": "Borussia Mönchengladbach began Bundesliga Matchday 7 with a 3-2 win against Stuttgart to avoid setting an all-time Bundesliga record for the worst start ever. Saturday afternoon was a day for…",
@@ -897,18 +633,6 @@
     "pubDate": "2026-10-24T16:23:30+00:00",
     "time_display": "2 μέρες",
     "country": "de",
-    "competition": ""
-  },
-  {
-    "id": "e5cba9634d8f",
-    "title": "Milan face major injury crisis ahead of Udinese clash",
-    "highlights": "With the Rossonerri set to face Udinese tomorrow evening at the Bluenergy Stadium, Milan coach Ruben Amorim has found himself in a difficult predicament ahead of a vital fixture as…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/milan-face-major-injury-crisis-ahead-of-udinese-clash/",
-    "pubDate": "2026-10-24T15:28:19+00:00",
-    "time_display": "2 μέρες",
-    "country": "it",
     "competition": ""
   },
   {
@@ -924,18 +648,6 @@
     "competition": ""
   },
   {
-    "id": "298fb832a1f8",
-    "title": "Liverpool keen on moving on from Federico Chiesa in January",
-    "highlights": "Serie A sides have previously attempted to sign Liverpool’s Federico Chiesa but things have never quite moved in the right direction. But things can now change in January. Calciomercato have…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/liverpool-keen-on-moving-on-from-federico-chiesa-in-january/",
-    "pubDate": "2026-10-24T08:26:52+00:00",
-    "time_display": "2 μέρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
     "id": "6960f3b25969",
     "title": "Wael Mohya apologizes to Stuttgart fans for provocative goal celebration",
     "highlights": "Borussia Mönchengladbach's 17-year-old matchwinner Wael Mohya has apologized for provoking VfB Stuttgart supporters during Friday's dramatic 3-2 Bundesliga comeback victory.",
@@ -943,7 +655,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/wael-mohya-stuttgart-fans-apology/",
     "pubDate": "2026-10-24T00:41:41+00:00",
-    "time_display": "2 μέρες",
+    "time_display": "3 μέρες",
     "country": "de",
     "competition": ""
   },
@@ -955,7 +667,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/blessin-stuttgart-bundesliga/",
     "pubDate": "2026-10-24T00:12:11+00:00",
-    "time_display": "2 μέρες",
+    "time_display": "3 μέρες",
     "country": "de",
     "competition": ""
   },
@@ -967,32 +679,8 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/hoenes-stuttgart-gladbach/",
     "pubDate": "2026-10-23T23:54:47+00:00",
-    "time_display": "2 μέρες",
+    "time_display": "3 μέρες",
     "country": "de",
-    "competition": ""
-  },
-  {
-    "id": "455b837e69fd",
-    "title": "Emanuele Lulli nearing new Roma contract and why the decision will pay off",
-    "highlights": "Serie A side Roma have seen talent Emanuele Lulli surprise many this season and has already found the back of the net once. They are now making key progress over…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/emanuele-lulli-nearing-new-roma-contract-and-why-the-decision-will-pay-off/",
-    "pubDate": "2026-10-23T18:47:45+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
-    "competition": "el"
-  },
-  {
-    "id": "474fb98f774f",
-    "title": "Napoli CEO Aurelio de Laurentiis reveals he won’t be selling club",
-    "highlights": "Serie A side Napoli have been linked with a possible in recent weeks, amidst speculation that CEO Aurelio de Laurentiis is eyeing suitors. But the Italian has now revealed that…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/napoli-ceo-aurelio-de-laurentiis-reveals-he-wont-be-selling-club/",
-    "pubDate": "2026-10-23T12:57:11+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
     "competition": ""
   }
 ]
