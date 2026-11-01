@@ -1,5 +1,65 @@
 [
   {
+    "id": "I751iMa9MQQ",
+    "videoId": "I751iMa9MQQ",
+    "title": "Παλμέιρας-Βάσκο ντα Γκάμα: 1-0 (SF 1, 01/11/2026)",
+    "thumbnail": "https://i2.ytimg.com/vi/I751iMa9MQQ/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Novasports",
+    "source": "broadcaster",
+    "platform": "youtube",
+    "pubDate": "2026-11-01T21:13:13+00:00"
+  },
+  {
+    "id": "L-Emm0fxFRw",
+    "videoId": "L-Emm0fxFRw",
+    "title": "Η συνέντευξη Τύπου του Μάρκο Νίκολιτς μετά τον αγώνα με τον Παναθηναϊκό | AEK F.C.",
+    "thumbnail": "https://i1.ytimg.com/vi/L-Emm0fxFRw/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "AEK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-11-01T21:07:16+00:00"
+  },
+  {
+    "id": "ySSf6Rwpmvg",
+    "videoId": "ySSf6Rwpmvg",
+    "title": "Press Conference: PAOK FC Vs Asteras AKTOR - PAOK TV",
+    "thumbnail": "https://i2.ytimg.com/vi/ySSf6Rwpmvg/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "PAOK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-11-01T20:51:31+00:00"
+  },
+  {
+    "id": "YKr1SOrFk-w",
+    "videoId": "YKr1SOrFk-w",
+    "title": "Panathinaikos v AEK (SLGR) | Highlights 01.11.26",
+    "thumbnail": "https://i2.ytimg.com/vi/YKr1SOrFk-w/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "Panathinaikos FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-11-01T20:40:08+00:00"
+  },
+  {
+    "id": "zzuyTbyoS2c",
+    "videoId": "zzuyTbyoS2c",
+    "title": "Τα highlights του ΠΑΟΚ-Asteras Aktor - PAOK TV",
+    "thumbnail": "https://i3.ytimg.com/vi/zzuyTbyoS2c/hqdefault.jpg",
+    "teams": "",
+    "competition": "league",
+    "channel": "PAOK FC",
+    "source": "club",
+    "platform": "youtube",
+    "pubDate": "2026-11-01T20:14:03+00:00"
+  },
+  {
     "id": "G4BC8MGY8I4",
     "videoId": "G4BC8MGY8I4",
     "title": "ΠΑΟΚ - Asteras AKTOR: 2-1 (MD 9, 01/11/2026)",
@@ -46,18 +106,6 @@
     "source": "broadcaster",
     "platform": "youtube",
     "pubDate": "2026-11-01T19:04:05+00:00"
-  },
-  {
-    "id": "ySSf6Rwpmvg",
-    "videoId": "ySSf6Rwpmvg",
-    "title": "Press Conference: PAOK FC Vs Asteras AKTOR - PAOK TV",
-    "thumbnail": "https://i2.ytimg.com/vi/ySSf6Rwpmvg/hqdefault.jpg",
-    "teams": "",
-    "competition": "league",
-    "channel": "PAOK FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-11-01T19:00:53+00:00"
   },
   {
     "id": "MZcPysWSjoM",
@@ -322,18 +370,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-10-31T13:49:47+00:00"
-  },
-  {
-    "id": "N3gjTrDz9EE",
-    "videoId": "N3gjTrDz9EE",
-    "title": "Κεντρικό δελτίο ειδήσεων ΣΚ - Live Stream | 01/11/2026 | OPEN TV",
-    "thumbnail": "https://i3.ytimg.com/vi/N3gjTrDz9EE/hqdefault.jpg",
-    "teams": "Κεντρικό δελτίο ειδήσεων ΣΚ vs Live Stream",
-    "competition": "league",
-    "channel": "Open TV",
-    "source": "broadcaster",
-    "platform": "youtube",
-    "pubDate": "2026-10-31T11:21:33+00:00"
   },
   {
     "id": "-qAgGceQJS0",
@@ -802,18 +838,6 @@
     "source": "club",
     "platform": "youtube",
     "pubDate": "2026-10-20T16:39:36+00:00"
-  },
-  {
-    "id": "FUysytNnuyg",
-    "videoId": "FUysytNnuyg",
-    "title": "AEK F.C. - Pre Game Live Youth League Phase MD3",
-    "thumbnail": "https://i3.ytimg.com/vi/FUysytNnuyg/hqdefault.jpg",
-    "teams": "AEK vs Pre Game Live Youth League Phase",
-    "competition": "league",
-    "channel": "AEK FC",
-    "source": "club",
-    "platform": "youtube",
-    "pubDate": "2026-10-20T16:12:44+00:00"
   },
   {
     "id": "zJDdS8v5D7U",
