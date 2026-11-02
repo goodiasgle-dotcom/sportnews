@@ -1,5 +1,29 @@
 [
   {
+    "id": "5999cd0ae605",
+    "title": "Σαν σήμερα, 2 Νοεμβρίου 2013: Το ιστορικό γκολ του Ασμίρ Μπέγκοβιτς από τα 89 μέτρα! (video)",
+    "highlights": "Στις 2 Νοεμβρίου 2013, στο στάδιο «Μπριτάνια», η Στόουκ Σίτι υποδέχθηκε τη Σαουθάμπτον για την Premier League, σε μια αναμέτρηση που έμελλε να μείνει στην ιστορία. Μόλις 13 δευτερόλεπτα μετά τη σέντρα, ο τερματοφύλακας των γηπεδούχων, Ασμίρ Μπέγκοβιτς, υποδέχθηκε μια γρήγορη πάσα προς τα πίσω και απ...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/category/san-simera/article/15205445/san-simera-2-noemvriou-2013-to-istoriko-gkol-tou-asmir-mpegkovits-apo-ta-89-metra-video/",
+    "pubDate": "2026-11-02T05:36:00+00:00",
+    "time_display": "21 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "27a662600fb7",
+    "title": "Wolff: Ο Russell «τρελάθηκε» αφού είδε τον τίτλο της σφραγίδας Antonelli",
+    "highlights": "Toto Wolff has revealed that Mercedes excused George Russell from carrying out his post Mexico City Grand Prix media duties because the British driver was \"distraught\" after seeing his team-mate Kimi Antonelli clinch the Drivers' Championship.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/f1/news/12040/13606691/george-russell-mercedes-boss-toto-wolff-says-british-driver-was-distraught-after-watching-team-mate-kimi-antonelli-seal-2026-f1-title",
+    "pubDate": "2026-11-02T03:00:00+00:00",
+    "time_display": "2 ώρες",
+    "country": "uk",
+    "competition": ""
+  },
+  {
     "id": "4bcb42ec9e9a",
     "title": "F1: Οι επόμενοι αγώνες του πρωταθλήματος",
     "highlights": "Με τον Αντονέλι πλέον πρωταθλητή, η Formula 1 συνεχίζει στη Βραζιλία, πριν ταξιδέψει στο Λας Βέγκας και στη Μέση Ανατολή για το φινάλε της σεζόν.",
@@ -7,7 +31,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/gmotion/2582816/f1-oi-epomenoi-agones-toy-protathlimatos",
     "pubDate": "2026-11-02T01:02:51+02:00",
-    "time_display": "31 λεπτά",
+    "time_display": "6 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -19,7 +43,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/gmotion/2582814/f1-oi-bathmologies-odigon-kai-kataskeyaston-meta-gp-mexikoy",
     "pubDate": "2026-11-02T00:52:00+02:00",
-    "time_display": "41 λεπτά",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -31,7 +55,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582786/panathinaikos-zitise-syggnomi-gia-tin-apoboli-toy-o-kangkoya",
     "pubDate": "2026-11-02T00:12:30+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -43,8 +67,44 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/la-liga/2582779/la-liga-i-mpilmpao-pire-ntermpi-me-2-1-tin-sosiedad-itta-gia-tin-sebilli",
     "pubDate": "2026-11-02T00:06:56+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "2f1583b1ae13",
+    "title": "Rice is a rounded midfielder, but could be more selfish - Murphy",
+    "highlights": "BBC Sport's Kelly Cates and Micah Richards discuss how rounded Declan Rice has become in Arsenal's midfield, while Danny Murphy argues that if he was more selfish he would score more goals.",
+    "source": "BBC Sport",
+    "source_class": "bbc",
+    "link": "https://www.bbc.co.uk/sport/football/videos/ck9dz227v751o?at_medium=RSS&at_campaign=rss",
+    "pubDate": "2026-11-02T00:00:21+00:00",
+    "time_display": "5 ώρες",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "9378777e7255",
+    "title": "'He's been fantastic' - how Konsa has fitted in seamlessly at Arsenal",
+    "highlights": "BBC Sport's Kelly Cates, Danny Murphy and Micah Richards analyse how good Ezri Konsa has been for Arsenal after signing from Aston Villa in the summer, especially in their 1-0 Premier League win against Liverpool at Anfield.",
+    "source": "BBC Sport",
+    "source_class": "bbc",
+    "link": "https://www.bbc.co.uk/sport/football/videos/cmwy4000q97ro?at_medium=RSS&at_campaign=rss",
+    "pubDate": "2026-11-02T00:00:11+00:00",
+    "time_display": "5 ώρες",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "93dac63ad04f",
+    "title": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
+    "highlights": "BBC Sport's Kelly Cates, Danny Murphy and Micah Richards discuss Liverpool's denied penalty claim for a pull on Alexander Isak's shirt by Arsenal defender Jurrien Timber and whether the Reds can feel hard done by.",
+    "source": "BBC Sport",
+    "source_class": "bbc",
+    "link": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
+    "pubDate": "2026-11-02T00:00:03+00:00",
+    "time_display": "5 ώρες",
+    "country": "uk",
     "competition": ""
   },
   {
@@ -55,8 +115,20 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/basketball/basket-league/2582771/aris-o-siao-panigyrise-exalla-apo-tin-ameriki-ti-niki-epi-toy",
     "pubDate": "2026-11-01T23:55:17+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "a2ec888c0768",
+    "title": "Adi Hütter pleased with Niko Ilicevic’s ‘extraordinary’ Bundesliga debut",
+    "highlights": "Eintracht Frankfurt head coach Adi Hütter praised 16-year-old Niko Ilicevic’s historic Bundesliga debut against Hamburg and reacted to the youngster’s refusal to pass to Jonathan Burkardt.",
+    "source": "Get German Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsgermany.com/2026/niko-ilicevic-bundesliga-debut-hutter/",
+    "pubDate": "2026-11-01T23:47:53+00:00",
+    "time_display": "6 ώρες",
+    "country": "de",
     "competition": ""
   },
   {
@@ -67,7 +139,31 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/ligue-1/2582767/ligue-1-i-marseig-epikratise-2-0-tis-toyloyz-simantikes-nikes-gia-lyon-kai",
     "pubDate": "2026-11-01T23:47:45+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "d2010da28b93",
+    "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
+    "highlights": "Bellingham and Diomandé complete 3-0 win over Racing Lazio top Serie A after fighting back to beat Cagliari Kylian Mbappé moved on from a tumultuous week by scoring a penalty to help Real Madrid win 3-0 at Racing Santander on Sunday. The French forward narrowly lost out on the Ballon d’Or to Bayern ...",
+    "source": "The Guardian",
+    "source_class": "guardian",
+    "link": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
+    "pubDate": "2026-11-01T23:46:31+00:00",
+    "time_display": "6 ώρες",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "1db61c6ef169",
+    "title": "Γκρέμιο-Ατλέτικο Μινέιρο 2-0: Προβάδισμα πρόκρισης στον τελικό",
+    "highlights": "Οι φιλοξενούμενοι είχαν την κατοχή στη μεγαλύτερη διάρκεια του πρώτου ημιχρόνου, αλλά μόνο στα τελευταία λεπτά μπόρεσαν να δημιουργήσουν κάποιες καλές φάσεις στην εστία του Βέβερτον. Η Γκρέμιο σε μία από τις ελάχιστες επιθέσεις της σε αυτό το διάστημα, κατάφερε να προηγηθεί, όταν μετά το δυνατό ελεύ...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/sport/podosfairo/event/copa-do-brasil/article/15207861/gkremio-atletiko-mineiro-2-0-provadisma-prokrisis-ston-teliko/",
+    "pubDate": "2026-11-01T23:37:22+00:00",
+    "time_display": "6 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -79,7 +175,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582727/peripatos-podosfairiki-isopedosi-kai-magkas-panathinaikos-me-arrostia",
     "pubDate": "2026-11-01T23:15:09+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -91,7 +187,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cqkgk0l3zpnyo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T23:00:21+00:00",
-    "time_display": "34 λεπτά",
+    "time_display": "6 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -103,7 +199,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/alla-spor/event/europi-alla-spor/article/15207872/thriamvos-gia-tin-ellada-me-dyo-metallia-stous-olympiakous-agones-neon-me-zervou-kai-papatheodorou/",
     "pubDate": "2026-11-01T23:00:00+00:00",
-    "time_display": "33 λεπτά",
+    "time_display": "6 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -115,7 +211,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/football/news/12040/13606815/arsenals-defensive-masterclass-praised-in-liverpool-win-as-jamie-carragher-salutes-world-class-declan-rice",
     "pubDate": "2026-11-01T23:00:00+00:00",
-    "time_display": "34 λεπτά",
+    "time_display": "6 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -127,7 +223,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582738/atromitos-horis-treis-kontra-ston-bolo-elabet",
     "pubDate": "2026-11-01T22:53:31+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -139,7 +235,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/alla-spor/event/europi-alla-spor/article/15207877/oloklirothike-to-2o-anaptyksiako-tournoua-tis-sezon/",
     "pubDate": "2026-11-01T22:51:00+00:00",
-    "time_display": "42 λεπτά",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -151,7 +247,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/serie-a/lazio-go-three-clear-in-serie-a-as-athletic-win-basque-derby/",
     "pubDate": "2026-11-01T22:50:15+00:00",
-    "time_display": "44 λεπτά",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -163,7 +259,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T22:50:05+00:00",
-    "time_display": "44 λεπτά",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -175,7 +271,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/spalletti-juventus-players-deserve-credit-fans/",
     "pubDate": "2026-11-01T22:40:14+00:00",
-    "time_display": "54 λεπτά",
+    "time_display": "7 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -187,7 +283,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15207731/ti-eipan-varouxas-koutsiaytis-gia-to-gkol-tou-olympiakou-stis-kathysteriseis-kai-to-xeri-tou-ese-eprepe-na-parapemfthei-o-diaititis-tou-panathinaikos-aek-xoris-var/",
     "pubDate": "2026-11-01T22:35:37+00:00",
-    "time_display": "58 λεπτά",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -199,7 +295,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582735/antino-haroymenoi-gia-apotelesma-apisteytoi-oi-filathloi",
     "pubDate": "2026-11-01T22:34:32+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -211,7 +307,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/injury-updates-mckennie-de-bruyne-di-lorenzo/",
     "pubDate": "2026-11-01T22:34:29+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -223,7 +319,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582734/tettei-paixame-me-psyhi-apo-1o-lepto-kati-poy-den-kaname-me-ton",
     "pubDate": "2026-11-01T22:33:54+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -235,7 +331,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582733/nistroyp-ehoyme-megali-eythyni-stoys-omoys-mas-gia-na-kanoyme",
     "pubDate": "2026-11-01T22:33:47+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -247,7 +343,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/di-lorenzo-napoli-struggle-with-consistency/",
     "pubDate": "2026-11-01T22:23:46+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -259,7 +355,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582730/nistroyp-sygharitiria-stoys-paiktes-moy-kerdisame-tin-kalyteri-omada",
     "pubDate": "2026-11-01T22:18:48+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -271,7 +367,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/mpasket/event/basket-league/article/15207737/aris-o-siao-panigyrise-eksalla-apo-tis-ipa-ti-niki-tou-ari/",
     "pubDate": "2026-11-01T22:16:15+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -283,7 +379,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582728/nikolits-analambano-tin-eythyni-eida-pragmata-poy-den-moy-aresoyn-kai",
     "pubDate": "2026-11-01T22:15:25+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -295,7 +391,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582726/paradosi-aney-oron-me-athlia-eikona",
     "pubDate": "2026-11-01T22:12:29+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -307,7 +403,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2582724/paok-niki-dia-pyros-kai-sidiroy-kai-tora-ntermpi-me-ton-olympiako",
     "pubDate": "2026-11-01T22:10:08+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -319,7 +415,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/landucci-napoli-had-a-bad-second-half-juventus/",
     "pubDate": "2026-11-01T22:09:30+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -331,7 +427,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/malek-el-mala-cologne-goal/",
     "pubDate": "2026-11-01T22:06:36+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -343,7 +439,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/category/the-experts/article/15207645/o-panathinaikos-edeikse-oti-exei-tis-apantiseis-akomi-kai-me-deka/",
     "pubDate": "2026-11-01T22:01:00+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -355,7 +451,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/nfl/lamar-jackson-to-go-on-ir-after-ravens-lose-to-bills-vikings-dealt-first-loss-as-bucs-make-bizarre-history/",
     "pubDate": "2026-11-01T22:00:10+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -367,7 +463,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/serie-a/article/15207665/giouventous-napoli-2-0-perase-esto-kai-dyskola/",
     "pubDate": "2026-11-01T21:46:22+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -379,7 +475,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-round-10-table-lazio-juventus-napoli/",
     "pubDate": "2026-11-01T21:41:58+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -391,7 +487,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-juventus-2-0-napoli-alajbegovic-boga/",
     "pubDate": "2026-11-01T21:39:16+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -403,7 +499,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/mixanokinita/event/formula-1/article/15207655/apisteyto-espase-o-troxos-sto-monothesio-tou-mpotas-video/",
     "pubDate": "2026-11-01T21:33:35+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -415,7 +511,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/barcelona-closely-monitoring-situation-of-hull-city-star/",
     "pubDate": "2026-11-01T21:30:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -427,7 +523,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/diethneis-pagkosmio-podosfairo/article/15207639/kangkoua-apo-timoria-se-timoria/",
     "pubDate": "2026-11-01T21:29:31+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -439,7 +535,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/video-alajbegovic-first-serie-a-goal-juventus/",
     "pubDate": "2026-11-01T21:29:01+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -451,7 +547,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league",
     "pubDate": "2026-11-01T21:25:01+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -463,7 +559,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/liverpool-work-in-progress-fizzles-out-arsenal-premier-league",
     "pubDate": "2026-11-01T21:20:57+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -475,19 +571,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/argentini-primera-division/article/15207623/mpoka-tzouniors-river-pleit-1-0-megali-niki-ton-gipedouxon-sto-epeisodiako-superclasico-video/",
     "pubDate": "2026-11-01T21:19:07+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "9b3f724945fb",
-    "title": "ΠΑΟΚ: Οι τρεις λύσεις και ο… άγνωστος «Χ» για δεξί μπακ με Ολυμπιακό!",
-    "highlights": "Με μια σημαντική απουσία θα ταξιδέψει ο ΠΑΟΚ στο «Γ. Καραϊσκάκης» για την αναμέτρηση με τον Ολυμπιακό την ερχόμενη εβδομάδα, καθώς δεν θα έχει στη διάθεσή του τον Κένι. Ο Άγγλος αμυντικός αντίκρισε την κόκκινη κάρτα στο παιχνίδι με τον Asteras AKTOR, με αποτέλεσμα να αποβληθεί και να χάσει αυτομάτως...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15207592/paok-oi-treis-lyseis-kai-o-agnostos-x-gia-deksi-mpak-me-olympiako/",
-    "pubDate": "2026-11-01T21:04:34+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -499,7 +583,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cvp8grpjk4leo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T21:00:26+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -511,7 +595,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/barcelona-consider-one-player-most-likely-to-leave-in-january/",
     "pubDate": "2026-11-01T21:00:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -523,7 +607,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/picture-inter-ultras-slam-players-derby-defeat/",
     "pubDate": "2026-11-01T20:57:57+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -535,7 +619,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/2-barcelona-1-real-madrid-updated-pichichi-standings/",
     "pubDate": "2026-11-01T20:35:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -547,7 +631,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
     "pubDate": "2026-11-01T20:17:13+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -559,7 +643,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c39wz2epven4o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T20:16:46+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -571,7 +655,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/dfb-pokal-16-bayern-hertha/",
     "pubDate": "2026-11-01T20:10:37+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -583,31 +667,19 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/thibaut-courtois-real-madrid-teammate-won-us-el-clasico/",
     "pubDate": "2026-11-01T20:10:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "es",
     "competition": ""
   },
   {
-    "id": "624b17bd585f",
-    "title": "ΧΑΟΣ στον πρώτο γύρο καθώς ο Λεκλέρκ τιμωρείται μετά την προσπέραση του Χάμιλτον",
+    "id": "cd8b9c1a821c",
+    "title": "CHAOS on opening lap as Leclerc gets penalty after overtaking Hamilton",
     "highlights": "Relive a dramatic opening lap as Ferrari's Charles Leclerc was given a five-second penalty after overtaking Lewis Hamilton for the lead of the Mexico City Grand Prix.",
     "source": "Sky Sports",
     "source_class": "sky",
     "link": "https://www.skysports.com/watch/video/13606813/mexico-city-gp-chaos-on-opening-lap-as-charles-leclerc-battles-past-team-mate-lewis-hamilton-to-lead",
     "pubDate": "2026-11-01T20:07:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "c4d8c25280e5",
-    "title": "Isak's non-penalty and Madueke-Mac Allister 'headbutt' - were big calls right?",
-    "highlights": "There were two big flashpoints during Arsenal's 1-0 win over Liverpool, demonstrating the good and bad sides of VAR.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/news/12040/13606793/liverpool-0-1-arsenal-alexander-isak-jurrien-timber-shirt-pull-and-noni-madueke-alexis-mac-allister-headbutt-show-good-and-bad-sides-of-var",
-    "pubDate": "2026-11-01T20:05:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -619,7 +691,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T20:00:18+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -631,7 +703,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-liveblog-como-lazio-juventus-more/",
     "pubDate": "2026-11-01T19:45:14+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -643,7 +715,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/hansi-flick-responds-to-gavis-lack-of-barcelona-minutes/",
     "pubDate": "2026-11-01T19:45:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -655,7 +727,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/worrying-signs-inter-chivu-echo-same-message/",
     "pubDate": "2026-11-01T19:43:21+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -667,7 +739,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/rice-hails-arsenal-undefeated-togetherness-as-liverpool-fume-over-penalty-claims/",
     "pubDate": "2026-11-01T19:42:02+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -679,7 +751,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cjdx3dpvevngo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T19:37:44+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -691,20 +763,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/spalletti-juventus-must-be-decisive-on-pitch/",
     "pubDate": "2026-11-01T19:29:44+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "fa0fd578a9b4",
-    "title": "Arteta credits Fleetwood loss for spirited win at Anfield",
-    "highlights": "Arsenal manager Mikel Arteta believes their loss in the League Cup by Fleetwood spurred his side on to their first victory at Anfield in 14 years.",
-    "source": "BBC Sport",
-    "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/sport/football/videos/cx2d2yxv84zo?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-01T19:21:49+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -715,7 +775,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/barcelona-eyeing-ambitious-deal-for-psg-star/",
     "pubDate": "2026-11-01T19:20:00+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -727,7 +787,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/manna-napoli-not-underestimate-juventus-lucca/",
     "pubDate": "2026-11-01T19:15:40+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -739,7 +799,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-previews/pakhtakor-v-al-nassr-line-ups-stats/",
     "pubDate": "2026-11-01T19:04:40+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -751,7 +811,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-lecce-1-2-genoa-messias-inspiration/",
     "pubDate": "2026-11-01T18:57:07+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -763,7 +823,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/jude-bellingham-smashes-zinedine-zidanes-real-madrid-goalscoring-benchmark/",
     "pubDate": "2026-11-01T18:55:00+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -775,7 +835,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-official-line-ups-juventus-napoli-wk10/",
     "pubDate": "2026-11-01T18:47:52+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -787,7 +847,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/bundesliga-frankfurt-hamburg-md8-26-ratings/",
     "pubDate": "2026-11-01T18:44:35+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -799,31 +859,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T18:38:45+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "aa5809772fc9",
-    "title": "Bellingham & Mbappe score as Real Madrid earn statement win",
-    "highlights": "Kylian Mbappe, Jude Bellingham and Yan Diomande score as Real Madrid cruise to a 3-0 win against Racing Santander, moving only three points behind Barcelona at the top of La Liga.",
-    "source": "BBC Sport",
-    "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/sport/football/videos/cv0ldye7k4g3o?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-01T18:37:48+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "c005f94d1e3a",
-    "title": "Arsenal win at Anfield for first time in 14 years to move top",
-    "highlights": "Arsenal won at Anfield for the first time in 14 years after Kai Havertz's strike sealed a gritty 1-0 victory - but Liverpool were denied what looked to be a clear penalty.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/liverpool-vs-arsenal/report/559530",
-    "pubDate": "2026-11-01T18:30:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -835,7 +871,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/confirmed-real-madrid-star-to-drop-to-bench-vs-aek/",
     "pubDate": "2026-11-01T18:30:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -847,7 +883,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/liverpool-arsenal-end-14-year-wait/",
     "pubDate": "2026-11-01T18:26:18+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -859,7 +895,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/police-bradley-lowery-taunt-coventry-sunderland-premier-league",
     "pubDate": "2026-11-01T18:20:53+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -871,7 +907,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-paris-fc-3-1-monaco-pierre-ferracci-era-ends-with-statement-win-over-filipe-luis-side/",
     "pubDate": "2026-11-01T18:16:57+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "fr",
     "competition": ""
   },
@@ -883,7 +919,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/masterclass-jose-mourinho-hails-seldom-seen-real-madrid-star-after-win-over-racing/",
     "pubDate": "2026-11-01T18:05:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -895,19 +931,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race",
     "pubDate": "2026-11-01T18:00:30+00:00",
-    "time_display": "5 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "d2010da28b93",
-    "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
-    "highlights": "Bellingham and Diomandé complete 3-0 win over Racing Lazio top Serie A after fighting back to beat Cagliari Kylian Mbappé moved on from a tumultuous week by scoring a penalty to help Real Madrid win 3-0 at Racing Santander on Sunday. The French forward narrowly lost out on the Ballon d’Or to Bayern ...",
-    "source": "The Guardian",
-    "source_class": "guardian",
-    "link": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
-    "pubDate": "2026-11-01T17:55:23+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -919,7 +943,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/racing-santander-0-3-real-madrid-los-blancos-make-it-six-straight-after-mbappe-controversy/",
     "pubDate": "2026-11-01T17:52:22+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -931,20 +955,8 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/barcelona-real-madrid-ready-to-battle-over-e65m-premier-league-star/",
     "pubDate": "2026-11-01T17:45:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "dfd2f18a150d",
-    "title": "Why Man Utd fans continue to stick by Carrick",
-    "highlights": "The last time Manchester United won a league game, schools were closed for the summer and the transfer window was still open.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/news/12040/13606693/michael-carricks-man-utd-support-explained-as-fans-believe-reason-for-worst-start-in-40-years-goes-beyond-dugout",
-    "pubDate": "2026-11-01T17:30:00+00:00",
-    "time_display": "6 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -955,7 +967,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
     "pubDate": "2026-11-01T17:28:54+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -967,19 +979,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/watch-havertz-gives-arsenal-lead-as-gunners-eye-first-anfield-win-since-2012/",
     "pubDate": "2026-11-01T17:28:35+00:00",
-    "time_display": "6 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "2ee9b1a8cc66",
-    "title": "Chelsea put six past Charlton to top WSL",
-    "highlights": "Ruthless Chelsea put six goals past Charlton - who are yet to earn a point in the WSL this season - to return to the top of the table with 27 goals in just eight games.",
-    "source": "BBC Sport",
-    "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/sport/football/videos/c6wyrgydvx0lo?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-01T17:10:45+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -991,7 +991,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/watch-bellingham-and-diomande-put-madrid-in-command-after-controversial-mbappe-penalty/",
     "pubDate": "2026-11-01T16:14:59+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1003,7 +1003,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cj93z2nk2694o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-01T15:49:47+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -1015,7 +1015,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/live/live-liverpool-v-arsenal-commentary-updates-goals-stream-stats-as-title-challengers-clash-at-anfield/",
     "pubDate": "2026-11-01T15:45:00+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1027,7 +1027,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/liverpool-v-arsenal-confirmed-line-ups-as-gunners-look-to-end-anfield-wait/",
     "pubDate": "2026-11-01T15:20:59+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1039,7 +1039,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/live/live-racing-santander-v-real-madrid-commentary-updates-goals-stream-stats/",
     "pubDate": "2026-11-01T14:30:00+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1051,7 +1051,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/london-city-lionesses-manchester-city-wsl-match-report",
     "pubDate": "2026-11-01T14:13:29+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1063,7 +1063,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/racing-santander-v-real-madrid-confirmed-line-ups-as-los-blancos-aim-to-continue-winning-run/",
     "pubDate": "2026-11-01T14:07:03+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1075,7 +1075,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/tip-of-the-day-liverpool-arsenal/",
     "pubDate": "2026-11-01T13:12:29+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1087,7 +1087,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/carrick-to-remain-in-charge-for-roma-game-with-united-boss-position-set-to-be-reviewed-during-international-break/",
     "pubDate": "2026-11-01T12:42:31+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1099,7 +1099,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
     "pubDate": "2026-11-01T08:49:48+00:00",
-    "time_display": "14 ώρες",
+    "time_display": "21 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -1111,7 +1111,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/official-didier-digard-and-jean-michel-roussier-leave-le-havre/",
     "pubDate": "2026-11-01T08:43:01+00:00",
-    "time_display": "14 ώρες",
+    "time_display": "21 ώρες",
     "country": "fr",
     "competition": ""
   },
@@ -1123,7 +1123,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/monaco-predicted-xi-v-paris-fc-matthis-abline-to-start-alongside-paris-brunner/",
     "pubDate": "2026-11-01T08:21:58+00:00",
-    "time_display": "15 ώρες",
+    "time_display": "21 ώρες",
     "country": "fr",
     "competition": ""
   },
@@ -1135,7 +1135,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/paris-fc-predicted-xi-v-monaco-luca-koleosho-out/",
     "pubDate": "2026-11-01T08:15:31+00:00",
-    "time_display": "15 ώρες",
+    "time_display": "21 ώρες",
     "country": "fr",
     "competition": ""
   },
@@ -1147,7 +1147,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/01/salford-city-david-beckham-lofty-ambitions-football",
     "pubDate": "2026-11-01T08:00:07+00:00",
-    "time_display": "15 ώρες",
+    "time_display": "21 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1159,7 +1159,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c8g47wl06vkqo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-10-31T23:52:28+00:00",
-    "time_display": "23 ώρες",
+    "time_display": "1 μέρα",
     "country": "uk",
     "competition": ""
   },
@@ -1231,18 +1231,6 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/ismael-saibari-and-serge-gnabry-sustain-injuries/",
     "pubDate": "2026-10-31T18:56:32+00:00",
-    "time_display": "1 μέρα",
-    "country": "de",
-    "competition": ""
-  },
-  {
-    "id": "111f54a04716",
-    "title": "Lennart Karl advisor Michael Ballack responds to Uli Hoeneß criticism",
-    "highlights": "Bayern Munich’s Lennart Karl has received public backing from advisor Michael Ballack following criticism from Bayern Munich honorary president and supervisory board member Uli Hoeneß. This comes after Hoeneß said…",
-    "source": "Get German Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsgermany.com/2026/lennart-karl-michael-ballack-responds-uli-hoeness-criticism/",
-    "pubDate": "2026-10-31T17:53:34+00:00",
     "time_display": "1 μέρα",
     "country": "de",
     "competition": ""
