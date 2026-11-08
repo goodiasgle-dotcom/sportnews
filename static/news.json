@@ -1,73 +1,229 @@
 [
   {
-    "id": "bf0f2863af36",
-    "title": "Ο αγώνας της ημέρας",
-    "highlights": "With Arsenal v Hull, Forest v Man City, Leeds v Spurs and Fulham v Newcastle",
+    "id": "cdfad095d7d0",
+    "title": "Άρης: Απάντησε με καθαρή νίκη και πήγε στη διακοπή όπως ήθελε",
+    "highlights": "Ο Γιώργος Στράντζαλης γράφει για το 3-0 επί του Παναιτωλικού, που έφερε την αντίδραση που ζητούσε ο Άρης, χωρίς όμως να κρύψει τα ανασταλτικά κενά που φάνηκαν ξανά.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584616/aris-apantise-me-kathari-niki-kai-pige-sti-diakopi-opos-ithele",
+    "pubDate": "2026-11-08T09:15:00+02:00",
+    "time_display": "1 λεπτό",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "8541d6a809c5",
+    "title": "Η αγγελία στη Νίκαια που περιγράφει τέλεια την παράνοια του ελληνικού real estate",
+    "highlights": "Ο Μαξιμιλιανός γράφει για τη σιωπηλή ικανοποίηση από την ήττα του Ντόναλντ Τραμπ, τον Τσίπρα που πέταξε μαζί με οπαδούς του Ολυμπιακού και τον Ρώσο πρέσβη.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/2408702/kairos-kleidose-hioni-mesa-sti-thessaloniki-prognosi-rigoy-gia-0-bathmoys-akomi-kai-stin",
+    "pubDate": "2026-11-08T09:09:00+02:00",
+    "time_display": "7 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "3cec72f9ea95",
+    "title": "Λάμψη... Ελλήνων στο MLS: Η «μαγική» κούρσα του Τσακίρη κόντρα στα δύο γκολ του Τριάντη που έφεραν τη νίκη στη Μινεσότα",
+    "highlights": "Ο Νεκτάριος Τριάντης θα ενταχθεί στην Εθνική Ελλάδος με τον καλύτερο τρόπο καθώς με δύο δικά του γκολ έφερε τη νίκη στη Μινεσότα κόντρα στη Σαν Χοσέ (3-1). Μαγνήτισε τους πάντες ο Τσακίρης με την ασίστ του.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/mls/2584668/lampsi-ellinon-sto-mls-i-magiki-koyrsa-toy-tsakiri-kontra-sta-dyo-gkol-toy",
+    "pubDate": "2026-11-08T09:07:28+02:00",
+    "time_display": "9 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "fe4abb7e49d2",
+    "title": "ΠΑΟΚ: Το σταυρόλεξο του Λίσι για δυνατούς λύτες και η έκπληξη",
+    "highlights": "Με σημαντικές απουσίες και αρκετά ερωτηματικά στην ενδεκάδα θα κατέβει ο ΠΑΟΚ στο Φάληρο για το ντέρμπι με τον Ολυμπιακό. Ο Αλέσιο Λίσι κράτησε κλειστά τα χαρτιά του, με τρεις θέσεις να παραμένουν ανοιχτές.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584645/paok-stayrolexo-toy-lisi-gia-dynatoys-lytes-kai-i-ekplixi",
+    "pubDate": "2026-11-08T09:00:00+02:00",
+    "time_display": "16 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "b16f8f45df2a",
+    "title": "GBL: Πού θα δείτε το Μαρούσι - Ολυμπιακός",
+    "highlights": "Το Μαρούσι υποδέχεται τον Ολυμπιακό (08/11, 17:30, LIVE στο Gazzetta) για την 6η αγωνιστική της GBL.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/basketball/basket-league/2584663/gbl-poy-tha-deite-maroysi-olympiakos",
+    "pubDate": "2026-11-08T08:32:22+02:00",
+    "time_display": "44 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "91b99ae1b188",
+    "title": "Παναθηναϊκός: Ενδεκάδα με όλα του τα «όπλα» ετοιμάζει ο Νίστρουπ κόντρα στον Ηρακλή",
+    "highlights": "Οι επιλογές της ενδεκάδας στις οποίες φαίνεται να καταλήγει ο Τζέικομπ Νίστρουπ για τον αγώνα του Παναθηναϊκού με τον Ηρακλή.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584648/panathinaikos-endekada-me-ola-toy-ta-opla-etoimazei-o-nistroyp-kontra",
+    "pubDate": "2026-11-08T08:30:00+02:00",
+    "time_display": "46 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "fbb56aca9c98",
+    "title": "Πρόγραμμα τηλεόρασης: Όλοι οι αγώνες και οι αθλητικές μεταδόσεις σήμερα (8/11)",
+    "highlights": "Δείτε στον τηλεοπτικό οδηγό του Gazzetta ώρες και κανάλια για την αθλητική δράση της ημέρας.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/2584657/programma-tileorasis-oloi-oi-agones-kai-oi-athlitikes-metadoseis-simera-811",
+    "pubDate": "2026-11-08T08:21:04+02:00",
+    "time_display": "55 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "94a19c58a065",
+    "title": "Αθλητικές μεταδόσεις σήμερα: Το Ολυμπιακός - ΠΑΟΚ, το ΑΕΚ - Παναθηναϊκός και το Ατλέτικο - Μπαρτσελόνα",
+    "highlights": "Οι ώρες και τα κανάλια μετάδοσης των σημερινών (8/11) αθλητικών γεγονότων.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584436/athlitikes-metadoseis-simera-olympiakos-paok-aek-panathinaikos-kai",
+    "pubDate": "2026-11-08T08:13:00+02:00",
+    "time_display": "1 ώρα",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "1d9e3dbd62e3",
+    "title": "Λιονέλ Μέσι: Έγραψε ιστορία στο MLS, πρώτος σκόρερ για δεύτερη σερί σεζόν",
+    "highlights": "Ο Λιονέλ Μέσι αναδείχθηκε για δεύτερη διαδοχική σεζόν πρώτος σκόρερ στο πρωτάθλημα του MLS.",
+    "source": "Gazzetta Football",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/mls/2584654/lionel-mesi-egrapse-istoria-sto-mls-protos-skorer-gia-deyteri-seri-sezon",
+    "pubDate": "2026-11-08T08:10:06+02:00",
+    "time_display": "1 ώρα",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "d01bad7e52ea",
+    "title": "Ολυμπιακός - ΠΑΟΚ: Η ώρα και το κανάλι μετάδοσης του αγώνα",
+    "highlights": "Η ώρα και το κανάλι μετάδοσης του αποψινού (8/11) ντέρμπι του Ολυμπιακού με τον ΠΑΟΚ για τη Superleague.",
+    "source": "Gazzetta Football",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584221/olympiakos-paok-i-ora-kai-kanali-metadosis-toy-agona",
+    "pubDate": "2026-11-08T08:07:00+02:00",
+    "time_display": "1 ώρα",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "deadf4683330",
+    "title": "Μαφέο: «Ο διαιτητής δεν είναι δίκαιος» (video)",
+    "highlights": "Ο 29χρονος μπακ υποστήριξε πως ο διαιτητής δεν ήταν δίκαιος και δεν έκρυψε τον εκνευρισμό του, για τις αποφάσεις του. Ο Μαφέο είχε πάρει μεταγραφή το φετινό καλοκαίρι στον Ολυμπιακό, όμως τελικά επέστρεψε στην Ισπανία για να φορέσει τη φανέλα της Βαλένθια. Ο Αργεντινός μπακ έχει δώδεκα συμμετοχές τη...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/sport/podosfairo/event/laliga-division/article/15219535/mafeo-o-diaititis-den-einai-dikaios-video/",
+    "pubDate": "2026-11-08T07:02:00+00:00",
+    "time_display": "15 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "40069e586104",
+    "title": "Μπόκα Τζούνιορς: Πρωταθλήτρια στις καθυστερήσεις (video)",
+    "highlights": "Η ομάδα του Μπουένος Άιρες κατάφερε να πάρει τον τίτλο με γκολ που σημείωσε στο έκτο λεπτό των καθυστερήσεων ο Ένερ Βαλένσια. Συγκεκριμένα, η Μπόκα Τζούνιορς υποδέχτηκε τη Ντεφένσα Χουστίθια στο «Μπομπονέρα» και ήθελε μόνο τη νίκη για να πάρει τον τίτλο. Ο αγώνας παρέμεινε ισόπαλος χωρίς γκολ (0-0) ...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/sport/podosfairo/event/argentini-primera-division/article/15219530/mpoka-tzouniors-protathlitria-stis-kathysteriseis-video/",
+    "pubDate": "2026-11-08T06:51:00+00:00",
+    "time_display": "26 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "8c11af22dc8f",
+    "title": "Why unique Brighton defence is so tricky to unpick",
+    "highlights": "Brighton's unique defensive shape has provided the platform for the Seagulls' superb start to the Premier League season.",
     "source": "BBC Sport",
     "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-08T00:00:56+00:00",
-    "time_display": "32 λεπτά",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cm0j033lnp5po?at_medium=RSS&at_campaign=rss",
+    "pubDate": "2026-11-08T06:41:37+00:00",
+    "time_display": "35 λεπτά",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "2cbbcbfff487",
+    "id": "ba0b73ae5dec",
+    "title": "ΑΝΑΛΥΣΗ | Πώς οι Miro Muheim και Albert Grønbæk ήταν καταλύτες για τη νίκη του Αμβούργου με 3-1 επί της Borussia Mönchengladbach",
+    "highlights": "Hamburg finally won again. On a cold Friday night at the Volksparkstadion, they beat Borussia Mönchengladbach 3–1. These three vital points, coming just before the international break, put them on…",
+    "source": "Get German Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsgermany.com/2026/hamburg-gladbach-analysis/",
+    "pubDate": "2026-11-08T06:12:21+00:00",
+    "time_display": "1 ώρα",
+    "country": "de",
+    "competition": ""
+  },
+  {
+    "id": "8fb3fc11bb96",
+    "title": "Σαν σήμερα, 8 Νοεμβρίου 1931: Η ΑΕΚ κατακτά το πρώτο Κύπελλο Ελλάδας στην ιστορία!",
+    "highlights": "Στον μεγάλο τελικό που φιλοξενήθηκε στο Γήπεδο της Λεωφόρου Αλεξάνδρας, η «Ένωση» βρέθηκε αντιμέτωπη με το απόλυτο φαβορί της εποχής, τον πανίσχυρο Άρη, ο οποίος διέθετε πλειάδα διεθνών αστέρων όπως οι Κλεάνθης Βικελίδης, Νικηφόρος Βικελίδης και Νίκος Κίτσος. Παρά το γεγονός ότι οι Θεσσαλονικείς κυρ...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/category/san-simera/article/15215924/san-simera-8-noemvriou-1931-i-aek-katakta-to-proto-kypello-elladas-stin-istoria/",
+    "pubDate": "2026-11-08T05:52:00+00:00",
+    "time_display": "1 ώρα",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "9d8b15dd1dd6",
     "title": "Βαλένθια - Ρεάλ Μαδρίτης 0-3: Μπαλάρα στο «Μεστάγια» και κορυφή στη La Liga!",
     "highlights": "Η Ρεάλ Μαδρίτης άλωσε και το «Μεστάγια» με κυριαρχική εμφάνιση κόντρα στη Βαλένθια και με το άνετο 3-0 ανέβηκε στην κορυφή της La Liga, εν αναμονή του ντέρμπι Ατλέτικο - Μπαρτσελόνα.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/la-liga/2584633/balenthia-real-madritis-0-3-mpalara-sto-mestagia-kai-koryfi-sti-la-liga",
     "pubDate": "2026-11-07T23:58:40+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "322e311ae24f",
+    "id": "61550e41d8fd",
     "title": "Ligue 1: Μόνη πρώτη η Παρί Σεν Ζερμέν στην κορυφή - Νίκη για την Παρί με 1-0 την Οσέρ",
     "highlights": "Η Παρί Σεν Ζερμέν επικράτησε με 1-0 της Τρουά και βρίσκεται πλέον μόνη πρώτη στην κορυφή της Ligue 1, στο +3 από τη δεύτερη Παρί.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/ligue-1/2584632/ligue-1-moni-proti-i-pari-sen-zermen-stin-koryfi-niki-gia-tin-pari-me-1-0",
     "pubDate": "2026-11-07T23:57:28+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "34f93a685a5a",
-    "title": "Αλκαράθ και Σέλτον στον τελικό του Rolex Paris Masters",
-    "highlights": "Ο Κάρλος Αλκαράθ και ο Μπεν Σέλτον πήραν τα δύο εισιτήρια του μεγάλου τελικού του Rolex Paris Masters, σε μία πρόβα για τα προσεχή ATP Finals που είναι πιθανόν να συναντηθούν.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/tennis/atp/2584631/alkarath-kai-selton-ston-teliko-toy-rolex-paris-masters",
-    "pubDate": "2026-11-07T23:56:12+02:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "0105ab888caf",
+    "id": "d7be6c7b7f9f",
     "title": "Μουζακίτης: Η ξεχωριστή ανάρτηση μετά το ντεμπούτο του στην Premier League",
     "highlights": "O Xρήστος Μουζακίτης έκανε το ντεμπούτο του στην Premier League και ανάρτησε μία ιδίαιτερη δημοσίευση μετά τη λήξη της αναμέτρησης ανάμεσα σε Άρσεναλ και Χαλ.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/premier-league/2584630/moyzakitis-i-xehoristi-anartisi-meta-ntempoyto-toy-stin-premier",
     "pubDate": "2026-11-07T23:41:07+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "b62c38557b18",
+    "id": "6f3ff9dd667b",
     "title": "Ρόμα - Σασουόλο 3-0: Καθάρισε και βρέθηκε μια ανάσα από την κορυφή",
     "highlights": "Η Ρόμα επικράτησε 3-0 εντός έδρας της Σασουόλο και βρέθηκε στο -1 από την κορυφή της βαθμολογίας της Serie A.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/serie/2584629/roma-sasoyolo-3-0-katharise-kai-brethike-mia-anasa-apo-tin-koryfi",
     "pubDate": "2026-11-07T23:36:43+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -79,7 +235,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/copa-do-brasil/article/15219439/atletiko-mineiro-gkremio-1-1-oi-gkaoutsos-ekleisan-thesi-ston-teliko/",
     "pubDate": "2026-11-07T23:21:06+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -91,31 +247,19 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/inter-miami-3-3-charlotte-report-result-goals/",
     "pubDate": "2026-11-07T23:15:49+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "b559ffe6fdb0",
+    "id": "6929420abd16",
     "title": "Άρης: Προφανώς είναι πολύ καλύτερος στο Χαριλάου",
     "highlights": "Ο Βασίλης Βλαχόπουλος γράφει για το 4/5 του Άρη στο «Κλ. Βικελίδης» και καταθέτει τους αριθμούς έπειτα από τη νέα νίκη επί του Παναιτωλικού.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584622/aris-profanos-einai-poly-kalyteros-sto-harilaoy",
     "pubDate": "2026-11-07T23:02:46+02:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "4d4565cd01b9",
-    "title": "Νέα Ιωνία: Βήμα πρόκρισης στη φάση των «16» στο EHF European Cup γυναικών",
-    "highlights": "Η Νέα Ιωνία νικώντας την πορτογαλική Αλμέιδα Γκαρέτ με 28-23 στο ΟΑΚΑ, απέκτησε προβάδισμα πρόκρισης στη φάση των «16» στο EHF European Cup γυναικών.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/handball/2584624/nea-ionia-bima-prokrisis-sti-fasi-ton-16-sto-ehf-european-cup-gynaikon",
-    "pubDate": "2026-11-07T23:02:01+02:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -127,7 +271,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/pingk-pongk/article/15219240/simantikes-anodoi-gia-ellines-athlites-stous-eyropaikous-pinakes-aksiologisis-tou-noemvriou/",
     "pubDate": "2026-11-07T22:58:00+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -139,7 +283,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/premier-league/article/15219175/mantsester-giounaitent-arnitiko-rekor-40etias-stin-premier-league/",
     "pubDate": "2026-11-07T22:46:40+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -151,32 +295,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T22:44:20+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "61e42dcbcee2",
-    "title": "Καντεβέρε: «Με τον Κουαμέ έχουμε καλή επικοινωνία»",
-    "highlights": "Ο Τίνο Καντεβέρε έφτασε στα τέσσερα γκολ στο φετινό Πρωτάθλημα και μετά τα δύο που σημείωσε απέναντι στον Παναιτωλικό αναφέρθηκε στη δύσκολη εβδομάδα που πέρασε ο Άρης.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2584618/kantebere-me-ton-koyame-ehoyme-kali-epikoinonia",
-    "pubDate": "2026-11-07T22:38:31+02:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "ce7a03adeb79",
-    "title": "ΠΑΟΚ: Κανονικά από αύριο το πρωί τα εισιτήρια για Παρτιζάν",
-    "highlights": "Τα προβλήματα που δημιουργήθηκαν στη διάθεση των εισιτήριων του φιλικού για τους κατόχους διαρκείας ξεπεράστηκαν και από αύριο το πρωί θα διατίθενται κανονικά",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/2584617/paok-kanonika-apo-ayrio-proi-ta-eisitiria-gia-partizan",
-    "pubDate": "2026-11-07T22:37:54+02:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -187,7 +307,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/jose-mourinho-blasts-la-liga-over-real-madrid-fixture-schedule/",
     "pubDate": "2026-11-07T22:32:09+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -199,7 +319,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
     "pubDate": "2026-11-07T22:30:08+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -211,7 +331,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/rodri-has-pencilled-in-his-planned-barcelona-comeback-fixture/",
     "pubDate": "2026-11-07T22:30:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -223,7 +343,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/rodrigo-mora-football-crazy-cristiano-ronaldo/",
     "pubDate": "2026-11-07T22:24:26+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -235,19 +355,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/primeira-liga/article/15219172/sportingk-lisavonas-moreirense-1-0-xryso-gkol-tou-souares-pire-lepta-o-ioannidis/",
     "pubDate": "2026-11-07T22:24:02+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "d02fdb2589b6",
-    "title": "Άρης - Παναιτωλικός: Τα highlights του ματς",
-    "highlights": "Δείτε τα γκολ και τις καλύτερες φάσεις από τη νίκη του Άρη επί του Παναιτωλικού στο «Κλεάνθης Βικελίδης», με 3-0.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2584612/aris-panaitolikos-ta-highlights-toy-mats",
-    "pubDate": "2026-11-07T22:22:06+02:00",
-    "time_display": "4 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -259,7 +367,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/ligue-1/article/15219181/pari-sen-zermen-troua-1-0-dyskoli-niki-me-zamparni/",
     "pubDate": "2026-11-07T22:19:25+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -271,20 +379,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/gasperini-roma-in-the-mix-for-scudetto-race/",
     "pubDate": "2026-11-07T22:16:05+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "b69f36a5e8cd",
-    "title": "Παναιτωλικός: Αρνητικό ρεκόρ διαδοχικών ηττών σε μια σεζόν στην κορυφαία κατηγορία",
-    "highlights": "Ο Παναιτωλικός με την ήττα του από τον Άρη έφτασε τις 7 διαδοχικές κι έκανε αρνητικό ρεκόρ, μέσα σε μια σεζόν, στην παρουσία του στην κορυφαία κατηγορία του ελληνικού ποδοσφαίρου.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2584610/panaitolikos-arnitiko-rekor-itton-se-mia-sezon-sti-super-league",
-    "pubDate": "2026-11-07T22:15:57+02:00",
-    "time_display": "4 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -295,20 +391,8 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/real-madrid-star-named-man-of-the-match-after-goal-assist-vs-valencia/",
     "pubDate": "2026-11-07T22:10:47+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "ff072fa2370d",
-    "title": "Βαλένθια – Ρεάλ Μαδρίτης 0-3: «Τρένο» και στη LaLiga",
-    "highlights": "Οι Μαδριλένοι ξεκίνησαν δυναμικά, έχοντας τον έλεγχο του ρυθμού, παρά το γεγονός ότι η Βαλένθια έκλεισε αποτελεσματικά τους χώρους στο πρώτο εικοσάλεπτο. Μάλιστα, οι γηπεδούχοι απείλησαν πρώτοι όταν ο Μαγιόλ έκλεψε την μπάλα και σουτάρετε εκτός περιοχής, με τον Κουρτουά να αποκρούει εντυπωσιακά με τ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/laliga-division/article/15219131/valenthia-real-madritis-0-3-treno-kai-sti-laliga/",
-    "pubDate": "2026-11-07T22:06:50+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -319,7 +403,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/valencia-0-3-real-madrid-report-result-and-goals-as-los-blancos-level-barcelona/",
     "pubDate": "2026-11-07T22:06:14+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -331,20 +415,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T22:05:40+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "c915f0777ee3",
-    "title": "ΑΕΚ: Η επιτακτική ανάγκη για επιστροφή στις νίκες και οι αλλαγές που σκέφτεται ο Νίκολιτς",
-    "highlights": "Η ΑΕΚ υποδέχεται τον Λεβαδειακό στη Νέα Φιλαδέλφεια με την επιστροφή στις νίκες να είναι επιβεβλημένη πριν τη διακοπή. Ποιες αλλαγές σκέφτεται ο Μάρκο Νίκολιτς στην ενδεκάδα.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2584594/aek-i-epitaktiki-anagki-gia-epistrofi-stis-nikes-kai-oi-allages-poy",
-    "pubDate": "2026-11-07T22:00:00+02:00",
-    "time_display": "4 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -355,20 +427,8 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-psg-1-0-troyes-illia-zabarnyi-header-hands-three-point-lead-for-ligue-1-champions/",
     "pubDate": "2026-11-07T21:59:04+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "b1e41d14e879",
-    "title": "Μουζακίτης: «Μια μέρα που θα θυμάμαι για όλη μου τη ζωή»",
-    "highlights": "Παρά το γεγονός ότι η ομάδα του γνώρισε την ήττα σε αυτό το δύσκολο παιχνίδι, ο νεαρός Έλληνας μέσος δεν έκρυψε τη βαθιά του συγκίνηση. Μέσω μιας ιδιαίτερης ανάρτησης στα μέσα κοινωνικής δικτύωσης, αποτύπωσε τη σημασία αυτής της τεράστιας μέγιστης επιτυχίας στην καριέρα του, γράφοντας χαρακτηριστικά...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/premier-league/article/15219121/mouzakitis-mia-mera-pou-tha-thymamai-gia-oli-mou-ti-zoi/",
-    "pubDate": "2026-11-07T21:57:42+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -379,20 +439,8 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/real-madrid-star-accused-of-slapping-security-official-during-valencia-clash/",
     "pubDate": "2026-11-07T21:50:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "c519e353869e",
-    "title": "Γρηγορίου: «Θέλουμε να αποδίδουμε κι εκτός έδρας όπως στο Χαριλάου»",
-    "highlights": "Ο Μιχάλης Γρηγορίου στάθηκε στην αποτελεσματικότητα του Άρη και εξήγησε τί ακριβώς θέλει στην πορεία του Πρωταθλήματος.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2584603/grigorioy-theloyme-na-apodidoyme-ki-ektos-edras-opos-sto-harilaoy",
-    "pubDate": "2026-11-07T21:43:09+02:00",
-    "time_display": "4 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -403,7 +451,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T21:42:59+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -415,20 +463,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-roma-3-0-sassuolo-aquilani-swept-aside/",
     "pubDate": "2026-11-07T21:38:14+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "a16c516237e3",
-    "title": "Χέρτα – Βόλφσμπουργκ 2-1: Πρώτη και αήττητη δάγκωσε και τους Λύκους (highlights)",
-    "highlights": "Η Χέρτα με δέκα νίκες και μόλις μία ισοπαλία, νίκησε στο Βερολίνο τη Βολφσμπουργκ που στο 20ο λεπτό έχασε τον Βραζιλιάνο Κλέιτον με απ’ευθείας κόκκινη κάρτα μετά από υπόδειξη VAR. Η Βόλφσμπουργκ είχε δοκάρι στη πρώτη φάση του αγώνα, αλλά μετά το 20λεπτο έπαιζε άμυνα. Η Χέρτα πήρε μπάλα και μέτρα και...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/2-bundesliga/article/15218755/xerta-volfsmpourgk-2-1-proti-kai-aittiti-dagkose-kai-tous-lykous-highlights/",
-    "pubDate": "2026-11-07T21:38:13+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -439,20 +475,8 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/real-madrid-legend-pokes-fun-at-valencia-star-during-la-liga-clash/",
     "pubDate": "2026-11-07T21:35:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "075774ef5a6a",
-    "title": "Γουόκερ: «Θέλουμε να δείξουμε τις δυνατότητες μας κόντρα στον πρωταθλητή Ευρώπης»",
-    "highlights": "Αναλυτικά όσα δήλωσε ο πλέι μέικερ του Αμαρουσίου, Τζόρνταν Γουόκερ για το ματς με τον Ολυμπιακό: «Όπως κάθε παιχνίδι, αυτό που μας ενδιαφέρει είναι να παρουσιάσουμε την καλύτερη εκδοχή μας. Παίζοντας με τον πρωταθλητή Ευρώπης είναι σημαντικό να μείνουμε απόλυτα συγκεντρωμένοι στο πλάνο για να δείξο...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/mpasket/event/basket-league/article/15218981/gouoker-theloume-na-deiksoume-tis-dynatotites-mas-kontra-ston-protathliti-eyropis/",
-    "pubDate": "2026-11-07T21:32:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -463,20 +487,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-probable-line-ups-napoli-vs-lazio/",
     "pubDate": "2026-11-07T21:29:11+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "5cdff1513e23",
-    "title": "Σπόρτινγκ Λισαβόνας: Το «αντίο» και η αποθέωση για τον Ρονάλντο από τους φιλάθλους!",
-    "highlights": "Στο ματς που διεξάγεται αυτή τη στιγμή κόντρα στη Μορεϊρένσε για το πορτογαλικό πρωτάθλημα, οι φίλαθλοι του πορτογαλικού συλλόγου ύψωσαν ένα εντυπωσιακό πανό που έγραφε χαρακτηριστικά «Ευχαριστούμε Ρονάλντο», στέλνοντας το δικό τους μήνυμα αγάπης και ευγνωμοσύνης στον θρυλικό επιθετικό. Η κίνηση αυτ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/primeira-liga/article/15219107/sportingk-lisavonas-to-antio-kai-i-apotheosi-gia-ton-ronalnto-apo-tous-filathlous/",
-    "pubDate": "2026-11-07T21:26:28+00:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -487,7 +499,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/jude-bellingham-real-madrid-stars-involved-in-heated-tunnel-exchange-with-valencia-squad/",
     "pubDate": "2026-11-07T21:18:28+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -499,7 +511,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
     "pubDate": "2026-11-07T21:17:41+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": "el"
   },
@@ -511,33 +523,9 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/this-is-pointless-st-valencia-star-explodes-in-half-time-interview-vs-real-madrid/",
     "pubDate": "2026-11-07T21:05:35+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "es",
     "competition": ""
-  },
-  {
-    "id": "bbceb0413c54",
-    "title": "Γιαπλές: «Ανησυχητική η εικόνα μας κόντρα στον ΠΑΟΚ»",
-    "highlights": "Αναλυτικά όσα δήλωσε ο κόουτς του Βίκου Ιωαννίνων: Για την ήττα από τον ΠΑΟΚ: «Συγχαρητήρια στον ΠΑΟΚ. Εμείς δεν ήρθαμε καθόλου έτοιμοι και η ευθύνη είναι δική μου, γιατί δεν κατάφερα να αποτρέψω αυτή τη χαλάρωση που παρουσιάζουν πολλές ομάδες μετά από μια μεγάλη επιτυχία. Μέχρι τώρα είχαμε δείξει χ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/mpasket/event/basket-league/article/15218963/giaples-anisyxitiki-i-eikona-mas-kontra-ston-paok/",
-    "pubDate": "2026-11-07T21:00:00+00:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "006c84dbae95",
-    "title": "UEFA Champions League: Δύο ξεχασμένοι άσοι στο… «τραπέζι» του Χάαλαντ",
-    "highlights": "Ο Έρλινγκ Χάαλαντ από τη στιγμή που πάτησε το πόδι του στο «Etihad Stadium», βρίσκεται στη «ζώνη του λυκόφωτος» σε ότι αφορά το UEFA Champions League και αυτό δεν είναι υπερβολή. Τον καιρό που βρίσκεται στη Μάντσεστερ Σίτι, σκοράρει ασταμάτητα τόσο εντός όσο και εκτός Αγγλίας. Στην κορυφαία διασυλλο...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/uefa-champions-league/article/15218837/uefa-champions-league-dyo-ksexasmenoi-asoi-sto-trapezi-tou-xaalant/",
-    "pubDate": "2026-11-07T20:59:14+00:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
-    "competition": "cl"
   },
   {
     "id": "ac9c347a1f5f",
@@ -547,19 +535,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/enzo-maresca-admits-man-city-conceding-too-many-goals/",
     "pubDate": "2026-11-07T20:57:26+00:00",
-    "time_display": "3 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "97100d2b78c8",
-    "title": "«Μια διαφορετική Νόνι;» Ο Μαντουέκε βρήκε ένα νέο επίπεδο για την Άρσεναλ",
-    "highlights": "Noni Madueke lay sprawled on the turf, head in his hands, following his one-on-one miss late in Arsenal's 1-0 victory over Hull . His frustration continued to show even after the final whistle.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/news/12040/13609559/noni-madueke-has-become-a-different-player-says-mikel-arteta-as-winger-finds-new-level-of-creativity-and-efficiency",
-    "pubDate": "2026-11-07T20:55:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -571,7 +547,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cm93z0l03n8vo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T20:54:12+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -583,7 +559,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/watch-federico-valverde-scores-real-madrid/",
     "pubDate": "2026-11-07T20:43:14+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -595,7 +571,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/man-united-youngster-confirms-real-madrid-over-barcelona/",
     "pubDate": "2026-11-07T20:41:47+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -607,7 +583,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/nwsl-playoffs-kansas-city-current-angel-city-utah-royals-san-diego-wave",
     "pubDate": "2026-11-07T20:40:37+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -619,7 +595,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/mls/inter-miami-v-charlotte-fc-confirmed-team-news-line-ups-messi/",
     "pubDate": "2026-11-07T20:14:40+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -631,7 +607,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T20:02:25+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -643,7 +619,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/manager-sorts-out-manchester-united-unai-emery",
     "pubDate": "2026-11-07T20:00:19+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -655,19 +631,19 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/ckz7x4jlypq3o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T19:59:34+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "a0a0a14bb955",
-    "title": "Arsenal beat Hull to extend lead at top of the table",
+    "id": "36a58977befd",
+    "title": "Η Arsenal νίκησε τη Hull για να επεκτείνει το προβάδισμα στην κορυφή του πίνακα",
     "highlights": "Arsenal captain Martin Odegaard scores the winner as his side beat Hull City to extend their lead at the top of the Premier League table.",
     "source": "BBC Sport",
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/crx230ke2gzxo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T19:59:31+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -679,7 +655,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/felix-nmecha-bvb-lukas-feature/",
     "pubDate": "2026-11-07T19:57:04+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -691,7 +667,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/nottingham-forest-3-1-manchester-city-report-result-goals/",
     "pubDate": "2026-11-07T19:35:29+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -703,7 +679,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-liveblog-roma-sassuolo-parma-bologna/",
     "pubDate": "2026-11-07T19:35:27+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -715,7 +691,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-07T19:34:32+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -727,7 +703,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/arsenal-deal-barcelona-a-transfer-blow/",
     "pubDate": "2026-11-07T19:33:08+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -739,20 +715,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/damico-roma-learning-manchester-united-need/",
     "pubDate": "2026-11-07T19:32:32+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "6d5f096fcd94",
-    "title": "Delightful Delap and outfought Anderson - Forest v Man City player ratings",
-    "highlights": "How Nottingham Forest and Manchester City's players rated following their Premier League match at the City Ground.",
-    "source": "BBC Sport",
-    "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/sport/football/articles/c8wy9512p2yvo?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-07T19:26:31+00:00",
-    "time_display": "5 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -763,7 +727,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
     "pubDate": "2026-11-07T19:20:34+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -775,7 +739,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/real-madrid-linked-with-surprise-move-for-leicester-city-star/",
     "pubDate": "2026-11-07T19:17:53+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -787,7 +751,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/napoli-de-laurentiis-i-cancelled-allegri-press/",
     "pubDate": "2026-11-07T19:17:25+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -799,7 +763,7 @@
     "source_class": "default",
     "link": "https://getfootballnewsspain.com/barcelonas-next-la-masia-sensation-is-wanted-in-england/",
     "pubDate": "2026-11-07T19:06:17+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "es",
     "competition": ""
   },
@@ -811,7 +775,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/valencia-v-real-madrid-confirmed-team-news-line-ups/",
     "pubDate": "2026-11-07T19:03:54+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -823,7 +787,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-parma-1-2-bologna-early-red-card-ruin/",
     "pubDate": "2026-11-07T18:59:27+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -835,7 +799,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-official-line-ups-roma-v-sassuolo-wk11/",
     "pubDate": "2026-11-07T18:41:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -847,7 +811,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/del-piero-on-crutches-juventus-star-hurt/",
     "pubDate": "2026-11-07T18:37:02+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -859,20 +823,8 @@
     "source_class": "football-italia",
     "link": "https://www.getfootballnewsitaly.com/2026/milan-draw-up-plan-for-club-brugges-nicolo-tresoldi-january-move-sought/",
     "pubDate": "2026-11-07T18:30:09+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "ddca6eed0146",
-    "title": "Title race hots up before Chelsea-Man City showdown",
-    "highlights": "Champions Manchester City will travel to Chelsea next week on top of the pile after a decisive Saturday in the Women's Super League.",
-    "source": "BBC Sport",
-    "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-07T18:27:46+00:00",
-    "time_display": "6 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -883,7 +835,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/three-things-bundesliga-md-9/",
     "pubDate": "2026-11-07T18:27:12+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -895,7 +847,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/mikel-arteta-praises-arsenal-players-for-remarkable-start-to-the-season/",
     "pubDate": "2026-11-07T18:01:24+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -907,7 +859,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/watch-cunha-stuns-manchester-city-with-early-opener/",
     "pubDate": "2026-11-07T17:48:03+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -919,7 +871,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/lucca-deny-brother-joined-napoli-row-de-bruyne/",
     "pubDate": "2026-11-07T17:17:17+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -931,7 +883,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/fulham-1-1-newcastle-report-result-goals/",
     "pubDate": "2026-11-07T17:03:51+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -943,7 +895,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/arsenal-hull-premier-league-match-report",
     "pubDate": "2026-11-07T17:02:45+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -955,7 +907,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/fulham-newcastle-premier-league-match-report",
     "pubDate": "2026-11-07T17:00:54+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -967,7 +919,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/arsenal-1-0-hull-city-report-result-goals-captain-odegaard/",
     "pubDate": "2026-11-07T16:59:39+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -979,7 +931,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/nottingham-forest-v-manchester-city-confirmed-team-news-line-ups/",
     "pubDate": "2026-11-07T16:20:00+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -991,7 +943,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/paris-fc-rule-out-potential-lassine-sinayoko-sale/",
     "pubDate": "2026-11-07T15:37:16+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "fr",
     "competition": ""
   },
@@ -1003,7 +955,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
     "pubDate": "2026-11-07T15:11:59+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1015,7 +967,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsfrance.com/2026/le-havre-show-interest-in-shelbourne-striker-mipo-odubeko/",
     "pubDate": "2026-11-07T14:46:12+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "fr",
     "competition": ""
   },
@@ -1027,7 +979,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/leeds-1-0-tottenham-report-result-goals/",
     "pubDate": "2026-11-07T14:38:02+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1039,7 +991,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
     "pubDate": "2026-11-07T14:34:21+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1051,7 +1003,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/a-footballing-alien-mamadou-sangare-brentford-mali-premier-league",
     "pubDate": "2026-11-07T12:00:13+00:00",
-    "time_display": "12 ώρες",
+    "time_display": "19 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1063,7 +1015,7 @@
     "source_class": "football-italia",
     "link": "https://www.getfootballnewsitaly.com/2026/why-scott-mctominay-is-yet-to-sign-napoli-renewal/",
     "pubDate": "2026-11-07T06:52:17+00:00",
-    "time_display": "17 ώρες",
+    "time_display": "1 μέρα",
     "country": "it",
     "competition": "cl"
   },
@@ -1236,18 +1188,6 @@
     "competition": ""
   },
   {
-    "id": "26cf0c5a3154",
-    "title": "Liverpool’s Rio Ngumoha is an option for Bayern Munich next summer",
-    "highlights": "Liverpool Rio Ngumoha is an option for Bayern Munich next summer, reports Christian Falk. The Rekordmiester held talks last summer with the winger’s representatives about a potential move. Bayern had…",
-    "source": "Get German Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsgermany.com/2026/liverpools-rio-ngumoha-is-an-option-for-bayern-munich-next-summer/",
-    "pubDate": "2026-11-06T09:53:11+00:00",
-    "time_display": "1 μέρα",
-    "country": "de",
-    "competition": ""
-  },
-  {
     "id": "576f8bccb854",
     "title": "How Samuel Chukwueze’s absence will impact Milan",
     "highlights": "Milan have confirmed that that Samuel Chukwueze has underwent surgery to repair a ruptured tendon in the tensor fasciae latae muscle of his left hip.",
@@ -1303,7 +1243,7 @@
     "source_class": "football-italia",
     "link": "https://www.getfootballnewsitaly.com/2026/rasmus-hojlund-aims-shot-at-napoli-boss-max-allegri-after-porto-disaster/",
     "pubDate": "2026-11-05T06:47:27+00:00",
-    "time_display": "2 μέρες",
+    "time_display": "3 μέρες",
     "country": "it",
     "competition": "cl"
   }
