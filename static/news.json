@@ -1,5 +1,53 @@
 [
   {
+    "id": "cc77795557c6",
+    "title": "Κινγκς - Χιτ 108-114: Ο «διπλός» Αντετοκούνμπο οδήγησε το Μαϊάμι",
+    "highlights": "Οι Μαϊάμι Χιτ υπέταξαν τους Σακραμέντο Κινγκς με 114-108 εκτός έδρας, χάρη στο double - double του Γιάννη Αντετοκούνμπο.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/basketball/nba/2584973/kingks-hit-108-114-o-diplos-antetokoynmpo-odigise-maiami",
+    "pubDate": "2026-11-09T08:17:14+02:00",
+    "time_display": "3 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "6f97a142e024",
+    "title": "Superleague: Το φαβορί τίτλου μετά την ισοπαλία στο «Καραϊσκάκη» και τις νίκες Παναθηναϊκού,ΑΕΚ",
+    "highlights": "Το φαβορί για τον τίτλο της Superleague μετά την ισοπαλία Ολυμπιακού-ΠΑΟΚ και τις νίκες Παναθηναϊκού και ΑΕΚ.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584972/superleague-fabori-titloy-meta-tin-isopalia-sto-karaiskaki-kai-tis",
+    "pubDate": "2026-11-09T08:10:12+02:00",
+    "time_display": "10 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "6d2d6a1cad12",
+    "title": "Ολυμπιακός: Η πρώτη εικόνα για τον Έσε",
+    "highlights": "Για κάκωση έσω πλαγίου συνδέσμου στο γόνατο του Σαντιάγκο Έσε μιλούν οι πρώτες πληροφορίες.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/football/superleague/2584956/olympiakos-i-proti-eikona-gia-ton-ese",
+    "pubDate": "2026-11-09T03:54:47+02:00",
+    "time_display": "4 ώρες",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "19a988939c15",
+    "title": "Lazio lead cut to a point as Inter bounce back from derby defeat",
+    "highlights": "An intriguing Serie A title race took another early swing.",
+    "source": "101 Great Goals",
+    "source_class": "default",
+    "link": "https://www.101greatgoals.com/football/serie-a/lazio-lead-cut-to-a-point-as-inter-bounce-back-from-derby-defeat/",
+    "pubDate": "2026-11-09T01:00:00+00:00",
+    "time_display": "5 ώρες",
+    "country": "uk",
+    "competition": ""
+  },
+  {
     "id": "a4e01c7582ad",
     "title": "ΑΕΚ - Λεβαδειακός 2-1: Το σχόλιο του Κουτσιαύτη για τις επίμαχες φάσεις",
     "highlights": "Ο Κουτσιαύτης σχολίασε τις αποφάσεις του διαιτησή στο ΑΕΚ - Λεβαδειακός 2-1.",
@@ -7,7 +55,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584954/aek-lebadeiakos-2-1-sholio-toy-koytsiayti-gia-tis-epimahes-faseis",
     "pubDate": "2026-11-09T00:47:44+02:00",
-    "time_display": "53 λεπτά",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -19,7 +67,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/primeira-liga/2584953/baggelis-paylidis-lytrose-tin-mpenfika-me-gkol-stis-kathysteriseis",
     "pubDate": "2026-11-09T00:36:57+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -31,7 +79,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584950/iraklis-panathinaikos-1-2-o-koytsiatis-gia-tis-epimahes-faseis",
     "pubDate": "2026-11-09T00:04:54+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -43,7 +91,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/super-cup-elladas/2584949/lisi-eihame-eykaries-na-nikisoyme-itan-ena-isorropimeno-paihnidi",
     "pubDate": "2026-11-09T00:02:58+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -55,8 +103,20 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584947/algkoyathil-gia-ese-tha-perimenoyme-tis-exetaseis-ta-pragmata-den",
     "pubDate": "2026-11-08T23:58:20+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "757c964cd5cb",
+    "title": "Four 'huge mistakes' that show Man Utd's defensive problems",
+    "highlights": "After Manchester United consed four preventable goal against Aston Villa in the Premier League Dion Dublin and Leon Osman brake down what is going wrong on Match of the Day.",
+    "source": "BBC Sport",
+    "source_class": "bbc",
+    "link": "https://www.bbc.co.uk/sport/football/videos/c64g1n1wezvyo?at_medium=RSS&at_campaign=rss",
+    "pubDate": "2026-11-08T23:53:20+00:00",
+    "time_display": "6 ώρες",
+    "country": "uk",
     "competition": ""
   },
   {
@@ -67,67 +127,43 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584941/olympiakos-mia-poly-lathos-stigmi-poy-efere-ena-h-poy-den-ton-ofelei",
     "pubDate": "2026-11-08T23:52:50+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "6098ad28dee3",
-    "title": "O Ζίβκοβιτς «χτύπησε» ξανά στο Καραϊσκάκης, ο ΠΑΟΚ άφησε τη δουλειά στη μέση",
-    "highlights": "Ο Σταύρος Σουντουλίδης γράφει για την καλύτερη φετινή εμφάνιση του ΠΑΟΚ, το τέταρτο συνεχόμενο αήττητο παιχνίδι στο Φάληρο, τον Ζίβκοβιτς των εννέα γκολ και τις ευκαιρίες που ο Ζαφείρης θα θυμάται για καιρό.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/superleague/2584944/o-zibkobits-htypise-xana-sto-karaiskakis-o-paok-afise-ti-doyleia-sti-mesi",
-    "pubDate": "2026-11-08T23:52:40+02:00",
-    "time_display": "1 ώρα",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "c170e8799b78",
-    "title": "Βαρέζε - Ούντινε 83-84: Ήττα για την ομάδα του Καστρίτη πριν το ματς στο Περιστέρι",
-    "highlights": "Λίγες ημέρες πριν ταξιδέψει στην Αθήνα για το παιχνίδι με το Περιστέρι, η Βαρέζε γνώρισε την εντός έδρας ήττα από την Ούντινε για το ιταλικό πρωτάθλημα με 81-84.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/basketball/mpasket-italia/2584943/bareze-oyntine-83-84-itta-gia-tin-omada-toy-kastriti-prin-mats",
-    "pubDate": "2026-11-08T23:49:45+02:00",
-    "time_display": "1 ώρα",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "e7cb8fcba142",
+    "id": "f7d6e7b9d505",
     "title": "Αλγκουαθίλ: «Δεν είμαι καθόλου ευχαριστημένος με το αποτέλεσμα, θα δώσουμε μάχη ως το τέλος»",
     "highlights": "Ο τεχνικός του Ολυμπιακού, Ιμανόλ Αλγκουαθίλ ανέφερε πως δεν έμεινε καθόλου ευχαριστημένος με το 1-1 με τον ΠΑΟΚ, αλλά τόνισε πως οι Πειραιώτες θα παλέψουν ως το τέλος.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584942/algkoyathil-den-eimai-katholoy-eyharistimenos-me-apotelesma-tha",
     "pubDate": "2026-11-08T23:46:58+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "9dab8b5a6856",
+    "id": "dd5aac45b1c1",
     "title": "Ligue 1: Ασταμάτητη η Μαρσέιγ με νέα νίκη και άνοδο στην τετράδα",
     "highlights": "Πέμπτη νίκη στη σειρά για τη Μαρσέιγ, η οποία λύγισε με 2-1 τη Λανς και ανέβηκε στην πρώτη τετράδα της Ligue 1. Συνεχίζει τις υψηλές πτήσεις η Λιλ.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/ligue-1/2584940/ligue-1-astamatiti-i-marseig-me-nea-niki-kai-anodo-stin-tetrada",
     "pubDate": "2026-11-08T23:42:22+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "e8d888e6c873",
+    "id": "5ec5d9f8f990",
     "title": "Ολυμπιακός - ΠΑΟΚ 1-1: Τα highlights της αναμέτρησης",
     "highlights": "Τα γκολ και οι καλύτερες στιγμές της αναμέτρησης Ολυμπιακός - ΠΑΟΚ 1-1.",
-    "source": "Gazzetta.gr",
+    "source": "Gazzetta Football",
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584939/olympiakos-paok-1-1-ta-highlights-tis-anametrisis",
     "pubDate": "2026-11-08T23:41:02+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -139,44 +175,8 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2584938/olympiakos-paok-1-1-martineth-kai-tetarti-isopalia",
     "pubDate": "2026-11-08T23:37:48+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "36689b40ef6b",
-    "title": "Γιάκιτς: Η διάγνωση του ΠΑΟΚ για τον διεθνή Κροάτη",
-    "highlights": "Η εκτίμηση του ΠΑΟΚ για τον τραυματισμό του Κρίστιαν Γιάκιτς και το διάστημα απουσίας του.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/superleague/2584937/giakits-i-diagnosi-toy-paok-gia-ton-diethni-kroati",
-    "pubDate": "2026-11-08T23:32:00+02:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "8465f139f7f6",
-    "title": "Κρίσταλ Πάλας: Στα σκαριά η πρώτη απόλυση προπονητή στη φετινή Premier League",
-    "highlights": "Αγγλικά ΜΜΕ αναφέρουν πως η Κρίσταλ Πάλας αναμένεται να προχωρήσει άμεσα στην απόλυση του Πιερ Σαζ.",
-    "source": "Gazzetta Football",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/football/premier-league/2584936/kristal-palas-sta-skaria-i-proti-apolysi-proponiti-sti-fetini",
-    "pubDate": "2026-11-08T23:24:06+02:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "19a988939c15",
-    "title": "Lazio lead cut to a point as Inter bounce back from derby defeat",
-    "highlights": "An intriguing Serie A title race took another early swing.",
-    "source": "101 Great Goals",
-    "source_class": "default",
-    "link": "https://www.101greatgoals.com/football/serie-a/lazio-lead-cut-to-a-point-as-inter-bounce-back-from-derby-defeat/",
-    "pubDate": "2026-11-08T23:18:38+00:00",
-    "time_display": "24 λεπτά",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -187,20 +187,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/rabiot-fury-referee-decision-lying-wont-help/",
     "pubDate": "2026-11-08T22:56:38+00:00",
-    "time_display": "45 λεπτά",
+    "time_display": "7 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "fdd088db7470",
-    "title": "Ολυμπιακός: Η πρώτη εκτίμηση για Έσε",
-    "highlights": "Ο Αργεντινός μέσος αποχώρησε κουτσαίνοντας από τον αγωνιστικό χώρο, με τις πρώτες εκτιμήσεις του ιατρικού επιτελείου να κάνουν λόγο για κάκωση έσω πλαγίου συνδέσμου. Εφόσον οι εργαστηριακές εξετάσεις επιβεβαιώσουν τη συγκεκριμένη διάγνωση, ο χρόνος απουσίας του υπολογίζεται περίπου στον έναν μήνα. Ο...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221806/olympiakos-i-proti-ektimisi-gia-ese/",
-    "pubDate": "2026-11-08T22:51:17+00:00",
-    "time_display": "50 λεπτά",
-    "country": "gr",
     "competition": ""
   },
   {
@@ -211,7 +199,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/freiburg-yuito-suzuki-slump-break/",
     "pubDate": "2026-11-08T22:49:38+00:00",
-    "time_display": "53 λεπτά",
+    "time_display": "7 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -223,7 +211,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221722/algouathil-eixame-tis-perissoteres-eykairies-xarisame-ena-eykolo-gkol-ston-antipalo/",
     "pubDate": "2026-11-08T22:45:12+00:00",
-    "time_display": "56 λεπτά",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -235,7 +223,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221464/koutsiaytis-alloiosi-apotelesmatos-dyo-kokkines-ston-antino-kai-penalti-se-irakli-levadeiako-varouxas-penalti-stin-aek-oxi-ston-levadeiako/",
     "pubDate": "2026-11-08T22:41:38+00:00",
-    "time_display": "59 λεπτά",
+    "time_display": "7 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -247,7 +235,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/vanoli-fiorentina-ought-to-feel-angry-juventus/",
     "pubDate": "2026-11-08T22:37:46+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -259,31 +247,19 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/copa-do-brasil/article/15221103/vasko-nta-gkama-palmeiras-2-1-4-5-pen-o-gkourou-ton-telikon-ampel-fereira/",
     "pubDate": "2026-11-08T22:34:03+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "16f78bffdebe",
-    "title": "Julián Alvarez labelled a ‘double agent’ after Barcelona 2-1 Atlético",
-    "highlights": "Viewers of Sunday’s La Liga meeting between Barcelona and Atlético Madrid have taken collective aim at Rojiblancos star Julián Alvarez. This comes owing to the level of the Argentine’s performance. Frontman…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/julian-alvarez-labelled-a-double-agent-after-barcelona-2-1-atletico/",
-    "pubDate": "2026-11-08T22:29:51+00:00",
-    "time_display": "1 ώρα",
-    "country": "es",
     "competition": ""
   },
   {
     "id": "35cfdfd26a47",
     "title": "Barcelona move clear at the top after Fermín López’s double stuns Atlético Madrid",
-    "highlights": "They had been in a battle, they had been behind and they had been on edge, but Barcelona found a way through, holding on to their place at the top of the table and holding the doubts at bay for another day. A fortnight in which they were defeated by Pris Saint-Germain and Real Madrid , in which they...",
+    "highlights": "They had been in a battle, they had been behind and they had been on edge, but Barcelona found a way through, holding on to their place at the top of the table and holding the doubts at bay for another day. A fortnight in which they were defeated by Paris Saint-Germain and Real Madrid , in which the...",
     "source": "The Guardian",
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/atletico-madrid-barcelona-la-liga-match-report",
     "pubDate": "2026-11-08T22:27:50+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -295,7 +271,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/spalletti-juventus-wallow-in-doubt-fiorentina/",
     "pubDate": "2026-11-08T22:23:43+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "7 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -307,7 +283,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/f1/news/12040/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix",
     "pubDate": "2026-11-08T22:20:00+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -319,7 +295,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/premier-league/article/15221605/kristal-palas-stin-porta-tis-eksodou-o-pier-saz-favori-o-tomas-frank/",
     "pubDate": "2026-11-08T22:18:19+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -331,20 +307,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park",
     "pubDate": "2026-11-08T22:12:58+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "6d5c4020c828",
-    "title": "Barcelona star equals Xavi benchmark during win over Atlético Madrid",
-    "highlights": "Barcelona star Lamine Yamal on Sunday evening equalled a benchmark not hit by a Blaugrana player since all the way back in 2008. Hansi Flick’s troops marked their return to…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-star-equals-xavi-benchmark-during-win-over-atletico-madrid/",
-    "pubDate": "2026-11-08T22:11:19+00:00",
-    "time_display": "1 ώρα",
-    "country": "es",
     "competition": ""
   },
   {
@@ -355,7 +319,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/juventus-defender-gatti-added-to-italy-squad/",
     "pubDate": "2026-11-08T22:08:45+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -367,7 +331,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-reports/atletico-madrid-1-2-barcelona-fermin-double-sees-leaders-restore-three-point-cushion/",
     "pubDate": "2026-11-08T22:04:09+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -379,7 +343,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/laliga-division/article/15221562/atletiko-mpartselona-1-2-me-protagonisti-ton-fermin-lopeth-niki-me-anatropi-kai-koryfi/",
     "pubDate": "2026-11-08T22:02:39+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -391,7 +355,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/serie-a/article/15221505/fiorentina-giouventous-2-2-mploko-sti-florentia/",
     "pubDate": "2026-11-08T21:53:26+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -403,7 +367,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221531/pirola-nomizo-exoume-veltiosei-to-paixnidi-mas-apo-tote-pou-irthe-o-proponitis-video/",
     "pubDate": "2026-11-08T21:51:34+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -415,21 +379,9 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T21:50:05+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": ""
-  },
-  {
-    "id": "2286b686dd0c",
-    "title": "PLAYER RATINGS | Lens 1-2 Marseille: Pressure remains on Lens after Champions League disaster",
-    "highlights": "Ligue 1 McDonald’s, Matchday 10, 08/11/2026 Olympique de Marseille kept the pressure on RC Lens with a 2-1 win over their hosts. The Match Lens and Marseille experienced contrasting fortunes…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-lens-1-2-marseille-pressure-remains-on-lens-after-champions-league-disaster/",
-    "pubDate": "2026-11-08T21:46:01+00:00",
-    "time_display": "1 ώρα",
-    "country": "fr",
-    "competition": "cl"
   },
   {
     "id": "22fd3e37bb5c",
@@ -439,7 +391,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-fiorentina-2-2-juventus-old-lady-fight/",
     "pubDate": "2026-11-08T21:45:16+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -451,8 +403,20 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221508/paok-kakosi-ston-eso-plagio-o-giakits/",
     "pubDate": "2026-11-08T21:42:11+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "37ec46b573c7",
+    "title": "«Περιμένω να προχωρήσω»: Ο Κάρικ αρνείται τον κίνδυνο απόθεσης της Μάντσεστερ Γιουνάιτεντ",
+    "highlights": "‘Is there?’ manager retorts when told of talk over position Bizarre 4-4 draw with Villa leaves United in bottom three A tetchy Michael Carrick dismissed a suggestion he could resign as head coach for the good of the team after Sunday’s chaotic 4-4 draw with Aston Villa left Manchester United in the ...",
+    "source": "The Guardian",
+    "source_class": "guardian",
+    "link": "https://www.theguardian.com/football/2026/nov/08/michael-carrick-denies-risk-manchester-united-sack-aston-villa-premier-league-draw",
+    "pubDate": "2026-11-08T21:40:36+00:00",
+    "time_display": "8 ώρες",
+    "country": "uk",
     "competition": ""
   },
   {
@@ -463,31 +427,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221497/algkouathil-mas-stoixise-ena-lathos/",
     "pubDate": "2026-11-08T21:39:04+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "48c5d4ede7d4",
-    "title": "Leclerc drops to eighth after post-race Brazil penalty for collision with Lawson",
-    "highlights": "Follow live updates and watch the best video from the Sao Paulo Grand Prix in Brazil. Watch live on Sky Sports F1",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/f1/live-blog/12040/13608639/f1-sao-paulo-gp-live-race-updates-results-stream-and-highlights-from-20th-round-of-2026-formula-1-season-in-brazil-at-interlagos",
-    "pubDate": "2026-11-08T21:34:00+00:00",
-    "time_display": "2 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "acada563f6ba",
-    "title": "Λίσι: «Είχαμε ευκαιρίες για να κερδίσουμε!»",
-    "highlights": "Στο ότι ο ΠΑΟΚ μπορούσε να κερδίσει αναφέρθηκε ο Αλέσιο Λίσι, έπειτα το εκτός έδρας 1-1 με τον Ολυμπιακό, στη 10η αγωνιστική της Stoiximan Super League. Αναλυτικά όσα είπε: Για το αν είναι η λύση το 4-4-2: «Η λύση είναι να βρεθεί ισορροπία, όποιο και να είναι το σύστημα» Για το αν υπήρχε σήμερα ισορ...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15221486/lisi-eixame-eykairies-gia-na-kerdisoume/",
-    "pubDate": "2026-11-08T21:28:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -499,44 +439,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/diogo-dalot-manchester-united-old-trafford-aston-villa",
     "pubDate": "2026-11-08T21:24:44+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "7fda6a768b29",
-    "title": "ΑΕΚ: Χειρουργήθηκε ο Μπράουν – Το διάστημα απουσίας του",
-    "highlights": "Ο Αμερικανός σέντερ υπέστη ολική ρήξη αχιλλείου τένοντα στη δεξιά ποδοκνημική, με το ιατρικό επιτελείο της ομάδας να κινείται άμεσα για την αποκατάσταση της ζημιάς. Σύμφωνα με την επίσημη ενημέρωση της ΚΑΕ ΑΕΚ, ο χρόνος επιστροφής του αθλητή στα παρκέ υπολογίζεται από έξι έως εννέα μήνες. Η ανακοίνω...",
-    "source": "Novasports",
-    "source_class": "novasports",
-    "link": "https://www.novasports.gr/sport/mpasket/event/basket-league/article/15221475/aek-xeirourgithike-o-mpraoun-to-diastima-apousias-tou/",
-    "pubDate": "2026-11-08T21:23:04+00:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
-    "competition": ""
-  },
-  {
-    "id": "098a85b10ede",
-    "title": "Barcelona star tested in surprise new position vs Atlético",
-    "highlights": "Barcelona star Frenkie de Jong has on Sunday evening been tested in an altogether surprising new role in Hansi Flick’s XI. This comes amid the Blaugrana’s La Liga showdown with…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/barcelona-star-tested-in-surprise-new-position-vs-atletico/",
-    "pubDate": "2026-11-08T21:17:32+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "b049edacb1ba",
-    "title": "Crystal Palace set to sack Pierre Sage following Liverpool defeat",
-    "highlights": "Crystal Palace are reportedly set to part ways with Pierre Sage following the Eagles’ 1-3 defeat away to Liverpool on Sunday, according to reports from The Athletic. Currently bottom of…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/crystal-palace-set-to-sack-pierre-sage-following-liverpool-defeat/",
-    "pubDate": "2026-11-08T21:15:12+00:00",
-    "time_display": "2 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -547,20 +451,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c8qlnqggwge0o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T21:08:44+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "82d277cfa46d",
-    "title": "Julián Alvarez continues to make Barcelona his favourite victims during Atlético clash",
-    "highlights": "Atlético Madrid star Julián Alvarez on Sunday continued to build on an impressive individual statistic. This came courtesy of his latest assist. Diego Simeone’s troops are currently locked in action…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/julian-alvarez-continues-to-make-barcelona-his-favourite-victims-during-atletico-clash/",
-    "pubDate": "2026-11-08T20:49:13+00:00",
-    "time_display": "2 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -571,32 +463,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/pellegrino-tribute-batistuta-goal-juventus/",
     "pubDate": "2026-11-08T20:36:02+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "9 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "7a6d359687ea",
-    "title": "Monaco’s Mamadou Coulibaly could face sanction following controversial goal celebration",
-    "highlights": "AS Monaco’s Mamadou Coulibaly (22) has certainly landed himself in a tricky situation. Having scored his side’s opening goal against Le Mans (1-1) – the first of his Ligue 1…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/monacos-mamadou-coulibaly-to-face-sanction-following-controversial-goal-celebration/",
-    "pubDate": "2026-11-08T20:34:32+00:00",
-    "time_display": "3 ώρες",
-    "country": "fr",
-    "competition": ""
-  },
-  {
-    "id": "6f67ed9601df",
-    "title": "‘Terrible’ – Barcelona fans take aim at one player during Atlético clash",
-    "highlights": "Supporters of La Liga giants Barcelona have taken to social media in numbers on Sunday evening, to make known their grievances with one member of Hansi Flick’s defensive ranks. The…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/terrible-barcelona-fans-take-aim-at-one-player-during-atletico-clash/",
-    "pubDate": "2026-11-08T20:25:48+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -607,7 +475,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T20:18:01+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -619,7 +487,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
     "pubDate": "2026-11-08T20:15:53+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -631,20 +499,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/fiorentina-fans-tifo-2-words-juventus-explain/",
     "pubDate": "2026-11-08T20:07:52+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "969d94588985",
-    "title": "José Mourinho admits he wants Real Madrid star to play as much as possible this international break",
-    "highlights": "Real Madrid head coach José Mourinho has admitted that he is hopeful of Endrick receiving consistent game-time during the upcoming international break. Frontman Endrick has for his part again struggled…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/jose-mourinho-admits-he-wants-real-madrid-star-to-play-as-much-as-possible-this-international-break/",
-    "pubDate": "2026-11-08T20:04:08+00:00",
-    "time_display": "3 ώρες",
-    "country": "es",
     "competition": ""
   },
   {
@@ -655,7 +511,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cqj6jldpl2gyo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T20:01:16+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -667,19 +523,19 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/chivu-inter-played-as-a-team-were-wonderful/",
     "pubDate": "2026-11-08T20:01:09+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
   {
-    "id": "16de20fe6aab",
-    "title": "Brighton breeze παρελθόν 10-man Brentford για να προχωρήσουμε στο δεύτερο",
+    "id": "4f7b3a5f3cc0",
+    "title": "Brighton breeze past 10-man Brentford to move up to second",
     "highlights": "Diego Gomez's long-range strike fires Brighton to a 2-0 over Brentford, who saw Igor Thiago be shown a straight red card, as Fabian Hurzeler's side move up to second in the Premier League.",
     "source": "BBC Sport",
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cry836l4q56po?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T20:00:21+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -691,19 +547,19 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cmx23rll2w0qo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T19:59:53+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
   {
-    "id": "b6a479480fab",
-    "title": "Liverpool dispatch Palace to pile pressure on Sage",
+    "id": "ca23fc656250",
+    "title": "Η Λίβερπουλ στέλνει το Παλάτι για να ασκήσει πίεση στον Σέιτζ",
     "highlights": "Liverpool see off Crystal Palace 3-1 at Selhurst Park as Pierre Sage's side suffer their fourth defeat in a row in the Premier League.",
     "source": "BBC Sport",
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/c5djv1mn7gj8o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T19:58:46+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -715,7 +571,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/c64g1nj4v4rmo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T19:58:31+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -727,7 +583,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
     "pubDate": "2026-11-08T19:54:56+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -739,7 +595,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/watch/video/13609959/how-max-verstappen-maximised-car-potential-after-going-from-21st-to-2nd",
     "pubDate": "2026-11-08T19:50:00+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -751,7 +607,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/fabregas-inter-deserved-the-victory-vs-como/",
     "pubDate": "2026-11-08T19:48:07+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -763,7 +619,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c91463n3mlzlo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T19:40:34+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -775,7 +631,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/football/news/12040/13609927/michael-carrick-manchester-united-boss-expects-to-stay-on-despite-club-sitting-in-relegation-zone-after-aston-villa-draw",
     "pubDate": "2026-11-08T19:40:00+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -787,7 +643,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-napoli-lazio-inter-como-milan-fio-juve/",
     "pubDate": "2026-11-08T19:38:05+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -799,20 +655,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/spalletti-juventus-faith-players-say-scudetto/",
     "pubDate": "2026-11-08T19:27:44+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "210a899ae29a",
-    "title": "Villa boss Emery explains why he went down tunnel before full-time",
-    "highlights": "A prickly Unai Emery claimed he headed down the Old Trafford tunnel after Manchester United's late equaliser against his Aston Villa side because he thought the match was about to end.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/news/12040/13609937/unai-emery-aston-villa-boss-reveals-why-he-went-down-old-trafford-tunnel-before-full-time-in-eight-goal-thriller-at-man-utd",
-    "pubDate": "2026-11-08T19:25:00+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -823,7 +667,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T19:24:36+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -835,20 +679,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/vanoli-fiorentina-experience-rivals-juventus/",
     "pubDate": "2026-11-08T19:16:25+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "f0c1adc02c40",
-    "title": "Man Utd making it 'hard on ourselves' - Carrick",
-    "highlights": "Manchester United head coach Michael Carrick admits his side \"made it hard on themselves\" after they twice came back from two goals down to earn a 4-4 draw at home to Aston Villa.",
-    "source": "BBC Sport",
-    "source_class": "bbc",
-    "link": "https://www.bbc.co.uk/sport/football/videos/c6rmyg80pk3wo?at_medium=RSS&at_campaign=rss",
-    "pubDate": "2026-11-08T19:13:46+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -859,20 +691,8 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/atletico-madrid-v-barcelona-confirmed-line-ups-as-defending-champions-face-metropolitano-test/",
     "pubDate": "2026-11-08T19:01:20+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "12f32eed7334",
-    "title": "Toulouse FC and AC Milan set to terminate David Odogu loan",
-    "highlights": "Toulouse FC and AC Milan are reportedly set to terminate the loan of David Odogu (20) by mutual consent, according to information from Sky Sport Deutschland. Loaned to the French…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/toulouse-fc-and-ac-milan-set-to-terminate-david-odogu-loan/",
-    "pubDate": "2026-11-08T19:01:01+00:00",
-    "time_display": "4 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -883,32 +703,8 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/serie-a-inter-2-0-como-fabregas-crack-chivu/",
     "pubDate": "2026-11-08T18:58:04+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "0488cdcb8f58",
-    "title": "Ο Ντόργκου διασώζει τον πόντο για τη Μάντσεστερ Γιουνάιτεντ στο θρίλερ των οκτώ γκολ εναντίον της Άστον Βίλα",
-    "highlights": "Does this late, late comeback draw keep Michael Carrick in his job? He urged United to back up their breathless Roma comeback victory on Tuesday by building momentum and they did, kind of, by avoiding defeat. Patrick Dorgu’s 96th-minute equaliser went off his head and in. Senne Lammens, up for the c...",
-    "source": "The Guardian",
-    "source_class": "guardian",
-    "link": "https://www.theguardian.com/football/2026/nov/08/manchester-united-aston-villa-premier-league-match-report",
-    "pubDate": "2026-11-08T18:54:23+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "3ffdd64ec04d",
-    "title": "Man Utd rescue draw in EIGHT-goal thriller against Villa",
-    "highlights": "FREE TO WATCH: Highlights from the Premier League match between Manchester United and Aston Villa.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/watch/video/13609907/manchester-united-4-4-aston-villa-premier-league-highlights",
-    "pubDate": "2026-11-08T18:49:00+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
     "competition": ""
   },
   {
@@ -919,7 +715,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/manchester-united-4-4-aston-villa-remarkable-comeback-gives-carrick-valuable-point/",
     "pubDate": "2026-11-08T18:45:59+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -931,7 +727,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/fiorentina-juventus-serie-a-line-ups/",
     "pubDate": "2026-11-08T18:40:24+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -943,7 +739,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/bundesliga-md9-freiburg-union-ratings/",
     "pubDate": "2026-11-08T18:37:02+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -955,7 +751,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/f1/news/12040/13609694/sao-paulo-gp-lando-norris-wins-wet-race-for-mclaren-as-mercedes-seal-2026-f1-constructors-championship-in-brazil",
     "pubDate": "2026-11-08T18:30:00+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -967,20 +763,8 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c5m2ddz437nzo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-08T18:20:56+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "c83dffd34997",
-    "title": "PLAYER RATINGS | Le Mans 1-1 Monaco: Late Erwan Colas goal extends Les Monégasques’ winless run",
-    "highlights": "Ligue 1 McDonald’s, Round 10, 08/11/26 AS Monaco conceded a last-minute goal against Le Mans FC (1-1) as their winless run in Ligue 1 was extended to five games. Les…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-le-mans-1-1-monaco-late-erwan-colas-goal-extends-les-monegasques-winless-run/",
-    "pubDate": "2026-11-08T18:14:02+00:00",
-    "time_display": "5 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -991,7 +775,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
     "pubDate": "2026-11-08T16:17:32+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1003,20 +787,8 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/sunderland-chelsea-premier-league-match-report",
     "pubDate": "2026-11-08T16:16:34+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "551713e7cfbe",
-    "title": "PLAYER RATINGS | Rennes 1-2 Lille: Soriba Diaoune and Nathan Ngoy propel Les Dogues up to second place",
-    "highlights": "Ligue 1 McDonald’s, Matchday 10, 08/11/2026 Le LOSC Lille s’est offert un succès capital sur la pelouse du Stade Rennais (1-2), qui ont concédé leur première défaite à domicile de…",
-    "source": "Get French Football News",
-    "source_class": "default",
-    "link": "https://www.getfootballnewsfrance.com/2026/player-ratings-rennes-1-2-lille-soriba-diaoune-and-nathan-ngoy-propel-les-dogues-up-to-second-place/",
-    "pubDate": "2026-11-08T16:16:19+00:00",
-    "time_display": "7 ώρες",
-    "country": "fr",
     "competition": ""
   },
   {
@@ -1027,7 +799,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/sunderland-v-chelsea/",
     "pubDate": "2026-11-08T16:14:36+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1039,7 +811,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/ipswich-bournemouth-premier-league-match-report",
     "pubDate": "2026-11-08T16:14:31+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1051,7 +823,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/matthias-ginter-freiburg-200/",
     "pubDate": "2026-11-08T16:06:06+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -1063,7 +835,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/crystal-palace-1-3-liverpool-reds-bounce-back-to-increase-pressure-on-sage/",
     "pubDate": "2026-11-08T15:59:16+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1075,7 +847,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/manchester-united-v-aston-villa-confirmed-line-ups-as-carrick-seeks-second-win-in-a-week/",
     "pubDate": "2026-11-08T15:30:56+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1087,7 +859,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/joshua-kimmich-26-goal-father/",
     "pubDate": "2026-11-08T15:28:23+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "14 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -1099,7 +871,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/felix-nmecha-celebration-bvb-statement/",
     "pubDate": "2026-11-08T15:17:40+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -1111,7 +883,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/manuel-neuer-injury-2026/",
     "pubDate": "2026-11-08T14:54:38+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "de",
     "competition": "el"
   },
@@ -1123,7 +895,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/sunderland-suffer-huge-blow-as-xhaka-limps-off-against-chelsea/",
     "pubDate": "2026-11-08T14:25:57+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1135,7 +907,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
     "pubDate": "2026-11-08T14:13:00+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1147,7 +919,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/sunderland-v-chelsea-confirmed-line-ups-as-blues-visit-rock-bottom-black-cats/",
     "pubDate": "2026-11-08T12:47:49+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1159,7 +931,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/crystal-palace-v-liverpool-confirmed-line-ups-as-reds-seek-return-to-winning-ways/",
     "pubDate": "2026-11-08T12:46:39+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1171,7 +943,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/tip-of-the-day-liverpool-chelsea-brighton/",
     "pubDate": "2026-11-08T12:08:14+00:00",
-    "time_display": "11 ώρες",
+    "time_display": "18 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1183,7 +955,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/08/john-aloisi-chengdu-choke-chinese-super-league-final-day-of-season",
     "pubDate": "2026-11-08T10:10:43+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "20 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -1195,7 +967,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/elversberg-take-record-breaking-crowd-to-borussia-dortmund/",
     "pubDate": "2026-11-08T08:45:17+00:00",
-    "time_display": "14 ώρες",
+    "time_display": "21 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -1207,7 +979,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/hamburg-gladbach-analysis/",
     "pubDate": "2026-11-08T06:12:21+00:00",
-    "time_display": "17 ώρες",
+    "time_display": "1 μέρα",
     "country": "de",
     "competition": ""
   },
@@ -1236,66 +1008,6 @@
     "competition": ""
   },
   {
-    "id": "7b39055836e5",
-    "title": "Rodri has pencilled in his planned Barcelona comeback fixture",
-    "highlights": "Barcelona star Rodri has circled a date on the club’s schedule in red, for his planned comeback from injury. Midfielder Rodri was of course condemned to a spell on the…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/rodri-has-pencilled-in-his-planned-barcelona-comeback-fixture/",
-    "pubDate": "2026-11-07T22:30:00+00:00",
-    "time_display": "1 μέρα",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "d5bae713865a",
-    "title": "Real Madrid star named Man of the Match after goal & assist vs Valencia",
-    "highlights": "A member of the midfield ranks at La Liga giants Real Madrid beat out the competition to scoop the Man of the Match award in the club’s latest outing on…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/real-madrid-star-named-man-of-the-match-after-goal-assist-vs-valencia/",
-    "pubDate": "2026-11-07T22:10:47+00:00",
-    "time_display": "1 μέρα",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "8c395ff95ddb",
-    "title": "Valencia 0-3 Real Madrid: Report, result and goals as Los Blancos level Barcelona",
-    "highlights": "Catch up with all the action from Valencia vs Real Madrid in La Liga.",
-    "source": "101 Great Goals",
-    "source_class": "default",
-    "link": "https://www.101greatgoals.com/match-reports/valencia-0-3-real-madrid-report-result-and-goals-as-los-blancos-level-barcelona/",
-    "pubDate": "2026-11-07T22:06:14+00:00",
-    "time_display": "1 μέρα",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "af28c4e85919",
-    "title": "Real Madrid star accused of slapping security official during Valencia clash",
-    "highlights": "A member of the defensive ranks at La Liga giants Real Madrid could soon find himself in some hot water with the Spanish football authorities. This comes amid claims that…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/real-madrid-star-accused-of-slapping-security-official-during-valencia-clash/",
-    "pubDate": "2026-11-07T21:50:00+00:00",
-    "time_display": "1 μέρα",
-    "country": "es",
-    "competition": ""
-  },
-  {
-    "id": "1932ec7370b2",
-    "title": "Real Madrid legend pokes fun at Valencia star during La Liga clash",
-    "highlights": "Former Real Madrid star Marcelo has taken to social media on Saturday evening, to poke fun at Valencia defender Pablo Maffeo. This comes amid what has been a challenging evening…",
-    "source": "Get Spanish Football News",
-    "source_class": "default",
-    "link": "https://getfootballnewsspain.com/real-madrid-legend-pokes-fun-at-valencia-star-during-la-liga-clash/",
-    "pubDate": "2026-11-07T21:35:00+00:00",
-    "time_display": "1 μέρα",
-    "country": "es",
-    "competition": ""
-  },
-  {
     "id": "258f41279a51",
     "title": "NWSL playoffs: Cooper’s extra-time penalty sends Kansas City through as Utah stun San Diego",
     "highlights": "Michelle Cooper strikes in extra time to lift Current Kansas City extend unbeaten home record with 1-0 win Seventh-seeded Utah Royals upset San Diego Wave Michelle Cooper converted an extra-time penalty to give the Kansas City Current a 1-0 victory over Angel City on Sunday in the quarter-finals of ...",
@@ -1305,18 +1017,6 @@
     "pubDate": "2026-11-07T20:40:37+00:00",
     "time_display": "1 μέρα",
     "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "b168bd759412",
-    "title": "Milan draw up plan for Club Brugge’s Nicolo Tresoldi, January move sought",
-    "highlights": "Serie A side Milan have been in the hunt for Club Brugge’s Nicolo Tresoldi and are now trying to draw up a plan for the striker. Daniele Longo reports that…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/milan-draw-up-plan-for-club-brugges-nicolo-tresoldi-january-move-sought/",
-    "pubDate": "2026-11-07T18:30:09+00:00",
-    "time_display": "1 μέρα",
-    "country": "it",
     "competition": ""
   },
   {
@@ -1342,101 +1042,5 @@
     "time_display": "1 μέρα",
     "country": "uk",
     "competition": ""
-  },
-  {
-    "id": "e5d2dc0fc9ed",
-    "title": "Why Scott McTominay is yet to sign Napoli renewal",
-    "highlights": "Napoli haven’t been off to a great start in the Serie A and the Champions League and there have been suggestions of dressing room rifts. But amidst all of that,…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/why-scott-mctominay-is-yet-to-sign-napoli-renewal/",
-    "pubDate": "2026-11-07T06:52:17+00:00",
-    "time_display": "1 μέρα",
-    "country": "it",
-    "competition": "cl"
-  },
-  {
-    "id": "fc246bb09556",
-    "title": "Goncalo Inacio still Milan’s January transfer priority",
-    "highlights": "Serie A side Milan lost to Ferencvaros in the Europa League on Thursday and despite their win over Inter at the weekend, it is clear they need defensive reinforcements that…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/goncalo-inacio-still-milans-january-transfer-priority/",
-    "pubDate": "2026-11-06T18:47:47+00:00",
-    "time_display": "2 μέρες",
-    "country": "it",
-    "competition": "el"
-  },
-  {
-    "id": "f50ba1312351",
-    "title": "Giacomo Calo’s agent disappointed about Frosinone star not receiving Italy call-up",
-    "highlights": "Serie A side Frosinone have been one of the surprise packages of the season and Giacomo Calo has been one of the best midfielders of the campaign. The Italian has…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/giacomo-calos-agent-disappointed-about-frosinone-star-not-receiving-italy-call-up/",
-    "pubDate": "2026-11-06T18:33:03+00:00",
-    "time_display": "2 μέρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "576f8bccb854",
-    "title": "How Samuel Chukwueze’s absence will impact Milan",
-    "highlights": "Milan have confirmed that that Samuel Chukwueze has underwent surgery to repair a ruptured tendon in the tensor fasciae latae muscle of his left hip.",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/how-samuel-chukwuezes-absence-will-impact-milan/",
-    "pubDate": "2026-11-05T19:15:00+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
-    "competition": "el"
-  },
-  {
-    "id": "e319df2bccba",
-    "title": "Major rift in Napoli dressing room as club in crisis – again",
-    "highlights": "Serie A side Napoli have been struggling this season and things came to a head against Porto on Wednesday. Matteo Politano called out non-Italian players in his post-game interview and…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/major-rift-in-napoli-dressing-room-as-club-in-crisis-again/",
-    "pubDate": "2026-11-05T18:45:00+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "7fec6db27d06",
-    "title": "Napoli’s Kevin De Bruyne in spat with three players during Porto defeat",
-    "highlights": "Serie A side Napoli took a hefty 4-1 defeat to Porto in the Champions League yesterday and now find themselves at 27th in the table. But a point of friction…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/napolis-kevin-de-bruyne-in-spat-with-three-players-during-porto-defeat/",
-    "pubDate": "2026-11-05T18:05:32+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
-    "competition": "cl"
-  },
-  {
-    "id": "bb2678bef185",
-    "title": "Manchester United man Lisandro Martínez’s January exit like as Serie A clubs circle",
-    "highlights": "As reported by Calciomercato, Manchester United defender Lisandro Martínez may be on the market as early as January.",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/manchester-united-man-lisandro-martinezs-january-exit-like-as-serie-a-clubs-circle/",
-    "pubDate": "2026-11-05T17:49:45+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
-    "competition": ""
-  },
-  {
-    "id": "5e162883a7f6",
-    "title": "Rasmus Hojlund aims shot at Napoli boss Max Allegri after Porto disaster",
-    "highlights": "Serie A side Napoli endured another disappointing evening in Europe, falling to a disastrous 4-1 defeat to Porto in the Champions League. This came right after a loss to Juventus,…",
-    "source": "Get Italian Football News",
-    "source_class": "football-italia",
-    "link": "https://www.getfootballnewsitaly.com/2026/rasmus-hojlund-aims-shot-at-napoli-boss-max-allegri-after-porto-disaster/",
-    "pubDate": "2026-11-05T06:47:27+00:00",
-    "time_display": "3 μέρες",
-    "country": "it",
-    "competition": "cl"
   }
 ]
