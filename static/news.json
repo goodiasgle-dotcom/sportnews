@@ -1,5 +1,41 @@
 [
   {
+    "id": "f69bd65c1e0a",
+    "title": "Πρόγραμμα τηλεόρασης: Όλοι οι αγώνες και οι αθλητικές μεταδόσεις σήμερα (11/11)",
+    "highlights": "Δείτε στον τηλεοπτικό οδηγό του Gazzetta ώρες και κανάλια για την αθλητική δράση της ημέρας.",
+    "source": "Gazzetta.gr",
+    "source_class": "gazzetta",
+    "link": "https://www.gazzetta.gr/2585525/programma-tileorasis-oloi-oi-agones-kai-oi-athlitikes-metadoseis-simera-1111",
+    "pubDate": "2026-11-11T08:05:03+02:00",
+    "time_display": "5 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "d28e95b75b0b",
+    "title": "Who can win the Race to Dubai and what does McIlroy need to be No 1?",
+    "highlights": "The Race to Dubai season reaches its climax this week at the DP World Tour Championship, live on Sky Sports , with nine players still in with a chance of topping the season-long standings.",
+    "source": "Sky Sports",
+    "source_class": "sky",
+    "link": "https://www.skysports.com/golf/news/12040/13610149/dp-world-tour-championship-who-can-win-the-race-to-dubai-and-what-does-rory-mcilroy-need-to-finish-season-no-1-again",
+    "pubDate": "2026-11-11T06:00:00+00:00",
+    "time_display": "11 λεπτά",
+    "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "2d5a0f9025e7",
+    "title": "Σαν σήμερα, 11 Νοεμβρίου 1980: Το «κύκνειο άσμα» του Μίμη Δομάζου στην Εθνική!",
+    "highlights": "Ο σπουδαίος Μίμης Δομάζος φόρεσε για τελευταία φορά το εθνόσημο, κλείνοντας μια ανεπανάληπτη διαδρομή 21 ετών με το αντιπροσωπευτικό μας συγκρότημα. Το φιλικό παιχνίδι απέναντι στην Αυστραλία, το οποίο έληξε ισόπαλο 3-3, διοργανώθηκε αποκλειστικά για να τιμηθεί ο «Στρατηγός». Μάλιστα, ο εμβληματικός...",
+    "source": "Novasports",
+    "source_class": "novasports",
+    "link": "https://www.novasports.gr/podosfairo/ethniki-elladas-podosfairo/article/15215967/san-simera-11-noemvriou-1980-to-kykneio-asma-tou-mimi-domazou-stin-ethniki/",
+    "pubDate": "2026-11-11T05:28:00+00:00",
+    "time_display": "42 λεπτά",
+    "country": "gr",
+    "competition": ""
+  },
+  {
     "id": "eb9df229568a",
     "title": "Κύπελλο Ισπανίας: Εύκολη πρόκριση για τη Βαλένθια",
     "highlights": "Δίχως να αντιμετωπίσει την παραμικρή δυσκολία, η Βαλένθια επικράτησε 6-0 της ερασιτεχνικής Ταβέρνες και πέρασε στον 2ο γύρο του Copa del Rey.",
@@ -7,7 +43,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/copa-del-rey/2585505/kypello-ispanias-eykoli-prokrisi-gia-ti-balenthia",
     "pubDate": "2026-11-10T23:47:56+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -19,7 +55,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2585504/metagrafes-ti-hreiazontai-oi-tesseris-antagonistes-ton-ianoyario",
     "pubDate": "2026-11-10T23:29:53+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -31,7 +67,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/basketball/eurocup/2585503/paok-oi-panigyrismoi-paikton-kai-kosmoy-vid",
     "pubDate": "2026-11-10T23:21:04+02:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -43,7 +79,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/polo/len-champions-league/2585502/blahopoylos-pente-gkol-kai-i-rantnitski-ti-niki-sto-ntermpi-me",
     "pubDate": "2026-11-10T23:14:52+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": "cl"
   },
@@ -55,7 +91,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2585501/olympiakos-ti-eipe-o-mele-gia-mellon-toy",
     "pubDate": "2026-11-10T23:09:44+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -67,8 +103,32 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cq8jzjz9x23jo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T23:08:35+00:00",
-    "time_display": "8 λεπτά",
+    "time_display": "7 ώρες",
     "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "d833fb4a1206",
+    "title": "Napoli show interest in Paris FC midfielder Patrick Zabi",
+    "highlights": "SSC Napoli are reportedly interested in Paris FC’s Patrick Zabi (20), according to Sky Sport Italia. Struggling at the start of the season, the Neapolitans – who sit 10th in…",
+    "source": "Get French Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsfrance.com/2026/napoli-show-interest-in-paris-fc-midfielder-patrick-zabi/",
+    "pubDate": "2026-11-10T22:56:35+00:00",
+    "time_display": "7 ώρες",
+    "country": "fr",
+    "competition": ""
+  },
+  {
+    "id": "5459184713d7",
+    "title": "Lamine Yamal trains alongside Barcelona reserve team star",
+    "highlights": "Barcelona star Lamine Yamal was on Tuesday put through his paces in an individualised training session, alongside a member of the club’s reserve team ranks. This comes amid the 19-year-old’s…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/lamine-yamal-trains-alongside-barcelona-reserve-team-star/",
+    "pubDate": "2026-11-10T22:45:00+00:00",
+    "time_display": "7 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -79,43 +139,31 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2585486/olympiakos-niki-gia-toys-beteranoys-sti-glyfada",
     "pubDate": "2026-11-10T22:37:02+02:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "gr",
     "competition": ""
   },
   {
-    "id": "6e7df13a7b51",
-    "title": "Μοτιεγιούνας: «Ο Τρινκιέρι μου είπε ότι είναι χαρούμενος για μένα»",
-    "highlights": "Ο Ντονάτας Μοτιεγιούνας είχε 11 πόντους κόντρα στη Μπάλκαν και έκανε την πρώτη του καλή εμφάνιση από τότε που πήγε στον ΠΑΟΚ, μιλώντας γι' αυτό, μετά το τέλος του αγώνα.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/basketball/eurocup/2585467/motiegoynas-o-trinkieri-moy-eipe-oti-einai-haroymenos-gia-mena",
-    "pubDate": "2026-11-10T22:20:55+02:00",
-    "time_display": "2 ώρες",
-    "country": "gr",
+    "id": "d4316187d88a",
+    "title": "Premier League star labels Barcelona interest ‘a compliment’",
+    "highlights": "Tottenham Hotspur star Pedro Porro has this week admitted that he is flattered by the alleged interest of La Liga giants Barcelona in his signature. The name of defender Porro…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/premier-league-star-labels-barcelona-interest-a-compliment/",
+    "pubDate": "2026-11-10T22:15:00+00:00",
+    "time_display": "7 ώρες",
+    "country": "es",
     "competition": ""
-  },
-  {
-    "id": "2ed237fa969f",
-    "title": "Σολανάκης στο Gazzetta: «Σημαντική νίκη, χαρούμενος για το ντεμπούτο μου»",
-    "highlights": "Ο Μανώλης Σολανάκης μίλησε στο Gazzetta μετά τη σημαντική νίκη του Ολυμπιακού απέναντι στη Σαμπαντέλ με 15-10 για την 3η αγωνιστική του LEN Champions League.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/polo/len-champions-league/2585457/solanakis-sto-gazzetta-simantiki-niki-haroymenos-gia-ntempoyto",
-    "pubDate": "2026-11-10T22:13:17+02:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
-    "competition": "cl"
   },
   {
     "id": "80fe920f7de0",
     "title": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
-    "highlights": "Manchester City’s European campaign finally came roaring into life as they put four goals past Inter to record their first Women’s Champions League victory of the season and greatly improve their prospects of reaching the knockout stages. The English side had to come from behind after a slow start b...",
+    "highlights": "On a very satisfying night for Manchester City, perhaps the most pleasing element was that they did not even need to call on Khadija ‘Bunny’ Shaw. While giving their talismanic striker some precious rest, Manchester City’s European campaign finally came roaring into life as they put four goals past ...",
     "source": "The Guardian",
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
     "pubDate": "2026-11-10T22:05:43+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -127,20 +175,32 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T22:05:15+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "uk",
     "competition": "cl"
   },
   {
-    "id": "2145ec625033",
-    "title": "ΠΑΟΚ: Η ασύλληπτη εμφάνιση του Μπριν Ταϊρί",
-    "highlights": "Ο Μπριν Ταϊρί ήταν συγκλονιστικός στη νίκη του ΠΑΟΚ στην έδρα της Μπάλκαν Μπότεβγκραντ με 79-56. Τα ανδραγαθήματα του 28χρονου γκαρντ.",
-    "source": "Gazzetta.gr",
-    "source_class": "gazzetta",
-    "link": "https://www.gazzetta.gr/basketball/eurocup/2585451/paok-i-asyllipti-emfanisi-toy-mprin-tairi",
-    "pubDate": "2026-11-10T22:01:57+02:00",
-    "time_display": "3 ώρες",
-    "country": "gr",
+    "id": "e2fc68c16e07",
+    "title": "Official | Aurélien Tchouaméni won’t be replaced following withdrawal from France squad",
+    "highlights": "Aurélien Tchouaméni (26) has withdrawn from the France squad for the current international break with an adductor injury, it has been confirmed by the FFF. Tchouaméni has yet to play…",
+    "source": "Get French Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsfrance.com/2026/official-aurelien-tchouameni-wont-be-replaced-following-withdrawal-from-france-squad/",
+    "pubDate": "2026-11-10T21:59:42+00:00",
+    "time_display": "8 ώρες",
+    "country": "fr",
+    "competition": ""
+  },
+  {
+    "id": "0a367f81a187",
+    "title": "Real Madrid star leaves national team camp after training ground injury",
+    "highlights": "La Liga giants Real Madrid have this week been dealt a concerning blow on the personnel front. This comes amid confirmation of Aurélien Tchouaméni having suffered a potential injury. Midfielder…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/real-madrid-star-leaves-national-team-camp-after-training-ground-injury/",
+    "pubDate": "2026-11-10T21:50:00+00:00",
+    "time_display": "8 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -151,7 +211,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/2-bundesliga/article/15224704/o-mele-kai-to-mellon-tou/",
     "pubDate": "2026-11-10T21:38:12+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -163,8 +223,20 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/germany-u21-11-26-update/",
     "pubDate": "2026-11-10T21:32:03+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "de",
+    "competition": ""
+  },
+  {
+    "id": "ad1b8dd19a9e",
+    "title": "Roma want Barcelona star on loan in January",
+    "highlights": "Barcelona star Alejandro Balde is attracting interest from Serie A ahead of the winter transfer window. This comes amid the understanding that AS Roma have set their sights on the…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/roma-want-barcelona-star-on-loan-in-january/",
+    "pubDate": "2026-11-10T21:30:00+00:00",
+    "time_display": "8 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -175,7 +247,7 @@
     "source_class": "novasports",
     "link": "https://www.novasports.gr/sport/podosfairo/event/super-league-1/article/15224654/koryfaios-o-ofi-sti-super-league-kalytera-apo-to-anamenomeno-pilios-tettei-kai-androutsos/",
     "pubDate": "2026-11-10T21:23:20+00:00",
-    "time_display": "1 ώρα",
+    "time_display": "8 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -187,8 +259,20 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2585434/blahos-sto-gazzetta-magazino-elabet-o-kokkalis-me-kerase-epeidi",
     "pubDate": "2026-11-10T21:12:29+02:00",
-    "time_display": "4 ώρες",
+    "time_display": "10 ώρες",
     "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "bb1536b322bf",
+    "title": "4th Real Sociedad star pulls out of international duty",
+    "highlights": "Another member of the first-team ranks at La Liga outfit Real Sociedad has this week been forced to pull out of international duty with his country. This comes amid confirmation…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/4th-real-sociedad-star-pulls-out-of-international-duty/",
+    "pubDate": "2026-11-10T21:10:00+00:00",
+    "time_display": "9 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -199,8 +283,20 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/fullkrug-werder-bremen-staff/",
     "pubDate": "2026-11-10T20:51:54+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "de",
+    "competition": ""
+  },
+  {
+    "id": "94cfb5b68d7d",
+    "title": "Real Madrid star: ‘We’re the best team in Europe right now’",
+    "highlights": "Real Madrid star Marc Cucurella has revealed his opinion that he and his teammates currently represent the standout team in all of European football. José Mourinho’s Real are of course in…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/real-madrid-star-were-the-best-team-in-europe-right-now/",
+    "pubDate": "2026-11-10T20:50:00+00:00",
+    "time_display": "9 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -211,19 +307,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T20:49:11+00:00",
-    "time_display": "2 ώρες",
-    "country": "uk",
-    "competition": ""
-  },
-  {
-    "id": "50c5d49330f4",
-    "title": "Mahomes gets new weapon as Chiefs trade for receiver",
-    "highlights": "Patrick Mahomes has a new weapon as Kansas City Chiefs have acquired wide receiver Josh Downs from the Indianapolis Colts.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/nfl/news/12040/13610766/josh-downs-patrick-mahomes-gets-new-weapon-as-kansas-city-chiefs-trade-for-wide-receiver",
-    "pubDate": "2026-11-10T20:46:00+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -235,8 +319,32 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/fullkrug-kane-klose-dfb/",
     "pubDate": "2026-11-10T20:33:12+00:00",
-    "time_display": "2 ώρες",
+    "time_display": "9 ώρες",
     "country": "de",
+    "competition": ""
+  },
+  {
+    "id": "c188676c4aac",
+    "title": "Chelsea respond to surprise Barcelona transfer links",
+    "highlights": "The brass at Premier League giants Chelsea have moved to ward off the alleged interest of Barcelona in defensive star Levi Colwill. This comes amid the understanding that the Blues…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/chelsea-respond-to-surprise-barcelona-transfer-links/",
+    "pubDate": "2026-11-10T20:30:00+00:00",
+    "time_display": "9 ώρες",
+    "country": "es",
+    "competition": ""
+  },
+  {
+    "id": "b8a307dc855f",
+    "title": "8 Barcelona stars handed extended breaks by Hansi Flick",
+    "highlights": "A number of leading members of the first-team ranks at La Liga champions Barcelona have this week been afforded a well-earned period of rest. Barca are of course fresh off…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/8-barcelona-stars-handed-extended-breaks-by-hansi-flick/",
+    "pubDate": "2026-11-10T20:10:00+00:00",
+    "time_display": "10 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -247,7 +355,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/kai-havertz-permier-league-record-fullkrug/",
     "pubDate": "2026-11-10T20:07:40+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -259,7 +367,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/videos/c62keklwjpe0o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T20:07:12+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
     "competition": "cl"
   },
@@ -271,7 +379,7 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2585413/aris-treis-diethneis-apoysies-sti-diarkeia-tis-diakopis",
     "pubDate": "2026-11-10T20:00:36+02:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "gr",
     "competition": ""
   },
@@ -283,8 +391,20 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
     "pubDate": "2026-11-10T19:54:51+00:00",
-    "time_display": "3 ώρες",
+    "time_display": "10 ώρες",
     "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "bf78c96100c3",
+    "title": "Real Madrid star opens the door to January exit",
+    "highlights": "Real Madrid star Endrick has admitted that he has not yet ruled out the possibility of departing Spain’s capital on loan during the winter transfer window. This comes amid a…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/real-madrid-star-opens-the-door-to-january-exit/",
+    "pubDate": "2026-11-10T19:50:00+00:00",
+    "time_display": "10 ώρες",
+    "country": "es",
     "competition": ""
   },
   {
@@ -295,8 +415,32 @@
     "source_class": "gazzetta",
     "link": "https://www.gazzetta.gr/football/superleague/2585420/ofi-pige-ta-tropaia-stin-ogkologiki-kliniki-paidon-toy-pagni-kai",
     "pubDate": "2026-11-10T19:47:27+02:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "gr",
+    "competition": ""
+  },
+  {
+    "id": "dfd18c1c9107",
+    "title": "Barcelona star in fresh dig at football fans: ‘They don’t watch the games’",
+    "highlights": "Barcelona star Frenkie de Jong has this week made use of the opportunity to call into question the understanding of the everyday football fan. Midfielder De Jong has for his…",
+    "source": "Get Spanish Football News",
+    "source_class": "default",
+    "link": "https://getfootballnewsspain.com/barcelona-star-in-fresh-dig-at-football-fans-they-dont-watch-the-games/",
+    "pubDate": "2026-11-10T19:30:00+00:00",
+    "time_display": "10 ώρες",
+    "country": "es",
+    "competition": ""
+  },
+  {
+    "id": "3ff1891b107f",
+    "title": "Real Madrid midfielder Aurélien Tchouaméni could withdraw from France squad due to injury",
+    "highlights": "Aurélien Tchouaméni (26) may be forced to withdraw from the France squad due to injury, according to reports in L’Équipe. Having sustained a groin injury, the midfielder was unable to…",
+    "source": "Get French Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsfrance.com/2026/real-madrid-midfielder-aurelien-tchouameni-could-withdraw-from-france-squad-due-to-injury/",
+    "pubDate": "2026-11-10T19:25:34+00:00",
+    "time_display": "10 ώρες",
+    "country": "fr",
     "competition": ""
   },
   {
@@ -307,21 +451,9 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/rio-ngumoha-ready-to-make-england-splash-as-he-spells-out-ballon-dor-ambition",
     "pubDate": "2026-11-10T19:00:17+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
     "competition": ""
-  },
-  {
-    "id": "2759eb93d42d",
-    "title": "Chelsea frustrated at Hacken in WCL",
-    "highlights": "Chelsea remain unbeaten in the Women’s Champions League but they were frustrated in a goalless draw at BK Hacken.",
-    "source": "Sky Sports",
-    "source_class": "sky",
-    "link": "https://www.skysports.com/football/bk-hcken-women-vs-chelsea-women/report/578259",
-    "pubDate": "2026-11-10T19:00:00+00:00",
-    "time_display": "4 ώρες",
-    "country": "uk",
-    "competition": "cl"
   },
   {
     "id": "2631762e6f08",
@@ -331,7 +463,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/palestra-italy-loss-against-bosnia-still-hurts/",
     "pubDate": "2026-11-10T18:50:04+00:00",
-    "time_display": "4 ώρες",
+    "time_display": "11 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -343,8 +475,20 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T18:12:02+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "11 ώρες",
     "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "2e99f0e74f81",
+    "title": "Didier Digard viewed as Pierre Sage alternative at RC Lens",
+    "highlights": "Whilst Yannick Cahuzac’s exit from RC Lens has not yet been made official, the Ligue 1 club are drawing up a shortlist of replacements. As reported by L’Équipe, Pierre Sage,…",
+    "source": "Get French Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsfrance.com/2026/didier-digard-viewed-as-pierre-sage-alternative-at-rc-lens/",
+    "pubDate": "2026-11-10T18:03:35+00:00",
+    "time_display": "12 ώρες",
+    "country": "fr",
     "competition": ""
   },
   {
@@ -355,7 +499,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
     "pubDate": "2026-11-10T17:40:40+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -367,7 +511,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/stankovic-leaves-serbia-camp-returns-to-inter/",
     "pubDate": "2026-11-10T17:39:43+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -379,7 +523,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/borussia-dortmund-receive-encouragingiannis-konstantelias-injury-recovery/",
     "pubDate": "2026-11-10T17:21:41+00:00",
-    "time_display": "5 ώρες",
+    "time_display": "12 ώρες",
     "country": "de",
     "competition": ""
   },
@@ -391,7 +535,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/football/bk-hcken-women-vs-chelsea-women/live/578259",
     "pubDate": "2026-11-10T17:15:00+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "12 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -403,7 +547,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/match-previews/italy-v-france-preview-expected-line-ups-stats-stream-where-to-watch/",
     "pubDate": "2026-11-10T16:48:34+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -415,7 +559,7 @@
     "source_class": "default",
     "link": "https://www.getfootballnewsgermany.com/2026/loris-karius-bayern-link/",
     "pubDate": "2026-11-10T16:47:53+00:00",
-    "time_display": "6 ώρες",
+    "time_display": "13 ώρες",
     "country": "de",
     "competition": "el"
   },
@@ -427,7 +571,7 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T16:17:10+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "13 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -439,7 +583,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/cricket/news/12040/13610671/jacob-bethell-is-england-return-for-australia-odis-likely-to-happen-or-will-tom-banton-keep-openers-spot",
     "pubDate": "2026-11-10T16:00:00+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -451,7 +595,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/thuram-drops-out-of-france-squad-returns-inter/",
     "pubDate": "2026-11-10T15:43:31+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -463,7 +607,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/f1/news/12040/13610204/sao-paulo-gp-martin-brundles-verdict-as-mercedes-seal-2026-f1-constructors-title-and-lando-norris-wins-wet-race-in-brazil",
     "pubDate": "2026-11-10T15:20:00+00:00",
-    "time_display": "7 ώρες",
+    "time_display": "14 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -475,7 +619,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/pierre-sage-crystal-palace-premier-league-lens",
     "pubDate": "2026-11-10T15:08:24+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -487,7 +631,7 @@
     "source_class": "sky",
     "link": "https://www.skysports.com/football/news/12040/13610675/man-utd-qa-michael-carrick-mauricio-pochettino-ineos-and-more-kaveh-solhekol-answers-your-questions",
     "pubDate": "2026-11-10T15:00:00+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -499,7 +643,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/cisse-i-like-pressure-balotelli-role-model/",
     "pubDate": "2026-11-10T14:57:33+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -511,7 +655,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/real-madrid-star-endrick-opens-up-milan-roma/",
     "pubDate": "2026-11-10T14:36:09+00:00",
-    "time_display": "8 ώρες",
+    "time_display": "15 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -523,7 +667,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/cassano-allegri-fiorentina-paratici/",
     "pubDate": "2026-11-10T14:15:00+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "15 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -535,7 +679,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/mctominay-napoli-gave-me-foundation-to-focus/",
     "pubDate": "2026-11-10T14:00:00+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -547,7 +691,7 @@
     "source_class": "football-italia",
     "link": "https://football-italia.net/barcelona-left-back-balde-wanted-roma-juventus/",
     "pubDate": "2026-11-10T13:45:00+00:00",
-    "time_display": "9 ώρες",
+    "time_display": "16 ώρες",
     "country": "it",
     "competition": ""
   },
@@ -559,8 +703,20 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/virgil-van-dijk-will-play-on-liverpool-dont-extend-his-contract/",
     "pubDate": "2026-11-10T13:01:50+00:00",
-    "time_display": "10 ώρες",
+    "time_display": "17 ώρες",
     "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "992832f143f7",
+    "title": "RC Lens push to reappoint Pierre Sage",
+    "highlights": "RC Lens are pushing to reappoint Pierre Sage, who left to join Crystal Palace over the summer, but who is on the verge of being sacked by the Premier League…",
+    "source": "Get French Football News",
+    "source_class": "default",
+    "link": "https://www.getfootballnewsfrance.com/2026/rc-lens-push-to-reappoint-pierre-sage/",
+    "pubDate": "2026-11-10T12:54:43+00:00",
+    "time_display": "17 ώρες",
+    "country": "fr",
     "competition": ""
   },
   {
@@ -571,7 +727,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
     "pubDate": "2026-11-10T12:00:51+00:00",
-    "time_display": "11 ώρες",
+    "time_display": "18 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -583,7 +739,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/la-liga/real-madrid-endrick-hints-at-january-move-despite-mourinho-support/",
     "pubDate": "2026-11-10T11:06:36+00:00",
-    "time_display": "12 ώρες",
+    "time_display": "19 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -595,7 +751,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/picture/2026/nov/10/david-squires-on-you-can-mufc-everything-manchester-united",
     "pubDate": "2026-11-10T11:02:54+00:00",
-    "time_display": "12 ώρες",
+    "time_display": "19 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -607,19 +763,19 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/rui-pinto-lawyers-talks-uk-authorities-cooperation-deal-whistleblower",
     "pubDate": "2026-11-10T10:30:35+00:00",
-    "time_display": "12 ώρες",
+    "time_display": "19 ώρες",
     "country": "uk",
     "competition": ""
   },
   {
     "id": "790e0af86517",
     "title": "Felix Nmecha denies goal celebrations promote ‘intolerance, discrimination and hate’",
-    "highlights": "Celebrations linked to ultra-conservative Christian group ‘Our message is of love’ Nmecha says in reply to criticism Borussia Dortmund and Germany midfielder Felix Nmecha has responded to criticism of goal celebrations linked to an evangelical network by saying they’ve been misunderstood and are not...",
+    "highlights": "Celebrations linked to ultra-conservative Christian group ‘Our message is of love’ Nmecha says in reply to criticism The Borussia Dortmund and Germany midfielder Felix Nmecha has responded to criticism of goal celebrations linked to an evangelical network by saying they have been misunderstood and a...",
     "source": "The Guardian",
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/2026/nov/10/felix-nmecha-denies-goal-celebrations-promote-intolerance-discrimination-and-hate",
     "pubDate": "2026-11-10T10:06:06+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "20 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -631,7 +787,7 @@
     "source_class": "default",
     "link": "https://www.101greatgoals.com/football/premier-league/manchester-united-carrick-arrives-at-carrington-ahead-of-day-of-crunch-talks/",
     "pubDate": "2026-11-10T09:32:35+00:00",
-    "time_display": "13 ώρες",
+    "time_display": "20 ώρες",
     "country": "uk",
     "competition": ""
   },
@@ -643,8 +799,20 @@
     "source_class": "bbc",
     "link": "https://www.bbc.co.uk/sport/football/articles/cwj343pep7zdo?at_medium=RSS&at_campaign=rss",
     "pubDate": "2026-11-10T08:53:26+00:00",
-    "time_display": "14 ώρες",
+    "time_display": "21 ώρες",
     "country": "uk",
+    "competition": ""
+  },
+  {
+    "id": "ca7eead639ce",
+    "title": "Inter to push for Hakan Calhanoglu renewal despite player noise",
+    "highlights": "Hakan Calhanoglu has been vocal about his possible new deal at Inter and the Serie A giants have been growing keen on handing him a renewal this season. La Gazzetta…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/inter-to-push-for-hakan-calhanoglu-renewal-despite-player-noise/",
+    "pubDate": "2026-11-10T07:28:26+00:00",
+    "time_display": "22 ώρες",
+    "country": "it",
     "competition": ""
   },
   {
@@ -655,7 +823,7 @@
     "source_class": "guardian",
     "link": "https://www.theguardian.com/football/ng-interactive/2026/nov/10/ultimate-1-50-the-male-footballers-best-associated-with-each-squad-number",
     "pubDate": "2026-11-10T06:00:30+00:00",
-    "time_display": "17 ώρες",
+    "time_display": "1 μέρα",
     "country": "uk",
     "competition": ""
   },
@@ -670,6 +838,18 @@
     "time_display": "1 μέρα",
     "country": "uk",
     "competition": "cl"
+  },
+  {
+    "id": "428103c9f6f8",
+    "title": "Milan make initial contact to renew Yunus Musah’s contract",
+    "highlights": "Serie A side Milan have seen Yunus Musah become a key player in Ruben Amorim’s project and are taking steps to keep him beyond his current contract. Daniele Longo has…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/milan-make-initial-contact-to-renew-yunus-musahs-contract/",
+    "pubDate": "2026-11-09T18:21:09+00:00",
+    "time_display": "1 μέρα",
+    "country": "it",
+    "competition": ""
   },
   {
     "id": "657759d82f7e",
@@ -742,5 +922,89 @@
     "time_display": "1 μέρα",
     "country": "uk",
     "competition": ""
+  },
+  {
+    "id": "b168bd759412",
+    "title": "Milan draw up plan for Club Brugge’s Nicolo Tresoldi, January move sought",
+    "highlights": "Serie A side Milan have been in the hunt for Club Brugge’s Nicolo Tresoldi and are now trying to draw up a plan for the striker. Daniele Longo reports that…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/milan-draw-up-plan-for-club-brugges-nicolo-tresoldi-january-move-sought/",
+    "pubDate": "2026-11-07T18:30:09+00:00",
+    "time_display": "3 μέρες",
+    "country": "it",
+    "competition": ""
+  },
+  {
+    "id": "e5d2dc0fc9ed",
+    "title": "Why Scott McTominay is yet to sign Napoli renewal",
+    "highlights": "Napoli haven’t been off to a great start in the Serie A and the Champions League and there have been suggestions of dressing room rifts. But amidst all of that,…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/why-scott-mctominay-is-yet-to-sign-napoli-renewal/",
+    "pubDate": "2026-11-07T06:52:17+00:00",
+    "time_display": "3 μέρες",
+    "country": "it",
+    "competition": "cl"
+  },
+  {
+    "id": "fc246bb09556",
+    "title": "Goncalo Inacio still Milan’s January transfer priority",
+    "highlights": "Serie A side Milan lost to Ferencvaros in the Europa League on Thursday and despite their win over Inter at the weekend, it is clear they need defensive reinforcements that…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/goncalo-inacio-still-milans-january-transfer-priority/",
+    "pubDate": "2026-11-06T18:47:47+00:00",
+    "time_display": "4 μέρες",
+    "country": "it",
+    "competition": "el"
+  },
+  {
+    "id": "f50ba1312351",
+    "title": "Giacomo Calo’s agent disappointed about Frosinone star not receiving Italy call-up",
+    "highlights": "Serie A side Frosinone have been one of the surprise packages of the season and Giacomo Calo has been one of the best midfielders of the campaign. The Italian has…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/giacomo-calos-agent-disappointed-about-frosinone-star-not-receiving-italy-call-up/",
+    "pubDate": "2026-11-06T18:33:03+00:00",
+    "time_display": "4 μέρες",
+    "country": "it",
+    "competition": ""
+  },
+  {
+    "id": "576f8bccb854",
+    "title": "How Samuel Chukwueze’s absence will impact Milan",
+    "highlights": "Milan have confirmed that that Samuel Chukwueze has underwent surgery to repair a ruptured tendon in the tensor fasciae latae muscle of his left hip.",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/how-samuel-chukwuezes-absence-will-impact-milan/",
+    "pubDate": "2026-11-05T19:15:00+00:00",
+    "time_display": "5 μέρες",
+    "country": "it",
+    "competition": "el"
+  },
+  {
+    "id": "e319df2bccba",
+    "title": "Major rift in Napoli dressing room as club in crisis – again",
+    "highlights": "Serie A side Napoli have been struggling this season and things came to a head against Porto on Wednesday. Matteo Politano called out non-Italian players in his post-game interview and…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/major-rift-in-napoli-dressing-room-as-club-in-crisis-again/",
+    "pubDate": "2026-11-05T18:45:00+00:00",
+    "time_display": "5 μέρες",
+    "country": "it",
+    "competition": ""
+  },
+  {
+    "id": "7fec6db27d06",
+    "title": "Napoli’s Kevin De Bruyne in spat with three players during Porto defeat",
+    "highlights": "Serie A side Napoli took a hefty 4-1 defeat to Porto in the Champions League yesterday and now find themselves at 27th in the table. But a point of friction…",
+    "source": "Get Italian Football News",
+    "source_class": "football-italia",
+    "link": "https://www.getfootballnewsitaly.com/2026/napolis-kevin-de-bruyne-in-spat-with-three-players-during-porto-defeat/",
+    "pubDate": "2026-11-05T18:05:32+00:00",
+    "time_display": "5 μέρες",
+    "country": "it",
+    "competition": "cl"
   }
 ]
