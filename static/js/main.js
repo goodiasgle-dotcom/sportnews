@@ -14,10 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
     initBackToTop();
     initFilters();
     initHighlightFilters();
+    initSearch();
+    updateHeaderDate();
 });
 
 // Load news from JSON data file
 async function loadNewsData() {
+    const newsContainer = document.getElementById('news-container');
+    newsContainer.setAttribute('aria-busy', 'true');
     showLoading(true);
 
     try {
@@ -34,6 +38,7 @@ async function loadNewsData() {
         showEmptyState();
     } finally {
         showLoading(false);
+        newsContainer.setAttribute('aria-busy', 'false');
     }
 }
 
@@ -42,6 +47,7 @@ async function loadHighlightsData() {
     const hlLoading = document.getElementById('highlights-loading');
     const hlEmpty = document.getElementById('highlights-empty');
     const hlContainer = document.getElementById('highlights-container');
+    hlContainer.setAttribute('aria-busy', 'true');
 
     try {
         const response = await fetch('highlights.json');
@@ -51,6 +57,7 @@ async function loadHighlightsData() {
         if (allHighlights.length === 0) {
             hlLoading.style.display = 'none';
             hlEmpty.style.display = 'block';
+            hlContainer.setAttribute('aria-busy', 'false');
             return;
         }
         hlLoading.style.display = 'none';
@@ -58,6 +65,8 @@ async function loadHighlightsData() {
     } catch (error) {
         hlLoading.style.display = 'none';
         hlEmpty.style.display = 'block';
+    } finally {
+        hlContainer.setAttribute('aria-busy', 'false');
     }
 }
 
@@ -93,7 +102,16 @@ function loadMoreHighlights(filtered, container) {
 function createHighlightCard(hl) {
     const card = document.createElement('div');
     card.className = 'highlight-card';
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `Δείτε το βίντεο: ${hl.title}`);
     card.onclick = function() { openHighlightModal(hl.videoId, hl.platform); };
+    card.onkeydown = function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openHighlightModal(hl.videoId, hl.platform);
+        }
+    };
 
     const compLabel = {
         'cl': 'UCL',
@@ -108,8 +126,8 @@ function createHighlightCard(hl) {
 
     card.innerHTML = `
         <div class="highlight-thumb">
-            <img src="${escapeHtml(hl.thumbnail)}" alt="${escapeHtml(hl.title)}" loading="lazy">
-            <div class="highlight-play"></div>
+            <img src="${escapeHtml(hl.thumbnail)}" alt="" loading="lazy">
+            <div class="highlight-play" aria-hidden="true"></div>
             ${compLabel ? `<span class="highlight-comp-badge">${compLabel}</span>` : ''}
             ${platformBadge}
         </div>
@@ -142,12 +160,15 @@ function openHighlightModal(videoId, platform) {
         modal = document.createElement('div');
         modal.id = 'highlight-modal';
         modal.className = 'highlight-video-modal';
+        modal.setAttribute('role', 'dialog');
+        modal.setAttribute('aria-modal', 'true');
+        modal.setAttribute('aria-label', 'Πρόγραμμα αναπαραγωγής βίντεο');
         modal.innerHTML = `
             <div class="modal-content">
-                <button class="modal-close" onclick="closeHighlightModal()">&times;</button>
+                <button class="modal-close" onclick="closeHighlightModal()" aria-label="Κλείστε το βίντεο">&times;</button>
                 <div class="modal-player">
-                    <iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <div class="modal-unavailable" style="display:none;">
+                    <iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; web-share" allowfullscreen title="Βίντεο highlight"></iframe>
+                    <div class="modal-unavailable" style="display:none;" aria-live="polite">
                         <p>&#9888; Το βίντεο δεν είναι διαθέσιμο</p>
                         <a id="watch-direct-link" href="" target="_blank" rel="noopener" class="read-original">Δες το απευθείας →</a>
                     </div>
@@ -170,6 +191,24 @@ function openHighlightModal(videoId, platform) {
     directLink.href = getWatchUrl(videoId, platform);
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Trap focus in modal
+    const focusableElements = modal.querySelectorAll('button, [href], iframe');
+    const firstElement = focusableElements[0];
+    const lastElement = focusableElements[focusableElements.length - 1];
+    firstElement.focus();
+
+    modal.addEventListener('keydown', function trapFocus(e) {
+        if (e.key === 'Tab') {
+            if (e.shiftKey && document.activeElement === firstElement) {
+                e.preventDefault();
+                lastElement.focus();
+            } else if (!e.shiftKey && document.activeElement === lastElement) {
+                e.preventDefault();
+                firstElement.focus();
+            }
+        }
+    });
 
     // Handle geo-restriction: show fallback after 5s if iframe hasn't loaded
     const checkTimeout = setTimeout(function() {
@@ -264,12 +303,16 @@ function createNewsCard(news) {
             </div>
         </div>
         <div class="card-footer">
-            <button class="expand-btn" onclick="toggleCard(this)">
+            <button class="expand-btn" onclick="toggleCard(this)" aria-expanded="false" aria-controls="content-${news.id}">
                 <span class="expand-text">Διαβάστε περισσότερα</span>
-                <span class="expand-icon">▼</span>
+                <span class="expand-icon" aria-hidden="true">▼</span>
             </button>
         </div>
     `;
+
+    // Set unique ID for card content for aria-controls
+    const content = article.querySelector('.card-content');
+    content.id = `content-${news.id}`;
 
     return article;
 }
@@ -289,10 +332,12 @@ function toggleCard(button) {
         content.classList.remove('expanded');
         button.classList.remove('active');
         text.textContent = 'Διαβάστε περισσότερα';
+        button.setAttribute('aria-expanded', 'false');
     } else {
         content.classList.add('expanded');
         button.classList.add('active');
         text.textContent = 'Κλείστε';
+        button.setAttribute('aria-expanded', 'true');
     }
 }
 
@@ -320,6 +365,11 @@ function getSourceClass(source) {
         'Novasports': 'novasports',
         'Redaroume': 'redaroume',
         'OPA.gr': 'opa',
+        'SDNA.gr': 'sdna',
+        'SportFM.gr': 'sportfm',
+        'Sportal.gr': 'sportal',
+        'News.gr Sports': 'newsgr',
+        'Newsbeast Sports': 'newsbeast',
         'Football Italia': 'football-italia',
         'Get German Football News': 'german-fn',
         'Get French Football News': 'french-fn',
@@ -332,6 +382,23 @@ function getSourceClass(source) {
         if (source.includes(key)) return value;
     }
     return 'default';
+}
+
+// Update header date (Greek + European format)
+function updateHeaderDate() {
+    const el = document.getElementById('header-date');
+    if (!el) return;
+    const now = new Date();
+    const days = ['Κυριακή', 'Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο'];
+    const months = ['Ιανουαρίου', 'Φεβρουαρίου', 'Μαρτίου', 'Απριλίου', 'Μαΐου', 'Ιουνίου',
+                    'Ιουλίου', 'Αυγούστου', 'Σεπτεμβρίου', 'Οκτωβρίου', 'Νοεμβρίου', 'Δεκεμβρίου'];
+    const dayName = days[now.getDay()];
+    const day = String(now.getDate()).padStart(2, '0');
+    const month = months[now.getMonth()];
+    const year = now.getFullYear();
+    const european = `${day}/${String(now.getMonth() + 1).padStart(2, '0')}/${year}`;
+    el.textContent = `${dayName}, ${now.getDate()} ${month} ${year}`;
+    el.setAttribute('aria-label', `Σήμερα είναι ${dayName}, ${now.getDate()} ${month} ${year}`);
 }
 
 // Update last update time
@@ -352,8 +419,8 @@ function showLoading(show) {
 function showEmptyState() {
     const container = document.getElementById('news-container');
     container.innerHTML = `
-        <div class="empty-state">
-            <div class="icon">📰</div>
+        <div class="empty-state" aria-live="polite">
+            <div class="icon" aria-hidden="true">📰</div>
             <h3>Δεν βρέθηκαν νέα</h3>
             <p>Δοκιμάστε ξανά αργότερα</p>
         </div>
@@ -385,11 +452,19 @@ function toggleTheme() {
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('theme', next);
     updateThemeIcon(next);
+    
+    const btn = document.querySelector('.theme-toggle');
+    if (btn) {
+        btn.setAttribute('aria-pressed', next === 'dark');
+    }
 }
 
 function updateThemeIcon(theme) {
     const btn = document.querySelector('.theme-toggle');
-    if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    if (btn) {
+        btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        btn.setAttribute('aria-pressed', theme === 'dark');
+    }
 }
 
 // === BACK TO TOP ===
@@ -410,6 +485,52 @@ function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// === SEARCH ===
+function initSearch() {
+    const searchInput = document.getElementById('search-input');
+    if (!searchInput) return;
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        filterNewsBySearch(query);
+    });
+}
+
+function filterNewsBySearch(query) {
+    const container = document.getElementById('news-container');
+    const loadMoreBtn = document.getElementById('load-more');
+    container.innerHTML = '';
+    displayedCount = 0;
+
+    if (!query) {
+        loadMoreNews();
+        return;
+    }
+
+    const filtered = allNews.filter(n =>
+        (n.title && n.title.toLowerCase().includes(query)) ||
+        (n.highlights && n.highlights.toLowerCase().includes(query)) ||
+        (n.source && n.source.toLowerCase().includes(query))
+    );
+
+    const end = Math.min(ITEMS_PER_PAGE, filtered.length);
+    for (let i = 0; i < end; i++) {
+        container.appendChild(createNewsCard(filtered[i]));
+    }
+    displayedCount = end;
+
+    if (displayedCount < filtered.length) {
+        loadMoreBtn.style.display = 'block';
+    } else {
+        loadMoreBtn.style.display = 'none';
+    }
+
+    if (filtered.length === 0) {
+        showEmptyState();
+    } else {
+        hideEmptyState();
+    }
+}
+
 // === NEWS COUNTRY FILTER ===
 let currentFilter = 'all';
 
@@ -418,8 +539,16 @@ function initFilters() {
         btn.addEventListener('click', function() {
             if (this.disabled) return;
             currentFilter = this.dataset.country;
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                b.classList.remove('active');
+                b.setAttribute('aria-selected', 'false');
+            });
+            
             this.classList.add('active');
+            this.setAttribute('aria-selected', 'true');
+            
+            announceFilterChange(this.textContent);
             resetAndFilter();
         });
     });
@@ -432,12 +561,29 @@ function resetAndFilter() {
     loadMoreNews();
 }
 
+function announceFilterChange(filterName) {
+    const announcement = document.createElement('div');
+    announcement.setAttribute('role', 'status');
+    announcement.setAttribute('aria-live', 'polite');
+    announcement.setAttribute('aria-atomic', 'true');
+    announcement.className = 'sr-only';
+    announcement.style.position = 'absolute';
+    announcement.style.left = '-9999px';
+    announcement.textContent = `Φίλτρο εφαρμόστηκε: ${filterName}`;
+    document.body.appendChild(announcement);
+    setTimeout(() => announcement.remove(), 1000);
+}
+
 // === HIGHLIGHTS FILTER ===
 function initHighlightFilters() {
     document.querySelectorAll('.hl-tab').forEach(tab => {
         tab.addEventListener('click', function() {
-            document.querySelectorAll('.hl-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.hl-tab').forEach(t => {
+                t.classList.remove('active');
+                t.setAttribute('aria-selected', 'false');
+            });
             this.classList.add('active');
+            this.setAttribute('aria-selected', 'true');
             renderHighlights(this.dataset.comp);
         });
     });

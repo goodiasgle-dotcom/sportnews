@@ -7,8 +7,8 @@
 - Παίρνει νέα από 14 αθλητικές ιστοσελίδες (Ελληνικές και Ευρωπαϊκές)
 - Μεταφράζει τα ξενόγλωσσα νέα στα Ελληνικά
 - Τα βάζει σε ένα ωραίο layout σαν το Facebook
-- Ενημερώνεται αυτόματά κάθε 30-60 λεπτά
-- Είναι δωρεάν στο Netlify
+- Ενημερώνεται αυτόματά κάθε 15 λεπτά
+- Είναι δωρεάν στο GitHub Pages
 
 ## Βήμα 1: Δημιουργία λογαριασμού GitHub
 
@@ -18,14 +18,7 @@
 4. Επίλεξε "Free" plan
 5. Επιβεβαίωσε το email σου
 
-## Βήμα 2: Δημιουργία λογαριασμού Netlify
-
-1. Πήγαινε στο https://app.netlify.com
-2. Πάτα "Sign up"
-3. Επίλεξε "Sign up with GitHub"
-4. Ακολούθησε τα βήματα
-
-## Βήμα 3: Ανέβασμα κώδικα στο GitHub
+## Βήμα 2: Ανέβασμα κώδικα στο GitHub
 
 1. Άνοιξε το terminal (KDE: πάτα Alt+Space και γράψε "konsole")
 2. Γράψε τις παρακάτω εντολές:
@@ -50,49 +43,25 @@ git branch -M main
 git push -u origin main
 ```
 
-## Βήμα 4: Σύνδεση με Netlify
+## Βήμα 3: Ενεργοποίηση GitHub Pages
 
-1. Πήγαινε στο https://app.netlify.com
-2. Πάτα "Add new site" → "Import an existing project"
-3. Επίλεξε "GitHub"
-4. Βρες το repository `sport-news-site`
-5. Netlify θα χτίσει το site μόνο του!
+1. Πήγαινε στο repository σου στο GitHub
+2. Πάτα "Settings" → "Pages" (αριστερά στο μενού)
+3. Στο "Build and deployment" → Source: επίλεξε "GitHub Actions"
+4. Το site θα χτιστεί αυτόματα με το push στο main branch!
 
-## Βήμα 5: Ενεργοποίηση αυτόματης ενημέρωσης
+## Βήμα 4: Ενεργοποίηση αυτόματης ενημέρωσης (GitHub Actions)
 
-Στο GitHub:
+Το workflow τρέχει αυτόματα κάθε 15 λεπτά. Αν θες να τρέξει και χειροκίνητα:
+1. Πήγαινε στο repository → "Actions" → "Fetch News & Highlights"
+2. Πάτα "Run workflow"
 
-1. Πήγαινε στο repository σου
-2. Πάτα "Settings" → "Secrets and variables" → "Actions"
-3. Πάτα "New repository secret"
-4. Γράψε:
-   - Name: `NETLIFY_AUTH_TOKEN`
-   - Value: (παρακάτω πώς να το πάρεις)
+## Βήμα 5: Προσαρμογή URL (προαιρετικό)
 
-5. Πάτα "New repository secret" ξανά:
-   - Name: `NETLIFY_SITE_ID`
-   - Value: (παρακάτω πώς να το πάρεις)
-
-### Πώς παίρνεις τα tokens:
-
-**NETLIFY_AUTH_TOKEN:**
-1. Στο Netlify, πάτα avatar (πάνω δεξιά) → "User settings"
-2. Πάτα "Applications"
-3. Στο "Personal access tokens", πάτα "New access token"
-4. Γράψε όνομα (π.χ. "github-actions")
-5. Αντέγραψε το token
-
-**NETLIFY_SITE_ID:**
-1. Στο Netlify, πάτα στο site σου
-2. "Site configuration" → "General"
-3. Βρίσκεται κάτω από "Site information"
-
-## Βήμα 6: Δοκιμή
-
-Πήγαινε στο https://app.netlify.com → Site σου → "Deploys"
-Πάρτα το URL (π.χ. `https://你的-site.netlify.app`)
-
-Τέλος! Το site σου είναι live!
+Αν το repository σου έχει διαφορετικό όνομα, πήγαινε στο:
+- Settings → "Variables" → "Actions" → "New repository variable"
+- Name: `HUGO_BASEURL`
+- Value: `https://ΤΟ_ΟΝΟΜΑ_ΣΟΥ.github.io/sport-news-site/`
 
 ## Τοπική δοκιμή (προαιρετικό)
 
@@ -108,39 +77,46 @@ hugo server
 
 ## Πώς λειτουργεί;
 
-1. Κάθε 30-60 λεπτά, το GitHub Actions τρέχει
+1. Κάθε 15 λεπτά, το GitHub Actions τρέχει (cron: `15 * * * *`)
 2. Παίρνει νέα από 14 RSS feeds
-3. Μεταφράζει τα ξένα στα ελληνικά
-4. Χτίζει το site
-5. Ανεβαίνει στο Netlify
+3. Μεταφράζει τα ξένα στα ελληνικά (MyMemory API)
+4. Χτίζει το site με Hugo
+5. Ανεβαίνει στο GitHub Pages
 
 ## Πηγές Νέων
 
 ### Ελληνικές
-- Sport24.gr
 - Gazzetta.gr
-- Sportime.gr
-- Novasports.gr
+- Gazzetta Football
+- Novasports
+- Redaroume
+- OPA.gr
 
 ### Αγγλικές
 - BBC Sport
 - Sky Sports
-- ESPN
 - The Guardian
+- 101 Great Goals
 
 ### Ιταλικές
 - Football Italia
-- Gazzetta dello Sport
-- Sky Sport Italia
+- Get Italian Football News
 
 ### Γαλλικές
-- L'Equipe
+- Get French Football News
 
 ### Γερμανικές
-- Kicker
+- Get German Football News
 
 ### Ισπανικές
-- Marca
+- Get Spanish Football News
+
+## Highlights (Video)
+
+Από YouTube κανάλια:
+- **TV Broadcasters**: SKAI.gr, Open TV, Novasports
+- **Club Channels**: PAOK, AEK, Olympiacos, Aris, Panathinaikos, OFI
+- **News**: Score.gr
 
 ## Ελεύθερα εργαλεία που χρησιμοποιούμε
 
@@ -149,9 +125,18 @@ hugo server
 | Hugo | Χτίζει το site | Δωρεάν |
 | GitHub | Αποθηκεύει τον κώδικα | Δωρεάν |
 | GitHub Actions | Ενημερώνει αυτόματα | Δωρεάν |
-| Netlify | Φιλοξενεί το site | Δωρεάν |
-| MyMemory | Μεταφράζει | Δωρεάν |
+| GitHub Pages | Φιλοξενεί το site | Δωρεάν |
+| MyMemory | Μεταφράζει | Δωρεάν (αόριστο) |
+
+## Χαρακτηριστικά
+
+- 🎯 **Μόνο ποδόσφαιρο** - Φιλτράρει αυτόματα μη-αθλητικό περιεχόμενο
+- 🌍 **Πολυγλωσσικό** - Μεταφράζει αγγλικά/ιταλικά/γαλλικά/γερμανικά/ισπανικά στα ελληνικά
+- 🔄 **Αυτόματη ενημέρωση** - Κάθε 15 λεπτά χωρίς παρέμβασή σου
+- ♿ **Πρόσβαση για όλους** - ARIA labels, keyboard navigation, dark mode
+- 📱 **Responsive** - Δουλεύει σε mobile, tablet, desktop
+- 🧪 **Tested** - Unit tests για κρίσιμες συναρτήσεις
 
 ## Ερωτήματα;
 
-Αν έχεις απορίες, ρώτα με!
+Αν έχεις απορίες, άνοιξε ένα Issue στο GitHub!

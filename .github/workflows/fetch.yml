@@ -21,6 +21,14 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Cache translation cache
+        uses: actions/cache@v4
+        with:
+          path: data/translation_cache.json
+          key: translation-cache-${{ runner.os }}-${{ hashFiles('data/feeds.json') }}
+          restore-keys: |
+            translation-cache-${{ runner.os }}-
+
       - name: Fetch news
         run: python3 scripts/fetch_news.py
 
@@ -31,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add static/news.json static/highlights.json
+          git add static/news.json static/highlights.json data/translation_cache.json
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update news & highlights"
             git push

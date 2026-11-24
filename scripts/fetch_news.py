@@ -12,6 +12,7 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
@@ -56,6 +57,11 @@ SOURCE_CLASSES = {
     'Novasports': 'novasports',
     'Redaroume': 'default',
     'OPA.gr': 'default',
+    'SDNA.gr': 'default',
+    'SportFM.gr': 'default',
+    'Sportal.gr': 'default',
+    'News.gr Sports': 'default',
+    'Newsbeast Sports': 'default',
     'BBC Sport': 'bbc',
     'Sky Sports': 'sky',
     'The Guardian': 'guardian',
@@ -84,17 +90,42 @@ def save_json(filepath, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def fetch_url(url, timeout=15):
-    """Fetch content from URL."""
-    try:
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'SportNewsGR/1.0 (RSS Reader)'
-        })
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            return response.read().decode('utf-8', errors='replace')
-    except Exception as e:
-        print(f"  Error fetching {url}: {e}")
-        return None
+def fetch_url(url, timeout=15, max_retries=3, backoff_factor=2):
+    """Fetch content from URL with retry and exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'SportNewsGR/1.0 (RSS Reader)'
+            })
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return response.read().decode('utf-8', errors='replace')
+        except urllib.error.HTTPError as e:
+            if e.code == 429:  # Rate limited
+                wait_time = backoff_factor ** attempt * 5
+                print(f"  Rate limited (429), waiting {wait_time}s before retry {attempt + 1}/{max_retries}")
+                time.sleep(wait_time)
+                continue
+            elif e.code >= 500:  # Server error, retry
+                wait_time = backoff_factor ** attempt * 2
+                print(f"  Server error {e.code}, waiting {wait_time}s before retry {attempt + 1}/{max_retries}")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"  HTTP error {e.code} fetching {url}: {e}")
+                return None
+        except urllib.error.URLError as e:
+            wait_time = backoff_factor ** attempt * 2
+            print(f"  Network error: {e}, waiting {wait_time}s before retry {attempt + 1}/{max_retries}")
+            if attempt < max_retries - 1:
+                time.sleep(wait_time)
+            continue
+        except Exception as e:
+            print(f"  Error fetching {url}: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(backoff_factor ** attempt)
+            continue
+    print(f"  Failed to fetch {url} after {max_retries} attempts")
+    return None
 
 
 def parse_rss(xml_content):
@@ -166,6 +197,44 @@ def clean_html(text):
     return text
 
 
+def extract_article_summary(html_content):
+    """Extract the first meaningful paragraph from an article page."""
+    if not html_content:
+        return None
+    # Remove script, style, nav, header, footer, aside, form tags
+    html_content = re.sub(r'<(script|style|nav|header|footer|aside|form)[^>]*>.*?</\1>',
+                          ' ', html_content, flags=re.DOTALL | re.IGNORECASE)
+    # Extract all <p> tags
+    paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', html_content, re.DOTALL | re.IGNORECASE)
+    cleaned = []
+    for p in paragraphs:
+        text = re.sub(r'<[^>]+>', ' ', p)
+        text = unescape(text)
+        text = re.sub(r'\s+', ' ', text).strip()
+        if len(text) < 60:
+            continue
+        skip_phrases = ['cookie', 'privacy', 'subscribe', 'sign up', 'newsletter',
+                        'advertisement', 'sponsored', 'click here', 'read more',
+                        'share this', 'follow us', 'download our app', 'terms of service']
+        if any(phrase in text.lower() for phrase in skip_phrases):
+            continue
+        cleaned.append(text)
+    if not cleaned:
+        return None
+    first = cleaned[0]
+    if len(first) > 400:
+        first = first[:400] + '...'
+    return first
+
+
+def fetch_article_summary(url, timeout=10):
+    """Fetch article page and extract summary."""
+    html = fetch_url(url, timeout=timeout, max_retries=2)
+    if not html:
+        return None
+    return extract_article_summary(html)
+
+
 def is_football_related(title, description=''):
     """Check if article is about football."""
     text = (title + ' ' + description).lower()
@@ -214,7 +283,7 @@ def translate_text(text, source_lang='en', target_lang='el'):
         return cache[cache_key]
     
     try:
-        # MyMemory API - free, no key needed
+        # MyMemory API - free, no key needed (anonymous: ~5/day, registered: ~1000/day)
         encoded_text = urllib.parse.quote(text[:500])  # Limit to 500 chars
         url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair={source_lang}|{target_lang}"
         
@@ -229,7 +298,7 @@ def translate_text(text, source_lang='en', target_lang='el'):
                     save_json(TRANSLATION_CACHE_FILE, cache)
                     return translated
         
-        # Rate limiting - wait between requests (MyMemory allows ~5 req/day for anonymous)
+        # Rate limiting - wait between requests
         time.sleep(3)
         
     except Exception as e:
@@ -350,7 +419,9 @@ def main():
     
     all_news = []
     stats = {'total': 0, 'football': 0, 'translated': 0}
-    translation_budget = 8  # MyMemory free tier: ~5 requests/day, leave some margin
+    # MyMemory anonymous free tier: ~5 requests/day. Registered free: ~1000/day.
+    # We use conservative budget but cache persists across runs via GitHub Actions cache.
+    translation_budget = 20
     
     for feed in feeds:
         print(f"\nFetching: {feed['name']}...")
@@ -363,7 +434,7 @@ def main():
         print(f"  Found {len(items)} items")
         
         feed_translations = 0
-        max_translations_per_feed = 2 if needs_translation(feed['language']) else 0
+        max_translations_per_feed = 3 if needs_translation(feed['language']) else 0
         
         for item in items[:15]:  # Limit to 15 items per feed
             stats['total'] += 1
@@ -385,7 +456,7 @@ def main():
                     stats['translated'] += 1
                     feed_translations += 1
                     translation_budget -= 1
-                    time.sleep(5)  # Delay only after successful translation
+                    time.sleep(2)  # Small delay after successful translation
             
             # Create news item
             competition = detect_competition(item['title'], item.get('description', ''))
@@ -412,6 +483,20 @@ def main():
     
     # Sort by date (newest first)
     all_news.sort(key=lambda x: x['pubDate'], reverse=True)
+
+    # Fetch full article summaries for top 25 items
+    print(f"\n--- Fetching full article summaries for top 25 items ---")
+    for i, item in enumerate(all_news[:25]):
+        if not item['link']:
+            continue
+        print(f"  [{i+1}/25] {item['title'][:60]}...")
+        summary = fetch_article_summary(item['link'])
+        if summary:
+            item['highlights'] = summary
+            print(f"    ✓ Got summary ({len(summary)} chars)")
+        else:
+            print(f"    ✗ Using RSS description")
+        time.sleep(1)  # Be polite to source sites
 
     # Remove articles older than 14 days
     cutoff = datetime.now(timezone.utc) - timedelta(days=14)

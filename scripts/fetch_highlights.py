@@ -13,6 +13,7 @@ import os
 import sys
 import re
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import datetime, timezone, timedelta
@@ -77,16 +78,45 @@ GREEK_TEAMS = [
 ]
 
 
-def fetch_url(url, timeout=15):
-    try:
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'SportNewsGR/1.0 (RSS Reader)'
-        })
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            return response.read().decode('utf-8', errors='replace')
-    except Exception as e:
-        print(f"  Error: {e}")
-        return None
+def fetch_url(url, timeout=15, max_retries=3, backoff_factor=2):
+    """Fetch content from URL with retry and exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'SportNewsGR/1.0 (RSS Reader)'
+            })
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return response.read().decode('utf-8', errors='replace')
+        except urllib.error.HTTPError as e:
+            if e.code == 429:  # Rate limited
+                wait_time = backoff_factor ** attempt * 10
+                print(f"  Rate limited (429), waiting {wait_time}s before retry {attempt + 1}/{max_retries}")
+                time.sleep(wait_time)
+                continue
+            elif e.code >= 500:  # Server error, retry
+                wait_time = backoff_factor ** attempt * 5
+                print(f"  Server error {e.code}, waiting {wait_time}s before retry {attempt + 1}/{max_retries}")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"  HTTP error {e.code}: {e}")
+                return None
+        except urllib.error.URLError as e:
+            wait_time = backoff_factor ** attempt * 5
+            print(f"  Network error: {e}, waiting {wait_time}s before retry {attempt + 1}/{max_retries}")
+            if attempt < max_retries - 1:
+                time.sleep(wait_time)
+            continue
+        except Exception as e:
+            print(f"  Error: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(backoff_factor ** attempt)
+            continue
+    print(f"  Failed to fetch after {max_retries} attempts")
+    return None
+
+
+import time
 
 
 def parse_youtube_feed(xml_content):
@@ -147,7 +177,7 @@ def is_football_related(title, description=''):
     return any(kw in text for kw in football_kw)
 
 
-def is_match_highlight(title, description=''):
+def is_match_highlight(title, description='', channel_type=''):
     """Check if video is a match highlight or related content."""
     text = (title + ' ' + description).lower()
 
@@ -158,13 +188,50 @@ def is_match_highlight(title, description=''):
                'κόσμος', 'fans', 'ultras', 'choreography', 'tifo',
                'diamond league', 'στίβος', 'athletics', 'volleyball', 'βόλεϊ',
                'basketball', 'μπάσκετ', 'handball', 'χάντμπολ', 'tennis',
-               'swimming', 'κολύμβηση', 'cycling', 'ποδηλασία']
+               'swimming', 'κολύμβηση', 'cycling', 'ποδηλασία',
+               'nvidia', 'amd', 'intel', 'gpu', 'cpu', 'tech', 'technology',
+               'ai ', 'artificial intelligence', 'machine learning', 'deep learning',
+               'stock', 'market', 'earnings', 'revenue', 'quarterly', 'investor',
+               'crypto', 'bitcoin', 'ethereum', 'blockchain', 'web3',
+               'unboxing', 'benchmark', 'specs', 'launch event',
+               'live stream', 'live stream', 'live broadcast', ' newscast', 'δελτίο',
+               'ειδήσεις', 'εidhseis', 'news', 'studio', 'studio', 'καναπ', 'καναπέ',
+               'ωρα ελλαδος', 'ωρα ελλαδα', 'δεκα παντα', 'δεκα παντού',
+               'μεσημεριανο', 'μεσημεριανό', 'βραδινο', 'βραδινό',
+               'ρεπορταζ', 'ρεπορτάζ', 'reportage', 'documentary', 'ντοκιμαντέρ',
+               'συναγερμος', 'συναγερμός', 'ετειμοτητα', 'ετοιμοτητα', 'ετοιμότητα',
+               'αναγβαθμοση', 'αναβάθμιση', 'επιθεση', 'επιθέσεις', 'υβριδικες',
+               'στρατιωτικου', 'ελικοπτερου', 'χεφταρ', 'ερντογαν', 'ανκαρα',
+               'λευτερης', 'πανταζης', 'αννα βισση', 'νικος καρβελας',
+               'καριερα', 'επιτυχια', 'μαγαζι', 'ποτηρια', 'τρομαζει', 'τρελαινει',
+               'δρόμους', 'δρόμους', 'ελληνικά', 'ξεκινησα', 'τραγουδαω',
+               'disclaimer', 'sponsored', 'advertisement', 'promo', 'trailer']
     if any(kw in text for kw in exclude):
         return False
 
     # Must be football-related
     if not is_football_related(title, description):
         return False
+
+    # For broadcaster/news channels: require explicit match indicators
+    if channel_type in ('broadcaster', 'news'):
+        # Must have at least one strong match indicator
+        match_indicators = [
+            'highlight', 'highlights', 'στιγμιότυπα', 'γκολ', 'γκολαρες',
+            'all goals', 'goals', 'every goal', 'extended highlights',
+            'key moments', 'vs ', 'versus', '- ', '– ', '2-', '3-', '4-', '5-',
+            'matchday', 'md ', 'γύρος', 'round ', 'προκριση', 'πρόκριση',
+            'qualifier', 'play-off', 'play off', 'final', 'τελικός', 'τελικος',
+            'semi-final', 'ημιτελικος', 'quarter', 'πεναλτι', 'πεναλτί',
+            'corner', 'κόρνερ', 'offside', 'оффсайд', 'var', 'βαρ'
+        ]
+        # Also check for Greek team names
+        has_greek_team = is_greek_team_playing(title, description)
+        # Check for explicit team vs team pattern
+        has_team_pattern = bool(extract_teams(title))
+        
+        if not (any(kw in text for kw in match_indicators) or has_greek_team or has_team_pattern):
+            return False
 
     # INCLUDE if has match-related keywords
     include = ['highlight', 'highlights', 'all goals', 'goals', 'every goal',
@@ -269,7 +336,7 @@ def process_channel(channel_name, channel_info, source_type):
 
     highlights = []
     for video in videos:
-        if not is_match_highlight(video['title'], video.get('description', '')):
+        if not is_match_highlight(video['title'], video.get('description', ''), source_type):
             continue
 
         # Detect competition

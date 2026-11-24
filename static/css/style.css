@@ -5,6 +5,54 @@
     box-sizing: border-box;
 }
 
+/* Focus styles for accessibility */
+:focus-visible {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+.filter-btn:focus-visible,
+.hl-tab:focus-visible,
+.theme-toggle:focus-visible,
+.expand-btn:focus-visible,
+.load-more-btn button:focus-visible,
+.back-to-top:focus-visible,
+.read-original:focus-visible,
+.highlight-card:focus-visible,
+.news-card:focus-visible {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* Skip link for keyboard users */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--primary-blue);
+    color: white;
+    padding: 8px 16px;
+    z-index: 1000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.skip-link:focus {
+    top: 0;
+}
+
+/* Screen reader only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 :root {
     --primary-blue: #1877f2;
     --light-blue: #e7f3ff;
@@ -22,19 +70,19 @@
 }
 
 [data-theme="dark"] {
-    --primary-blue: #4599ff;
-    --light-blue: #1a2a3a;
-    --dark-blue: #3080d0;
-    --white: #181a1b;
-    --gray-100: #232526;
-    --gray-200: #2d2f31;
-    --gray-300: #3a3c3e;
-    --gray-600: #b0b3b8;
-    --gray-800: #e4e6eb;
-    --text-primary: #e4e6eb;
-    --text-secondary: #b0b3b8;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-    --shadow-hover: 0 2px 10px rgba(0, 0, 0, 0.5);
+    --primary-blue: #5a9fff;
+    --light-blue: #1e2d3d;
+    --dark-blue: #3d8bdc;
+    --white: #1a1c1e;
+    --gray-100: #242628;
+    --gray-200: #2e3134;
+    --gray-300: #44484c;
+    --gray-600: #c8cacc;
+    --gray-800: #f0f1f2;
+    --text-primary: #f0f1f2;
+    --text-secondary: #c8cacc;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    --shadow-hover: 0 2px 10px rgba(0, 0, 0, 0.6);
     color-scheme: dark;
 }
 
@@ -64,12 +112,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    gap: 8px;
+    flex-wrap: nowrap;
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    flex-shrink: 0;
 }
 
 .logo-icon {
@@ -84,7 +134,8 @@ body {
 .header-right {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 6px;
+    flex-shrink: 0;
 }
 
 .header-info {
@@ -97,8 +148,30 @@ body {
     opacity: 0.9;
 }
 
-/* Theme Toggle */
-.theme-toggle {
+/* Search Input */
+.search-input {
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    font-size: 13px;
+    width: 150px;
+    transition: width 0.3s ease, background 0.2s ease;
+    outline: none;
+}
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.search-input:focus {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 480px) {
+    .search-input { width: 100px; }
+    .search-input:focus { width: 140px; }
+}
     background: none;
     border: none;
     font-size: 20px;
@@ -107,6 +180,14 @@ body {
     line-height: 1;
     opacity: 0.9;
     transition: opacity 0.2s;
+}
+
+.header-date {
+    font-size: 12px;
+    opacity: 0.9;
+    white-space: nowrap;
+    margin-right: 12px;
+    margin-left: 4px;
 }
 
 .theme-toggle:hover {
@@ -233,6 +314,11 @@ body {
 .source-novasports { background: #ff6600; }
 .source-redaroume { background: #d4213d; }
 .source-opa { background: #1a8c5e; }
+.source-sdna { background: #e63946; }
+.source-sportfm { background: #003566; }
+.source-sportal { background: #ff6b35; }
+.source-newsgr { background: #2a9d8f; }
+.source-newsbeast { background: #264653; }
 .source-football-italia { background: #0066cc; }
 .source-german-fn { background: #000000; }
 .source-french-fn { background: #002395; }
@@ -755,6 +841,11 @@ body {
     .header-content {
         flex-direction: column;
         gap: 8px;
+    }
+
+    .header-date {
+        font-size: 11px;
+        text-align: center;
     }
 
     .logo h1 {

@@ -29,7 +29,9 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo --minify --baseURL "https://goodiasgle-dotcom.github.io/sportnews/"
+        env:
+          HUGO_BASEURL: ${{ vars.HUGO_BASEURL || 'https://goodiasgle-dotcom.github.io/sportnews/' }}
+        run: hugo --minify --baseURL "${HUGO_BASEURL}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

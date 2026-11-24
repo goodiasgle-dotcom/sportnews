@@ -1,36 +1,38 @@
 {{ define "main" }}
-<header class="site-header">
+<header class="site-header" role="banner">
     <div class="header-content">
         <div class="logo">
-            <span class="logo-icon">&#9917;</span>
+            <span class="logo-icon" aria-hidden="true">&#9917;</span>
             <h1>Sportnews</h1>
         </div>
-        <div class="header-right">
-            <span class="update-time">Τελευταία ενημέρωση: <span id="last-update">--:--</span></span>
-            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">&#9789;</button>
-        </div>
+<div class="header-right">
+    <span class="header-date" id="header-date"></span>
+    <input type="search" id="search-input" placeholder="Αναζήτηση..." aria-label="Αναζήτηση νέων" class="search-input">
+    <span class="update-time">Τελευταία ενημέρωση: <span id="last-update">--:--</span></span>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Αλλαγή θέματος" aria-pressed="false">&#9789;</button>
+</div>
     </div>
 </header>
 
-<nav class="filter-bar" id="filter-bar">
-    <button class="filter-btn active" data-country="all">Όλα</button>
-    <button class="filter-btn" data-country="gr">Ελλάδα</button>
-    <button class="filter-btn" data-country="uk">Αγγλία</button>
-    <button class="filter-btn" data-country="it">Ιταλία</button>
-    <button class="filter-btn" data-country="de">Γερμανία</button>
-    <button class="filter-btn" data-country="fr">Γαλλία</button>
-    <button class="filter-btn" data-country="es">Ισπανία</button>
-    <button class="filter-btn filter-divider" disabled>|</button>
-    <button class="filter-btn" data-country="cl">Champions League</button>
-    <button class="filter-btn" data-country="el">Europa League</button>
-    <button class="filter-btn" data-country="ecl">Conference League</button>
+<nav class="filter-bar" id="filter-bar" role="tablist" aria-label="Φίλτρο ανά χώρα και διοργάνωση">
+    <button class="filter-btn active" data-country="all" role="tab" aria-selected="true" aria-controls="news-panel">Όλα</button>
+    <button class="filter-btn" data-country="gr" role="tab" aria-selected="false" aria-controls="news-panel">Ελλάδα</button>
+    <button class="filter-btn" data-country="uk" role="tab" aria-selected="false" aria-controls="news-panel">Αγγλία</button>
+    <button class="filter-btn" data-country="it" role="tab" aria-selected="false" aria-controls="news-panel">Ιταλία</button>
+    <button class="filter-btn" data-country="de" role="tab" aria-selected="false" aria-controls="news-panel">Γερμανία</button>
+    <button class="filter-btn" data-country="fr" role="tab" aria-selected="false" aria-controls="news-panel">Γαλλία</button>
+    <button class="filter-btn" data-country="es" role="tab" aria-selected="false" aria-controls="news-panel">Ισπανία</button>
+    <span class="filter-divider" aria-hidden="true">|</span>
+    <button class="filter-btn" data-country="cl" role="tab" aria-selected="false" aria-controls="news-panel">Champions League</button>
+    <button class="filter-btn" data-country="el" role="tab" aria-selected="false" aria-controls="news-panel">Europa League</button>
+    <button class="filter-btn" data-country="ecl" role="tab" aria-selected="false" aria-controls="news-panel">Conference League</button>
 </nav>
 
-<main class="news-feed">
+<main class="news-feed" id="main-content" role="main">
     <div class="feed-container">
-        <div id="news-container" class="news-list">
+        <div id="news-container" class="news-list" role="feed" aria-label="Αθλητικά νέα" aria-live="polite" aria-busy="false">
         </div>
-        <div id="loading" class="skeleton-container">
+        <div id="loading" class="skeleton-container" aria-hidden="true">
             <div class="skeleton-card">
                 <div class="skeleton-header"><div class="skeleton-badge"></div><div class="skeleton-time"></div></div>
                 <div class="skeleton-body"><div class="skeleton-line skeleton-line-long"></div><div class="skeleton-line skeleton-line-medium"></div></div>
@@ -50,34 +52,34 @@
     </div>
 </main>
 
-<section class="highlights-section" id="highlights-section">
+<section class="highlights-section" id="highlights-section" aria-labelledby="highlights-heading">
     <div class="highlights-header">
-        <h2>&#9917; ΓΚΟΛ</h2>
+        <h2 id="highlights-heading">&#9917; ΓΚΟΛ</h2>
         <span class="highlights-subtitle">Τα γκολ και τα highlight των τελευταίων αγώνων</span>
     </div>
-    <div class="highlights-tabs" id="highlights-tabs">
-        <button class="hl-tab active" data-comp="all">Όλα</button>
-        <button class="hl-tab" data-comp="cl">Champions League</button>
-        <button class="hl-tab" data-comp="el">Europa League</button>
-        <button class="hl-tab" data-comp="ecl">Conference League</button>
-        <button class="hl-tab" data-comp="league">Πρωτάθλημα</button>
+    <div class="highlights-tabs" id="highlights-tabs" role="tablist" aria-label="Φίλτρο highlights ανά διοργάνωση">
+        <button class="hl-tab active" data-comp="all" role="tab" aria-selected="true" aria-controls="highlights-panel">Όλα</button>
+        <button class="hl-tab" data-comp="cl" role="tab" aria-selected="false" aria-controls="highlights-panel">Champions League</button>
+        <button class="hl-tab" data-comp="el" role="tab" aria-selected="false" aria-controls="highlights-panel">Europa League</button>
+        <button class="hl-tab" data-comp="ecl" role="tab" aria-selected="false" aria-controls="highlights-panel">Conference League</button>
+        <button class="hl-tab" data-comp="league" role="tab" aria-selected="false" aria-controls="highlights-panel">Πρωτάθλημα</button>
     </div>
-    <div id="highlights-container" class="highlights-list">
+    <div id="highlights-container" class="highlights-list" role="feed" aria-label="Video highlights" aria-live="polite" aria-busy="false">
     </div>
-    <div id="highlights-loading" class="highlights-loading">
+    <div id="highlights-loading" class="highlights-loading" aria-hidden="true">
         <div class="skeleton-card" style="aspect-ratio:16/9;border-radius:12px;"></div>
         <div class="skeleton-card" style="aspect-ratio:16/9;border-radius:12px;"></div>
     </div>
-    <div id="highlights-empty" class="empty-state" style="display:none;">
-        <div class="icon">&#127916;</div>
+    <div id="highlights-empty" class="empty-state" style="display:none;" aria-live="polite">
+        <div class="icon" aria-hidden="true">&#127916;</div>
         <h3>Δεν βρέθηκαν highlights</h3>
         <p>Δοκιμάστε αργότερα</p>
     </div>
 </section>
 
-<footer class="site-footer">
+<footer class="site-footer" role="contentinfo">
     <p>&copy; 2026 Sportnews - &#920;&#955;&#945; &#964;&#945; &#957;&#941;&#945; &#945;&#960;&#972; &#964;&#959;&#957; &#945;&#952;&#955;&#951;&#964;&#953;&#954;&#972; &#954;&#972;&#963;&#956;&#959;</p>
 </footer>
 
-<button id="back-to-top" class="back-to-top" onclick="scrollToTop()" aria-label="Back to top">&#8593;</button>
+<button id="back-to-top" class="back-to-top" onclick="scrollToTop()" aria-label="Επιστροφή στην αρχή">&#8593;</button>
 {{ end }}

@@ -36,6 +36,34 @@
       "category": "football"
     },
     {
+      "name": "SportFM.gr",
+      "url": "http://www.sport-fm.gr/list/1.feed",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "Sportal.gr",
+      "url": "https://www.sportal.gr/feed",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "News.gr Sports",
+      "url": "http://www.news.gr/rss.ashx?catid=11",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
+      "name": "Newsbeast Sports",
+      "url": "https://www.newsbeast.gr/sports/feed",
+      "language": "el",
+      "country": "gr",
+      "category": "football"
+    },
+    {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
       "language": "en",
