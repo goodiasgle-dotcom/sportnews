@@ -1,5 +1,8 @@
 // Sportnews - Main JavaScript
 
+// Configure your Cloudflare Worker URL here (leave empty for local/GitHub Pages)
+const API_BASE = '';
+
 let allNews = [];
 let allHighlights = [];
 let displayedCount = 0;
@@ -25,7 +28,7 @@ async function loadNewsData() {
     showLoading(true);
 
     try {
-        const response = await fetch('news.json');
+        const response = await fetch((API_BASE ? API_BASE + '/api/news' : 'news.json'));
         if (!response.ok) throw new Error('Failed to load news');
 
         allNews = await response.json();
@@ -50,7 +53,7 @@ async function loadHighlightsData() {
     hlContainer.setAttribute('aria-busy', 'true');
 
     try {
-        const response = await fetch('highlights.json');
+        const response = await fetch((API_BASE ? API_BASE + '/api/highlights' : 'highlights.json'));
         if (!response.ok) throw new Error('No highlights yet');
 
         allHighlights = await response.json();
