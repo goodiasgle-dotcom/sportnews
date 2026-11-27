@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add static/news.json static/highlights.json data/translation_cache.json
+          git add static/news.json static/highlights.json
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update news & highlights"
             git push
